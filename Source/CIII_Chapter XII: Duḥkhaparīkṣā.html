@@ -1,0 +1,595 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Bibliotheca Polyglotta</title>
+<link rel='stylesheet' type='text/css' href='css/bp.css'>
+<link rel='stylesheet' type='text/css' href='css/diac_doc.css'>
+
+<link rel='stylesheet' type='text/css' href='css/imageGallery.css'>
+<link rel='stylesheet' type='text/css' href='css/ss.css'>
+	      <link rel='stylesheet' type='text/css' href='css/tree_menu.css'>
+<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+<!--  <script type="text/javascript" src="js/jqModal.js"></script>-->
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/tree_menu.js"></script>
+<!-- <script src="js/analytics_tracking.js" type="text/javascript"></script> -->
+
+
+<!-- <script type="text/javascript" src="js/popupDivhandling.js"></script> -->
+<!--  <script type="text/javascript" src="jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery-imagegallery.js"></script>-->
+</head>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//vrtx.uio.no/js/analytics/v2/analytics.js','ga');
+
+ga('create', 'UA-86407471-1', 'auto');
+ga(function(tracker) {
+
+	// Modifies sendHitTask to hit ipproxy instead of http://www.google-analytics.com directly
+	tracker.set('sendHitTask', function(model) {
+		payload = model.get('hitPayload');
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', '//w3prod-ipproxy.uio.no/collect' +'?' + payload, true);
+		xhr.send();
+	});
+		ga('send', 'pageview');
+});
+</script>
+<body><div class='banner'></div><!-- banner --><div class='uiologo'>
+<a href='http://www.hf.uio.no/'><img src='https://www2.hf.uio.no/polyglotta/hfe.png' border='0'></a></div><!-- uiologo --><div class='clear'></div>
+<div class='smule_tittel'>
+<div class='brodsmuleboks'>You are here: <a href='/polyglotta/index.php' accesskey='1'> BP HOME</a> >  <a href='/polyglotta/index.php?page=library&amp;bid=2' accesskey='1'>TLB</a> > <a href='/polyglotta/index.php
+	?page=volume&amp;vid=1124' accesskey='1'>Nāgārjuna: Mūlamadhyamakakārikā</a> > fulltext</div><div class='clear'></div>
+<div class='headline'>Nāgārjuna: Mūlamadhyamakakārikā<div class='clear'></div></div><!-- headline -->
+</div><!-- smule_tittel -->
+<!--<div>-->
+
+<h2 class="trigger" id="tr_lang"><a  href="#">Choose languages</a></h2>
+<h2 class="trigger" id="tr_img"><a  href="#">Choose images, etc.</a></h2>
+
+
+<div id="toggle_container_lan">
+
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_lan.php" method="POST">
+
+<div style="float:left; width:auto; text-align:left; margin-left:20px;">
+<h5>Choose languages</h5>
+<ul>
+<input value="Choose all" type="button" onClick="markAll('tr')"><input value="Uncheck all" type="button" onClick="markNone('tr')">
+
+	<li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6176]" value="6176" id="lancheckbox" checked >Sanskrit: San: La Vallée Poussin (1913), </label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[5667]" value="5667" id="lancheckbox" checked >Chinese: Chi: Kumārajīva, T. 1564</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6175]" value="6175" id="lancheckbox" checked >Tibetan: Tib: Tg, tsa</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6177]" value="6177" id="lancheckbox" checked >English: Eng: Streng (1967)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[5669]" value="5669" id="lancheckbox" checked >English: Eng: Batchellor (2000)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6170]" value="6170" id="lancheckbox" checked >Tibetan: Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6179]" value="6179" id="lancheckbox" checked >Chinese: Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6171]" value="6171" id="lancheckbox" checked >Tibetan: Buddhapālita "Vṛtti" Tg 3842</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6172]" value="6172" id="lancheckbox" checked >Tibetan: Bhāvaviveka "Prajñāpradīpa" Tg 3853</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6340]" value="6340" id="lancheckbox" checked >Sanskrit: Candrakīrti "Prasannapadā" Vaidya 1960</label></li><div style="clear:both"></div>
+<input type='submit' name='set_cookie' value='Save view'>
+<div style="clear:both"></div>
+
+</ul>
+<input type="hidden" name="vid" value="1124">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+</div>
+
+<div id="toggle_container_img">
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_img.php" method="POST">
+
+<div style="float:left; width:auto; text-align: left;">
+<h5>Choose display</h5>
+<ul>
+		
+	<li> 
+		<input type='checkbox' name='bilder' checked="checked" > Enable images
+	</li>
+	<li> 
+	<input type='checkbox' onclick="onOffCheckbox();" name='fotnoter' checked="checked"> Enable footnotes
+	<div id="pff" style="display:block" >
+	<ul>
+	<li><input type='radio' name='fotnote_valg'  value='show_a' checked> Show all footnotes</li>
+	<li><input type='radio' name='fotnote_valg'  value='show_h'  > Minimize footnotes</li>
+	</ul>
+	</li>
+	
+	</div>
+	<div style="float:left; width:20em; text-align: left; margin-left:120px ">
+	<div style="clear:both"></div>
+	<input type='submit' name='set_cookie' value='Save view'>
+	<div style="clear:both"></div>
+	</div>
+	
+</ul>
+<input type="hidden" name="vid" value="1124">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+	
+
+
+
+</div>
+</div>
+
+<div class='sok'><form name='Sok' id='FormBlock' action='/polyglotta/index.php' method='get'>
+<input type='hidden' name='page' value='search'>
+<input type='hidden' name='bid' value='2'>
+<input type='hidden' name='vid' value='1124'>
+<div class='sokeboks'>
+<input name='sokefelt' id='sokeboks' type='text' size='30' value=''>
+<input type='submit' name='Sok' value='Search' id='nsubmit'>
+<div class='clear'></div><a class="diacbutton" id="diacbutton" href="#">Diacritica</a><a id="diac2button" class="diac2button"  href="#">Diacritica-help</a><a class="s2button" href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation:SearchHelp">Search-help</a><div class='diacritical' id='diacritical_sign'><div style="text-align: left; ">
+<table class = 'diacritica' width="200" border="1" cellpadding="1" cellspacing="1" id="diacritical">
+    <tbody>
+        <tr>
+            <td style="text-align: center; ">ā</td>
+            <td style="text-align: center; ">ī</td>
+            <td style="text-align: center; ">ū</td>
+            <td style="text-align: center; ">ṛ</td>
+            <td style="text-align: center; ">ṝ</td>
+            <td style="text-align: center; ">ḷ</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ḹ</td>
+            <td style="text-align: center; ">&rsquo;</td>
+            <td style="text-align: center; ">ṃ</td>
+            <td style="text-align: center; ">ḥ</td>
+            <td style="text-align: center; ">ṅ</td>
+            <td style="text-align: center; ">&ntilde;</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ṭ</td>
+            <td style="text-align: center; ">ḍ</td>
+            <td style="text-align: center; ">ṇ</td>
+            <td style="text-align: center; ">ṣ</td>
+            <td style="text-align: center; ">ś</td>
+            <td style="text-align: center; ">ź</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">&scaron;</td>
+            <td style="text-align: center; ">č</td>
+            <td style="text-align: center; ">ǰ</td>
+            <td style="text-align: center; ">&gamma;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+</div></div><!-- diacritical --><div id="ex3a" class="jqmDialog"><div>
+	<span style="font-size:12px;">Note on the transliteration:</span></div>
+<div>
+	<span style="font-size:12px;">The transliteration system of the BP/TLB is based on the Unicode/UTF-8 system. However, there may be difficulties with some of the letters &ndash; particularly on PC/Windows-based systems, but not so much on the Mac. We have chosen the most accepted older and traditional systems of transliteration against, e.g, Wylie for Tibetan, since with Unicode it is possible, in Sanskrit and Tibetan, etc., to represent one sound with one letter in almost all the cases (excepting Sanskrit and Tibetan aspirated letters, and Tibetan tsa, tsha, dza). We thus do not use the Wylie system which widely employs two letters for one sound (ng, ny, sh, zh etc.).</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">Important:</span></div>
+<div>
+	<span style="font-size:12px;">We ask you in particular to note the use of the &rsquo; apostrophe and not the &#39; representing the avagrāha in Sanskrit, and most important the &rsquo;a-chuṅ in Tibetan. On the Mac the &rsquo; is Alt-M.</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">If you cannot find the letters on your key-board, you may click on the link &quot;Diacritica&quot; to access it for your search.</span></div>
+</div><!-- diacritical_doc --><div class='clear'></div><select name='searchmode'><option selected value='phrase'>Search for exact phrase</option>
+<option  value='phraseregex'>Search for exact phrase (regex)</option>
+<option  value='word'>Search for every word in one record</option>
+<option  value='free'>Search for every word fragment in one record</option>
+</select>
+<select name='context'>
+<option ($_GET[context]=="a" ? "selected" : "") value="a"> Search in all libraries</option><option selected value="bTLB">Search in TLB</option><option selected value="v1124">Search in Nāgārjuna: Mūlamadhyamakakārikā</option></select><div class='clear'></div><a class='sbutton' href='/polyglotta/index.php?page=asearch&amp;bid=2&amp;vid=1124'>Choose specific texts..</a><div class='clear'></div></div></form></div><!-- sok --><div class='clear'></div><!-- clear --><div id='dcr' class='divControlRead'><div class='venstrefulltekstfelt'><div class='bverknavn'><a href='/polyglotta/index.php?page=volume&amp;vid=1124'>Nāgārjuna: Mūlamadhyamakakārikā</a></div><table class="tlvl2">
+					<tr>
+						<td bgcolor="#ffffff"> &nbsp; &nbsp;
+						<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_7627.Verses41-58" border=0 hspace=2>
+						<a href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124" class="ajax_tree0">Complete text</a>
+						</td>
+					</tr>
+				  </table><input type="hidden" name="tree_top_options" id="tree_top_options" value="134642.Title|134643.Preface|134644.ChaptersI-V|134650.ChaptersVI-X|134656.ChaptersXI-XV|134662.ChaptersXVI-XX|134668.ChaptersXXI-XXV|134674.ChaptersXXVI-XXVII|134677.Colophon|">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134642.Title" border=0 hspace=2><a id="href_134642.Title" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942958&level=1&cid=843905" class="ajax_tree0">Title
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134643.Preface" border=0 hspace=2><a id="href_134643.Preface" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942959&level=1&cid=843906" class="ajax_tree0">Preface
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134644.ChaptersI-V','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134644.ChaptersI-V" border=0 hspace=2><a id="href_134644.ChaptersI-V" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942960&level=1&cid=843907" class="ajax_tree0">Chapters I-V
+</td></tr></table>
+<div style="display:none;"  id="div_134644.ChaptersI-V">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134645.ChapterI:Pratyayaparīkṣā" border=0 hspace=2><a id="href_134645.ChapterI:Pratyayaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942960&level=2&cid=843907" class="ajax_tree1">Chapter I: Pratyayaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134646.ChapterII:Gatāgataparīkṣaṇa" border=0 hspace=2><a id="href_134646.ChapterII:Gatāgataparīkṣaṇa" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942975&level=2&cid=843922" class="ajax_tree1">Chapter II: Gatāgataparīkṣaṇa
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134647.ChapterIII:Cakṣurādīndriyaparīkṣā" border=0 hspace=2><a id="href_134647.ChapterIII:Cakṣurādīndriyaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943001&level=2&cid=843948" class="ajax_tree1">Chapter III: Cakṣurādīndriyaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134648.ChapterIV:Skandhaparīkṣā" border=0 hspace=2><a id="href_134648.ChapterIV:Skandhaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943011&level=2&cid=843958" class="ajax_tree1">Chapter IV: Skandhaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134649.ChapterV:Dhātuparīkṣā" border=0 hspace=2><a id="href_134649.ChapterV:Dhātuparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943021&level=2&cid=843968" class="ajax_tree1">Chapter V: Dhātuparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134650.ChaptersVI-X','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134650.ChaptersVI-X" border=0 hspace=2><a id="href_134650.ChaptersVI-X" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943030&level=1&cid=843977" class="ajax_tree0">Chapters VI-X
+</td></tr></table>
+<div style="display:none;"  id="div_134650.ChaptersVI-X">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134651.ChapterVI:Rāgasaktiparīkṣā" border=0 hspace=2><a id="href_134651.ChapterVI:Rāgasaktiparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943030&level=2&cid=843977" class="ajax_tree1">Chapter VI: Rāgasaktiparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134652.ChapterVII:Saṃskr̥̥taparīkṣā" border=0 hspace=2><a id="href_134652.ChapterVII:Saṃskr̥̥taparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943041&level=2&cid=843988" class="ajax_tree1">Chapter VII: Saṃskr̥̥taparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134653.ChapterVIII:Karmakārakaparīkṣā" border=0 hspace=2><a id="href_134653.ChapterVIII:Karmakārakaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943076&level=2&cid=844023" class="ajax_tree1">Chapter VIII: Karmakārakaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134654.ChapterIX:Pūrvaparīkṣā" border=0 hspace=2><a id="href_134654.ChapterIX:Pūrvaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943090&level=2&cid=844037" class="ajax_tree1">Chapter IX: Pūrvaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134655.ChapterX:Agnīndhanaparīkṣā" border=0 hspace=2><a id="href_134655.ChapterX:Agnīndhanaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943103&level=2&cid=844050" class="ajax_tree1">Chapter X: Agnīndhanaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134656.ChaptersXI-XV','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134656.ChaptersXI-XV" border=0 hspace=2><a id="href_134656.ChaptersXI-XV" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943120&level=1&cid=844067" class="ajax_tree0">Chapters XI-XV
+</td></tr></table>
+<div style="display:none;"  id="div_134656.ChaptersXI-XV">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134657.ChapterXI:Pūrvāparakoṭiparīkṣa" border=0 hspace=2><a id="href_134657.ChapterXI:Pūrvāparakoṭiparīkṣa" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943120&level=2&cid=844067" class="ajax_tree1">Chapter XI: Pūrvāparakoṭiparīkṣa
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134658.ChapterXII:Duḥkhaparīkṣā" border=0 hspace=2><a id="href_134658.ChapterXII:Duḥkhaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943129&level=2&cid=844076" class="ajax_tree1">Chapter XII: Duḥkhaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134659.ChapterXIII:Saṃskāraparīkṣā" border=0 hspace=2><a id="href_134659.ChapterXIII:Saṃskāraparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943140&level=2&cid=844087" class="ajax_tree1">Chapter XIII: Saṃskāraparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134660.ChapterXIV:Saṃsargaparīkṣā" border=0 hspace=2><a id="href_134660.ChapterXIV:Saṃsargaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943150&level=2&cid=844096" class="ajax_tree1">Chapter XIV: Saṃsargaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134661.ChapterXV:Svabhāvaparīkṣā" border=0 hspace=2><a id="href_134661.ChapterXV:Svabhāvaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943159&level=2&cid=844105" class="ajax_tree1">Chapter XV: Svabhāvaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134662.ChaptersXVI-XX','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134662.ChaptersXVI-XX" border=0 hspace=2><a id="href_134662.ChaptersXVI-XX" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943171&level=1&cid=844117" class="ajax_tree0">Chapters XVI-XX
+</td></tr></table>
+<div style="display:none;"  id="div_134662.ChaptersXVI-XX">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134663.ChapterXVI:Bandhanamokṣaparīkṣā" border=0 hspace=2><a id="href_134663.ChapterXVI:Bandhanamokṣaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943171&level=2&cid=844117" class="ajax_tree1">Chapter XVI: Bandhanamokṣaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134664.ChapterXVII:Karmaphalaparīkṣā" border=0 hspace=2><a id="href_134664.ChapterXVII:Karmaphalaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943182&level=2&cid=844128" class="ajax_tree1">Chapter XVII: Karmaphalaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134665.ChapterXVIII:Ātmaparīkṣā" border=0 hspace=2><a id="href_134665.ChapterXVIII:Ātmaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943216&level=2&cid=844162" class="ajax_tree1">Chapter XVIII: Ātmaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134666.ChapterXIX:Kālaparīkṣā" border=0 hspace=2><a id="href_134666.ChapterXIX:Kālaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943229&level=2&cid=844175" class="ajax_tree1">Chapter XIX: Kālaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134667.ChapterXX:Sāmagrīparīkṣā" border=0 hspace=2><a id="href_134667.ChapterXX:Sāmagrīparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943236&level=2&cid=844182" class="ajax_tree1">Chapter XX: Sāmagrīparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134668.ChaptersXXI-XXV','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134668.ChaptersXXI-XXV" border=0 hspace=2><a id="href_134668.ChaptersXXI-XXV" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943261&level=1&cid=844207" class="ajax_tree0">Chapters XXI-XXV
+</td></tr></table>
+<div style="display:none;"  id="div_134668.ChaptersXXI-XXV">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134669.ChapterXXI:Saṃbhavavibhavaparīkṣā" border=0 hspace=2><a id="href_134669.ChapterXXI:Saṃbhavavibhavaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943261&level=2&cid=844207" class="ajax_tree1">Chapter XXI: Saṃbhavavibhavaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134670.ChapterXXII:Tathāgataparīkṣā" border=0 hspace=2><a id="href_134670.ChapterXXII:Tathāgataparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943283&level=2&cid=844229" class="ajax_tree1">Chapter XXII: Tathāgataparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134671.ChapterXXIII:Viparyāsaparīkṣā" border=0 hspace=2><a id="href_134671.ChapterXXIII:Viparyāsaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943300&level=2&cid=844246" class="ajax_tree1">Chapter XXIII: Viparyāsaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134672.ChapterXXIV:Āryasatyaparīkṣā" border=0 hspace=2><a id="href_134672.ChapterXXIV:Āryasatyaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943326&level=2&cid=844272" class="ajax_tree1">Chapter XXIV: Āryasatyaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134673.ChapterXXV:nirvāṇaparīkṣā" border=0 hspace=2><a id="href_134673.ChapterXXV:nirvāṇaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943367&level=2&cid=844313" class="ajax_tree1">Chapter XXV: nirvāṇaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134674.ChaptersXXVI-XXVII','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134674.ChaptersXXVI-XXVII" border=0 hspace=2><a id="href_134674.ChaptersXXVI-XXVII" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943392&level=1&cid=844338" class="ajax_tree0">Chapters XXVI-XXVII
+</td></tr></table>
+<div style="display:none;"  id="div_134674.ChaptersXXVI-XXVII">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134675.ChapterXXVI:Dvādaśāṅgaparīkṣā" border=0 hspace=2><a id="href_134675.ChapterXXVI:Dvādaśāṅgaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943392&level=2&cid=844338" class="ajax_tree1">Chapter XXVI: Dvādaśāṅgaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134676.ChapterXXVII:Dr̥ṣṭiparīkṣā" border=0 hspace=2><a id="href_134676.ChapterXXVII:Dr̥ṣṭiparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943405&level=2&cid=844351" class="ajax_tree1">Chapter XXVII: Dr̥ṣṭiparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134677.Colophon" border=0 hspace=2><a id="href_134677.Colophon" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943436&level=1&cid=844382" class="ajax_tree0">Colophon
+</td></tr></table>
+<script language=javascript>test('134658.ChapterXII:Duḥkhaparīkṣā|134656.ChaptersXI-XV|')</script><div class='bverknavn'><a href='/polyglotta/index.php?page=library&amp;bid=2'>Back to library</a></div></div><!-- venstrefulltekstfelt --><div class="clear"></div><!-- clear --><div id="nav-menu"><ul>
+  		  <li  id="nav-1"><a class="tabValgt" href="/polyglotta/index.php?page=record&amp;view=record&amp;vid=1124&amp;mid=1943129&amp;level=2">Sentence by sentence view</a></li>
+  		  <li  id="nav-2"><a  href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124&amp;cid=844076&amp;mid=1943129&amp;level=2">Continuous text view</a></li>
+ 		<li  id="nav-3"><a  href="/polyglotta/admin/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124&amp;cid=844076&amp;mid=1943129&amp;level=2">View in admin</a></li>
+
+  		  </ul></div><div class='clear'></div><!-- clear -->			<script language="javascript" type="text/javascript">
+			var kilderef = '';
+			var tekstid = 0;
+			var tekstid_bilder = 0;
+			var filsti = '';
+			var thumbnail = '';
+			</script>
+		<div class='infofulltekstfelt'><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><div class='kilderef' id='8904715'></div><div class='clear'></div><span id='8904715bi' class='generelltekst'>
+							&nbsp;</span><span id='8904124bi' class='verse'>
+						 svayaṃ kṛtaṃ parakṛtaṃ dvābhyāṃ kṛtam ahetukam |<br />duḥkham ity eka icchanti tac ca kāryaṃ na yujyate || 1 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><div class='kilderef' id='8904708'></div><div class='clear'></div><span id='8904708bi' class='generelltekst'>
+							中論觀苦品第十二(十偈)&nbsp;</span><span id='7859651bi' class='verse'>
+						 自作及他作 共作無因作<br />如是說諸苦 於果則不然&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904714'></div><div class='clear'></div><span id='8904714bi' class='generelltekst'>
+							&nbsp;</span><span id='8903498bi' class='verse'>
+						 kha cig sdug bsngal bdag gis byas | | gzhan gyis byas dang gnyi gas byas | |<br />rgyu med pa las ’byung bar ’dod | | de ni bya bar mi rung ngo | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><div class='kilderef' id='8905019'></div><div class='clear'></div><span id='8905019bi' class='verse'>
+							[Chapter] 12: An Analysis of Sorrow (dukkha) (suffering)&nbsp;</span><span id='8905020bi' class='verse'>
+						 1. Some say:<br />Sorrow (dukkha) is produced by oneself (i), or by another (ii), or by both [itself and another] (iii), or from no cause at all (iv);<br />But [to consider] that [sorrow (dukkha)] as what is produced is not possible.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><div class='kilderef' id='8904709'></div><div class='clear'></div><span id='8904709bi' class='generelltekst'>
+							Investigation of Anguish&nbsp;</span><span id='7860609bi' class='verse'>
+						 Some assert that anguish arises from being made by self, made by other, by both, without cause. To do that is not suitable.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904710'></div><div class='clear'></div><span id='8904710bi' class='generelltekst'>
+							&nbsp;</span><span id='8901094bi' class='verse'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><div class='kilderef' id='8906033'></div><div class='clear'></div><span id='8906033bi' class='verse'>
+							(20)  ＊中論 觀苦品第十二 十偈&nbsp;</span><span id='8906034bi' class='verse'>
+						 (21)有人説曰 (22)<b>自作及他作 共作無因作(23)如是説諸苦 於果則不然</b>(24)有人言。苦惱自作。或言他作。或言亦自作亦(25)他作。或言無因作。於果皆不然。於果皆不(26)然者。衆生以衆縁致苦。厭苦欲求滅。不(27)知苦惱實因縁有四種謬。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904711'></div><div class='clear'></div><span id='8904711bi' class='generelltekst'>
+							&nbsp;</span><span id='8901573bi' class='verse'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904712'></div><div class='clear'></div><span id='8904712bi' class='generelltekst'>
+							&nbsp;</span><span id='8902052bi' class='verse'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><div class='kilderef' id='9009431'></div><div class='clear'></div><span id='9009431bi' class='verse'>
+							&nbsp;</span><span id='9009432bi' class='verse'>
+						 &nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904125bi' class='verse'>
+							svayaṃ kṛtaṃ yadi bhavet pratītya na tato bhavet |<br />skandhān imān amī skandhāḥ saṃbhavanti pratītya hi || 2 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859652bi' class='verse'>
+							苦若自作者 則不從緣生<br />因有此陰故 而有彼陰生&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903499bi' class='verse'>
+							gal te bdag gis byas gyur na | | (5)de phyir brten nas ’byung mi ’gyur | |<br />gang phyir phung po ’di dag la | | brten nas phung po de dag ’byung | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905021bi' class='verse'>
+							2. If it were produced by itself (i.e. self-causation), it would not exist dependent on something else.<br />Certainly those “groups of universal elements” (skandhas) exist presupposing these “groups.”&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860610bi' class='verse'>
+							If it were made by self, therefore it would not be contingently arising, because those aggregates arise contingently on these aggregates.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901095bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906035bi' class='verse'>
+							是故説於果皆(28)不然何以故(29)<b>苦若自作者 則不從縁生</b>(16c1)<b>因有此陰故 而有彼陰生</b>(2)若苦自作。則不從衆縁生。自名從自性(3)生。是事不然。何以故。因前五陰有後五陰(4)生。是故苦不得自作。問曰。若言此五陰作(5)彼五陰者。則是他作。答曰。是事不然。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901574bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902053bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009433bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904126bi' class='verse'>
+							yady amībhya ime ’nye syur ebhyo vāmī pare yadi |<br />bhavet parakṛtaṃ duḥkhaṃ parair ebhir amī kṛtāḥ || 3 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859653bi' class='verse'>
+							若謂此五陰 異彼五陰者<br />如是則應言 從他而作苦&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903500bi' class='verse'>
+							gal te ’di las de gzhan zhing | | gal te de las ’di gzhan na | |<br />sdug bsngal gzhan gyis byas ’gyur zhing | | gzhan de dag gis de byas ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905022bi' class='verse'>
+							3. If these were different from those, or if those were different from these,<br />Sorrow (dukkha) would be produced by something other than itself (i.e. other-causation), because those would be made by these others.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860611bi' class='verse'>
+							If that were other than this and if this were other than that, anguish would be made by other and that would be made by those others.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901096bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906036bi' class='verse'>
+							何以(6)故(7)<b>若謂此五陰 異彼五陰者(8)如是則應言 從他而作苦</b>(9)若此五陰與彼五陰異。彼五陰與此五陰(10)異者。應從他作。如縷與布異者。應離縷(11)有布。若離縷無布者。則布不異縷。如是(12)彼五陰異此五陰者。則應離此五陰有彼(13)五陰。若離此五陰無彼五陰者。則此五陰(14)不異彼五陰。是故不應言苦從他作。問曰(15)自作者。是人人自作苦。自受苦。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901575bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902054bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009434bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904127bi' class='verse'>
+							svapudgalakṛtaṃ duḥkhaṃ yadi duḥkhaṃ punar vinā |<br />svapudgalaḥ sa katamo yena duḥkhaṃ svayaṃ kṛtam || 4 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859654bi' class='verse'>
+							若人自作苦 離苦何有人<br />而謂於彼人 而能自作苦&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903501bi' class='verse'>
+							gal te gang zag bdag gis ni | | (6)sdug bsngal byas na gang bdag gis | |<br />sdug bsngal byas pa’i gang zag ni | | sdug bsngal ma gtogs gang zhig yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905023bi' class='verse'>
+							4. If sorrow (dukkha) is made through one’s own personality (i) (svapudgala), then one’s own personality would be without sorrow (dukkha);<br />Who is that “own personality” by which sorrow (dukkha) is self-produced (i)?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860612bi' class='verse'>
+							If anguish were made by one’s own person, who would that person be who has made anguish by himself, but is not included in the anguish?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901097bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906037bi' class='verse'>
+							答曰(16)<b>若人自作苦 離苦何有人(17)而謂於彼人 而能自作苦</b>(18)若謂人自作苦者。離五陰苦。何處別有人。(19)而能自作苦。應説是人。而不可説。是故苦(20)非人自作。若謂人不自作苦。他人作苦與(21)此人。者是亦不然。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901576bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902055bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009435bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904128bi' class='verse'>
+							parapudgalajaṃ duḥkhaṃ yadi yasmai pradīyate |<br />pareṇa kṛtvā tad duḥkhaṃ sa duḥkhena vinā kutaḥ || 5 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859655bi' class='verse'>
+							若苦他人作 而與此人者<br />若當離於苦 何有此人受&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903502bi' class='verse'>
+							gal te gang zag gzhan las ni | | sdug bsngal ’byung na gzhan zhig gis | |<br />sdug bsngal de byas gang sbyin de | | sdug bsngal ma gtogs ji ltar rung | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905024bi' class='verse'>
+							5. If sorrow (dukkha) were produced by a different personality (ii) (parapudgala),<br />How would he, to whom is given that sorrow (dukkha) by another after he had produced it, be without sorrow (dukkha)?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860613bi' class='verse'>
+							If anguish arose from another person, how could it be suitable for there to be [someone] not included in the anguish, who has been given it by another who made the anguish?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901098bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906038bi' class='verse'>
+							何以故(22)<b>若苦他人作 而與此人者(23)若當離於苦 何有此人受</b>(24)若他人作苦。與此人者。離五陰無有此(25)人受。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901577bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902056bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009436bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904129bi' class='verse'>
+							parapudgalajaṃ duḥkhaṃ yadi kaḥ parapudgalaḥ |<br />vinā duḥkhena yaḥ kṛtvā parasmai prahiṇoti tat || 6 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859656bi' class='verse'>
+							苦若彼人作 持與此人者<br />離苦何有人 而能授於此&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903503bi' class='verse'>
+							gal (7)te gang zag gzhan sdug bsngal | | ’byung na gang gis de byas nas | |<br />gzhan la ster ba’i gang zag gzhan | | sdug bsngal ma gtogs gang zhig yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905025bi' class='verse'>
+							6. If sorrow (dukkha) is produced by a different personality, who is that different personality<br />Who, while being without sorrow (dukkha), yet makes and transmits that [sorrow (dukkha)] to the other?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860614bi' class='verse'>
+							If anguish arose [from] another person, who would that other person be who, having made it, gives it to someone else, but is not included in the anguish?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901099bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906039bi' class='verse'>
+							復次(26)<b>苦若彼人作 持與此人者(27)離苦何有人 而能授於此</b>(28)若謂彼人作苦授與此人者。離五陰苦。何(29)有彼人作苦持與此人。若有者應説其(17a1)相。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901578bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902057bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009437bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904130bi' class='verse'>
+							svayaṃ kṛtasyāprasiddher duḥkhaṃ parakṛtaṃ kutaḥ |<br />paro hi duḥkhaṃ yat kuryāt tat tasya syāt svayaṃ kṛtam || 7 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859657bi' class='verse'>
+							自作若不成 云何彼作苦<br />若彼人作苦 即亦名自作&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903504bi' class='verse'>
+							bdag gis byas par ma grub pas | | sdug bsngal gzhan gyis ga la byas | |<br />gzhan gyis sdug bsngal gang byed pa | | de ni de yi (8a1)bdag byas ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905026bi' class='verse'>
+							7. It is not established that sorrow (dukkha) is self-produced (i), [but] how is [sorrow (dukkha)] produced by another (ii)?<br />Certainly the sorrow (dukkha), which would be produced by another (ii), in his case would be self-produced (i’).&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860615bi' class='verse'>
+							Since it is not established as made by self, how can anguish have been made by other? [For] whatever anguish is made by other, that has been made by his self.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901100bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906040bi' class='verse'>
+							復次(2)<b>自作若不成 云何彼作苦(3)若彼人作苦 即亦名自作</b>(4)種種因縁彼自作苦不成而言他作苦。是亦(5)不然。何以故。此彼相待故。若彼作苦於彼(6)亦名自作苦。自作苦先已破。汝受自作苦不(7)成故。他作亦不成。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901579bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902058bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009438bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904131bi' class='verse'>
+							na tāvat svakṛtaṃ duḥkhaṃ na hi tenaiva tat kṛtam |<br />paro nātmakṛtaś cet syād duḥkhaṃ parakṛtaṃ katham || 8 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859658bi' class='verse'>
+							苦不名自作 法不自作法<br />彼無有自體 何有彼作苦&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903505bi' class='verse'>
+							re zhig sdug bsngal bdag byas min | | de nyid kyis ni de ma byas | |<br />gal te gzhan bdag ma byas na | | sdug bsngal gzhan byas ga la ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905027bi' class='verse'>
+							8. Sorrow (dukkha) is not self-produced (i), for that which is produced is certainly not produced by that [personality].<br />If the “other” (para) is not produced by the individual self (ātma), how would sorrow (dukkha) be that produced by another?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860616bi' class='verse'>
+							Anguish is not made [by] self; that is not made by that itself. If it is not made by an other self, how can anguish be made by other?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901101bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906041bi' class='verse'>
+							復次(8)<b>苦不名自作 法不自作法(9)彼無有自體 何有彼作苦</b>(10)自作苦不然。何以故。如刀不能自割。如是(11)法不能自作法。是故不能自作。他作亦不(12)然。何以故。離苦無彼自性。若離苦有彼自(13)性者。應言彼作苦。彼亦即是苦。云何苦自(14)作苦。問曰。若自作他作不然。應有共作。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901580bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902059bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009439bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904132bi' class='verse'>
+							syād ubhābhyāṃ kṛtaṃ duḥkhaṃ syād ekaikakṛtaṃ yadi |<br />parākārāsvayaṃkāraṃ duḥkham ahetukaṃ kutaḥ || 9 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859659bi' class='verse'>
+							若此彼苦成 應有共作苦<br />此彼尚無作 何況無因作&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903506bi' class='verse'>
+							gal te re res byas gyur na | | sdug bsngal gnyis kas byas par ’gyur | |<br />bdag (2)gis ma byas gzhan ma byas | | sdug bsngal rgyu med ga la ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905028bi' class='verse'>
+							9. Sorrow (dukkha) could be made by both [self and the “other”] (iii) if it could be produced by either one.<br />[But] not produced by another, and not self-produced (iv) —how can sorrow (dukkha) exist without a caused&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860617bi' class='verse'>
+							If it is made by each, anguish would be made by both. Not made by self, not made by other, how can anguish have no cause?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901102bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906042bi' class='verse'>
+							答(15)曰(16)<b>若此彼苦成 應有共作苦(17)此彼尚無作 何況無因作</b>(18)自作他作猶尚有過。何況無因作。無因多(19)過。如破作作者品中説。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901581bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902060bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009440bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904133bi' class='verse'>
+							na kevalaṃ hi duḥkhasya cāturvidhyaṃ na vidyate |<br />bāhyānām api bhāvānāṃ cāturvidhyaṃ na vidyate || 10 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859660bi' class='verse'>
+							非但說於苦 四種義不成<br />一切外萬物 四義亦不成&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903507bi' class='verse'>
+							sdug bsngal ’ba’ zhig rnam pa bzhi | | yod ma yin par ma zad kyi | |<br />phyi rol dngos po dag la yang | | rnam pa bzhi po yod ma yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905029bi' class='verse'>
+							10. Not only are the four [causal] interpretations not possible in respect to sorrow (dukkha),<br />[but also] none of the four [causal] interpretations is possible even in respect to external things (bhava).&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860618bi' class='verse'>
+							Not only does anguish alone not have the four aspects, external things too do not have the four aspects.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901103bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906043bi' class='verse'>
+							復次(20)<b>非但説於苦 四種義不成(21)一切外萬物 四義亦不成</b>(22)佛法中雖説五受陰爲苦。有外道人。謂苦(23)受爲苦。是故説。不但説於苦四種義不成。(24)外萬物。地水山木等。一切法皆亦不成&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901582bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902061bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009441bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904134bi' class='chaptertitle'>
+							duḥkhaparīkṣā nāma dvādaśamaṃ prakaraṇaṃ ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904715";
+							kilderef = "Mmk San: La Vallée Poussin (1913)  - San: La Vallée Poussin (1913) 236,5-6";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859661bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904708";
+							kilderef = "Mmk Chi: Kumārajīva, T. 1564 16b20 - Chi: Kumārajīva, T. 1564 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903508bi' class='chaptertitle'>
+							bdag gis byas pa dang gzhan gyis byas pa brtag pa zhes bya ba ste rab (3)tu byed pa bcu gnyis pa’o ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904714";
+							kilderef = "Mmk Tib: Tg, tsa  - Tib: Tg, tsa 8a2-3";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905030bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8905019";
+							kilderef = "Mmk Eng: Streng (1967)  - Eng: Streng (1967) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860619bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904709";
+							kilderef = "Mmk Eng: Batchellor (2000)  - Eng: Batchellor (2000) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901104bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904710";
+							kilderef = "Mmk Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829  - Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906044bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8906033";
+							kilderef = "Mmk Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564  16b20 - Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564 17a24";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901583bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904711";
+							kilderef = "Mmk Buddhapālita "Vṛtti" Tg 3842  - Buddhapālita "Vṛtti" Tg 3842 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902062bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904712";
+							kilderef = "Mmk Bhāvaviveka "Prajñāpradīpa" Tg 3853  - Bhāvaviveka "Prajñāpradīpa" Tg 3853 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009442bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "9009431";
+							kilderef = "Mmk Candrakīrti "Prasannapadā" Vaidya 1960  - Candrakīrti "Prasannapadā" Vaidya 1960 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div></div><div class='clear'></div><div class="fontboks"><a onClick=onOffdiv('permlink') name="permlink" href="#permlink">Permanent link</a></div><div class='clear'></div><div class='perm_felt' id='permlink'>http://www2.hf.uio.no/common/apps/permlink/permlink.php?app=polyglotta&amp;context=ctext&amp;uid=086823a8-6be5-11df-870c-00215aecadea</div></div></div><!-- infofelt --></div><!-- divControl --><div class="clear"></div>
+<div style="clear:both"></div><div class="signatur"><div class="signatur_left">
+		<a href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation">Go to Wiki Documentation</a></br>Enhet: <a HREF=http://www.hf.uio.no>Det humanistiske fakultet</a> &nbsp; Utviklet av: <a href="http://www.hf.uio.no/tjenester/it">IT-seksjonen ved HF</a></div><!--signatur_left -->
+		<div class="signatur_right"><a href="/polyglotta/admin/index.php">Login</a></div>
+		<div style="clear:both"></div></div>
+</body></html><SCRIPT LANGUAGE="JAVASCRIPT">
+	
+	$("#tr_IA").click(function(){
+	    if ($("#toggle_container_IA").is(':hidden'))
+	    	$("#toggle_container_IA").show();
+	    else{
+	        $("#toggle_container_IA").hide();
+	    }
+	    return false;
+		});
+
+	$("#tr_lang").click(function(){
+	    if ($("#toggle_container_lan").is(':hidden'))
+	    	$("#toggle_container_lan").show();
+	    else{
+	        $("#toggle_container_lan").hide();
+	    }
+	    return false;
+	});
+
+	$("#tr_img").click(function(){
+	    if ($("#toggle_container_img").is(':hidden'))
+	    	$("#toggle_container_img").show();
+	    else{
+	        $("#toggle_container_img").hide();
+	    }
+	    return false;
+	});
+
+	$("#diac2button").click(function(){
+	   if ($("#ex3a").is(':hidden')){
+		   $("#ex3a").show();
+	       $("#diac2button").html("Hide&#32Diacritica-help");
+	   }else{
+	       $("#ex3a").hide();
+	       $("#diac2button").html("Diacritica-help");
+	   }
+	   return false;
+	});
+
+	$("#diacbutton").click(function(){
+	   if ($("#diacritical_sign").is(':hidden')){
+		   	$("#diacritical_sign").show();
+	      	$("#diacbutton").html("Hide&#32diacritica");
+	   }else{
+	        $("#diacritical_sign").hide();
+	        $("#diacbutton").html("Diacritica");
+	   }
+	   return false;
+    });
+
+	$('#toggle_container_IA').click(function(e) {
+	   e.stopPropagation();
+	});
+
+	$('#toggle_container_lan').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#toggle_container_img').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#ex3a').click(function(e) {
+	    e.stopPropagation();
+	});
+
+	$('#diacritical_sign').click(function(e) {
+        e.stopPropagation();
+    });
+
+	//Kode for å sette inn diakritiske tegn
+	$('#diacritical > tbody > tr > td').click(function() {
+	  	//alert('red');
+		$("#sokeboks").val($("#sokeboks").val() + $(this).text());
+	});
+
+	$('.diac2button').text(($('.diacbutton').text() == 'Diacritica-help') ? 'Hide Diacritica-help' : 'Diacritica-help');
+	
+	//Lukker alle åpnede pop'uper ved klikk på siden
+	$(document).click(function() {
+		$('#toggle_container_IA').hide();
+	    
+        $('#toggle_container_lan').hide();
+    
+        $('#toggle_container_img').hide();
+   
+   		$('#diacritical_sign').hide();
+   		$("#diacbutton").html("Diacritica");
+   
+       	$('#ex3a').hide();
+       	$("#diac2button").html("Diacritica-help");
+   });
+	</SCRIPT>

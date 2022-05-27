@@ -1,0 +1,735 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Bibliotheca Polyglotta</title>
+<link rel='stylesheet' type='text/css' href='css/bp.css'>
+<link rel='stylesheet' type='text/css' href='css/diac_doc.css'>
+
+<link rel='stylesheet' type='text/css' href='css/imageGallery.css'>
+<link rel='stylesheet' type='text/css' href='css/ss.css'>
+	      <link rel='stylesheet' type='text/css' href='css/tree_menu.css'>
+<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+<!--  <script type="text/javascript" src="js/jqModal.js"></script>-->
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/tree_menu.js"></script>
+<!-- <script src="js/analytics_tracking.js" type="text/javascript"></script> -->
+
+
+<!-- <script type="text/javascript" src="js/popupDivhandling.js"></script> -->
+<!--  <script type="text/javascript" src="jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery-imagegallery.js"></script>-->
+</head>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//vrtx.uio.no/js/analytics/v2/analytics.js','ga');
+
+ga('create', 'UA-86407471-1', 'auto');
+ga(function(tracker) {
+
+	// Modifies sendHitTask to hit ipproxy instead of http://www.google-analytics.com directly
+	tracker.set('sendHitTask', function(model) {
+		payload = model.get('hitPayload');
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', '//w3prod-ipproxy.uio.no/collect' +'?' + payload, true);
+		xhr.send();
+	});
+		ga('send', 'pageview');
+});
+</script>
+<body><div class='banner'></div><!-- banner --><div class='uiologo'>
+<a href='http://www.hf.uio.no/'><img src='https://www2.hf.uio.no/polyglotta/hfe.png' border='0'></a></div><!-- uiologo --><div class='clear'></div>
+<div class='smule_tittel'>
+<div class='brodsmuleboks'>You are here: <a href='/polyglotta/index.php' accesskey='1'> BP HOME</a> >  <a href='/polyglotta/index.php?page=library&amp;bid=2' accesskey='1'>TLB</a> > <a href='/polyglotta/index.php
+	?page=volume&amp;vid=1124' accesskey='1'>Nāgārjuna: Mūlamadhyamakakārikā</a> > fulltext</div><div class='clear'></div>
+<div class='headline'>Nāgārjuna: Mūlamadhyamakakārikā<div class='clear'></div></div><!-- headline -->
+</div><!-- smule_tittel -->
+<!--<div>-->
+
+<h2 class="trigger" id="tr_lang"><a  href="#">Choose languages</a></h2>
+<h2 class="trigger" id="tr_img"><a  href="#">Choose images, etc.</a></h2>
+
+
+<div id="toggle_container_lan">
+
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_lan.php" method="POST">
+
+<div style="float:left; width:auto; text-align:left; margin-left:20px;">
+<h5>Choose languages</h5>
+<ul>
+<input value="Choose all" type="button" onClick="markAll('tr')"><input value="Uncheck all" type="button" onClick="markNone('tr')">
+
+	<li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6176]" value="6176" id="lancheckbox" checked >Sanskrit: San: La Vallée Poussin (1913), </label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[5667]" value="5667" id="lancheckbox" checked >Chinese: Chi: Kumārajīva, T. 1564</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6175]" value="6175" id="lancheckbox" checked >Tibetan: Tib: Tg, tsa</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6177]" value="6177" id="lancheckbox" checked >English: Eng: Streng (1967)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[5669]" value="5669" id="lancheckbox" checked >English: Eng: Batchellor (2000)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6170]" value="6170" id="lancheckbox" checked >Tibetan: Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6179]" value="6179" id="lancheckbox" checked >Chinese: Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6171]" value="6171" id="lancheckbox" checked >Tibetan: Buddhapālita "Vṛtti" Tg 3842</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6172]" value="6172" id="lancheckbox" checked >Tibetan: Bhāvaviveka "Prajñāpradīpa" Tg 3853</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6340]" value="6340" id="lancheckbox" checked >Sanskrit: Candrakīrti "Prasannapadā" Vaidya 1960</label></li><div style="clear:both"></div>
+<input type='submit' name='set_cookie' value='Save view'>
+<div style="clear:both"></div>
+
+</ul>
+<input type="hidden" name="vid" value="1124">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+</div>
+
+<div id="toggle_container_img">
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_img.php" method="POST">
+
+<div style="float:left; width:auto; text-align: left;">
+<h5>Choose display</h5>
+<ul>
+		
+	<li> 
+		<input type='checkbox' name='bilder' checked="checked" > Enable images
+	</li>
+	<li> 
+	<input type='checkbox' onclick="onOffCheckbox();" name='fotnoter' checked="checked"> Enable footnotes
+	<div id="pff" style="display:block" >
+	<ul>
+	<li><input type='radio' name='fotnote_valg'  value='show_a' checked> Show all footnotes</li>
+	<li><input type='radio' name='fotnote_valg'  value='show_h'  > Minimize footnotes</li>
+	</ul>
+	</li>
+	
+	</div>
+	<div style="float:left; width:20em; text-align: left; margin-left:120px ">
+	<div style="clear:both"></div>
+	<input type='submit' name='set_cookie' value='Save view'>
+	<div style="clear:both"></div>
+	</div>
+	
+</ul>
+<input type="hidden" name="vid" value="1124">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+	
+
+
+
+</div>
+</div>
+
+<div class='sok'><form name='Sok' id='FormBlock' action='/polyglotta/index.php' method='get'>
+<input type='hidden' name='page' value='search'>
+<input type='hidden' name='bid' value='2'>
+<input type='hidden' name='vid' value='1124'>
+<div class='sokeboks'>
+<input name='sokefelt' id='sokeboks' type='text' size='30' value=''>
+<input type='submit' name='Sok' value='Search' id='nsubmit'>
+<div class='clear'></div><a class="diacbutton" id="diacbutton" href="#">Diacritica</a><a id="diac2button" class="diac2button"  href="#">Diacritica-help</a><a class="s2button" href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation:SearchHelp">Search-help</a><div class='diacritical' id='diacritical_sign'><div style="text-align: left; ">
+<table class = 'diacritica' width="200" border="1" cellpadding="1" cellspacing="1" id="diacritical">
+    <tbody>
+        <tr>
+            <td style="text-align: center; ">ā</td>
+            <td style="text-align: center; ">ī</td>
+            <td style="text-align: center; ">ū</td>
+            <td style="text-align: center; ">ṛ</td>
+            <td style="text-align: center; ">ṝ</td>
+            <td style="text-align: center; ">ḷ</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ḹ</td>
+            <td style="text-align: center; ">&rsquo;</td>
+            <td style="text-align: center; ">ṃ</td>
+            <td style="text-align: center; ">ḥ</td>
+            <td style="text-align: center; ">ṅ</td>
+            <td style="text-align: center; ">&ntilde;</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ṭ</td>
+            <td style="text-align: center; ">ḍ</td>
+            <td style="text-align: center; ">ṇ</td>
+            <td style="text-align: center; ">ṣ</td>
+            <td style="text-align: center; ">ś</td>
+            <td style="text-align: center; ">ź</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">&scaron;</td>
+            <td style="text-align: center; ">č</td>
+            <td style="text-align: center; ">ǰ</td>
+            <td style="text-align: center; ">&gamma;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+</div></div><!-- diacritical --><div id="ex3a" class="jqmDialog"><div>
+	<span style="font-size:12px;">Note on the transliteration:</span></div>
+<div>
+	<span style="font-size:12px;">The transliteration system of the BP/TLB is based on the Unicode/UTF-8 system. However, there may be difficulties with some of the letters &ndash; particularly on PC/Windows-based systems, but not so much on the Mac. We have chosen the most accepted older and traditional systems of transliteration against, e.g, Wylie for Tibetan, since with Unicode it is possible, in Sanskrit and Tibetan, etc., to represent one sound with one letter in almost all the cases (excepting Sanskrit and Tibetan aspirated letters, and Tibetan tsa, tsha, dza). We thus do not use the Wylie system which widely employs two letters for one sound (ng, ny, sh, zh etc.).</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">Important:</span></div>
+<div>
+	<span style="font-size:12px;">We ask you in particular to note the use of the &rsquo; apostrophe and not the &#39; representing the avagrāha in Sanskrit, and most important the &rsquo;a-chuṅ in Tibetan. On the Mac the &rsquo; is Alt-M.</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">If you cannot find the letters on your key-board, you may click on the link &quot;Diacritica&quot; to access it for your search.</span></div>
+</div><!-- diacritical_doc --><div class='clear'></div><select name='searchmode'><option selected value='phrase'>Search for exact phrase</option>
+<option  value='phraseregex'>Search for exact phrase (regex)</option>
+<option  value='word'>Search for every word in one record</option>
+<option  value='free'>Search for every word fragment in one record</option>
+</select>
+<select name='context'>
+<option ($_GET[context]=="a" ? "selected" : "") value="a"> Search in all libraries</option><option selected value="bTLB">Search in TLB</option><option selected value="v1124">Search in Nāgārjuna: Mūlamadhyamakakārikā</option></select><div class='clear'></div><a class='sbutton' href='/polyglotta/index.php?page=asearch&amp;bid=2&amp;vid=1124'>Choose specific texts..</a><div class='clear'></div></div></form></div><!-- sok --><div class='clear'></div><!-- clear --><div id='dcr' class='divControlRead'><div class='venstrefulltekstfelt'><div class='bverknavn'><a href='/polyglotta/index.php?page=volume&amp;vid=1124'>Nāgārjuna: Mūlamadhyamakakārikā</a></div><table class="tlvl2">
+					<tr>
+						<td bgcolor="#ffffff"> &nbsp; &nbsp;
+						<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_7627.Verses41-58" border=0 hspace=2>
+						<a href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124" class="ajax_tree0">Complete text</a>
+						</td>
+					</tr>
+				  </table><input type="hidden" name="tree_top_options" id="tree_top_options" value="134642.Title|134643.Preface|134644.ChaptersI-V|134650.ChaptersVI-X|134656.ChaptersXI-XV|134662.ChaptersXVI-XX|134668.ChaptersXXI-XXV|134674.ChaptersXXVI-XXVII|134677.Colophon|">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134642.Title" border=0 hspace=2><a id="href_134642.Title" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942958&level=1&cid=843905" class="ajax_tree0">Title
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134643.Preface" border=0 hspace=2><a id="href_134643.Preface" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942959&level=1&cid=843906" class="ajax_tree0">Preface
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134644.ChaptersI-V','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134644.ChaptersI-V" border=0 hspace=2><a id="href_134644.ChaptersI-V" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942960&level=1&cid=843907" class="ajax_tree0">Chapters I-V
+</td></tr></table>
+<div style="display:none;"  id="div_134644.ChaptersI-V">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134645.ChapterI:Pratyayaparīkṣā" border=0 hspace=2><a id="href_134645.ChapterI:Pratyayaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942960&level=2&cid=843907" class="ajax_tree1">Chapter I: Pratyayaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134646.ChapterII:Gatāgataparīkṣaṇa" border=0 hspace=2><a id="href_134646.ChapterII:Gatāgataparīkṣaṇa" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942975&level=2&cid=843922" class="ajax_tree1">Chapter II: Gatāgataparīkṣaṇa
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134647.ChapterIII:Cakṣurādīndriyaparīkṣā" border=0 hspace=2><a id="href_134647.ChapterIII:Cakṣurādīndriyaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943001&level=2&cid=843948" class="ajax_tree1">Chapter III: Cakṣurādīndriyaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134648.ChapterIV:Skandhaparīkṣā" border=0 hspace=2><a id="href_134648.ChapterIV:Skandhaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943011&level=2&cid=843958" class="ajax_tree1">Chapter IV: Skandhaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134649.ChapterV:Dhātuparīkṣā" border=0 hspace=2><a id="href_134649.ChapterV:Dhātuparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943021&level=2&cid=843968" class="ajax_tree1">Chapter V: Dhātuparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134650.ChaptersVI-X','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134650.ChaptersVI-X" border=0 hspace=2><a id="href_134650.ChaptersVI-X" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943030&level=1&cid=843977" class="ajax_tree0">Chapters VI-X
+</td></tr></table>
+<div style="display:none;"  id="div_134650.ChaptersVI-X">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134651.ChapterVI:Rāgasaktiparīkṣā" border=0 hspace=2><a id="href_134651.ChapterVI:Rāgasaktiparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943030&level=2&cid=843977" class="ajax_tree1">Chapter VI: Rāgasaktiparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134652.ChapterVII:Saṃskr̥̥taparīkṣā" border=0 hspace=2><a id="href_134652.ChapterVII:Saṃskr̥̥taparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943041&level=2&cid=843988" class="ajax_tree1">Chapter VII: Saṃskr̥̥taparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134653.ChapterVIII:Karmakārakaparīkṣā" border=0 hspace=2><a id="href_134653.ChapterVIII:Karmakārakaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943076&level=2&cid=844023" class="ajax_tree1">Chapter VIII: Karmakārakaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134654.ChapterIX:Pūrvaparīkṣā" border=0 hspace=2><a id="href_134654.ChapterIX:Pūrvaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943090&level=2&cid=844037" class="ajax_tree1">Chapter IX: Pūrvaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134655.ChapterX:Agnīndhanaparīkṣā" border=0 hspace=2><a id="href_134655.ChapterX:Agnīndhanaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943103&level=2&cid=844050" class="ajax_tree1">Chapter X: Agnīndhanaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134656.ChaptersXI-XV','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134656.ChaptersXI-XV" border=0 hspace=2><a id="href_134656.ChaptersXI-XV" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943120&level=1&cid=844067" class="ajax_tree0">Chapters XI-XV
+</td></tr></table>
+<div style="display:none;"  id="div_134656.ChaptersXI-XV">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134657.ChapterXI:Pūrvāparakoṭiparīkṣa" border=0 hspace=2><a id="href_134657.ChapterXI:Pūrvāparakoṭiparīkṣa" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943120&level=2&cid=844067" class="ajax_tree1">Chapter XI: Pūrvāparakoṭiparīkṣa
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134658.ChapterXII:Duḥkhaparīkṣā" border=0 hspace=2><a id="href_134658.ChapterXII:Duḥkhaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943129&level=2&cid=844076" class="ajax_tree1">Chapter XII: Duḥkhaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134659.ChapterXIII:Saṃskāraparīkṣā" border=0 hspace=2><a id="href_134659.ChapterXIII:Saṃskāraparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943140&level=2&cid=844087" class="ajax_tree1">Chapter XIII: Saṃskāraparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134660.ChapterXIV:Saṃsargaparīkṣā" border=0 hspace=2><a id="href_134660.ChapterXIV:Saṃsargaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943150&level=2&cid=844096" class="ajax_tree1">Chapter XIV: Saṃsargaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134661.ChapterXV:Svabhāvaparīkṣā" border=0 hspace=2><a id="href_134661.ChapterXV:Svabhāvaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943159&level=2&cid=844105" class="ajax_tree1">Chapter XV: Svabhāvaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134662.ChaptersXVI-XX','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134662.ChaptersXVI-XX" border=0 hspace=2><a id="href_134662.ChaptersXVI-XX" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943171&level=1&cid=844117" class="ajax_tree0">Chapters XVI-XX
+</td></tr></table>
+<div style="display:none;"  id="div_134662.ChaptersXVI-XX">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134663.ChapterXVI:Bandhanamokṣaparīkṣā" border=0 hspace=2><a id="href_134663.ChapterXVI:Bandhanamokṣaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943171&level=2&cid=844117" class="ajax_tree1">Chapter XVI: Bandhanamokṣaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134664.ChapterXVII:Karmaphalaparīkṣā" border=0 hspace=2><a id="href_134664.ChapterXVII:Karmaphalaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943182&level=2&cid=844128" class="ajax_tree1">Chapter XVII: Karmaphalaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134665.ChapterXVIII:Ātmaparīkṣā" border=0 hspace=2><a id="href_134665.ChapterXVIII:Ātmaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943216&level=2&cid=844162" class="ajax_tree1">Chapter XVIII: Ātmaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134666.ChapterXIX:Kālaparīkṣā" border=0 hspace=2><a id="href_134666.ChapterXIX:Kālaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943229&level=2&cid=844175" class="ajax_tree1">Chapter XIX: Kālaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134667.ChapterXX:Sāmagrīparīkṣā" border=0 hspace=2><a id="href_134667.ChapterXX:Sāmagrīparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943236&level=2&cid=844182" class="ajax_tree1">Chapter XX: Sāmagrīparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134668.ChaptersXXI-XXV','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134668.ChaptersXXI-XXV" border=0 hspace=2><a id="href_134668.ChaptersXXI-XXV" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943261&level=1&cid=844207" class="ajax_tree0">Chapters XXI-XXV
+</td></tr></table>
+<div style="display:none;"  id="div_134668.ChaptersXXI-XXV">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134669.ChapterXXI:Saṃbhavavibhavaparīkṣā" border=0 hspace=2><a id="href_134669.ChapterXXI:Saṃbhavavibhavaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943261&level=2&cid=844207" class="ajax_tree1">Chapter XXI: Saṃbhavavibhavaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134670.ChapterXXII:Tathāgataparīkṣā" border=0 hspace=2><a id="href_134670.ChapterXXII:Tathāgataparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943283&level=2&cid=844229" class="ajax_tree1">Chapter XXII: Tathāgataparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134671.ChapterXXIII:Viparyāsaparīkṣā" border=0 hspace=2><a id="href_134671.ChapterXXIII:Viparyāsaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943300&level=2&cid=844246" class="ajax_tree1">Chapter XXIII: Viparyāsaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134672.ChapterXXIV:Āryasatyaparīkṣā" border=0 hspace=2><a id="href_134672.ChapterXXIV:Āryasatyaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943326&level=2&cid=844272" class="ajax_tree1">Chapter XXIV: Āryasatyaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134673.ChapterXXV:nirvāṇaparīkṣā" border=0 hspace=2><a id="href_134673.ChapterXXV:nirvāṇaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943367&level=2&cid=844313" class="ajax_tree1">Chapter XXV: nirvāṇaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134674.ChaptersXXVI-XXVII','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134674.ChaptersXXVI-XXVII" border=0 hspace=2><a id="href_134674.ChaptersXXVI-XXVII" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943392&level=1&cid=844338" class="ajax_tree0">Chapters XXVI-XXVII
+</td></tr></table>
+<div style="display:none;"  id="div_134674.ChaptersXXVI-XXVII">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134675.ChapterXXVI:Dvādaśāṅgaparīkṣā" border=0 hspace=2><a id="href_134675.ChapterXXVI:Dvādaśāṅgaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943392&level=2&cid=844338" class="ajax_tree1">Chapter XXVI: Dvādaśāṅgaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134676.ChapterXXVII:Dr̥ṣṭiparīkṣā" border=0 hspace=2><a id="href_134676.ChapterXXVII:Dr̥ṣṭiparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943405&level=2&cid=844351" class="ajax_tree1">Chapter XXVII: Dr̥ṣṭiparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134677.Colophon" border=0 hspace=2><a id="href_134677.Colophon" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943436&level=1&cid=844382" class="ajax_tree0">Colophon
+</td></tr></table>
+<script language=javascript>test('134673.ChapterXXV:nirvāṇaparīkṣā|134668.ChaptersXXI-XXV|')</script><div class='bverknavn'><a href='/polyglotta/index.php?page=library&amp;bid=2'>Back to library</a></div></div><!-- venstrefulltekstfelt --><div class="clear"></div><!-- clear --><div id="nav-menu"><ul>
+  		  <li  id="nav-1"><a class="tabValgt" href="/polyglotta/index.php?page=record&amp;view=record&amp;vid=1124&amp;mid=1943367&amp;level=2">Sentence by sentence view</a></li>
+  		  <li  id="nav-2"><a  href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124&amp;cid=844313&amp;mid=1943367&amp;level=2">Continuous text view</a></li>
+ 		<li  id="nav-3"><a  href="/polyglotta/admin/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124&amp;cid=844313&amp;mid=1943367&amp;level=2">View in admin</a></li>
+
+  		  </ul></div><div class='clear'></div><!-- clear -->			<script language="javascript" type="text/javascript">
+			var kilderef = '';
+			var tekstid = 0;
+			var tekstid_bilder = 0;
+			var filsti = '';
+			var thumbnail = '';
+			</script>
+		<div class='infofulltekstfelt'><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><div class='kilderef' id='8904819'></div><div class='clear'></div><span id='8904819bi' class='generelltekst'>
+							&nbsp;</span><span id='8904362bi' class='verse'>
+						 yadi śūnyam idaṃ sarvam udayo nāsti na vyayaḥ |<br />prahāṇād vā nirodhād vā kasya nirvāṇam iṣyate || 1 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><div class='kilderef' id='8904812'></div><div class='clear'></div><span id='8904812bi' class='generelltekst'>
+							中論觀涅槃品第二十五(二十四偈)&nbsp;</span><span id='7859889bi' class='verse'>
+						 若一切法空 無生無滅者<br />何斷何所滅 而稱為涅槃&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904818'></div><div class='clear'></div><span id='8904818bi' class='generelltekst'>
+							&nbsp;</span><span id='8903736bi' class='verse'>
+						 || gal te ’di dag kun stong na | | ’byung ba med cing ’jig pa med | |<br />gang (6)zhig spong dang ’gags pa las | | mya ngan ’da’ bar ’gyur bar ’dod | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><div class='kilderef' id='8905270'></div><div class='clear'></div><span id='8905270bi' class='verse'>
+							[Chapter] 25: An Analysis of Nirvana (nirvana)&nbsp;</span><span id='8905271bi' class='verse'>
+						 1. If all existence is empty, there is no origination nor destruction.<br />Then whose nirvana through elimination [of suffering] and destruction [of illusion] would be postulated?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><div class='kilderef' id='8904813'></div><div class='clear'></div><span id='8904813bi' class='generelltekst'>
+							Investigation of Nirvana&nbsp;</span><span id='7860847bi' class='verse'>
+						 If everything were empty, there would be no arising and perishing. From the letting go of and ceasing of what could one assert nirvana(-ing)?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904814'></div><div class='clear'></div><span id='8904814bi' class='generelltekst'>
+							&nbsp;</span><span id='8901332bi' class='verse'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><div class='kilderef' id='8906284'></div><div class='clear'></div><span id='8906284bi' class='verse'>
+							(13)  ＊中論 觀涅槃品第二十五 二十四偈&nbsp;</span><span id='8906285bi' class='verse'>
+						 (14)問曰(15)<b>若一切法空 無生無滅者(16)何斷何所滅 而稱爲涅槃</b>(17)若一切法空。則無生無滅。無生無滅者。何(18)所斷何所滅。而名爲涅槃。是故一切法不(19)應空。以諸法不空故。斷諸煩惱滅五陰。(20)名爲涅槃。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904815'></div><div class='clear'></div><span id='8904815bi' class='generelltekst'>
+							&nbsp;</span><span id='8901811bi' class='verse'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904816'></div><div class='clear'></div><span id='8904816bi' class='generelltekst'>
+							&nbsp;</span><span id='8902290bi' class='verse'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><div class='kilderef' id='9009682'></div><div class='clear'></div><span id='9009682bi' class='verse'>
+							&nbsp;</span><span id='9009683bi' class='verse'>
+						 &nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904363bi' class='verse'>
+							yady aśūnyam idaṃ sarvam udayo nāsti na vyayaḥ |<br />prahāṇād vā nirodhād vā kasya nirvāṇam iṣyate || 2 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859890bi' class='verse'>
+							若諸法不空 則無生無滅<br />何斷何所滅 而稱為涅槃&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903737bi' class='verse'>
+							gal te ’di kun mi stong na | | ’byung ba med cing ’jig pa med | |<br />gang zhig spong dang ’gags pa las | | mya ngan ’da’ bar ’gyur bar ’dod | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905272bi' class='verse'>
+							2. If all existence is non-empty, there is no origination nor destruction.<br />Then whose nirvana through elimination [of suffering] and destruction [of illusion] would be postulated?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860848bi' class='verse'>
+							If everything were not empty, there would be no arising and perishing. From the letting go of and ceasing of what could one assert nirvana(-ing)?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901333bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906286bi' class='verse'>
+							答曰(21)<b>若諸法不空 則無生無滅(22)何斷何所滅 而稱爲涅槃</b>(23)若一切世間不空。則無生無滅。何所斷何(24)所滅。而名爲涅槃。是故有無二門。則非(25)至涅槃。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901812bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902291bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009684bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904364bi' class='verse'>
+							aprahīṇam asaṃprāptam anucchinnam aśāśvatam |<br />aniruddham anutpannam etan nirvāṇam ucyate || 3 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859891bi' class='verse'>
+							無得亦無至 不斷亦不常<br />不生亦不滅 是說名涅槃&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903738bi' class='verse'>
+							spangs pa med pa thob med pa |  (7)chad pa med pa rtag med pa | |<br />’gag pa med pa skye med pa | | de ni mya ngan ’das par brjod | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905273bi' class='verse'>
+							3. Nirvana has been said to be neither eliminated nor attained, neither annihilated nor eternal,<br />Neither disappeared nor originated.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860849bi' class='verse'>
+							No letting go, no attainment, no annihilation, no permanence, no cessation, no birth: that is spoken of as nirvana.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901334bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906287bi' class='verse'>
+							所名涅槃者(26)<b>無得亦無至 不斷亦不常(27)不生亦不滅 是説名涅槃</b>(28)無得者。於行於果無所得。無至者。無處(29)可至。不斷者。五陰先來畢竟空故。得道入(35a1)無餘涅槃時。亦無所斷。不常者。若有法可(2)得分別者。則名爲常。涅槃寂滅無法可分(3)別故。不名爲常。生滅亦爾。如是相者名爲(4)涅槃。復次經説。涅槃非有非無非有無。非(5)非有非非無。一切法不受内寂滅名涅槃。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901813bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902292bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009685bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904365bi' class='verse'>
+							bhāvas tāvan na nirvāṇaṃ jarāmaraṇalakṣaṇam |<br />prasajyetāsti bhāvo hi na jarāmaraṇaṃ vinā || 4 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859892bi' class='verse'>
+							涅槃不名有 有則老死相<br />終無有有法 離於老死相&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903739bi' class='verse'>
+							re zhig mya ngan ’das dngos min | | rga shi’i mtshan nyid thal bar ’gyur | |<br />rga dang ’chi ba med pa yi | | dngos po yod pa ma yin no | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905274bi' class='verse'>
+							4. Nirvana is certainly not an existing thing, for then it would be characterized by old age and death.<br />In consequence it would involve the error that an existing thing would not become old and be without death.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860850bi' class='verse'>
+							Nirvana is not a thing. Then it would follow that it would have the characteristics of aging and death. There does not exist any thing that is without aging and death.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901335bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906288bi' class='verse'>
+							(6)何以故(7)<b>涅槃不名有 有則老死相(8)終無有有法 離於老死相</b>(9)眼見一切萬物皆生滅故。是老死相。涅槃若(10)是有則應有老死相。但是事不然。是故涅(11)槃不名有。又不見離生滅老死別有定法(12)而名涅槃。若涅槃是有即應有生滅老死(13)相。以離老死相故。名爲涅槃。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901814bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902293bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009686bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904366bi' class='verse'>
+							bhāvaś ca yadi nirvāṇaṃ nirvāṇaṃ saṃskṛtaṃ bhavet |<br />nāsaṃskṛto hi vidyate bhāvaḥ kva cana kaś cana || 5 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859893bi' class='verse'>
+							若涅槃是有 涅槃即有為<br />終無有一法 而是無為者&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903740bi' class='verse'>
+							gal te mya ngan ’das (16b1)dngos na | | mya ngan ’das pa ’dus byas ’gyur | |<br />dngos po ’dus byas ma yin pa | | ’ga’ yang gang na yod ma yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905275bi' class='verse'>
+							5. And if nirvana is an existing thing, nirvana would be a constructed product (samskrta),<br />Since never ever has an existing thing been found to be a non-constructed-product (asamskrta).&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860851bi' class='verse'>
+							If nirvana were a thing, nirvana would be a conditioned phenomenon. There does not exist any thing anywhere that is not a conditioned phenomenon.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901336bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906289bi' class='verse'>
+							復次(14)<b>若涅槃是有 涅槃即有爲(15)終無有一法 而是無爲者</b>(16)涅槃非是有。何以故。一切萬物從衆縁生。(17)皆是有爲。無有一法名爲無爲者。雖常法(18)假名無爲。以理推之。無常法尚無有。何(19)況常法不可見不可得者。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901815bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902294bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009687bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904367bi' class='verse'>
+							bhāvaś ca yadi nirvāṇam anupādāya tat katham |<br />nirvāṇaṃ nānupādāya kaścid bhāvo hi vidyate || 6 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859894bi' class='verse'>
+							若涅槃是有 云何名無受<br />無有不從受 而名為有法&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903741bi' class='verse'>
+							gal te mya ngan ’das dngos na | | ji ltar myang ’das de brten min | |<br />dngos po brten nas ma yin pa | | ’ga’ yang (2)yod pa ma yin no | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905276bi' class='verse'>
+							6. But if nirvana is an existing thing, how could [nirvana] exist without dependence [on something else]?<br />Certainly nirvana does not exist as something without dependence.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860852bi' class='verse'>
+							If nirvana were a thing, how would nirvana not be dependent? There does not exists any thing at all that is not dependent.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901337bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906290bi' class='verse'>
+							復次(20)<b>若涅槃是有 云何名無受(21)無有不從受 而名爲有法</b>(22)若謂涅槃是有法者。經則不應説無受是(23)涅槃。何以故。無有有法不受而有。是故涅(24)槃非有。問曰。若有非涅槃者無應是涅槃(25)耶。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901816bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902295bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009688bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904368bi' class='verse'>
+							yadi bhāvo na nirvāṇam abhāvaḥ kiṃ bhaviṣyati |<br />nirvāṇaṃ yatra bhāvo na nābhāvas tatra vidyate || 7 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859895bi' class='verse'>
+							有尚非涅槃 何況於無耶<br />涅槃無有有 何處當有無&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903742bi' class='verse'>
+							gal te mya ngan ’das dngos min | | dngos med ji ltar rung bar ’gyur | |<br />gang la mya ngan ’das dngos min | | de la dngos med yod ma yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905277bi' class='verse'>
+							7. If nirvana is not an existing thing, will nirvana become a non-existing thing?<br />Wherever there is no existing thing, neither is there a non-existing thing.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860853bi' class='verse'>
+							If nirvana were not a thing, how could it possibly be nothing? The one for whom nirvana is not a thing, for him it is not nothing.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901338bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906291bi' class='verse'>
+							答曰(26)<b>有尚非涅槃 何況於無耶(27)涅槃無有有 何處當有無</b>(28)若有非涅槃。無云何是涅槃。何以故。因有(29)故有無。若無有。何有無。如經説。先有今(35b1)無則名無。涅槃則不爾。何以故。非有法變(2)爲無故。是故無亦不作涅槃。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901817bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902296bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009689bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904369bi' class='verse'>
+							yady abhāvaś ca nirvāṇam anupādāya tat katham |<br />nirvāṇaṃ na hy abhāvo ’sti yo ’nupādāya vidyate || 8 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859896bi' class='verse'>
+							若無是涅槃 云何名不受<br />未曾有不受 而名為無法&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903743bi' class='verse'>
+							gal te mya ngan ’das dngos min | | ji ltar myang ’das de brten min | |<br />(3)gang zhig brten nas ma yin pa’i | | dngos med yod pa ma yin no | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905278bi' class='verse'>
+							8. But if nirvana is a non-existing thing, how could [nirvana] exist without dependence [on something else]?<br />Certainly nirvana is not a non-existing thing which exists without dependence.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860854bi' class='verse'>
+							If nirvana were nothing, how could nirvana possibly be not dependent? There does not exist any nothing which is not dependent.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901339bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906292bi' class='verse'>
+							復次(3)<b>若無是涅槃 云何名不受(4)未曾有不受 而名爲無法</b>(5)若謂無是涅槃。經則不應説不受名涅槃。(6)何以故。無有不受而名無法。是故知涅槃(7)非無。問曰。若涅槃非有非無者。何等是涅(8)槃。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901818bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902297bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009690bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904370bi' class='verse'>
+							ya ājavaṃjavībhāva upādāya pratītya vā |<br />so ’pratītyānupādāya nirvāṇam upadiśyate || 9 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859897bi' class='verse'>
+							受諸因緣故 輪轉生死中<br />不受諸因緣 是名為涅槃&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903744bi' class='verse'>
+							’ong ba dang ni ’gro ba’i dngos | | brten tam rgyur byas gang yin pa | |<br />de ni brten min rgyur byas min | | mya ngan ’das pa yin par bstan | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905279bi' class='verse'>
+							9. That state which is the rushing in and out [of existence] when dependent or conditioned—<br />This [state], when not dependent or not conditioned, is seen to be nirvana.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860855bi' class='verse'>
+							Whatever things come and go are dependent or caused. Not being dependent and not being caused is taught to be Nirvana.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901340bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906293bi' class='verse'>
+							答曰(9)<b>受諸因縁故 輪轉生死中(10)不受諸因縁 是名爲涅槃</b>(11)不如實知顛倒故。因五受陰往來生死。如(12)實知顛倒故。則不復因五受陰往來生(13)死。無性五陰不復相續故。説名涅槃。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901819bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902298bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009691bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904371bi' class='verse'>
+							prahāṇaṃ cābravīc chāstā bhavasya vibhavasya ca |<br />tasmān na bhāvo nābhāvo nirvāṇam iti yujyate || 10 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859898bi' class='verse'>
+							如佛經中說 斷有斷非有<br />是故知涅槃 非有亦非無&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903745bi' class='verse'>
+							’byung ba dang ni ’jig pa dag |  (4)spang bar ston pas bka’ stsal to | |<br />de phyir mya ngan ’das par ni | | dngos min dngos med min par rigs | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905280bi' class='verse'>
+							10. The teacher [Gautama] has taught that a “becoming” and a “non-becoming” (vibhava) are destroyed;<br />Therefore it obtains that: Nirvana is neither an existent thing nor a non-existent thing.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860856bi' class='verse'>
+							The teacher taught [it] to be the letting go of arising and perishing. Therefore, it is correct that nirvana is not a thing or nothing.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901341bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906294bi' class='verse'>
+							復次(14)<b>如佛經中説 斷有斷非有(15)是故知涅槃 非有亦非無</b>(16)有名三有。非有名三有斷滅。佛説斷此二(17)事故。當知涅槃非有亦非無。問曰。若有若(18)無非涅槃者。今有無共合。是涅槃耶。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901820bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902299bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009692bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904372bi' class='verse'>
+							bhaved abhāvo bhāvaś ca nirvāṇam ubhayaṃ yadi |<br />bhaved abhāvo bhāvaś ca mokṣas tac ca na yujyate || 11 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859899bi' class='verse'>
+							若謂於有無 合為涅槃者<br />有無即解脫 是事則不然&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903746bi' class='verse'>
+							gal te mya ngan ’das pa ni | | dngos dang dngos med gnyis yin na | |<br />dngos dang dngos po med pa dag  | thal bar ’gyur na de mi rigs | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905281bi' class='verse'>
+							11. If nirvana were both an existent and a non-existent thing,<br />Final release (moksa) would be [both] an existent and a non-existent thing; but that is not possible.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860857bi' class='verse'>
+							If nirvana were both a thing and nothing, it would follow that it would be a thing and nothing. That is incorrect.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901342bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906295bi' class='verse'>
+							答曰(19)<b>若謂於有無 合爲涅槃者(20)有無即解脱 是事則不然</b>(21)若謂於有無合爲涅槃者。即有無二事合(22)爲解脱。是事不然。何以故。有無二事相違(23)故。云何一處有。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901821bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902300bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009693bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904373bi' class='verse'>
+							bhaved abhāvo bhāvaś ca nirvāṇam ubhayaṃ yadi |<br />nānupādāya nirvāṇam upādāyobhayaṃ hi tat || 12 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859900bi' class='verse'>
+							若謂於有無 合為涅槃者<br />涅槃非無受 是二從受生&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903747bi' class='verse'>
+							(5)gal te mya ngan ’das pa ni | | dngos dang dngos med gnyis yin na | |<br />mya ngan ’das pa ma brten min | | de gnyis brten nas yin phyir ro | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905282bi' class='verse'>
+							12. If nirvana were both an existent and a non-existent thing,<br />There would be no nirvana without conditions, for these both [operate with] conditions.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860858bi' class='verse'>
+							If nirvana were both a thing and nothing, nirvana would not be not-dependent, because it would depend on those two.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901343bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906296bi' class='verse'>
+							復次(24)<b>若謂於有無 合爲涅槃者(25)涅槃非無受 是二從受生</b>(26)若謂有無合爲涅槃者。經不應説涅槃(27)名無受。何以故。有無二事從受生。相因而(28)有。是故有無二事。不得合爲涅槃。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901822bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902301bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009694bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904374bi' class='verse'>
+							bhaved abhāvo bhāvaś ca nirvāṇam ubhayaṃ katham |<br />asaṃskṛtaṃ hi nirvāṇaṃ bhāvābhāvau ca saṃskṛtau || 13 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859901bi' class='verse'>
+							有無共合成 云何名涅槃<br />涅槃名無為 有無是有為&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903748bi' class='verse'>
+							ji ltar mya ngan ’das pa ni | | dngos dang dngos med gnyis yin te | |<br />mya ngan ’das pa ’dus ma byas | | (6)dngos dang dngos med ’dus byas yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905283bi' class='verse'>
+							13. How can nirvana exist as both an existent thing and a non-existent thing,<br />For nirvana is a non-composite-product (asamskrta), while both an existent thing and a non-existent thing are composite products (samskrta).&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860859bi' class='verse'>
+							How could nirvana be both a thing and nothing? Nirvana is unconditioned; things and nothings are conditioned.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901344bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906297bi' class='verse'>
+							復次(29)<b>有無共合成 云何名涅槃</b>(35c1)<b>涅槃名無爲 有無是有爲</b>(2)有無二事共合。不得名涅槃。涅槃名無爲。(3)有無是有爲。是故有無非是涅槃。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901823bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902302bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009695bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904375bi' class='verse'>
+							bhaved abhāvo bhāvaś ca nirvāṇa ubhayaṃ katham |<br />tayor abhāvo hy ekatra prakāśatamasor iva || 14 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859902bi' class='verse'>
+							有無二事共 云何是涅槃<br />是二不同處 如明暗不俱&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903749bi' class='verse'>
+							ji ltar mya ngan ’das pa la | | dngos dang dngos med gnyis yod de | |<br />de gnyis gcig la yod min te | | snang ba dang ni mun pa bzhin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905284bi' class='verse'>
+							14. How can nirvana exist as both an existent and a non-existent thing?<br />There is no existence of both at one and the same place, as in the case of both darkness and light.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860860bi' class='verse'>
+							How could nirvana exist as both a thing and nothing? Those two do not exist as one. They are like light and dark.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901345bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906298bi' class='verse'>
+							復次(4)<b>有無二事共 云何是涅槃(5)是二不同處 如明暗不倶</b>(6)有無二事。不得名涅槃。何以故。有無相違(7)一處不可得。如明暗不倶。是故有時無無。(8)無時無有。云何有無共合。而名爲涅槃。問(9)曰。若有無共合非涅槃者。今非有非無應(10)是涅槃。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901824bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902303bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009696bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904376bi' class='verse'>
+							naivābhāvo naiva bhāvo nirvāṇam iti yā ’ñjanā |<br />abhāve caiva bhāve ca sā siddhe sati sidhyati || 15 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859903bi' class='verse'>
+							若非有非無 名之為涅槃<br />此非有非無 以何而分別&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903750bi' class='verse'>
+							dngos min dngos po med min pa | | mya ngan ’das par gang ston pa | |<br />(7)dngos po med dang dngos po dag  | grub na de ni grub par ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905285bi' class='verse'>
+							15. The assertion: “Nirvana is neither an existent thing nor a non-existent thing”<br />Is proved if [the assertion]: “It is an existent thing and a non-existent thing” were proved.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860861bi' class='verse'>
+							The presentation of neither a thing nor nothing as nirvana will be established [only] if things and nothings are established.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901346bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906299bi' class='verse'>
+							答曰(11)<b>若非有非無 名之爲涅槃(12)此非有非無 以何而分別</b>(13)若涅槃非有非無者。此非有非無。因何而(14)分別。是故非有非無是涅槃者。是事不然。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901825bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902304bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009697bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904377bi' class='verse'>
+							naivābhāvo naiva bhāvo nirvāṇaṃ yadi vidyate |<br />naivābhāvo naiva bhāva iti kena tad ajyate || 16 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859904bi' class='verse'>
+							分別非有無 如是名涅槃<br />若有無成者 非有非無成&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903751bi' class='verse'>
+							gal te mya ngan ’das pa ni | | dngos min dngos po med min na | |<br />dngos min dngos po med min zhes | | gang zhig gis ni de mngon byed | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905286bi' class='verse'>
+							16. If nirvana is neither an existent thing nor a non-existent thing,<br />Who can really arrive at [the assertion]: “neither an existent thing nor a non-existent thing”?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860862bi' class='verse'>
+							If nirvana is neither a thing nor nothing, by who could “neither a thing nor nothing” be perceived?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901347bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906300bi' class='verse'>
+							(15)復次(16)<b>分別非有無 如是名涅槃(17)若有無成者 非有非無成</b>(18)汝分別非有非無是涅槃者是事不然。何以(19)故。若有無成者。然後非有非無成。有相違名(20)無。無相違名有。是有無第三句中已破。有(21)無無故。云何有非有非無。是故涅槃。非非(22)有非非無。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901826bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902305bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009698bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904378bi' class='verse'>
+							paraṃ nirodhād bhagavān bhavatīty eva nājyate |<br />na bhavaty ubhayaṃ ceti nobhayaṃ ceti nājyate || 17 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859905bi' class='verse'>
+							如來滅度後 不言有與無<br />亦不言有無 非有及非無&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903752bi' class='verse'>
+							bcom ldan mya ngan ’das gyur nas | | yod par mi mngon (17a1)de bzhin du | |<br />med do zhe’am gnyis ka dang | | gnyis min zhes kyang mi mngon no | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905287bi' class='verse'>
+							17. It is not expressed if the Glorious One [the Buddha] exists (1) after his death,<br />Or does not exist (2), or both (3) or neither (4).&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860863bi' class='verse'>
+							After the Bhagavan has entered nirvana, one cannot perceive [him? it?] as “existing,” likewise as “not existing,” nor can one percieve [him? it?] as “both” or “neither”.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901348bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906301bi' class='verse'>
+							復次(23)<b>如來滅度後 不言有與無(24)亦不言有無 非有及非無</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901827bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902306bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009699bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904379bi' class='verse'>
+							tiṣṭhamāno ’pi bhagavān bhavatīty eva nājyate |<br />na bhavaty ubhayaṃ ceti nobhayaṃ ceti nājyate || 18 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859906bi' class='verse'>
+							如來現在時 不言有與無<br />亦不言有無 非有及非無&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903753bi' class='verse'>
+							bcom ldan bzhugs par gyur na yang | | yod par mi mngon de bzhin du | |<br />med do zhe’am gnyis ka dang | | gnyis min zhes kyang mi mngon no | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905288bi' class='verse'>
+							18. Also, it is not expressed if the Glorious One exists (1) while remaining [in the world],<br />Or does not exist (2), or both (3) or neither (4).&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860864bi' class='verse'>
+							Even when the Bhagavan is alive, one cannot perceive [him? it?] as “existing,” likewise as “not existing,” nor can one percieve [him? it?] as “both” or “neither”.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901349bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906302bi' class='verse'>
+							<b>(25)如來現在時 不言有與無(26)亦不言有無 非有及非無</b>(27)若如來滅後若現在。有如來亦不受。無如(28)來亦不受。亦有如來亦無如來亦不受。非(29)有如來非無如來亦不受。以不受故。不(36a1)應分別涅槃有無等。離如來誰當得涅(2)槃。何時何處以何法説涅槃。是故一切時(3)一切種。求涅槃相不可得。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901828bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902307bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009700bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904380bi' class='verse'>
+							na saṃsārasya nirvāṇāt kiṃcid asti viśeṣaṇam |<br />na nirvāṇasya saṃsārāt kiṃcid asti viśeṣaṇam || 19 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859907bi' class='verse'>
+							涅槃與世間 無有少分別<br />世間與涅槃 亦無少分別&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903754bi' class='verse'>
+							’khor ba (2)mya ngan ’das pa las | | khyad par cung zad yod ma yin | |<br />mya ngan ’das pa ’khor ba las | | khyad par cung zad yod ma yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905289bi' class='verse'>
+							19. There is nothing whatever which differentiates the existence-in-flux (samsara) from nirvana;<br />And there is nothing whatever which differentiates nirvana from existence-in-flux.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860865bi' class='verse'>
+							Samsara does not have the slightest distinction from Nirvana. Nirvana does not have the slightest distinction from Samsara.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901350bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906303bi' class='verse'>
+							復次(4)<b>涅槃與世間 無有少分別(5)世間與涅槃 亦無少分別</b>(6)五陰相續往來因縁故。説名世間。五陰性畢(7)竟空無受寂滅。此義先已説。以一切法不生(8)不滅故。世間與涅槃無有分別。涅槃與世(9)間亦無分別。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901829bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902308bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009701bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904381bi' class='verse'>
+							nirvāṇasya ca yā koṭiḥ koṭiḥ saṃsaraṇasya ca |<br />na tayor antaraṃ kiṃcit susūkṣmam api vidyate || 20 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859908bi' class='verse'>
+							涅槃之實際 及與世間際<br />如是二際者 無毫釐差別&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903755bi' class='verse'>
+							mya ngan ’das mtha’ gang yin pa | | de ni ’khor ba’i mtha’ yin te | |<br />de gnyis khyad par cung zad ni | | shin tu phra ba’ang yod ma yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905290bi' class='verse'>
+							20. The extreme limit (koti) of nirvana is also the extreme limit of existence-in-flux;<br />There is not the slightest bit of difference between these two.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860866bi' class='verse'>
+							Whatever is the end of Nirvana, that is the end of Samsara. There is not even a very subtle slight distinction between the two.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901351bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906304bi' class='verse'>
+							復次(10)<b>涅槃之實際 及與世間際(11)如是二際者 無毫釐差別</b>(12)究竟推求世間涅槃實際無生際。以平等不(13)可得故。無毫釐差別。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901830bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902309bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009702bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904382bi' class='verse'>
+							paraṃ nirodhād antādyāḥ śāśvatādyāś ca dṛṣṭayaḥ |<br />nirvāṇam aparāntaṃ ca pūrvāntaṃ ca samāśritāḥ || 21 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859909bi' class='verse'>
+							滅後有無等 有邊等常等<br />諸見依涅槃 未來過去世&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903756bi' class='verse'>
+							gang (3)’das phan chad mtha’ sogs dang | | rtag la sogs par lta ba dag  | mya ngan ’das dang phyi mtha’ dang | | sngon gyi mtha’ la brten pa yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905291bi' class='verse'>
+							21. The views [regarding] whether that which is beyond death is limited by a beginning or an end or some other alternative<br />Depend on a nirvana limited by a beginning (purvanta) and an end (aparanta),&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860867bi' class='verse'>
+							Views about who passes beyond, ends etc. and permanence etc. are contingent upon nirvana and later ends and former ends.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901352bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906305bi' class='verse'>
+							復次(14)<b>滅後有無等 有邊等常等(15)諸見依涅槃 未來過去世</b>(16)如來滅後有如來無如來。亦有如來亦無(17)如來。非有如來非無如來。世間有邊世(18)間無邊。世間亦有邊亦無邊。世間非有邊(19)非無邊。世間常世間無常。世間亦常亦無常。(20)世間非有常非無常。此三種十二見。如來滅(21)後有無等四見。依涅槃起。世間有邊無邊(22)等四見。依未來世起。世間常無常等四見。(23)依過去世起。如來滅後有無等不可得。涅槃(24)亦如是。如世間前際後際有邊無邊有常無(25)常等不可得。涅槃亦如是。是故説世間涅槃(26)等無有異。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901831bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902310bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009703bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904383bi' class='verse'>
+							śūnyeṣu sarvadharmeṣu kim anantaṃ kim antavat |<br />kim anantam antavac ca nānantaṃ nāntavac ca kim || 22 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859910bi' class='verse'>
+							一切法空故 何有邊無邊<br />亦邊亦無邊 非有非無邊&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903757bi' class='verse'>
+							dngos po thams cad stong pa la | | mtha’ yod ci zhig mtha’ med ci | |<br />mtha’ dang mtha’ med (4)ci zhig yin | | mtha’ dang mtha’ med min pa ci | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905292bi' class='verse'>
+							22. Since all dharmas are empty, what is finite? What is infinite?<br />What is both finite and infinite? What is neither finite nor infinite?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860868bi' class='verse'>
+							In the emptiness of all things what ends are there? What non-ends are there? What ends and non-ends are there? What of neither are there?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901353bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906306bi' class='verse'>
+							復次(27)<b>一切法空故 何有邊無邊(28)亦邊亦無邊 非有非無邊</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901832bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902311bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009704bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904384bi' class='verse'>
+							kiṃ tad eva kim anyat kiṃ śāśvataṃ kim aśāśvatam |<br />aśāśvataṃ śāśvataṃ ca kiṃ vā nobhayam apy atha || 23 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859911bi' class='verse'>
+							何者為一異 何有常無常<br />亦常亦無常 非常非無常&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903758bi' class='verse'>
+							de nyid ci zhig gzhan ci yin | | rtag pa ci zhig mi rtag ci | |<br />rtag dang mi rtag gnyis ka ci | | gnyis ka min pa ci zhig yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905293bi' class='verse'>
+							23. Is there anything which is this or something else, which is permanent or impermanent,<br />Which is both permanent and impermanent, or which is neither?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860869bi' class='verse'>
+							Is there this? Is there the other? Is there permanence? Is there impermanence? Is there both permanence and impermanence? Is there neither?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901354bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906307bi' class='verse'>
+							<b>(29)何者爲一異 何有常無常</b>(36b1)<b>亦常亦無常 非常非無常</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901833bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902312bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009705bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904385bi' class='verse'>
+							sarvopalambhopaśamaḥ prapañcopaśamaḥ śivaḥ |<br />na kva cit kasyacit kaścid dharmo buddhena deśitaḥ || 24 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859912bi' class='verse'>
+							諸法不可得 滅一切戲論<br />無人亦無處 佛亦無所說&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903759bi' class='verse'>
+							dmigs pa thams cad nyer zhi zhing | | spros pa nyer zhi (5)zhi ba ste | |<br />sangs rgyas kyis ni gang du yang | | su la’ang chos ’ga’ ma bstan to | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905294bi' class='verse'>
+							24. The cessation of accepting everything [as real] is a salutary (siva) cessation of phenomenal development (prapanca);<br />No dharma anywhere has been taught by the Buddha of anything.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860870bi' class='verse'>
+							Totally pacifying all referents and totally pacifying fixations is peace. The Buddha nowhere taught any dharma to anyone.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901355bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906308bi' class='verse'>
+							<b>(2)諸法不可得 滅一切戲論(3)無人亦無處 佛亦無所説</b>(4)一切法一切時一切種。從衆縁生故。畢竟空(5)故無自性。如是法中。何者是有邊誰爲有(6)邊。何者是無邊。亦有邊亦無邊。非有邊非無(7)邊。誰爲非有邊非無邊。何者是常誰爲是(8)常。何者是無常。常無常非常非無常。誰爲非(9)常非無常。何者身即是神。何者身異於神。(10)如是等六十二邪見。於畢竟空中皆不可得。(11)諸有所得皆息。戲論皆滅。戲論滅故。通達諸(12)法實相得安隱道。從因縁品來。分別推求(13)諸法。有亦無。無亦無。有無亦無。非有非無亦(14)無。是名諸法實相。亦名如法性實際涅槃。(15)是故如來無時無處。爲人説涅槃定相。是(16)故説諸有所得皆息。戲論皆滅&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901834bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902313bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009706bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904386bi' class='chaptertitle'>
+							nirvāṇaparīkṣā nāma pañcaviṃśatitamaṃ prakaraṇaṃ ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904819";
+							kilderef = "Mmk San: La Vallée Poussin (1913)  - San: La Vallée Poussin (1913) 541,6-7";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859913bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904812";
+							kilderef = "Mmk Chi: Kumārajīva, T. 1564 34c13 - Chi: Kumārajīva, T. 1564 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903760bi' class='chaptertitle'>
+							mya ngan las ’das pa brtag pa zhes bya ba ste rab tu byed pa nyi shu lnga pa’o || ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904818";
+							kilderef = "Mmk Tib: Tg, tsa  - Tib: Tg, tsa 17a5";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905295bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8905270";
+							kilderef = "Mmk Eng: Streng (1967)  - Eng: Streng (1967) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860871bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904813";
+							kilderef = "Mmk Eng: Batchellor (2000)  - Eng: Batchellor (2000) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901356bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904814";
+							kilderef = "Mmk Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829  - Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906309bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8906284";
+							kilderef = "Mmk Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564  34c13 - Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564 36b16";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901835bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904815";
+							kilderef = "Mmk Buddhapālita "Vṛtti" Tg 3842  - Buddhapālita "Vṛtti" Tg 3842 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902314bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904816";
+							kilderef = "Mmk Bhāvaviveka "Prajñāpradīpa" Tg 3853  - Bhāvaviveka "Prajñāpradīpa" Tg 3853 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009707bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "9009682";
+							kilderef = "Mmk Candrakīrti "Prasannapadā" Vaidya 1960  - Candrakīrti "Prasannapadā" Vaidya 1960 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div></div><div class='clear'></div><div class="fontboks"><a onClick=onOffdiv('permlink') name="permlink" href="#permlink">Permanent link</a></div><div class='clear'></div><div class='perm_felt' id='permlink'>http://www2.hf.uio.no/common/apps/permlink/permlink.php?app=polyglotta&amp;context=ctext&amp;uid=08bb3bec-6be5-11df-870c-00215aecadea</div></div></div><!-- infofelt --></div><!-- divControl --><div class="clear"></div>
+<div style="clear:both"></div><div class="signatur"><div class="signatur_left">
+		<a href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation">Go to Wiki Documentation</a></br>Enhet: <a HREF=http://www.hf.uio.no>Det humanistiske fakultet</a> &nbsp; Utviklet av: <a href="http://www.hf.uio.no/tjenester/it">IT-seksjonen ved HF</a></div><!--signatur_left -->
+		<div class="signatur_right"><a href="/polyglotta/admin/index.php">Login</a></div>
+		<div style="clear:both"></div></div>
+</body></html><SCRIPT LANGUAGE="JAVASCRIPT">
+	
+	$("#tr_IA").click(function(){
+	    if ($("#toggle_container_IA").is(':hidden'))
+	    	$("#toggle_container_IA").show();
+	    else{
+	        $("#toggle_container_IA").hide();
+	    }
+	    return false;
+		});
+
+	$("#tr_lang").click(function(){
+	    if ($("#toggle_container_lan").is(':hidden'))
+	    	$("#toggle_container_lan").show();
+	    else{
+	        $("#toggle_container_lan").hide();
+	    }
+	    return false;
+	});
+
+	$("#tr_img").click(function(){
+	    if ($("#toggle_container_img").is(':hidden'))
+	    	$("#toggle_container_img").show();
+	    else{
+	        $("#toggle_container_img").hide();
+	    }
+	    return false;
+	});
+
+	$("#diac2button").click(function(){
+	   if ($("#ex3a").is(':hidden')){
+		   $("#ex3a").show();
+	       $("#diac2button").html("Hide&#32Diacritica-help");
+	   }else{
+	       $("#ex3a").hide();
+	       $("#diac2button").html("Diacritica-help");
+	   }
+	   return false;
+	});
+
+	$("#diacbutton").click(function(){
+	   if ($("#diacritical_sign").is(':hidden')){
+		   	$("#diacritical_sign").show();
+	      	$("#diacbutton").html("Hide&#32diacritica");
+	   }else{
+	        $("#diacritical_sign").hide();
+	        $("#diacbutton").html("Diacritica");
+	   }
+	   return false;
+    });
+
+	$('#toggle_container_IA').click(function(e) {
+	   e.stopPropagation();
+	});
+
+	$('#toggle_container_lan').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#toggle_container_img').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#ex3a').click(function(e) {
+	    e.stopPropagation();
+	});
+
+	$('#diacritical_sign').click(function(e) {
+        e.stopPropagation();
+    });
+
+	//Kode for å sette inn diakritiske tegn
+	$('#diacritical > tbody > tr > td').click(function() {
+	  	//alert('red');
+		$("#sokeboks").val($("#sokeboks").val() + $(this).text());
+	});
+
+	$('.diac2button').text(($('.diacbutton').text() == 'Diacritica-help') ? 'Hide Diacritica-help' : 'Diacritica-help');
+	
+	//Lukker alle åpnede pop'uper ved klikk på siden
+	$(document).click(function() {
+		$('#toggle_container_IA').hide();
+	    
+        $('#toggle_container_lan').hide();
+    
+        $('#toggle_container_img').hide();
+   
+   		$('#diacritical_sign').hide();
+   		$("#diacbutton").html("Diacritica");
+   
+       	$('#ex3a').hide();
+       	$("#diac2button").html("Diacritica-help");
+   });
+	</SCRIPT>

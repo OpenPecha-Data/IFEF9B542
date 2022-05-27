@@ -1,0 +1,868 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Bibliotheca Polyglotta</title>
+<link rel='stylesheet' type='text/css' href='css/bp.css'>
+<link rel='stylesheet' type='text/css' href='css/diac_doc.css'>
+
+<link rel='stylesheet' type='text/css' href='css/imageGallery.css'>
+<link rel='stylesheet' type='text/css' href='css/ss.css'>
+	      <link rel='stylesheet' type='text/css' href='css/tree_menu.css'>
+<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+<!--  <script type="text/javascript" src="js/jqModal.js"></script>-->
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/tree_menu.js"></script>
+<!-- <script src="js/analytics_tracking.js" type="text/javascript"></script> -->
+
+
+<!-- <script type="text/javascript" src="js/popupDivhandling.js"></script> -->
+<!--  <script type="text/javascript" src="jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery-imagegallery.js"></script>-->
+</head>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//vrtx.uio.no/js/analytics/v2/analytics.js','ga');
+
+ga('create', 'UA-86407471-1', 'auto');
+ga(function(tracker) {
+
+	// Modifies sendHitTask to hit ipproxy instead of http://www.google-analytics.com directly
+	tracker.set('sendHitTask', function(model) {
+		payload = model.get('hitPayload');
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', '//w3prod-ipproxy.uio.no/collect' +'?' + payload, true);
+		xhr.send();
+	});
+		ga('send', 'pageview');
+});
+</script>
+<body><div class='banner'></div><!-- banner --><div class='uiologo'>
+<a href='http://www.hf.uio.no/'><img src='https://www2.hf.uio.no/polyglotta/hfe.png' border='0'></a></div><!-- uiologo --><div class='clear'></div>
+<div class='smule_tittel'>
+<div class='brodsmuleboks'>You are here: <a href='/polyglotta/index.php' accesskey='1'> BP HOME</a> >  <a href='/polyglotta/index.php?page=library&amp;bid=2' accesskey='1'>TLB</a> > <a href='/polyglotta/index.php
+	?page=volume&amp;vid=1124' accesskey='1'>Nāgārjuna: Mūlamadhyamakakārikā</a> > fulltext</div><div class='clear'></div>
+<div class='headline'>Nāgārjuna: Mūlamadhyamakakārikā<div class='clear'></div></div><!-- headline -->
+</div><!-- smule_tittel -->
+<!--<div>-->
+
+<h2 class="trigger" id="tr_lang"><a  href="#">Choose languages</a></h2>
+<h2 class="trigger" id="tr_img"><a  href="#">Choose images, etc.</a></h2>
+
+
+<div id="toggle_container_lan">
+
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_lan.php" method="POST">
+
+<div style="float:left; width:auto; text-align:left; margin-left:20px;">
+<h5>Choose languages</h5>
+<ul>
+<input value="Choose all" type="button" onClick="markAll('tr')"><input value="Uncheck all" type="button" onClick="markNone('tr')">
+
+	<li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6176]" value="6176" id="lancheckbox" checked >Sanskrit: San: La Vallée Poussin (1913), </label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[5667]" value="5667" id="lancheckbox" checked >Chinese: Chi: Kumārajīva, T. 1564</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6175]" value="6175" id="lancheckbox" checked >Tibetan: Tib: Tg, tsa</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6177]" value="6177" id="lancheckbox" checked >English: Eng: Streng (1967)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[5669]" value="5669" id="lancheckbox" checked >English: Eng: Batchellor (2000)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6170]" value="6170" id="lancheckbox" checked >Tibetan: Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6179]" value="6179" id="lancheckbox" checked >Chinese: Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6171]" value="6171" id="lancheckbox" checked >Tibetan: Buddhapālita "Vṛtti" Tg 3842</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6172]" value="6172" id="lancheckbox" checked >Tibetan: Bhāvaviveka "Prajñāpradīpa" Tg 3853</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6340]" value="6340" id="lancheckbox" checked >Sanskrit: Candrakīrti "Prasannapadā" Vaidya 1960</label></li><div style="clear:both"></div>
+<input type='submit' name='set_cookie' value='Save view'>
+<div style="clear:both"></div>
+
+</ul>
+<input type="hidden" name="vid" value="1124">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+</div>
+
+<div id="toggle_container_img">
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_img.php" method="POST">
+
+<div style="float:left; width:auto; text-align: left;">
+<h5>Choose display</h5>
+<ul>
+		
+	<li> 
+		<input type='checkbox' name='bilder' checked="checked" > Enable images
+	</li>
+	<li> 
+	<input type='checkbox' onclick="onOffCheckbox();" name='fotnoter' checked="checked"> Enable footnotes
+	<div id="pff" style="display:block" >
+	<ul>
+	<li><input type='radio' name='fotnote_valg'  value='show_a' checked> Show all footnotes</li>
+	<li><input type='radio' name='fotnote_valg'  value='show_h'  > Minimize footnotes</li>
+	</ul>
+	</li>
+	
+	</div>
+	<div style="float:left; width:20em; text-align: left; margin-left:120px ">
+	<div style="clear:both"></div>
+	<input type='submit' name='set_cookie' value='Save view'>
+	<div style="clear:both"></div>
+	</div>
+	
+</ul>
+<input type="hidden" name="vid" value="1124">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+	
+
+
+
+</div>
+</div>
+
+<div class='sok'><form name='Sok' id='FormBlock' action='/polyglotta/index.php' method='get'>
+<input type='hidden' name='page' value='search'>
+<input type='hidden' name='bid' value='2'>
+<input type='hidden' name='vid' value='1124'>
+<div class='sokeboks'>
+<input name='sokefelt' id='sokeboks' type='text' size='30' value=''>
+<input type='submit' name='Sok' value='Search' id='nsubmit'>
+<div class='clear'></div><a class="diacbutton" id="diacbutton" href="#">Diacritica</a><a id="diac2button" class="diac2button"  href="#">Diacritica-help</a><a class="s2button" href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation:SearchHelp">Search-help</a><div class='diacritical' id='diacritical_sign'><div style="text-align: left; ">
+<table class = 'diacritica' width="200" border="1" cellpadding="1" cellspacing="1" id="diacritical">
+    <tbody>
+        <tr>
+            <td style="text-align: center; ">ā</td>
+            <td style="text-align: center; ">ī</td>
+            <td style="text-align: center; ">ū</td>
+            <td style="text-align: center; ">ṛ</td>
+            <td style="text-align: center; ">ṝ</td>
+            <td style="text-align: center; ">ḷ</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ḹ</td>
+            <td style="text-align: center; ">&rsquo;</td>
+            <td style="text-align: center; ">ṃ</td>
+            <td style="text-align: center; ">ḥ</td>
+            <td style="text-align: center; ">ṅ</td>
+            <td style="text-align: center; ">&ntilde;</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ṭ</td>
+            <td style="text-align: center; ">ḍ</td>
+            <td style="text-align: center; ">ṇ</td>
+            <td style="text-align: center; ">ṣ</td>
+            <td style="text-align: center; ">ś</td>
+            <td style="text-align: center; ">ź</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">&scaron;</td>
+            <td style="text-align: center; ">č</td>
+            <td style="text-align: center; ">ǰ</td>
+            <td style="text-align: center; ">&gamma;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+</div></div><!-- diacritical --><div id="ex3a" class="jqmDialog"><div>
+	<span style="font-size:12px;">Note on the transliteration:</span></div>
+<div>
+	<span style="font-size:12px;">The transliteration system of the BP/TLB is based on the Unicode/UTF-8 system. However, there may be difficulties with some of the letters &ndash; particularly on PC/Windows-based systems, but not so much on the Mac. We have chosen the most accepted older and traditional systems of transliteration against, e.g, Wylie for Tibetan, since with Unicode it is possible, in Sanskrit and Tibetan, etc., to represent one sound with one letter in almost all the cases (excepting Sanskrit and Tibetan aspirated letters, and Tibetan tsa, tsha, dza). We thus do not use the Wylie system which widely employs two letters for one sound (ng, ny, sh, zh etc.).</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">Important:</span></div>
+<div>
+	<span style="font-size:12px;">We ask you in particular to note the use of the &rsquo; apostrophe and not the &#39; representing the avagrāha in Sanskrit, and most important the &rsquo;a-chuṅ in Tibetan. On the Mac the &rsquo; is Alt-M.</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">If you cannot find the letters on your key-board, you may click on the link &quot;Diacritica&quot; to access it for your search.</span></div>
+</div><!-- diacritical_doc --><div class='clear'></div><select name='searchmode'><option selected value='phrase'>Search for exact phrase</option>
+<option  value='phraseregex'>Search for exact phrase (regex)</option>
+<option  value='word'>Search for every word in one record</option>
+<option  value='free'>Search for every word fragment in one record</option>
+</select>
+<select name='context'>
+<option ($_GET[context]=="a" ? "selected" : "") value="a"> Search in all libraries</option><option selected value="bTLB">Search in TLB</option><option selected value="v1124">Search in Nāgārjuna: Mūlamadhyamakakārikā</option></select><div class='clear'></div><a class='sbutton' href='/polyglotta/index.php?page=asearch&amp;bid=2&amp;vid=1124'>Choose specific texts..</a><div class='clear'></div></div></form></div><!-- sok --><div class='clear'></div><!-- clear --><div id='dcr' class='divControlRead'><div class='venstrefulltekstfelt'><div class='bverknavn'><a href='/polyglotta/index.php?page=volume&amp;vid=1124'>Nāgārjuna: Mūlamadhyamakakārikā</a></div><table class="tlvl2">
+					<tr>
+						<td bgcolor="#ffffff"> &nbsp; &nbsp;
+						<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_7627.Verses41-58" border=0 hspace=2>
+						<a href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124" class="ajax_tree0">Complete text</a>
+						</td>
+					</tr>
+				  </table><input type="hidden" name="tree_top_options" id="tree_top_options" value="134642.Title|134643.Preface|134644.ChaptersI-V|134650.ChaptersVI-X|134656.ChaptersXI-XV|134662.ChaptersXVI-XX|134668.ChaptersXXI-XXV|134674.ChaptersXXVI-XXVII|134677.Colophon|">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134642.Title" border=0 hspace=2><a id="href_134642.Title" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942958&level=1&cid=843905" class="ajax_tree0">Title
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134643.Preface" border=0 hspace=2><a id="href_134643.Preface" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942959&level=1&cid=843906" class="ajax_tree0">Preface
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134644.ChaptersI-V','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134644.ChaptersI-V" border=0 hspace=2><a id="href_134644.ChaptersI-V" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942960&level=1&cid=843907" class="ajax_tree0">Chapters I-V
+</td></tr></table>
+<div style="display:none;"  id="div_134644.ChaptersI-V">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134645.ChapterI:Pratyayaparīkṣā" border=0 hspace=2><a id="href_134645.ChapterI:Pratyayaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942960&level=2&cid=843907" class="ajax_tree1">Chapter I: Pratyayaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134646.ChapterII:Gatāgataparīkṣaṇa" border=0 hspace=2><a id="href_134646.ChapterII:Gatāgataparīkṣaṇa" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942975&level=2&cid=843922" class="ajax_tree1">Chapter II: Gatāgataparīkṣaṇa
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134647.ChapterIII:Cakṣurādīndriyaparīkṣā" border=0 hspace=2><a id="href_134647.ChapterIII:Cakṣurādīndriyaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943001&level=2&cid=843948" class="ajax_tree1">Chapter III: Cakṣurādīndriyaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134648.ChapterIV:Skandhaparīkṣā" border=0 hspace=2><a id="href_134648.ChapterIV:Skandhaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943011&level=2&cid=843958" class="ajax_tree1">Chapter IV: Skandhaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134649.ChapterV:Dhātuparīkṣā" border=0 hspace=2><a id="href_134649.ChapterV:Dhātuparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943021&level=2&cid=843968" class="ajax_tree1">Chapter V: Dhātuparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134650.ChaptersVI-X','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134650.ChaptersVI-X" border=0 hspace=2><a id="href_134650.ChaptersVI-X" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943030&level=1&cid=843977" class="ajax_tree0">Chapters VI-X
+</td></tr></table>
+<div style="display:none;"  id="div_134650.ChaptersVI-X">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134651.ChapterVI:Rāgasaktiparīkṣā" border=0 hspace=2><a id="href_134651.ChapterVI:Rāgasaktiparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943030&level=2&cid=843977" class="ajax_tree1">Chapter VI: Rāgasaktiparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134652.ChapterVII:Saṃskr̥̥taparīkṣā" border=0 hspace=2><a id="href_134652.ChapterVII:Saṃskr̥̥taparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943041&level=2&cid=843988" class="ajax_tree1">Chapter VII: Saṃskr̥̥taparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134653.ChapterVIII:Karmakārakaparīkṣā" border=0 hspace=2><a id="href_134653.ChapterVIII:Karmakārakaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943076&level=2&cid=844023" class="ajax_tree1">Chapter VIII: Karmakārakaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134654.ChapterIX:Pūrvaparīkṣā" border=0 hspace=2><a id="href_134654.ChapterIX:Pūrvaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943090&level=2&cid=844037" class="ajax_tree1">Chapter IX: Pūrvaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134655.ChapterX:Agnīndhanaparīkṣā" border=0 hspace=2><a id="href_134655.ChapterX:Agnīndhanaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943103&level=2&cid=844050" class="ajax_tree1">Chapter X: Agnīndhanaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134656.ChaptersXI-XV','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134656.ChaptersXI-XV" border=0 hspace=2><a id="href_134656.ChaptersXI-XV" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943120&level=1&cid=844067" class="ajax_tree0">Chapters XI-XV
+</td></tr></table>
+<div style="display:none;"  id="div_134656.ChaptersXI-XV">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134657.ChapterXI:Pūrvāparakoṭiparīkṣa" border=0 hspace=2><a id="href_134657.ChapterXI:Pūrvāparakoṭiparīkṣa" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943120&level=2&cid=844067" class="ajax_tree1">Chapter XI: Pūrvāparakoṭiparīkṣa
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134658.ChapterXII:Duḥkhaparīkṣā" border=0 hspace=2><a id="href_134658.ChapterXII:Duḥkhaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943129&level=2&cid=844076" class="ajax_tree1">Chapter XII: Duḥkhaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134659.ChapterXIII:Saṃskāraparīkṣā" border=0 hspace=2><a id="href_134659.ChapterXIII:Saṃskāraparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943140&level=2&cid=844087" class="ajax_tree1">Chapter XIII: Saṃskāraparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134660.ChapterXIV:Saṃsargaparīkṣā" border=0 hspace=2><a id="href_134660.ChapterXIV:Saṃsargaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943150&level=2&cid=844096" class="ajax_tree1">Chapter XIV: Saṃsargaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134661.ChapterXV:Svabhāvaparīkṣā" border=0 hspace=2><a id="href_134661.ChapterXV:Svabhāvaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943159&level=2&cid=844105" class="ajax_tree1">Chapter XV: Svabhāvaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134662.ChaptersXVI-XX','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134662.ChaptersXVI-XX" border=0 hspace=2><a id="href_134662.ChaptersXVI-XX" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943171&level=1&cid=844117" class="ajax_tree0">Chapters XVI-XX
+</td></tr></table>
+<div style="display:none;"  id="div_134662.ChaptersXVI-XX">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134663.ChapterXVI:Bandhanamokṣaparīkṣā" border=0 hspace=2><a id="href_134663.ChapterXVI:Bandhanamokṣaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943171&level=2&cid=844117" class="ajax_tree1">Chapter XVI: Bandhanamokṣaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134664.ChapterXVII:Karmaphalaparīkṣā" border=0 hspace=2><a id="href_134664.ChapterXVII:Karmaphalaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943182&level=2&cid=844128" class="ajax_tree1">Chapter XVII: Karmaphalaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134665.ChapterXVIII:Ātmaparīkṣā" border=0 hspace=2><a id="href_134665.ChapterXVIII:Ātmaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943216&level=2&cid=844162" class="ajax_tree1">Chapter XVIII: Ātmaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134666.ChapterXIX:Kālaparīkṣā" border=0 hspace=2><a id="href_134666.ChapterXIX:Kālaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943229&level=2&cid=844175" class="ajax_tree1">Chapter XIX: Kālaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134667.ChapterXX:Sāmagrīparīkṣā" border=0 hspace=2><a id="href_134667.ChapterXX:Sāmagrīparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943236&level=2&cid=844182" class="ajax_tree1">Chapter XX: Sāmagrīparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134668.ChaptersXXI-XXV','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134668.ChaptersXXI-XXV" border=0 hspace=2><a id="href_134668.ChaptersXXI-XXV" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943261&level=1&cid=844207" class="ajax_tree0">Chapters XXI-XXV
+</td></tr></table>
+<div style="display:none;"  id="div_134668.ChaptersXXI-XXV">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134669.ChapterXXI:Saṃbhavavibhavaparīkṣā" border=0 hspace=2><a id="href_134669.ChapterXXI:Saṃbhavavibhavaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943261&level=2&cid=844207" class="ajax_tree1">Chapter XXI: Saṃbhavavibhavaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134670.ChapterXXII:Tathāgataparīkṣā" border=0 hspace=2><a id="href_134670.ChapterXXII:Tathāgataparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943283&level=2&cid=844229" class="ajax_tree1">Chapter XXII: Tathāgataparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134671.ChapterXXIII:Viparyāsaparīkṣā" border=0 hspace=2><a id="href_134671.ChapterXXIII:Viparyāsaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943300&level=2&cid=844246" class="ajax_tree1">Chapter XXIII: Viparyāsaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134672.ChapterXXIV:Āryasatyaparīkṣā" border=0 hspace=2><a id="href_134672.ChapterXXIV:Āryasatyaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943326&level=2&cid=844272" class="ajax_tree1">Chapter XXIV: Āryasatyaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134673.ChapterXXV:nirvāṇaparīkṣā" border=0 hspace=2><a id="href_134673.ChapterXXV:nirvāṇaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943367&level=2&cid=844313" class="ajax_tree1">Chapter XXV: nirvāṇaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134674.ChaptersXXVI-XXVII','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134674.ChaptersXXVI-XXVII" border=0 hspace=2><a id="href_134674.ChaptersXXVI-XXVII" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943392&level=1&cid=844338" class="ajax_tree0">Chapters XXVI-XXVII
+</td></tr></table>
+<div style="display:none;"  id="div_134674.ChaptersXXVI-XXVII">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134675.ChapterXXVI:Dvādaśāṅgaparīkṣā" border=0 hspace=2><a id="href_134675.ChapterXXVI:Dvādaśāṅgaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943392&level=2&cid=844338" class="ajax_tree1">Chapter XXVI: Dvādaśāṅgaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134676.ChapterXXVII:Dr̥ṣṭiparīkṣā" border=0 hspace=2><a id="href_134676.ChapterXXVII:Dr̥ṣṭiparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943405&level=2&cid=844351" class="ajax_tree1">Chapter XXVII: Dr̥ṣṭiparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134677.Colophon" border=0 hspace=2><a id="href_134677.Colophon" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943436&level=1&cid=844382" class="ajax_tree0">Colophon
+</td></tr></table>
+<script language=javascript>test('134676.ChapterXXVII:Dr̥ṣṭiparīkṣā|134674.ChaptersXXVI-XXVII|')</script><div class='bverknavn'><a href='/polyglotta/index.php?page=library&amp;bid=2'>Back to library</a></div></div><!-- venstrefulltekstfelt --><div class="clear"></div><!-- clear --><div id="nav-menu"><ul>
+  		  <li  id="nav-1"><a class="tabValgt" href="/polyglotta/index.php?page=record&amp;view=record&amp;vid=1124&amp;mid=1943405&amp;level=2">Sentence by sentence view</a></li>
+  		  <li  id="nav-2"><a  href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124&amp;cid=844351&amp;mid=1943405&amp;level=2">Continuous text view</a></li>
+ 		<li  id="nav-3"><a  href="/polyglotta/admin/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124&amp;cid=844351&amp;mid=1943405&amp;level=2">View in admin</a></li>
+
+  		  </ul></div><div class='clear'></div><!-- clear -->			<script language="javascript" type="text/javascript">
+			var kilderef = '';
+			var tekstid = 0;
+			var tekstid_bilder = 0;
+			var filsti = '';
+			var thumbnail = '';
+			</script>
+		<div class='infofulltekstfelt'><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><div class='kilderef' id='8904835'></div><div class='clear'></div><span id='8904835bi' class='generelltekst'>
+							&nbsp;</span><span id='8904400bi' class='verse'>
+						 [abhūm atītam adhvānaṃ nābhūvam iti dṛṣṭayaḥ |]<a class='fotnote cn' name='FN6176cn1' href='#N6176cn1'><sup>1</sup></a>
+<br />yās tāḥ śāśvatalokādyāḥ pūrvāntaṃ samupāśritāḥ || 1 ||&nbsp;</span><div style='' id='1' class='note cn'>1.<a class="internt" name='N6176cn1' href='#FN6176cn1'> Line missing in ms.; reconstructed from the Tibetan by LVP.</a>&nbsp; </div><div class='clear'></div></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><div class='kilderef' id='8904828'></div><div class='clear'></div><span id='8904828bi' class='generelltekst'>
+							中論觀邪見品第二十七(三十一偈)&nbsp;</span><span id='7859927bi' class='verse'>
+						 我於過去世 為有為是無<br />世間常等見 皆依過去世&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904834'></div><div class='clear'></div><span id='8904834bi' class='generelltekst'>
+							&nbsp;</span><span id='8903774bi' class='verse'>
+						 || ’das dus byung ma byung zhes dang | | ’jig rten rtag pa la sogs par | |<br />lta ba gang yin de dag ni | | mngon gyi mtha’ la brten pa yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><div class='kilderef' id='8905310'></div><div class='clear'></div><span id='8905310bi' class='verse'>
+							[Chapter] 27: An Analysis of the Views (drsti) About Reality (dogmas)&nbsp;</span><span id='8905311bi' class='verse'>
+						 1. Those [views] relating to the limits of the past reality are: “The world is eternal,” etc.,<br />[And “I have existed in the past,” “I have not existed in the past,” etc.]&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><div class='kilderef' id='8904829'></div><div class='clear'></div><span id='8904829bi' class='generelltekst'>
+							Investigation of Views&nbsp;</span><span id='7860885bi' class='verse'>
+						 Those views such as “I occurred or did not occur in the past,” the world is permanent, are dependent on the extreme of before.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904830'></div><div class='clear'></div><span id='8904830bi' class='generelltekst'>
+							&nbsp;</span><span id='8901370bi' class='verse'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><div class='kilderef' id='8906324'></div><div class='clear'></div><span id='8906324bi' class='verse'>
+							(24)＊中論 觀邪見品第二十七 三十一偈&nbsp;</span><span id='8906325bi' class='verse'>
+						 (25)問曰。已聞大乘法破邪見。今欲聞聲聞法(26)破邪見。答曰(27)<b>我於過去世 爲有爲是無(28)世間常等見 皆依過去世</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904831'></div><div class='clear'></div><span id='8904831bi' class='generelltekst'>
+							&nbsp;</span><span id='8901849bi' class='verse'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904832'></div><div class='clear'></div><span id='8904832bi' class='generelltekst'>
+							&nbsp;</span><span id='8902328bi' class='verse'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><div class='kilderef' id='9009722'></div><div class='clear'></div><span id='9009722bi' class='verse'>
+							&nbsp;</span><span id='9009723bi' class='verse'>
+						 &nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904401bi' class='verse'>
+							dṛṣṭayo na bhaviṣyāmi kim anyo ’nāgate ’dhvani |<br />bhaviṣyāmīti cāntādyā aparāntaṃ samāśritāḥ || 2 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859928bi' class='verse'>
+							我於未來世 為作為不作<br />有邊等諸見 皆依未來世&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903775bi' class='verse'>
+							ma ’ongs dus gzhan ’byung ’gyur dang | | mi ’byung ’jig rten mtha’ sogs par | |<br />lta (7)ba gang yin de dag ni | | phyi ma’i mtha’ la brten pa yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905312bi' class='verse'>
+							2. The assertion: “I will not become something different in a future time,”<br />“I will become [something different],” and the alternative, etc., are relating to an end [in the future].&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860886bi' class='verse'>
+							Those views such as I will occur or not occur at another time in the future, the world has an end, are dependent on the extreme of Later.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901371bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906326bi' class='verse'>
+							<b>(29)我於未來世 爲作爲不作</b>(37a1)<b>有邊等諸見 皆依未來世</b>(2)我於過去世。爲有爲無。爲有無爲非有非(3)無。是名常等諸見依過去世。我於未來世。(4)爲作爲不作。爲作不作爲非作非不作。是(5)名邊無邊等諸見依未來世。如是等諸邪(6)見。何因縁故名爲邪見。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901850bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902329bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009724bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904402bi' class='verse'>
+							abhūm atītam adhvānam ity etan nopapadyate |<br />yo hi janmasu pūrveṣu sa eva na bhavaty ayam || 3 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859929bi' class='verse'>
+							過去世有我 是事不可得<br />過去世中我 不作今世我&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903776bi' class='verse'>
+							’das pa’i dus na byung gyur zhes | | bya ba de ni mi ’thad do | |<br />sngon tshe rnams su gang byung ba | | de nyid ’di ni ma yin no | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905313bi' class='verse'>
+							3. [The assertion:] “I existed in a past time (1)” does not obtain,<br />Since this [present being] is not (i.e. “ii” is not the same as “i”) that one who [was] in a former birth.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860887bi' class='verse'>
+							It is incorrect to say: “I occurred at a time in the past.” Whatever occurred before, that is not this.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901372bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906327bi' class='verse'>
+							是事今當説(7)<b>過去世有我 是事不可得(8)過去世中我 不作今世我</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901851bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902330bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009725bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904403bi' class='verse'>
+							sa evātmeti tu bhaved upādānaṃ viśiṣyate |<br />upādānavinirmukta ātmā te katamaḥ punaḥ || 4 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859930bi' class='verse'>
+							若謂我即是 而身有異相<br />若當離於身 何處別有我&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903777bi' class='verse'>
+							de nyid bdag tu ’gyur snyam na | | nye bar len pa tha dad ’gyur | |<br />nye bar lan (18a1)pa ma gtogs par | | khyod kyi bdag ni gang zhig yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905314bi' class='verse'>
+							4. Were he [in a previous birth], that individual self (ātma) which he acquires [in coming into existence] would be different.<br />Moreover, what kind of individual self is there without acquisition (upadana)?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860888bi' class='verse'>
+							If you think that that became me, then that-which-is-clung-to would be something else. What is your self apart from that-which-is-clung-to?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901373bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906328bi' class='verse'>
+							<b>(9)若謂我即是 而身有異相(10)若當離於身 何處別有我</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901852bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902331bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009726bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904404bi' class='verse'>
+							upādānavinirmukto nāsty ātmeti kṛte sati |<br />syād upādānam evātmā nāsti cātmeti vaḥ punaḥ || 5 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859931bi' class='verse'>
+							離有無身我 是事為已成<br />若謂身即我 若都無有我&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903778bi' class='verse'>
+							nye bar len pa ma gtogs pa’i | | bdag yod ma yin byas pa’i tshe | |<br />nye bar len nyid bdag yin na | | khyod kyi bdag ni med pa yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905315bi' class='verse'>
+							5. If it were held that: “There is no individual self without the acquisition,”<br />Then the individual self would be [only] the acquisition or it is not an individual self [at all].&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860889bi' class='verse'>
+							Were you [to say] that there exists no self apart from that-which-is-clung-to, if the very that-which-is-clung-to were the self, your self would be non-existent.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901374bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906329bi' class='verse'>
+							<b>(11)離有無身我 是事爲已成(12)若謂身即我 若都無有我</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901853bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902332bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009727bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904405bi' class='verse'>
+							na copādānam evātmā vyeti tat samudeti ca |<br />kathaṃ hi nāmopādānam upādātā bhaviṣyati || 6 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859932bi' class='verse'>
+							但身不為我 身相生滅故<br />云何當以受 而作於受者&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903779bi' class='verse'>
+							nye bar len nyid bdag ma yin | | de ’byung ba dang ’jig (2)pa yin | |<br />nye bar blang ba ji lta bur | | nye bar len po yin par ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905316bi' class='verse'>
+							6. The individual self is not the acquisition, since that [acquisition] appears and disappears.<br />Now really, how will “he who acquires” become “that which is acquired?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860890bi' class='verse'>
+							The very that-which-is-clung-to is not the self: it arises and passes away. How can that-which-has-been-clung-to be the one that clings?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901375bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906330bi' class='verse'>
+							<b>(13)但身不爲我 身相生滅故(14)云何當以受 而作於受者</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901854bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902333bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009728bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904406bi' class='verse'>
+							anyaḥ punar upādānād ātmā naivopapadyate |<br />gṛhyeta hy anupādāno yady anyo na ca gṛhyate || 7 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859933bi' class='verse'>
+							若離身有我 是事則不然<br />無受而有我 而實不可得&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903780bi' class='verse'>
+							bdag ni nye bar len pa las | | gzhan du ’thad pa nyid ma yin | |<br />gal te gzhan na len med par | | gzung yod rigs na gzung du med | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905317bi' class='verse'>
+							7. Moreover, it does not obtain that the individual self is different from the acquisition.<br />If the individual self were different, it would be perceived without the acquisition; but [in fact] it is not so perceived.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860891bi' class='verse'>
+							It is not correct for the self to be other than that-which-is-clung-to. If it were other, with nothing to cling to, then something [i.e. the self] fit to be apprehended would not be apprehended.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901376bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906331bi' class='verse'>
+							<b>(15)若離身有我 是事則不然(16)無受而有我 而實不可得</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901855bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902334bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009729bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904407bi' class='verse'>
+							evaṃ nānya upādānān na copādānam eva saḥ |<br />ātmā nāsty anupādāno nāpi nāsty eṣa niścayaḥ || 8 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859934bi' class='verse'>
+							今我不離受 亦不即是受<br />非無受非無 此即決定義&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903781bi' class='verse'>
+							de ltar len las gzhan ma yin | | de ni nyer len nyid (3)kyang min | |<br />bdag ni nye bar len med min | | med pa nyid du’ang de ma nges | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905318bi' class='verse'>
+							8. Thus that [individual self] is not different from nor identical to the acquisition.<br />The individual self is not without acquisition; but there is no certainty that “It does not exist.”&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860892bi' class='verse'>
+							In that way, it is not other than that-which-is-clung-to nor is it that-which-is-clung-to. The self is not not that-which-is-clung-to, nor can it be ascertained as nothing.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901377bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906332bi' class='verse'>
+							<b>(17)今我不離受 亦不即是受(18)非無受非無 此即決定義</b>(19)我於過去世有者。是事不然。何以故。先世(20)中我不即作今我。有常過故。若常則有無(21)量過。何以故。如人修福因縁故作天而後(22)作人。若先世我即是今我者。天即是人。又(23)人以罪業因縁故作旃陀羅。後作婆羅門。(24)若先世我即是今我者。旃陀羅即是婆羅門。(25)譬如舍衞國婆羅門名提婆達。到王舍城(26)亦名提＊婆達。不以至王舍城故爲異。若(27)先作天後作人。則天即是人。旃陀羅即是(28)婆羅門。但是事不然。何以故。天不即是人。(29)旃陀羅不即是婆羅門。有此等常過故。若(37b1)謂先世我不作今我。如人浣衣時名爲浣(2)者。刈時名爲刈者。而浣者與刈者雖不異。(3)而浣者不即是刈者。如是我受天身名爲(4)天。我受人身名爲人。我不異而身有異(5)者。是事不然。何以故。若即是者。不應言(6)天作人。今浣者於刈者。爲異爲不異。若(7)不異。浣者應即是刈者。如是先世天即是(8)人。旃陀羅即是婆羅門。我亦有常過。若異(9)者。浣者即不作刈者。如是天不作人。我亦(10)無常。無常則無我相。是故不得言即是。問(11)曰。我即是。但因受故分別是天是人。受名(12)五陰身。以業因縁故分別是天是人是旃陀(13)羅是婆羅門。而我實非天非人。非旃陀羅(14)非婆羅門。是故無如是過。答曰。是事不然。(15)何以故。若身作天作人。作旃陀羅作婆羅(16)門。非是我者。則離身別有我。今罪福生死(17)往來。皆是身非是我。罪因縁故墮三惡道。(18)福因縁故生三善道。若苦樂瞋喜憂怖等。皆(19)是身非我者。何用我爲。如治俗人罪。不豫(20)出家人。五陰因縁相續罪福不失故有解脱。(21)若皆是身非我者。何用我爲。問曰。罪福等(22)依止於我。我有所知身無所知故。知者應(23)是我。起業因縁罪福是作法。當知應有作(24)者。作者是我。身是我所用。亦是我所住處。譬(25)如舍主以草木泥墍等治舍。自爲身故(26)隨所用治舍有好惡。我亦如是。隨作善(27)惡等得好醜身。六道生死皆我所作。是故罪(28)福之身皆屬於我。譬如舍但屬舍主不屬(29)他人。答曰。是喩不然。何以故。舍主有形。有(37c1)觸有力故能治舍。汝所説我無形無觸(2)故無作力。自無作力亦不能使他作。若世(3)間有一法無形無觸能有所作者。則可(4)信受知有作者。但是事不然。若我是作者。(5)則不應自作苦事。若是念者。可貪樂事(6)不應忘失。若我不作苦而苦強生者。餘一(7)切皆亦自生。非我所作。若見者是我。眼能(8)見色眼應是我。若眼見而非我。則違先言(9)見者是我。若見者是我。我則不應得聞聲(10)等諸塵。何以故。眼是見者。不能得聞聲等(11)塵故。是故我是見者。是事不然。若謂如刈(12)者用鎌刈草。我亦如是以手等能有所作(13)者。是事不然。何以故。今離鎌別有刈者。(14)而離身心諸根無別作者。若謂作者雖非(15)眼耳等所得亦有作者。則石女兒能有所(16)作。如是一切諸根皆應無我。若謂右眼(17)見物而左眼識。當知別有見者。是事不然。(18)今右手習作左手不能。是故無別有作者。(19)若別有作者。右手所習左手亦應能。而實(20)不能。是故更無作者。復次有我者言。見(21)他食果口中涎出。是爲我相。是事不然。何(22)以故。是念力故非是我力。又亦即是破我(23)因縁。人在衆中愧於涎出。而涎強出不得(24)自在。當知無我。復次又有顛倒過罪。先(25)世是父今世爲子。是父子我一。但身有異。(26)如從一舍至一舍。父故是父。不以入異(27)舍故便有異。若有我是二應一。如是則有(28)大過。若謂無我五陰相續中亦有是過。是(29)事不然。何以故。五陰雖相續。或時有用(38a1)或時無用。如蒲桃漿持戒者應飮蒲＊桃酒(2)不應飮。若變爲苦酒還復應飮。五陰相續(3)亦如是。有用有不用。若始終一我有如是(4)過。五陰相續無如是過。但五陰和合故假名(5)爲我無有決定。如梁椽和合有舍。離梁(6)椽無別舍。如是五陰和合故有我。若離(7)五陰實無別我。是故我但有假名無有定(8)實。汝先説離受別有受者。以受分別受者(9)是天是人。是皆不然。當知但有受無別受(10)者。若謂離受別有我。是事不然。若離受(11)有我。云何可得説是我相。若無相可説。(12)則離受無我。若謂離身無我但身是我。是(13)亦不然。何以故。身有生滅相。我則不爾。復(14)次云何以受即名受者。若謂離受有受者。(15)是亦不然。若不受五陰而有受者。應離(16)五陰別有受者。眼等根可得而實不可得。(17)是故我不離受。不即是受。亦非無受。亦復(18)非無。此是定義。是故當知。過去世有我者。(19)是事不然。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901856bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902335bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009730bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904408bi' class='verse'>
+							nābhūm atītam adhvānam ity etan nopapadyate |<br />yo hi janmasu pūrveṣu tato ’nyo na bhavaty ayam || 9 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859935bi' class='verse'>
+							過去我不作 是事則不然<br />過去世中我 異今亦不然&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903782bi' class='verse'>
+							’das pa’i dus na ma byung zhes | | bya ba de yang mi ’thad do | |<br />sngon tshe rnams su gang byung ba | | de las ’di gzhan ma yin no | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905319bi' class='verse'>
+							9. [The assertion:] “I have not existed in a past time (2)” does not obtain,<br />For that one [now living] is not different (i.e. “ii” is not different than “i”) from that one who was in a former birth.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860893bi' class='verse'>
+							It is incorrect to say: “I did not occur at a time in the past.” Whatever occurred before, this is not other than that.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901378bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906333bi' class='verse'>
+							何以故(20)<b>過去我不作 是事則不然(21)過去世中我 異今亦不然</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901857bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902336bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009731bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904409bi' class='verse'>
+							yadi hy ayaṃ bhaved anyaḥ pratyākhyāyāpi taṃ bhavet |<br />tathaiva ca sa saṃtiṣṭhet tatra jāyeta cāmṛtaḥ || 10 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859936bi' class='verse'>
+							若謂有異者 離彼應有今<br />我住過去世 而今我自生&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903783bi' class='verse'>
+							gal te ’di ni gzhan gyur na | | de med par yang ’byung bar ’gyur |  (4)de bzhin de ni gnas ’gyur zhing | | der ma shi bar skye bar ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905320bi' class='verse'>
+							10. If that [present person] were different, he would exist in exclusion of that [former] one.<br />Therefore either that [former person] persists, or he would be born eternal!&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860894bi' class='verse'>
+							If this were other, it would arise even without that. Likewise, that could remain and be born without dying in that [former life].&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901379bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906334bi' class='verse'>
+							<b>(22)若謂有異者 離彼應有今(23)我住過去世 而今我自生</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901858bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902337bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009732bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904410bi' class='verse'>
+							[ucchedaḥ karmaṇāṃ nāśaḥ kṛtam anyena karma ca |<br />pratisaṃvedayed anya evam ādi prasajyate || 11 ||]<a class='fotnote cn' name='FN6176cn2' href='#N6176cn2'><sup>2</sup></a>
+&nbsp;</span><div style='' id='2' class='note cn'>2.<a class="internt" name='N6176cn2' href='#FN6176cn2'> Verse missing in ms.; reconstructed from the Tibetan by LVP.</a>&nbsp; </div><div class='clear'></div></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859937bi' class='verse'>
+							如是則斷滅 失於業果報<br />彼作而此受 有如是等過&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903784bi' class='verse'>
+							chad dang las rnams chud za dang | | gzhan gyis byas pa’i las rnams ni | |<br />gzhan gyis so sor myong ba dang | | de la sogs par thal bar ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905321bi' class='verse'>
+							11. <a class='fotnote rn' name='FN6177rn1' href='#N6177rn1'><sup>1</sup></a>
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860895bi' class='verse'>
+							Cut off and actions wasted, acts committed by others would be experienced by someone else. Such would be the consequences.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901380bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906335bi' class='verse'>
+							<b>(24)如是則斷滅 失於業果報(25)彼作而此受 有如是等過</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901859bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902338bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009733bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904411bi' class='verse'>
+							nāpy abhūtvā samudbhūto doṣo hy atra prasajyate |<br />kṛtako vā bhaved ātmā saṃbhūto vāpy ahetukaḥ || 12 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859938bi' class='verse'>
+							先無而今有 此中亦有過<br />我則是作法 亦為是無因&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903785bi' class='verse'>
+							ma byung ba las ’byung min te | | ’di la skyon du thal bar (5)’gyur | |<br />bdag ni byas par ’gyur ba dang | | ’byung ba’am rgyu med can du ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905322bi' class='verse'>
+							12. There is no existing thing which is “that which has not existed prior.” Therefore, the error logically follows that<br />Either the individual self is “what is produced” or it originates without a cause.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860896bi' class='verse'>
+							There is no occurence from what has not occured. In that case faults would follow: the self would be something made or even though it occured it would be uncaused.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901381bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906336bi' class='verse'>
+							<b>(26)先無而今有 此中亦有過(27)我則是作法 亦爲是無因</b>(28)過去世中我。不作今我。是事不然。何以故。(29)過去世中我。與今我不異。若今我與過去(38b1)世我異者。應離彼我而有今我。又過去世(2)我。亦應住彼此身自更生。若爾者即墮斷(3)邊。失諸業果報。又彼人作罪此人受報。有(4)如是等無量過。又是我應先無而今有。是亦(5)有過。我則是作法。亦是無因生。是故過去(6)我。不作今我。是事不然。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901860bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902339bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009734bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904412bi' class='verse'>
+							evaṃ dṛṣtir atīte yā nābhūm aham abhūm aham |<br />ubhayaṃ nobhayaṃ ceti naiṣā samupapadyate || 13 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859939bi' class='verse'>
+							如過去世中 有我無我見<br />若共若不共 是事皆不然&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903786bi' class='verse'>
+							de ltar bdag byung bdag ma byung | | gnyis ka gnyis ka ma yin par | |<br />’das la lta ba gang yin pa | | de dag ’thad pa ma yin no | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905323bi' class='verse'>
+							13. Thus the view concerning the past which [asserts] “I have existed (1),” or “I have not existed (2),”<br />Both [“existed and not existed”] (3) or neither (4): this does not obtain at all.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860897bi' class='verse'>
+							Therefore, “the self occured, did not occur, both or neither:” all those views of the past are invalid.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901382bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906337bi' class='verse'>
+							復次(7)<b>如過去世中 有我無我見(8)若共若不共 是事皆不然</b>(9)如是推求過去世中邪見有無。亦有亦無。非(10)有非無。是諸邪見。先説因縁過故。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901861bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902340bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009735bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904413bi' class='verse'>
+							adhvany anāgate kiṃ nu bhaviṣyāmīti darśanam |<br />na bhaviṣyāmi cety etad atītenādhvanā samam || 14 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859940bi' class='verse'>
+							我於未來世 為作為不作<br />如是之見者 皆同過去世&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903787bi' class='verse'>
+							ma ’ongs dus gzhan ’byung ’gyur dang | | ’byung bar (6)mi ’gyur zhes bya bar | |<br />lta ba gang yin de dag ni | | ’das pa’i dus dang mtshungs pa yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905324bi' class='verse'>
+							14. [The views:] “I will become something in a future time (1′),”<br />Or “I will not become (2′) [something],” etc. (3′) (4′), [should be considered] like those [views] of the past.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860898bi' class='verse'>
+							“I will occur at another time in the future,” “I will not occur:” all those views are similar to [those of] the past.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901383bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906338bi' class='verse'>
+							是皆不(11)然(12)<b>我於未來世 爲作爲不作(13)如是之見者 皆同過去世</b>(14)我於未來世中。爲作爲不作。如是四句。如(15)過去世中過咎。應在此中説。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901862bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902341bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009736bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904414bi' class='verse'>
+							sa devaḥ sa manuṣyaś ced evaṃ bhavati śāśvatam |<br />anutpannaś ca devaḥ syāj jāyate na hi śāśvatam || 15 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859941bi' class='verse'>
+							若天即是人 則墮於常邊<br />天則為無生 常法不生故&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903788bi' class='verse'>
+							gal te lha de mi de na | | de lta na ni rtag par ’gyur | |<br />lha ni ma skyes nyid ’gyur te | | rtag la skye ba med phyir ro | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905325bi' class='verse'>
+							15. If “This is a man, this is a god” [obtains], then eternity (i) exists,<br />For god is unproduced, and certainly something eternal would not be born.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860899bi' class='verse'>
+							If the divine were human, then there would be something permanent. The divine is utterly unborn, because there is no birth in permanence.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901384bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906339bi' class='verse'>
+							復次(16)<b>若天即是人 則墮於常邊(17)天則爲無生 常法不生故</b>(18)若天即是人。是則爲常。若天不生人中。云(19)何名爲人。常法不生故。常亦不然。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901863bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902342bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009737bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904415bi' class='verse'>
+							devād anyo manuṣyaś ced aśāśvatam ato bhavet |<br />devād anyo manuṣyaś cet saṃtatir nopapadyate || 16 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859942bi' class='verse'>
+							若天異於人 是即為無常<br />若天異人者 是則無相續&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903789bi' class='verse'>
+							gal te lha las mi gzhan na | | de lta na ni mi rtag ’gyur | |<br />gal te (7)lha mi gzhan yin na | | rgyud ni ’thad par mi ’gyur ro | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905326bi' class='verse'>
+							16. If man is different from god, there would exist something non-eternal (ii).<br />If man is different from god, then a continuity does not obtain.(i.e. they cannot be different)&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860900bi' class='verse'>
+							If the human were other than the divine, then there would be no permanence. If the divine and the human were different, there could be no continuity [between them].&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901385bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906340bi' class='verse'>
+							復次(20)<b>若天異於人 是即爲無常(21)若天異人者 是則無相續</b>(22)若天與人異。則爲無常。無常則爲斷滅等(23)過。如先説過。若天與人異。則無相續。若有(24)相續。不得言異。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901864bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902343bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009738bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904416bi' class='verse'>
+							divyo yady ekadeśaḥ syād ekadeśaś ca mānuṣaḥ |<br />aśāśvataṃ śāśvataṃ ca bhavet tac ca na yujyate || 17 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859943bi' class='verse'>
+							若半天半人 則墮於二邊<br />常及於無常 是事則不然&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903790bi' class='verse'>
+							gal te phyogs gcig lha yin la | | phyogs gcig mi ni yin gyur na | |<br />rtag dang mi rtag ’gyur ba yin | | de yang rigs pa ma yin no | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905327bi' class='verse'>
+							17. If one part were divine and another part human, (i.e. a man with an eternal soul)<br />Then there would be something non-eternal [together with] that which is eternal (iii); but that is not possible.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860901bi' class='verse'>
+							If one part were divine and one part were human, there would be both permanence and no permanence. But that is not reasonable.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901386bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906341bi' class='verse'>
+							復次(25)<b>若半天半人 則墮於二邊(26)常及於無常 是事則不然</b>(27)若衆生半身是天。半身是人。若爾則有常(28)無常。半天是常。半人是無常。但是事不然。(29)何以故。一身有二相過故。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901865bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902344bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009739bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904417bi' class='verse'>
+							aśāśvataṃ śāśvataṃ ca prasiddham ubhayaṃ yadi |<br />siddhe na śāśvataṃ kāmaṃ naivāśāśvatam ity api || 18 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859944bi' class='verse'>
+							若常及無常 是二俱成者<br />如是則應成 非常非無常&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903791bi' class='verse'>
+							gal te rtag dang mi rtag pa | | gnyis ga grub par gyur na ni | |<br />rtag pa ma yin mi rtag min | | (18b1)’grub par ’gyur bar ’dod la rag | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905328bi' class='verse'>
+							18. If something both non-eternal and eternal were proved,<br />Then, no doubt, something “neither eternal nor non-eternal (iv)” is proved.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860902bi' class='verse'>
+							If both permanence and impermanence were established, you would have to assert non-permanence and non-impermance as established.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901387bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906342bi' class='verse'>
+							復次(38c1)<b>若常及無常 是二倶成者(2)如是則應成 非常非無常</b>(3)若常無常二倶成者。然後成非常非無常。與(4)常無常相違故。今實常無常不成。是故非常(5)非無常亦不成。復次今生死無始。是亦不(6)然。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901866bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902345bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009740bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904418bi' class='verse'>
+							kutaścid āgataḥ kaścit kiṃcid gacchet punaḥ kva cit |<br />yadi tasmād anādis tu saṃsāraḥ syān na cāsti saḥ || 19 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859945bi' class='verse'>
+							法若定有來 及定有去者<br />生死則無始 而實無此事&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903792bi' class='verse'>
+							gal te gang zhig gang nas gar | | ’ong zhing gong du’ang ’gro ’gyur na | |<br />de phyir ’khor ba thog med par | | ’gyur na de ni yod ma yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905329bi' class='verse'>
+							19. If someone, having come from somewhere, in some way goes somewhere again,<br />Then there would be existence-in-flux with no beginning; but this is not the case.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860903bi' class='verse'>
+							If something came from somewhere and went somewhere, then samsara would be without beginning. That is not the case.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901388bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906343bi' class='verse'>
+							何以故(7)<b>法若定有來 及定有去者(8)生死則無始 而實無此事</b>(9)法若決定有所從來。有所從去者。生死(10)則應無始。是法以智慧推求。不得有所(11)從來。有所從去。是故生死無始。是事不然。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901867bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902346bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009741bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904419bi' class='verse'>
+							nāsti cec chāśvataḥ kaścit ko bhaviṣyaty aśāśvataḥ |<br />śāśvato ’śāśvataś cāpi dvābhyām ābhyāṃ tiraskṛtaḥ || 20 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859946bi' class='verse'>
+							今若無有常 云何有無常<br />亦常亦無常 非常非無常&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903793bi' class='verse'>
+							gal te rtag pa ’ga’ med na | | mi rtag gang zhig yin par ’gyur | |<br />rtag pa dang ni mi rtag dang | | de gnyis (2)bsal bar gyur pa’o | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905330bi' class='verse'>
+							20. If someone who is eternal does not exist, who will exist being non-eternal,<br />Or who being both eternal and non-eternal, or devoid of these two [characteristics]?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860904bi' class='verse'>
+							If there were nothing permanent at all, what thing could be impermanent, permanent and impermanent, free of both?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901389bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906344bi' class='verse'>
+							(12)復次(13)<b>今若無有常 云何有無常(14)亦常亦無常 非常非無常</b>(15)若爾者。以智慧推求。無法可得常者。誰當(16)有無常。因常有無常故。若二倶無者。云何(17)有亦有常亦無常。若無有常無常。云何有(18)非有常非無常。因亦有常亦無常故。有非(19)有常非無常。是故依止過去世常等四句不(20)可得。有邊無邊等四句依止未來世。是事不(21)可得。今當説。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901868bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902347bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009742bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904420bi' class='verse'>
+							antavān yadi lokaḥ syāt paralokaḥ kathaṃ bhavet |<br />athāpy anantavāl lokaḥ paralokaḥ kathaṃ bhavet || 21 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859947bi' class='verse'>
+							若世間有邊 云何有後世<br />若世間無邊 云何有後世&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903794bi' class='verse'>
+							gal te ’jig rten mtha’ yod na | | ’jig rten pha rol ji ltar ’gyur | |<br />gal te ’jig rten mtha’ med na | | ’jig rten pha rol ji ltar ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905331bi' class='verse'>
+							21. If the world would come to an end, how would an other-world come into existence?<br />If the world would not come to an end, how would an other-world come into being?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860905bi' class='verse'>
+							If this world had an end, how would the next world come to be? If this world had no end, how would the next world come to be?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901390bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906345bi' class='verse'>
+							何以故(22)<b>若世間有邊 云何有後世(23)若世間無邊 云何有後世</b>(24)若世間有邊。不應有後世。而今實有後世。(25)是故世間有邊不然。若世間無邊。亦不應(26)有後世。而實有後世。是故世間無邊亦不(27)然。復次是二邊不可得。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901869bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902348bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009743bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904421bi' class='verse'>
+							skandhānām eṣa saṃtāno yasmād dīpārciṣām iva |<br />tasmān nānantavattvaṃ ca nāntavattvaṃ ca yujyate || 22 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859948bi' class='verse'>
+							五陰常相續 猶如燈火炎<br />以是故世間 不應邊無邊&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903795bi' class='verse'>
+							gang phyir phung po rnams kyi rgyun | | ’di ni mar me’i ’od dang mtshungs | |<br />de phyir mtha’ yod nyid dang ni | | (3)mtha’ med nyid kyang mi rigs so | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905332bi' class='verse'>
+							22. Since the continuity of the “groups of universal elements” (skandhas) [from one moment to the next] functions like flames of lamps,<br />[The view:] “both having an end and not having an end” is not possible.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860906bi' class='verse'>
+							Because the continuity of the aggregates is similar to the light of a lamp, therefore the very existence or non-existence of an end is unreasonable.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901391bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906346bi' class='verse'>
+							何以故(28)<b>五陰常相續 猶如燈火炎(29)以是故世間 不應邊無邊</b>(39a1)從五陰復生五陰。是五陰次第相續。如衆(2)縁和合有燈炎。若衆縁不盡燈則不滅。若(3)盡則滅。是故不得説世間有邊無邊。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901870bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902349bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009744bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904422bi' class='verse'>
+							pūrve yadi ca bhajyerann utpadyeran na cāpy amī |<br />skandhāḥ skandhān pratītyemān atha loko ’ntavān bhavet || 23 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859949bi' class='verse'>
+							若先五陰壞 不因是五陰<br />更生後五陰 世間則有邊&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903796bi' class='verse'>
+							gal te snga ma ’jig ’gyur zhing | | phung po ’di la brten byas nas | |<br />phung po de ni mi ’byung na | | des na ’jig rten mtha’ yod ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905333bi' class='verse'>
+							23. If the former [“groups”] would disappear, those [new] “groups” which are dependent on those [former] “groups” would not arise;<br />Therefore, the world would come to an end (ii).&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860907bi' class='verse'>
+							If the former perished and that [future] aggregate did not arise in dependence upon this aggregate, then this world would have an end.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901392bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906347bi' class='verse'>
+							復(4)次(5)<b>若先五陰壞 不因是五陰(6)更生後五陰 世間則有邊</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901871bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902350bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009745bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904423bi' class='verse'>
+							pūrve yadi na bhajyerann utpadyeran na cāpy amī |<br />skandhāḥ skandhān pratītyemāṃl loko ’nanto bhaved atha || 24 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859950bi' class='verse'>
+							若先陰不壞 亦不因是陰<br />而生後五陰 世間則無邊&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903797bi' class='verse'>
+							gal te snga ma mi ’jig cing | | phung po ’di la brten byas nas | |<br />phung po de ni mi ’byung na | | (4)des na ’jig rten mtha’ med ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905334bi' class='verse'>
+							24. If the former [“groups”] would not disappear, these [new] “groups” which are dependent on those [former] “groups” would not arise;<br />Therefore, the world would be eternal (i).&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860908bi' class='verse'>
+							If the former did not perish and that [future] aggregate did not arise in dependence upon this aggregate, then this world would not have an end.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901393bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906348bi' class='verse'>
+							<b>(7)若先陰不壞 亦不因是陰(8)而生後五陰 世間則無邊</b>(9)若先五陰壞。不因是五陰更生後五陰。如(10)是則世間有邊。若先五陰滅已。更不生餘五(11)陰。是名爲邊。邊名末後身。若先五陰不壞。(12)不因是五陰而生後五陰。世間則無邊。是(13)則爲常。而實不爾。是故世間無邊。是事不(14)然。世間有二種。國土世間。衆生世間。此是(15)衆生世間。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901872bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902351bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009746bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904424bi' class='verse'>
+							antavān ekadeśaś ced ekadeśas tv anantavān |<br />syād antavān anantaś ca lokas tac ca na yujyate || 25 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859951bi' class='verse'>
+							真法及說者 聽者難得故<br />如是則生死 非有邊無邊&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903798bi' class='verse'>
+							gal te phyogs gcig mtha’ yod la | | phyogs gcig mtha’ ni med ’gyur na | |<br />’jig rten mtha’ yod mtha’ med ’gyur | | de yang rigs pa ma yin no | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905335bi' class='verse'>
+							25. If one part were finite and the other were infinite,<br />The world would be both finite and infinite (iii); but this is not possible.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860909bi' class='verse'>
+							If one part had an end and one part did not have an end, the world would be with and without an end. That too is unreasonable.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901394bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906349bi' class='verse'>
+							復次如四百觀中説(16)<b>眞法及説者 聽者難得故(17)如是則生死 非有邊無邊</b>(18)不得眞法因縁故。生死往來無有邊。或時(19)得聞眞法得道故。不得言無邊。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901873bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902352bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009747bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904425bi' class='verse'>
+							kathaṃ tāvad upādātur ekadeśo vinaṅkṣyate |<br />na naṅkṣyate caikadeśa evaṃ caitan na yujyate || 26 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859952bi' class='verse'>
+							若世半有邊 世間半無邊<br />是則亦有邊 亦無邊不然&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903799bi' class='verse'>
+							ji lta bur na nyer len po’i | | phyogs gcig rnam par ’jig (5)’gyur la | |<br />phyogs gcig rnam par ’jig mi ’gyur | | de ltar de ni mi rigs so | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905336bi' class='verse'>
+							26. Therefore, how can it be that one part of “one who acquires” [karma] will be destroyed, (i.e. the body – man?)<br />And one part not destroyed? (i.e. the very subtle mind — the divine part?) This is not possible.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860910bi' class='verse'>
+							How can one part of the one-who-clings perish while one part does not perish? Likewise, that is unreasonable.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901395bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906350bi' class='verse'>
+							今當更(20)破亦有邊亦無邊(21)<b>若世半有邊 世間半無邊(22)是則亦有邊 亦無邊不然</b>(23)若世間半有邊半無邊。則應是亦有邊亦無(24)邊。若爾者。則一法二相。是事不然。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901874bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902353bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009748bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904426bi' class='verse'>
+							upādānaikadeśaś ca kathaṃ nāma vinaṅkṣyate |<br />na naṅkṣyate caikadeśo naitad apy upapadyate || 27 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859953bi' class='verse'>
+							彼受五陰者 云何一分破<br />一分而不破 是事則不然&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903800bi' class='verse'>
+							ji lta bur na nyer blang ba | | phyogs gcig rnam par ’jig ’gyur la | |<br />phyogs gcig rnam par ’jig mi ’gyur | | de ltar de yang mi rigs so | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905337bi' class='verse'>
+							27. How, indeed, can it be that one part of the acquisition [of karma] (i.e. the learning stored in the body) will be destroyed,<br />And one part not destroyed? (i.e. the learning stored in the mind) That, certainly does not obtain.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860911bi' class='verse'>
+							How can one part of that-which-is-clung-to perish while one part does not perish? Likewise, that is unreasonable.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901396bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906351bi' class='verse'>
+							何以故(25)<b>彼受五陰者 云何一分破(26)一分而不破 是事則不然</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901875bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902354bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009749bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904427bi' class='verse'>
+							antavac cāpy anantaṃ ca prasiddham ubhayaṃ yadi |<br />siddhe naivāntavat kāmaṃ naivānantavad ity api || 28 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859954bi' class='verse'>
+							受亦復如是 云何一分破<br />一分而不破 是事亦不然&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903801bi' class='verse'>
+							gal te mtha’ (6)yod mtha’ med pa | | gnyis ka grub par gyur na ni | |<br />mtha’ yod ma yin mtha’ med min | | ’grub par ’gyur bar ’dod la rag | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905338bi' class='verse'>
+							28. If the [view] “both finite and infinite” were proved,<br />Then no doubt, “neither finite nor infinite” (i.e. nothing at all) could be proved.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860912bi' class='verse'>
+							If both the presence and absence of an end were established, you would have to assert non-presence and non-absence as established.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901397bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906352bi' class='verse'>
+							<b>(27)受亦復如是 云何一分破(28)一分而不破 是事亦不然</b>(29)受五陰者。云何一分破。一分不破。一事不(39b1)得亦常亦無常。受亦如是。云何一分破。一(2)分不破。常無常二相過故。是故世間亦有邊(3)亦無邊則不然。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901876bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902355bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009750bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904428bi' class='verse'>
+							atha vā sarvabhāvānāṃ śūnyatvāc chāśvatādayaḥ |<br />kva kasya katamāḥ kasmāt saṃbhaviṣyanti dṛṣṭayaḥ || 29 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859955bi' class='verse'>
+							若亦有無邊 是二得成者<br />非有非無邊 是則亦應成&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903802bi' class='verse'>
+							yang na dngos po thams cad dag  | stong phyir rtag la sogs lta ba | |<br />gang dag gang du gang la ni | | (7)ci las kun tu ’byung bar ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905339bi' class='verse'>
+							29. Because of the emptiness of all existing things,<br />How will the views about “eternity,” etc., come into existence, about what, of whom, and of what kind?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860913bi' class='verse'>
+							And because all things are empty, about what and in whom do views such as that of permanence spring forth?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901398bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906353bi' class='verse'>
+							今當破非有邊非無邊見(4)<b>若亦有無邊 是二得成者(5)非有非無邊 是則亦應成</b>(6)與有邊相違故有無邊。如長相違有短。與(7)有無相違。則有亦有亦無。與亦有亦無相(8)違故。則有非有非無。若亦有邊亦無邊定成(9)者。應有非有邊非無邊。何以故。因相待故。(10)上已破亦有邊亦無邊第三句。今云何當有(11)非有邊非無邊。以無相待故。如是推求。依(12)止未來世有邊等四見皆不可得。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901877bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902356bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009751bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904429bi' class='verse'>
+							sarvadṛṣṭiprahāṇāya yaḥ saddharmam adeśayat |<br />anukampām upādāya taṃ namasyāmi gautamam || 30 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859956bi' class='verse'>
+							一切法空故 世間常等見<br />何處於何時 誰起是諸見&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903803bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905340bi' class='verse'>
+							30. To him, possessing compassion, who taught the real dharma<br />For the destruction of all views—to him, Gautama, I humbly offer reverence.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860914bi' class='verse'>
+							I bow down to Gautama, whose kindness holds one close, who revealed the sublime dharma in order to let go of all views.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901399bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906354bi' class='verse'>
+							復次(13)<b>一切法空故 世間常等見(14)何處於何時 誰起是諸見</b>(15)上以聲聞法破諸見。今此大乘法中説。諸(16)法從本＊以來畢竟空性。如是空性法中無(17)人無法。不應生邪見正見。處名土地。時(18)名日月歳數。誰名爲人。是名諸見體。若有(19)常無常等決定見者。應當有人出生此見。(20)破我故無人生是見。應有處所色法現見(21)尚可破。何況時方。若有諸見者應有定實。(22)若定則不應破。上來＊以種種因縁破。是故(23)當知見無定體。云何得生。如偈説。何處(24)於何時。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901878bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902357bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009752bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904430bi' class='chaptertitle'>
+							dṛṣṭiparīkṣā nāma saptaviṃśatitamaṃ prakaraṇaṃ samāptaṃ |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859957bi' class='chaptertitle'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903804bi' class='chaptertitle'>
+							lta ba brtag pa zhes bya ba ste rab tu byed pa nyi shu bdun pa’o || ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905341bi' class='chaptertitle'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860915bi' class='chaptertitle'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901400bi' class='chaptertitle'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906355bi' class='chaptertitle'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901879bi' class='chaptertitle'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902358bi' class='chaptertitle'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009753bi' class='chaptertitle'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'>								<script language="javascript" type="text/javascript">
+
+								tekstid = "8904835";
+								kilderef = "Mmk San: La Vallée Poussin (1913)  - San: La Vallée Poussin (1913) 594,7-8";
+								$('#'+tekstid).text(kilderef);
+								</script>
+							<div class='kilderef' id='8904431'></div><div class='clear'></div><span id='8904431bi' class='paragraph'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904431";
+							kilderef = "Mmk  ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Chinese'>								<script language="javascript" type="text/javascript">
+
+								tekstid = "8904828";
+								kilderef = "Mmk Chi: Kumārajīva, T. 1564 36c24 - Chi: Kumārajīva, T. 1564 ";
+								$('#'+tekstid).text(kilderef);
+								</script>
+							<div class='kilderef' id='7859958'></div><div class='clear'></div><span id='7859958bi' class='paragraph'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "7859958";
+							kilderef = "Mmk Chi: Kumārajīva, T. 1564 36c24  - Chi: Kumārajīva, T. 1564 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'>								<script language="javascript" type="text/javascript">
+
+								tekstid = "8904834";
+								kilderef = "Mmk Tib: Tg, tsa  - Tib: Tg, tsa 18b7";
+								$('#'+tekstid).text(kilderef);
+								</script>
+							<div class='kilderef' id='8903805'></div><div class='clear'></div><span id='8903805bi' class='paragraph'>
+							gang gis thugs brtse nyer bzung nas | | lta ba thams cad spang ba’i phyir | |<br />dam pa’i chos ni ston mdzad pa | | goo tam de la phyag ’tshal lo ||<br />(19a1)|| dbu ma rtsa ba’i tshig le’ur byas pa shes rab ces bya ba theg pa chen po’i chos mngon pa rnam par gzhag pa | | don dam pa’i de kho na yang dag par ston pa | shes rab kyi pha rol tu phyin pa’i tshul gsal bar byed pa | slob (2)dpon bdag nyid chen po ’phags pa klu sgrub mi ’phrogs pa’i mkhyen rab dang thugs rjer ldan pa | de bzhin gshegs pa’i theg pa bla na med pa’i tshul gsal bar byed pa | rab tu dga’ ba’i sa bsgrubs nas | bde ba can gyi zhing du gshegs (3)pa | ’jig rten gyi khams dang ba’i ’od ces bya bar | de bzhin gshegs pa ye shes ’byung gnas ’od ces bya bar ’gyur bas mdzad pa rdzogs so || || dbang phyug dam pa’i mnga’ bdag rgyal po chen po dpal lha btsan po’i bka’ lung gis | (4)rgya gar gyi mkhan po chen po dbu ma pa | dzny’a na garbha dang | zhu chen gyi lo tstsha ba dge slong cog ro klu’i rgyal mtshan gyis bsgyur cing zhus te gtan la phab pa | ’di la rab tu byed pa nyi shu rtsa bdun | | shloo ka bzhi brgya bzhi bcu rtsa dgu yod | bam po ni phyed dang (5)gnyis su byas so | | slad kyis kha che’i grong khyer dpe med kyi dbus | gtsug lag khang rin chen sbas pa’i dbus su | kha che’i mkhan po ha su ma ti dang | bod kyi sgra bsgyur gyi lo tstsha ba pa tshab nyi ma grags kyis mi’i bdag po ’phags pa lha’i sku ring la (6)’grel pa tshig gsal ba dang bstun nas bcos pa’o || || slad kyis ra sa ’phrul snang gi gtsug lag khang du | rgya gar gyi mkhan po ka na ka dang | lo tstsha ba de nyid kyis zhu chen bgyis pa’o ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8903805";
+							kilderef = "Mmk Tib: Tg, tsa 18b7-19a6  - Tib: Tg, tsa ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='English'>								<script language="javascript" type="text/javascript">
+
+								tekstid = "8905310";
+								kilderef = "Mmk Eng: Streng (1967)  - Eng: Streng (1967) ";
+								$('#'+tekstid).text(kilderef);
+								</script>
+							<div class='kilderef' id='8905342'></div><div class='clear'></div><span id='8905342bi' class='paragraph'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8905342";
+							kilderef = "Mmk Eng: Streng (1967)  - Eng: Streng (1967) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='English'>								<script language="javascript" type="text/javascript">
+
+								tekstid = "8904829";
+								kilderef = "Mmk Eng: Batchellor (2000)  - Eng: Batchellor (2000) ";
+								$('#'+tekstid).text(kilderef);
+								</script>
+							<div class='kilderef' id='7860916'></div><div class='clear'></div><span id='7860916bi' class='paragraph'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "7860916";
+							kilderef = "Mmk Eng: Batchellor (2000)  - Eng: Batchellor (2000) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'>								<script language="javascript" type="text/javascript">
+
+								tekstid = "8904830";
+								kilderef = "Mmk Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829  - Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829 ";
+								$('#'+tekstid).text(kilderef);
+								</script>
+							<div class='kilderef' id='8901401'></div><div class='clear'></div><span id='8901401bi' class='paragraph'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8901401";
+							kilderef = "Mmk Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829  - Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Chinese'>								<script language="javascript" type="text/javascript">
+
+								tekstid = "8906324";
+								kilderef = "Mmk Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564  36c24 - Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564 39b24";
+								$('#'+tekstid).text(kilderef);
+								</script>
+							<div class='kilderef' id='8906356'></div><div class='clear'></div><span id='8906356bi' class='paragraph'>
+							誰起是諸見(25)瞿曇大聖主 憐愍説是法(26)悉斷一切見 我今稽首禮(27)一切見者。略説則五見。廣説則六十二見。(28)爲斷是諸見故説法。大聖主瞿曇。是無量(29)無邊不可思議智慧者。是故我稽首禮◎(39c1)中論卷第四&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8906356";
+							kilderef = "Mmk Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564 39b24-39c1  - Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'>								<script language="javascript" type="text/javascript">
+
+								tekstid = "8904831";
+								kilderef = "Mmk Buddhapālita "Vṛtti" Tg 3842  - Buddhapālita "Vṛtti" Tg 3842 ";
+								$('#'+tekstid).text(kilderef);
+								</script>
+							<div class='kilderef' id='8901880'></div><div class='clear'></div><span id='8901880bi' class='paragraph'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8901880";
+							kilderef = "Mmk Buddhapālita "Vṛtti" Tg 3842  - Buddhapālita "Vṛtti" Tg 3842 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'>								<script language="javascript" type="text/javascript">
+
+								tekstid = "8904832";
+								kilderef = "Mmk Bhāvaviveka "Prajñāpradīpa" Tg 3853  - Bhāvaviveka "Prajñāpradīpa" Tg 3853 ";
+								$('#'+tekstid).text(kilderef);
+								</script>
+							<div class='kilderef' id='8902359'></div><div class='clear'></div><span id='8902359bi' class='paragraph'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8902359";
+							kilderef = "Mmk Bhāvaviveka "Prajñāpradīpa" Tg 3853  - Bhāvaviveka "Prajñāpradīpa" Tg 3853 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'>								<script language="javascript" type="text/javascript">
+
+								tekstid = "9009722";
+								kilderef = "Mmk Candrakīrti "Prasannapadā" Vaidya 1960  - Candrakīrti "Prasannapadā" Vaidya 1960 ";
+								$('#'+tekstid).text(kilderef);
+								</script>
+							<div class='kilderef' id='9009754'></div><div class='clear'></div><span id='9009754bi' class='paragraph'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "9009754";
+							kilderef = "Mmk Candrakīrti "Prasannapadā" Vaidya 1960  - Candrakīrti "Prasannapadā" Vaidya 1960 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'><div style='' id='3' class='note rn'>1.<a class="internt" name='N6177rn1' href='#FN6177rn1'> Verse 11 is not available in the Sanskrit test, but it is known from the Tibetan translation.</a>&nbsp; <br></div><div class='clear'></div></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div></div><div class='clear'></div><div class="fontboks"><a onClick=onOffdiv('permlink') name="permlink" href="#permlink">Permanent link</a></div><div class='clear'></div><div class='perm_felt' id='permlink'>http://www2.hf.uio.no/common/apps/permlink/permlink.php?app=polyglotta&amp;context=ctext&amp;uid=08c9e28c-6be5-11df-870c-00215aecadea</div></div></div><!-- infofelt --></div><!-- divControl --><div class="clear"></div>
+<div style="clear:both"></div><div class="signatur"><div class="signatur_left">
+		<a href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation">Go to Wiki Documentation</a></br>Enhet: <a HREF=http://www.hf.uio.no>Det humanistiske fakultet</a> &nbsp; Utviklet av: <a href="http://www.hf.uio.no/tjenester/it">IT-seksjonen ved HF</a></div><!--signatur_left -->
+		<div class="signatur_right"><a href="/polyglotta/admin/index.php">Login</a></div>
+		<div style="clear:both"></div></div>
+</body></html><SCRIPT LANGUAGE="JAVASCRIPT">
+	
+	$("#tr_IA").click(function(){
+	    if ($("#toggle_container_IA").is(':hidden'))
+	    	$("#toggle_container_IA").show();
+	    else{
+	        $("#toggle_container_IA").hide();
+	    }
+	    return false;
+		});
+
+	$("#tr_lang").click(function(){
+	    if ($("#toggle_container_lan").is(':hidden'))
+	    	$("#toggle_container_lan").show();
+	    else{
+	        $("#toggle_container_lan").hide();
+	    }
+	    return false;
+	});
+
+	$("#tr_img").click(function(){
+	    if ($("#toggle_container_img").is(':hidden'))
+	    	$("#toggle_container_img").show();
+	    else{
+	        $("#toggle_container_img").hide();
+	    }
+	    return false;
+	});
+
+	$("#diac2button").click(function(){
+	   if ($("#ex3a").is(':hidden')){
+		   $("#ex3a").show();
+	       $("#diac2button").html("Hide&#32Diacritica-help");
+	   }else{
+	       $("#ex3a").hide();
+	       $("#diac2button").html("Diacritica-help");
+	   }
+	   return false;
+	});
+
+	$("#diacbutton").click(function(){
+	   if ($("#diacritical_sign").is(':hidden')){
+		   	$("#diacritical_sign").show();
+	      	$("#diacbutton").html("Hide&#32diacritica");
+	   }else{
+	        $("#diacritical_sign").hide();
+	        $("#diacbutton").html("Diacritica");
+	   }
+	   return false;
+    });
+
+	$('#toggle_container_IA').click(function(e) {
+	   e.stopPropagation();
+	});
+
+	$('#toggle_container_lan').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#toggle_container_img').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#ex3a').click(function(e) {
+	    e.stopPropagation();
+	});
+
+	$('#diacritical_sign').click(function(e) {
+        e.stopPropagation();
+    });
+
+	//Kode for å sette inn diakritiske tegn
+	$('#diacritical > tbody > tr > td').click(function() {
+	  	//alert('red');
+		$("#sokeboks").val($("#sokeboks").val() + $(this).text());
+	});
+
+	$('.diac2button').text(($('.diacbutton').text() == 'Diacritica-help') ? 'Hide Diacritica-help' : 'Diacritica-help');
+	
+	//Lukker alle åpnede pop'uper ved klikk på siden
+	$(document).click(function() {
+		$('#toggle_container_IA').hide();
+	    
+        $('#toggle_container_lan').hide();
+    
+        $('#toggle_container_img').hide();
+   
+   		$('#diacritical_sign').hide();
+   		$("#diacbutton").html("Diacritica");
+   
+       	$('#ex3a').hide();
+       	$("#diac2button").html("Diacritica-help");
+   });
+	</SCRIPT>

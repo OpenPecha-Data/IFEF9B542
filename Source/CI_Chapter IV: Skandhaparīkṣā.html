@@ -1,0 +1,615 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Bibliotheca Polyglotta</title>
+<link rel='stylesheet' type='text/css' href='css/bp.css'>
+<link rel='stylesheet' type='text/css' href='css/diac_doc.css'>
+
+<link rel='stylesheet' type='text/css' href='css/imageGallery.css'>
+<link rel='stylesheet' type='text/css' href='css/ss.css'>
+	      <link rel='stylesheet' type='text/css' href='css/tree_menu.css'>
+<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+<!--  <script type="text/javascript" src="js/jqModal.js"></script>-->
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/tree_menu.js"></script>
+<!-- <script src="js/analytics_tracking.js" type="text/javascript"></script> -->
+
+
+<!-- <script type="text/javascript" src="js/popupDivhandling.js"></script> -->
+<!--  <script type="text/javascript" src="jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery-imagegallery.js"></script>-->
+</head>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//vrtx.uio.no/js/analytics/v2/analytics.js','ga');
+
+ga('create', 'UA-86407471-1', 'auto');
+ga(function(tracker) {
+
+	// Modifies sendHitTask to hit ipproxy instead of http://www.google-analytics.com directly
+	tracker.set('sendHitTask', function(model) {
+		payload = model.get('hitPayload');
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', '//w3prod-ipproxy.uio.no/collect' +'?' + payload, true);
+		xhr.send();
+	});
+		ga('send', 'pageview');
+});
+</script>
+<body><div class='banner'></div><!-- banner --><div class='uiologo'>
+<a href='http://www.hf.uio.no/'><img src='https://www2.hf.uio.no/polyglotta/hfe.png' border='0'></a></div><!-- uiologo --><div class='clear'></div>
+<div class='smule_tittel'>
+<div class='brodsmuleboks'>You are here: <a href='/polyglotta/index.php' accesskey='1'> BP HOME</a> >  <a href='/polyglotta/index.php?page=library&amp;bid=2' accesskey='1'>TLB</a> > <a href='/polyglotta/index.php
+	?page=volume&amp;vid=1124' accesskey='1'>Nāgārjuna: Mūlamadhyamakakārikā</a> > fulltext</div><div class='clear'></div>
+<div class='headline'>Nāgārjuna: Mūlamadhyamakakārikā<div class='clear'></div></div><!-- headline -->
+</div><!-- smule_tittel -->
+<!--<div>-->
+
+<h2 class="trigger" id="tr_lang"><a  href="#">Choose languages</a></h2>
+<h2 class="trigger" id="tr_img"><a  href="#">Choose images, etc.</a></h2>
+
+
+<div id="toggle_container_lan">
+
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_lan.php" method="POST">
+
+<div style="float:left; width:auto; text-align:left; margin-left:20px;">
+<h5>Choose languages</h5>
+<ul>
+<input value="Choose all" type="button" onClick="markAll('tr')"><input value="Uncheck all" type="button" onClick="markNone('tr')">
+
+	<li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6176]" value="6176" id="lancheckbox" checked >Sanskrit: San: La Vallée Poussin (1913), </label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[5667]" value="5667" id="lancheckbox" checked >Chinese: Chi: Kumārajīva, T. 1564</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6175]" value="6175" id="lancheckbox" checked >Tibetan: Tib: Tg, tsa</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6177]" value="6177" id="lancheckbox" checked >English: Eng: Streng (1967)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[5669]" value="5669" id="lancheckbox" checked >English: Eng: Batchellor (2000)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6170]" value="6170" id="lancheckbox" checked >Tibetan: Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6179]" value="6179" id="lancheckbox" checked >Chinese: Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6171]" value="6171" id="lancheckbox" checked >Tibetan: Buddhapālita "Vṛtti" Tg 3842</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6172]" value="6172" id="lancheckbox" checked >Tibetan: Bhāvaviveka "Prajñāpradīpa" Tg 3853</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6340]" value="6340" id="lancheckbox" checked >Sanskrit: Candrakīrti "Prasannapadā" Vaidya 1960</label></li><div style="clear:both"></div>
+<input type='submit' name='set_cookie' value='Save view'>
+<div style="clear:both"></div>
+
+</ul>
+<input type="hidden" name="vid" value="1124">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+</div>
+
+<div id="toggle_container_img">
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_img.php" method="POST">
+
+<div style="float:left; width:auto; text-align: left;">
+<h5>Choose display</h5>
+<ul>
+		
+	<li> 
+		<input type='checkbox' name='bilder' checked="checked" > Enable images
+	</li>
+	<li> 
+	<input type='checkbox' onclick="onOffCheckbox();" name='fotnoter' checked="checked"> Enable footnotes
+	<div id="pff" style="display:block" >
+	<ul>
+	<li><input type='radio' name='fotnote_valg'  value='show_a' checked> Show all footnotes</li>
+	<li><input type='radio' name='fotnote_valg'  value='show_h'  > Minimize footnotes</li>
+	</ul>
+	</li>
+	
+	</div>
+	<div style="float:left; width:20em; text-align: left; margin-left:120px ">
+	<div style="clear:both"></div>
+	<input type='submit' name='set_cookie' value='Save view'>
+	<div style="clear:both"></div>
+	</div>
+	
+</ul>
+<input type="hidden" name="vid" value="1124">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+	
+
+
+
+</div>
+</div>
+
+<div class='sok'><form name='Sok' id='FormBlock' action='/polyglotta/index.php' method='get'>
+<input type='hidden' name='page' value='search'>
+<input type='hidden' name='bid' value='2'>
+<input type='hidden' name='vid' value='1124'>
+<div class='sokeboks'>
+<input name='sokefelt' id='sokeboks' type='text' size='30' value=''>
+<input type='submit' name='Sok' value='Search' id='nsubmit'>
+<div class='clear'></div><a class="diacbutton" id="diacbutton" href="#">Diacritica</a><a id="diac2button" class="diac2button"  href="#">Diacritica-help</a><a class="s2button" href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation:SearchHelp">Search-help</a><div class='diacritical' id='diacritical_sign'><div style="text-align: left; ">
+<table class = 'diacritica' width="200" border="1" cellpadding="1" cellspacing="1" id="diacritical">
+    <tbody>
+        <tr>
+            <td style="text-align: center; ">ā</td>
+            <td style="text-align: center; ">ī</td>
+            <td style="text-align: center; ">ū</td>
+            <td style="text-align: center; ">ṛ</td>
+            <td style="text-align: center; ">ṝ</td>
+            <td style="text-align: center; ">ḷ</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ḹ</td>
+            <td style="text-align: center; ">&rsquo;</td>
+            <td style="text-align: center; ">ṃ</td>
+            <td style="text-align: center; ">ḥ</td>
+            <td style="text-align: center; ">ṅ</td>
+            <td style="text-align: center; ">&ntilde;</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ṭ</td>
+            <td style="text-align: center; ">ḍ</td>
+            <td style="text-align: center; ">ṇ</td>
+            <td style="text-align: center; ">ṣ</td>
+            <td style="text-align: center; ">ś</td>
+            <td style="text-align: center; ">ź</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">&scaron;</td>
+            <td style="text-align: center; ">č</td>
+            <td style="text-align: center; ">ǰ</td>
+            <td style="text-align: center; ">&gamma;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+</div></div><!-- diacritical --><div id="ex3a" class="jqmDialog"><div>
+	<span style="font-size:12px;">Note on the transliteration:</span></div>
+<div>
+	<span style="font-size:12px;">The transliteration system of the BP/TLB is based on the Unicode/UTF-8 system. However, there may be difficulties with some of the letters &ndash; particularly on PC/Windows-based systems, but not so much on the Mac. We have chosen the most accepted older and traditional systems of transliteration against, e.g, Wylie for Tibetan, since with Unicode it is possible, in Sanskrit and Tibetan, etc., to represent one sound with one letter in almost all the cases (excepting Sanskrit and Tibetan aspirated letters, and Tibetan tsa, tsha, dza). We thus do not use the Wylie system which widely employs two letters for one sound (ng, ny, sh, zh etc.).</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">Important:</span></div>
+<div>
+	<span style="font-size:12px;">We ask you in particular to note the use of the &rsquo; apostrophe and not the &#39; representing the avagrāha in Sanskrit, and most important the &rsquo;a-chuṅ in Tibetan. On the Mac the &rsquo; is Alt-M.</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">If you cannot find the letters on your key-board, you may click on the link &quot;Diacritica&quot; to access it for your search.</span></div>
+</div><!-- diacritical_doc --><div class='clear'></div><select name='searchmode'><option selected value='phrase'>Search for exact phrase</option>
+<option  value='phraseregex'>Search for exact phrase (regex)</option>
+<option  value='word'>Search for every word in one record</option>
+<option  value='free'>Search for every word fragment in one record</option>
+</select>
+<select name='context'>
+<option ($_GET[context]=="a" ? "selected" : "") value="a"> Search in all libraries</option><option selected value="bTLB">Search in TLB</option><option selected value="v1124">Search in Nāgārjuna: Mūlamadhyamakakārikā</option></select><div class='clear'></div><a class='sbutton' href='/polyglotta/index.php?page=asearch&amp;bid=2&amp;vid=1124'>Choose specific texts..</a><div class='clear'></div></div></form></div><!-- sok --><div class='clear'></div><!-- clear --><div id='dcr' class='divControlRead'><div class='venstrefulltekstfelt'><div class='bverknavn'><a href='/polyglotta/index.php?page=volume&amp;vid=1124'>Nāgārjuna: Mūlamadhyamakakārikā</a></div><table class="tlvl2">
+					<tr>
+						<td bgcolor="#ffffff"> &nbsp; &nbsp;
+						<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_7627.Verses41-58" border=0 hspace=2>
+						<a href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124" class="ajax_tree0">Complete text</a>
+						</td>
+					</tr>
+				  </table><input type="hidden" name="tree_top_options" id="tree_top_options" value="134642.Title|134643.Preface|134644.ChaptersI-V|134650.ChaptersVI-X|134656.ChaptersXI-XV|134662.ChaptersXVI-XX|134668.ChaptersXXI-XXV|134674.ChaptersXXVI-XXVII|134677.Colophon|">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134642.Title" border=0 hspace=2><a id="href_134642.Title" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942958&level=1&cid=843905" class="ajax_tree0">Title
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134643.Preface" border=0 hspace=2><a id="href_134643.Preface" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942959&level=1&cid=843906" class="ajax_tree0">Preface
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134644.ChaptersI-V','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134644.ChaptersI-V" border=0 hspace=2><a id="href_134644.ChaptersI-V" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942960&level=1&cid=843907" class="ajax_tree0">Chapters I-V
+</td></tr></table>
+<div style="display:none;"  id="div_134644.ChaptersI-V">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134645.ChapterI:Pratyayaparīkṣā" border=0 hspace=2><a id="href_134645.ChapterI:Pratyayaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942960&level=2&cid=843907" class="ajax_tree1">Chapter I: Pratyayaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134646.ChapterII:Gatāgataparīkṣaṇa" border=0 hspace=2><a id="href_134646.ChapterII:Gatāgataparīkṣaṇa" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942975&level=2&cid=843922" class="ajax_tree1">Chapter II: Gatāgataparīkṣaṇa
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134647.ChapterIII:Cakṣurādīndriyaparīkṣā" border=0 hspace=2><a id="href_134647.ChapterIII:Cakṣurādīndriyaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943001&level=2&cid=843948" class="ajax_tree1">Chapter III: Cakṣurādīndriyaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134648.ChapterIV:Skandhaparīkṣā" border=0 hspace=2><a id="href_134648.ChapterIV:Skandhaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943011&level=2&cid=843958" class="ajax_tree1">Chapter IV: Skandhaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134649.ChapterV:Dhātuparīkṣā" border=0 hspace=2><a id="href_134649.ChapterV:Dhātuparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943021&level=2&cid=843968" class="ajax_tree1">Chapter V: Dhātuparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134650.ChaptersVI-X','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134650.ChaptersVI-X" border=0 hspace=2><a id="href_134650.ChaptersVI-X" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943030&level=1&cid=843977" class="ajax_tree0">Chapters VI-X
+</td></tr></table>
+<div style="display:none;"  id="div_134650.ChaptersVI-X">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134651.ChapterVI:Rāgasaktiparīkṣā" border=0 hspace=2><a id="href_134651.ChapterVI:Rāgasaktiparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943030&level=2&cid=843977" class="ajax_tree1">Chapter VI: Rāgasaktiparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134652.ChapterVII:Saṃskr̥̥taparīkṣā" border=0 hspace=2><a id="href_134652.ChapterVII:Saṃskr̥̥taparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943041&level=2&cid=843988" class="ajax_tree1">Chapter VII: Saṃskr̥̥taparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134653.ChapterVIII:Karmakārakaparīkṣā" border=0 hspace=2><a id="href_134653.ChapterVIII:Karmakārakaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943076&level=2&cid=844023" class="ajax_tree1">Chapter VIII: Karmakārakaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134654.ChapterIX:Pūrvaparīkṣā" border=0 hspace=2><a id="href_134654.ChapterIX:Pūrvaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943090&level=2&cid=844037" class="ajax_tree1">Chapter IX: Pūrvaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134655.ChapterX:Agnīndhanaparīkṣā" border=0 hspace=2><a id="href_134655.ChapterX:Agnīndhanaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943103&level=2&cid=844050" class="ajax_tree1">Chapter X: Agnīndhanaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134656.ChaptersXI-XV','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134656.ChaptersXI-XV" border=0 hspace=2><a id="href_134656.ChaptersXI-XV" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943120&level=1&cid=844067" class="ajax_tree0">Chapters XI-XV
+</td></tr></table>
+<div style="display:none;"  id="div_134656.ChaptersXI-XV">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134657.ChapterXI:Pūrvāparakoṭiparīkṣa" border=0 hspace=2><a id="href_134657.ChapterXI:Pūrvāparakoṭiparīkṣa" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943120&level=2&cid=844067" class="ajax_tree1">Chapter XI: Pūrvāparakoṭiparīkṣa
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134658.ChapterXII:Duḥkhaparīkṣā" border=0 hspace=2><a id="href_134658.ChapterXII:Duḥkhaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943129&level=2&cid=844076" class="ajax_tree1">Chapter XII: Duḥkhaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134659.ChapterXIII:Saṃskāraparīkṣā" border=0 hspace=2><a id="href_134659.ChapterXIII:Saṃskāraparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943140&level=2&cid=844087" class="ajax_tree1">Chapter XIII: Saṃskāraparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134660.ChapterXIV:Saṃsargaparīkṣā" border=0 hspace=2><a id="href_134660.ChapterXIV:Saṃsargaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943150&level=2&cid=844096" class="ajax_tree1">Chapter XIV: Saṃsargaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134661.ChapterXV:Svabhāvaparīkṣā" border=0 hspace=2><a id="href_134661.ChapterXV:Svabhāvaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943159&level=2&cid=844105" class="ajax_tree1">Chapter XV: Svabhāvaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134662.ChaptersXVI-XX','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134662.ChaptersXVI-XX" border=0 hspace=2><a id="href_134662.ChaptersXVI-XX" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943171&level=1&cid=844117" class="ajax_tree0">Chapters XVI-XX
+</td></tr></table>
+<div style="display:none;"  id="div_134662.ChaptersXVI-XX">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134663.ChapterXVI:Bandhanamokṣaparīkṣā" border=0 hspace=2><a id="href_134663.ChapterXVI:Bandhanamokṣaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943171&level=2&cid=844117" class="ajax_tree1">Chapter XVI: Bandhanamokṣaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134664.ChapterXVII:Karmaphalaparīkṣā" border=0 hspace=2><a id="href_134664.ChapterXVII:Karmaphalaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943182&level=2&cid=844128" class="ajax_tree1">Chapter XVII: Karmaphalaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134665.ChapterXVIII:Ātmaparīkṣā" border=0 hspace=2><a id="href_134665.ChapterXVIII:Ātmaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943216&level=2&cid=844162" class="ajax_tree1">Chapter XVIII: Ātmaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134666.ChapterXIX:Kālaparīkṣā" border=0 hspace=2><a id="href_134666.ChapterXIX:Kālaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943229&level=2&cid=844175" class="ajax_tree1">Chapter XIX: Kālaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134667.ChapterXX:Sāmagrīparīkṣā" border=0 hspace=2><a id="href_134667.ChapterXX:Sāmagrīparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943236&level=2&cid=844182" class="ajax_tree1">Chapter XX: Sāmagrīparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134668.ChaptersXXI-XXV','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134668.ChaptersXXI-XXV" border=0 hspace=2><a id="href_134668.ChaptersXXI-XXV" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943261&level=1&cid=844207" class="ajax_tree0">Chapters XXI-XXV
+</td></tr></table>
+<div style="display:none;"  id="div_134668.ChaptersXXI-XXV">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134669.ChapterXXI:Saṃbhavavibhavaparīkṣā" border=0 hspace=2><a id="href_134669.ChapterXXI:Saṃbhavavibhavaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943261&level=2&cid=844207" class="ajax_tree1">Chapter XXI: Saṃbhavavibhavaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134670.ChapterXXII:Tathāgataparīkṣā" border=0 hspace=2><a id="href_134670.ChapterXXII:Tathāgataparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943283&level=2&cid=844229" class="ajax_tree1">Chapter XXII: Tathāgataparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134671.ChapterXXIII:Viparyāsaparīkṣā" border=0 hspace=2><a id="href_134671.ChapterXXIII:Viparyāsaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943300&level=2&cid=844246" class="ajax_tree1">Chapter XXIII: Viparyāsaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134672.ChapterXXIV:Āryasatyaparīkṣā" border=0 hspace=2><a id="href_134672.ChapterXXIV:Āryasatyaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943326&level=2&cid=844272" class="ajax_tree1">Chapter XXIV: Āryasatyaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134673.ChapterXXV:nirvāṇaparīkṣā" border=0 hspace=2><a id="href_134673.ChapterXXV:nirvāṇaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943367&level=2&cid=844313" class="ajax_tree1">Chapter XXV: nirvāṇaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134674.ChaptersXXVI-XXVII','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134674.ChaptersXXVI-XXVII" border=0 hspace=2><a id="href_134674.ChaptersXXVI-XXVII" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943392&level=1&cid=844338" class="ajax_tree0">Chapters XXVI-XXVII
+</td></tr></table>
+<div style="display:none;"  id="div_134674.ChaptersXXVI-XXVII">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134675.ChapterXXVI:Dvādaśāṅgaparīkṣā" border=0 hspace=2><a id="href_134675.ChapterXXVI:Dvādaśāṅgaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943392&level=2&cid=844338" class="ajax_tree1">Chapter XXVI: Dvādaśāṅgaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134676.ChapterXXVII:Dr̥ṣṭiparīkṣā" border=0 hspace=2><a id="href_134676.ChapterXXVII:Dr̥ṣṭiparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943405&level=2&cid=844351" class="ajax_tree1">Chapter XXVII: Dr̥ṣṭiparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134677.Colophon" border=0 hspace=2><a id="href_134677.Colophon" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943436&level=1&cid=844382" class="ajax_tree0">Colophon
+</td></tr></table>
+<script language=javascript>test('134648.ChapterIV:Skandhaparīkṣā|134644.ChaptersI-V|')</script><div class='bverknavn'><a href='/polyglotta/index.php?page=library&amp;bid=2'>Back to library</a></div></div><!-- venstrefulltekstfelt --><div class="clear"></div><!-- clear --><div id="nav-menu"><ul>
+  		  <li  id="nav-1"><a class="tabValgt" href="/polyglotta/index.php?page=record&amp;view=record&amp;vid=1124&amp;mid=1943011&amp;level=2">Sentence by sentence view</a></li>
+  		  <li  id="nav-2"><a  href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124&amp;cid=843958&amp;mid=1943011&amp;level=2">Continuous text view</a></li>
+ 		<li  id="nav-3"><a  href="/polyglotta/admin/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124&amp;cid=843958&amp;mid=1943011&amp;level=2">View in admin</a></li>
+
+  		  </ul></div><div class='clear'></div><!-- clear -->			<script language="javascript" type="text/javascript">
+			var kilderef = '';
+			var tekstid = 0;
+			var tekstid_bilder = 0;
+			var filsti = '';
+			var thumbnail = '';
+			</script>
+		<div class='infofulltekstfelt'><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><div class='kilderef' id='8904651'></div><div class='clear'></div><span id='8904651bi' class='generelltekst'>
+							&nbsp;</span><span id='8904006bi' class='verse'>
+						 rūpakāraṇanirmuktaṃ na rūpam upalabhyate |<br />rūpeṇāpi na nirmuktaṃ dṛśyate rūpakāraṇam || 1 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><div class='kilderef' id='8904644'></div><div class='clear'></div><span id='8904644bi' class='subtitle'>
+							中論觀五陰品第四(九偈)&nbsp;</span><span id='7859533bi' class='verse'>
+						 若離於色因 色則不可得<br />若當離於色 色因不可得&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904650'></div><div class='clear'></div><span id='8904650bi' class='generelltekst'>
+							&nbsp;</span><span id='8903380bi' class='verse'>
+						 gzugs kyi rgyu ni ma gtogs par | | gzugs ni dmigs par mi ’gyur ro | |<br />gzugs zhes bya ba ma gtogs par | | gzugs kyi rgyu yang mi snang ngo | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><div class='kilderef' id='8904893'></div><div class='clear'></div><span id='8904893bi' class='subtitle'>
+							[Chapter] 4: An Analysis of the “Groups of Universal Elements” (skandhas) (the aggregates)&nbsp;</span><span id='8904894bi' class='verse'>
+						 1. Visible form (<i>rūpa</i>) is not perceived without the basic cause of visible form (<i>rūpakāraṇa</i>);<br />Likewise the basic cause of visible form does not appear without the visible form.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><div class='kilderef' id='8904645'></div><div class='clear'></div><span id='8904645bi' class='subtitle'>
+							Investigation of the Aggregates&nbsp;</span><span id='7860491bi' class='verse'>
+						 Apart from the cause of form, form is not perceived. Apart from “form”, the cause of form also does not appear.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904646'></div><div class='clear'></div><span id='8904646bi' class='subtitle'>
+							&nbsp;</span><span id='8900976bi' class='verse'>
+						 འདིར་སྨྲས་པ། ཕུང་པོ་ལྔ་ནི་ཡོད་དེ། གདགས་པ་བསྟན་པའི་ཕྱིར་རོ། །འདིར་བཤད་པ། <b>གཟུགས་ཀྱི་རྒྱུ་ནི་མ་གཏོགས་པར། །གཟུགས་ནི་དམིགས་པར་མི་འགྱུར་རོ། །གཟུགས་ཞེས་བྱ་བ་མ་གཏོགས་པར། །གཟུགས་ཀྱི་རྒྱུ་ཡང་མི་སྣང་ངོ། །</b>གཟུགས་ཀྱི་རྒྱུ་མ་་གཏོགས་པར་ཡང་གཟུགས་དམིགས་པར་མི་འགྱུར་རོ། །གཟུགས་ཞེས་བྱ་བ་མ་གཏོགས་པར་ཡང་གཟུགས་ཀྱི་རྒྱུ་མི་སྣང་ངོ ། །ཚོར་བ་དང་། འདུ་ཤེས་དང་། འདུ་བྱེད་དང་། རྣམ་པར་ཤེས་པ་དག་ལ་ཡང་བསྒྲུབ་པ་འདི་ཉིད་བལྟ་བར་བྱ་སྟེ། ས་བོན་དང་མྱུ་གུ་བཞིན་ནོ། །འདིར་་སྨྲས་པ། གལ་ཏེ་གཟུགས་ཀྱི་རྒྱུ་མ་གཏོགས་པར་གཟུགས་དམིགས་པར་གྱུར་ན། སྐྱོན་དུ་ཐལ་བ་ཇི་ཞིག་ཏུ་ཐལ་བར་འགྱུར། 
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><div class='kilderef' id='8905907'></div><div class='clear'></div><span id='8905907bi' class='subtitle'>
+							(18)＊中論 觀五陰品第四 九偈&nbsp;</span><span id='8905908bi' class='verse'>
+						 (19)問曰。經説有五陰。是事云何。答曰(20)<b>若離於色因 色則不可得(21)若當離於色 色因不可得</b>(22)色因者。如布因縷。除縷則無布。除布則無(23)縷。布如色縷如因。問曰若離色因有色。(24)有何過。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904647'></div><div class='clear'></div><span id='8904647bi' class='subtitle'>
+							&nbsp;</span><span id='8901455bi' class='verse'>
+						 འདིར་སྨྲས་པ། འདི་ལ་གཟུགས་ལ་སོགས་པ་ཕུང་པོ་ལྔ་པོ་དག་བསྟན་ཏོ། །དེ་དག་་སྡུག་བསྔལ་ལོ་ཞེས་གསུངས་ཏེ། །སྡུག་བསྔལ་འཕགས་པའི་བདེན་པར་གསུངས་སོ། །འཕགས་པའི་བདེན་པ་གང་ཡིན་པ་དེ་ནི་མེད་པར་ཇི་ལྟར་འགྱུར་ཏེ། དེ་བས་ན་ཕུང་པོ་རྣམས་ནི་ཡོད་དོ། །བཤད་པ། <b>གཟུགས་ཀྱི་རྒྱུ་ནི་མ་གཏོགས་པར། །གཟུགས་ནི་དམིགས་པར་མི་འགྱུར་(178A)རོ། །</b>འདི་ལ་འབྱུང་བ་ཆེན་པོ་བཞི་པོ་དག་ནི་གཟུགས་ཀྱི་རྒྱུར་བསྟན། གཟུགས་ནི་དེ་དག་གི་འབྲས་བུར་བསྟན་ན། འབྱུང་བ་ཆེན་པོ་བཞི་པོ་དག་མ་གཏོགས་པར་འབྱུང་བ་ཆེན་པོ་བཞི་པོ་དེ་དག་ལས་དོན་གཞན་དུ་གྱུར་པ་གཟུགས་ཞེས་བྱ་བར་འབྲས་བུ་ནི་ཅི་་ཡང་མེད་དེ། དེ་ལྟ་བས་ན་གཟུགས་ནི་མི་འཐད་དོ། །སྨྲས་པ། རེ་ཞིག་འབྱུང་བ་དག་ནི་ཡོད་དེ། དེ་ལ་རྒྱུ་ཡོད་པའི་ཕྱིར་འབྲས་བུ་ཡང་ཡོད་པས་གཟུགས་ཀྱང་རབ་ཏུ་གྲུབ་པ་ཉིད་དོ། །བཤད་པ། <b>གཟུགས་ཞེས་བྱ་བ་མ་གཏོགས་པར། །གཟུགས་ཀྱི་རྒྱུ་ཡང་མི་སྣང་ངོ་། །</b>གཟུགས་་མ་གཏོགས་པར་ཡང་འདི་ནི་གཟུགས་ཀྱི་རྒྱུའོ། །ཞེས་བྱ་བ་མི་སྣང་བ་ཉིད་དོ། །གཟུགས་ནི་མི་འཐད་པར་སྨྲས་ཟིན་ཏེ། དེ་ལྟར་གཟུགས་མི་འཐད་པའི་ཕྱིར་གཟུགས་ཀྱི་རྒྱུ་ཡང་མི་འཐད་དོ། །སྨྲས་པ། །འདི་ལ་ཁྱོད་རྒྱུ་ལ་བརྟེན་ནས་འབྲས་བུ་སེལ་བར་བྱེད་ཅིང་། འབྲས་བུ་ལ་་བརྟེན་ནས་རྒྱུ་སེལ་བར་བྱེད་པས་དེ་ལ་གང་ལ་བརྟེན་ནས་གཞན་ཞིག་སེལ་བར་བྱེད་པ་དེ་ནི་རེ་ཞིག་ཡོད་དོ། །དེ་ཡོད་ན་གཞན་ཡང་རབ་ཏུ་འགྲུབ་པར་འགྱུར་རོ། །བཤད་པ། གཞན་ཡོད་པ་ཉིད་དོ། །ཞེས་བརྗོད་པར་མི་ནུས་སོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904648'></div><div class='clear'></div><span id='8904648bi' class='subtitle'>
+							&nbsp;</span><span id='8901934bi' class='verse'>
+						 ད་ནི་སྐྱེ་མཆེད་ཡོད་པ་ཉིད་མི་མཐུན་པའི་ཕྱོགས་ཀྱི་ཁྱད་པར་དགག་པས་ཕུང་པོ་རྣམས་ངོ་བོ་ཉིད་མེད་པ་ཉིད་དུ་བསྟན་པའི་དོན་གྱི་དབང་གིས་རབ་ཏུ་བྱེད་པ་བཞི་བ་བརྩམ་མོ། །རབ་ཏུ་བྱེད་པ་བསྟན་མ་ཐག་པའི་མཇུག་ཏུ། ལྟ་བས་ཉན་དང་སྣོམ་པ་དང། །མྱོང་བར་བྱེད་དང་རེག་བྱེད་ཡིད། །ཉན་པ་པོ་དང་མཉན་ལ་སོགས། །རྣམ་པར་བཤད་པར་ཤེས་པར་བྱ། །ཞེས་བཤད་པའི་ཕྱིར་རང་གི་སྡེ་པ་དག་ན་རེ། དོན་དམ་པར་སྐྱེ་མཆེད་རྣམས་ཡོད་པ་ཁོ་ན་ཡིན་ཏེ། ཕུང་པོས་བསྡུས་པའི་ཕྱིར་རོ། །འདི་ན་གང་ཡོད་པ་མ་ཡིན་པ་དེ་ནི་གཟུགས་ལ་སོགས་པའི་ཕུང་པོས་མ་བསྡུས་ཏེ། དཔེར་ན་ནམ་མཁའི་མེ་ཏོག་བཞིན་ནོ། །ནང་གི་སྐྱེ་མཆེད་རྣམས་ལ་ནི་ཕུང་པོས་བསྡུས་པ་ཡོད་དེ། འདི་ལྟ་སྟེ། གཟུགས་ཅན་བཅུ་ནི་གཟུགས་ཀྱི་ཕུང་པོས་བསྡུས་ལ། ཆོས་ཀྱི་སྐྱེ་མཆེད་ནི་ཕུང་པོ་གསུམ་དང། གཟུགས་ཀྱི་ཕུང་པོའི་ཕྱོགས་གཅིག་གིས་བསྡུས། ཡིད་ཀྱི་སྐྱེ་མཆེད་ནི་རྣམ་པར་ཤེས་པའི་ཕུང་པོས་བསྡུས་སོ། །དེའི་ཕྱིར་གཏན་ཚིགས་ཇི་སྐད་སྨོས་པས་དོན་དམ་པར་ནང་གི་སྐྱེ་མཆེད་རྣམས་ཡོད་པ་ན་ཡིན་ནོ་ཞེས་ཟེར་རོ། །འདིར་བཤད་པ། འདི་ལ་གཟུགས་ནི་མདོར་བསྡུ་ན་རྣམ་པ་གཉིས་ཏེ། འབྱུང་བའི་གཟུགས་དང། འབྱུང་བ་ལས་གྱུར་པའི་གཟུགས་སོ། །དུས་ལ་སོགས་པའི་དབྱེ་བས་ཐ་དད་པ་དེ་དག་ཐམས་ཅད་གཅིག་ཏུ་བསྡུས་ནས་གཟུགས་ཀྱི་ཕུང་པོ་ཞེས་བྱའོ། །དེ་ལ་རེ་ཞིག་ཕ་རོལ་པོའི་གཏན་ཚིགས་ཉིད་དུ་མིག་ལ་སོགས་པ་བསྡུས་པར་འདོད་པའི་ཕྱིར་དང། བསྟན་སླ་བའི་ཕྱིར་གཟུགས་ལས་བརྩམས་ཏེ་བསམ་པར་བྱའོ། །<b>གཟུགས་ཀྱི་རྒྱུ་ནི་མ་གཏོགས་པར། །གཟུགས་ནི་དམིགས་པར་མི་འགྱུར་རོ། །</b>གཟུགས་ཞེས་བྱ་བ་ནི་(84A)གཟུགས་སུ་རུང་བའོ། །དེའི་རྒྱུ་ནི་གཟུགས་ཀྱི་རྒྱུ་སྟེ། དེ་གང་ཞེ་ན། ས་ལ་སོགས་པ་འབྱུང་བ་ཆེན་པོ་བཞི་པོ་དག་གོ། །དེ་དག་མ་གཏོགས་པར་ཞེས་བྱ་བ་ནི། དེ་དག་བསྩལ་ནའོ། །གཟུགས་ནི་དམིགས་པར་མི་འགྱུར་རོ། །ཞེས་བྱ་བ་ནི་དོན་དམ་པར་རོ། །འོ་ན་ཅི་ཞེ་ན། ཐ་སྙད་གདགས་པའི་ཕྱིར། གཟུགས་ཀྱི་རྒྱུ་འབྱུང་བ་ཆེན་པོ་བཞི་པོ་དག་ལ་བརྟེན་ནས་གཟུགས་ཞེས་འདོགས་པར་བྱེད་དོ། །དེ་ལྟར་ན་འདིས་གཟུགས་ཀྱིས་བསྒྲུབ་པར་བྱ་བ་ཆོས་ས་ལ་སོགས་པར་འདུས་པ་ཙམ་ཉིད་དང། གཟུགས་ཀྱི་བསྒྲུབ་པའི་ཆོས་རང་གི་རྒྱུ་མ་བཟུང་ན་དེའི་བློ་མེད་པ་བསྟན་ཏོ། །དཔེ་ནི་དེའི་དབང་གིས་ཏེ། དམག་དང་ནགས་ཚལ་ལ་སོགས་པ་དག་ཡིན་ནོ། །འདིར་རྗེས་སུ་དཔག་པ་ནི་དོན་དམ་པར་གཟུགས་རྫས་སུ་ཡོད་པ་མ་ཡིན་ཏེ། རང་གི་རྒྱུ་མ་བཟུང་ན་དེའི་བློ་མེད་པའི་ཕྱིར་རོ། །འདི་ན་གང་རང་གི་རྒྱུ་མ་བཟུང་ན་དེའི་བློ་མེད་པ་ནི་རྫས་སུ་ཡོད་པ་མ་ཡིན་ཏེ། དཔེར་ན་དམག་ལ་སོགས་པ་བཞིན་ནོ། །དེ་བཞིན་དུ་གཟུགས་ཀྱང་རང་གི་རྒྱུས་ལ་སོགས་པ་དག་མ་བཟུང་ན། གཟུགས་ཀྱི་བློ་མེད་པས་རྫས་སུ་ཡོད་པ་མ་ཡིན་ནོ། །ཡང་ན་སྦྱོར་བའི་ལམ་གཞན་ཡང་ཡོད་དེ། དོན་དམ་པར་གཟུགས་ཀྱི་བློ་ནི་དངོས་པོ་རྫས་སུ་ཡོད་པའི་ཡུལ་ཅན་མ་ཡིན་ཏེ། བློ་ཡིན་པའི་ཕྱིར་དཔེར་ན་ནགས་ཚལ་ལ་སོགས་པའི་བློ་བཞིན་ནོ། །ཡང་ན་སྦྱོར་བའི་ལམ་གཞན་ཡང་ཡོད་དེ། དོན་དམ་པར་གཟུགས་ཀྱི་ཞེས་བྱ་བའི་སྒྲ་འདི་ནི་ཚིག་གི་དོན་རྫས་སུ་ཡོད་པའི་ཡུལ་ཅན་མ་ཡིན་ཏེ། སྒྲ་ཡིན་པའི་ཕྱིར་དཔེར་ན་དམག་ལ་སོགས་པའི་སྒྲ་བཞིན་ནོ། །རྣམ་པར་ཤེས་པ་དང། སེམས་ལས་བྱུང་བ་དག་ཀྱང་བསྒྲུབ་པར་བྱ་བ་དང། རིགས་མཐུན་པ་ཉིད་ཀྱིས་དེ་བཞིན་དུ་དགག་པར་བྱ་བ་ཡིན་པའི་ཕྱིར། གཏན་ཚིགས་མ་ངེས་པ་ཉིད་མ་ཡིན་ནོ། །གལ་ཏེ་གཟུགས་ནི་དོན་དམ་པར་ཡོད་པ་ཡིན་ཏེ། དེ་ཞིག་ཀྱང་དེའི་བློ་མི་འཇིག་པའི་ཕྱིར་རོ། །འདི་ན་གང་ཞིག་ན་དེའི་བློ་འཇིག་པ་དེ་ནི་ཀུན་རྫོབ་ཏུ་ཡོད་པ་ཡིན་ཏེ་དཔེར་ན་བུམ་པ་བཞིན་ནོ། །གཟུགས་སྔོན་པོ་ལ་སོགས་པ་དག་ནི་ཞིག་ཀྱང་དེའི་བློ་དེ་ལྟར་མི་འཇིག་པས་དེའི་ཕྱིར་གཟུགས་ནི་རྫས་སུ་ཡོད་པ་ཡིན་ནོ་ཞེ་ན། དེ་ནི་བཟང་པོ་མ་ཡིན་ཏེ། རྗེས་སུ་འགྲོ་བ་མེད་པའི་ཕྱིར་རོ། །དེ་ལྟར་རེ་ཞིག་རྒྱུར་བྱས་པའི་གཟུགས་བརྟགས་ཟིན་ཏོ། །ད་ནི་འབྱུང་བའི་གཟུགས་ཀྱི་(84B)རྒྱུར་བྱས་པའི་གཟུགས་ནི་ཡོད་པ་ཁོ་ན་ཡིན་ཏེ། དེའི་རྒྱུ་ཡོད་པའི་ཕྱིར་རོ། །འདི་ན་གང་མེད་པ་དེ་ལ་ནི་རྒྱུ་གཟུང་དུ་མེད་དེ། དཔེར་ན་ནམ་མཁའི་མེ་ཏོག་བཞིན་ནོ། །རྒྱུར་བྱས་པའི་གཟུགས་ལ་ནི་རྒྱུ་ས་ལ་སོགས་པ་དེ་དག་ཡོད་པས་དེའི་ཕྱིར་རྒྱུར་བྱས་པའི་གཟུགས་ནི་ཡོད་པ་ཁོ་ན་ཡིན་ནོ་ཞེ་ན། དེའི་ཕྱིར་བཤད་པ། གཟུགས་ཞེས་བྱ་བ་མ་གཏོགས་པར། །གཟུགས་ཀྱི་རྒྱུ་ཡང་མི་སྣང་ངོ། །འདི་ལ་རྒྱུར་བྱས་པའི་གཟུགས་ཀྱི་མཚན་ཉིད་གཟུགས་དང། སྒྲ་དང། དྲི་དང། རོ་དང། རེག་བྱ་མ་གཏོགས་པར་གཟུགས་ཀྱི་རྒྱུ་ས་ལ་སོགས་པ་དག་ཀྱང་མི་སྣང་ཞིང་གཟུང་དུ་མེད་དོ། །འདིར་ཡང་འབྱུང་བའི་གཟུགས་ཀྱི་བསྒྲུབ་པར་བྱ་བ་ཆོས་གཟུགས་ལ་སོགས་པ་འདུས་པ་ཙམ་ཉིད་དང། སྒྲུབ་པའི་ཆོས་གཟུགས་ལ་སོགས་པ་མི་སྣང་ན་ས་ལ་སོགས་པ་དེ་དག་ཀྱང་མི་སྣང་བར་བསྟན་ཏོ། །དེའི་ཕྱིར་དེའི་དབང་གིས་དཔེ་ཡང་མངོན་ནོ། །དེ་ལ་འདིར་རེ་ཞིག་སའི་དབང་དུ་བྱས་ཏེ་སྦྱོར་བའི་ཚིག་བྱའོ། །འདུས་པ་ཙམ་ཉིད་ཀྱང། དོན་དམ་པར་མི་སྟོན་པའི་ཕྱིར་རོ། །འདིར་བསྟན་བཅོས་མཛད་པས་འདུས་པ་ཙམ་ཉིད་བསྟན་པས། རྫས་སུ་ཡོད་པ་ཉིད་དགག་པ་ཁོ་ན་བསྟན་ཏེ། དེ་དག་པ་ནི་དོན་ཆེ་བའི་ཕྱིར་རོ། །ཇི་ལྟར་དེ་དོན་ཆེ་བ་ཉིད་ཡིན་ཞེ་ན། འདི་ལྟར་ཐ་སྙད་དུ་བརྟེན་ནས་འདོགས་པར་བྱེད་པ་གང་ཡིན་པ་དེ་ནི། དོན་དམ་པར་རྫས་སུ་ཡོད་པ་མ་ཡིན་པའི་ཕྱིར་སྐྱེ་བ་མེད་པས་ངོ་བོ་ཉིད་མེད་པ་ཉིད་གྲུབ་པའི་ཕྱིར་རོ། །འཕགས་པ་ལང་ཀར་གཤེགས་པའི་མདོ་ལས། གང་ཕྱིར་འདུས་པ་མ་གཏོགས་པར། །བློ་ཡིས་དངོས་པོ་གཟུང་དུ་མེད། །དེ་ཕྱིར་སྟོང་དང་མ་སྐྱེས་དང། །རང་བཞིན་མེད་པར་དུ་སྨྲའོ། །འདི་ལ་རྐྱེན་གྱིས་ཅུང་ཟད་ཀྱང། །སྐྱེ་བ་དང་ནི་དགག་པ་མེད། །སྐྱེ་བ་དང་ནི་འགག་པ་ཡང། །རྐྱེན་རྣམས་ཁོ་ན་འབའ་ཞིག་གོ། །ཞེས་བྱ་བ་ལ་སོགས་པ་ཇི་སྐད་གསུངས་པ་ལྟ་བུའོ། །འདིར་སྦྱོར་བའི་ཚིག་ནི་དོན་དམ་པར་ས་ནི་རྫས་སུ་ཡོད་པ་མ་ཡིན་པར་ཤེས་པར་བྱ་སྟེ། དེའི་རྒྱུ་མི་སྣང་ན་དེ་མི་སྣང་བའི་ཕྱིར་རོ། །གང་རྒྱུ་མི་སྣང་ན་དེ་མི་སྣང་བ་དེ་ནི་དོན་དམ་པར་རྫས་སུ་ཡོད་པ་མ་ཡིན་ཏེ། དཔེར་ན་དམག་ལ་སོགས་པ་བཞིན་ནོ། །དེ་བཞིན་དུ། བློ་དང་སྒྲའི་ཕྱོགས་ལ་ཡང་ཅི་རིགས་པར་བརྗོད་པར་བྱའོ། །ཡང་ན་གཟུགས་ཀྱི་རྒྱུས་ལ་སོགས་པ་དེ་དག་མ་གཏོགས་(85A)པར་དེ་དག་ལས་གཞན་པའི་གཟུགས་དམིགས་སུ་མེད་དེ། རང་གི་རྒྱུ་མ་བཟུང་ན་དེ་གཟུང་དུ་མེད་པ་ནི་གཟུགས་ཀྱི་ཆོས་ཡིན་ནོ། །འདིར་སྦྱོར་བའི་ཚིག་ནི་དོན་དམ་པར་གཟུགས་ནི་རང་གི་ཚོགས་པའི་ཡན་ལག་དག་ལས་གཞན་མ་ཡིན་ཏེ། དེ་མ་བཟུང་ན་དེའི་བློ་མེད་པའི་ཕྱིར། དཔེར་ན་ས་ལ་སོགས་པའི་རང་གི་བདག་ཉིད་བཞིན་ནོ། །འདིར་བྱ་བ་ལ་གནས་པ་ཡིན་པར་བསམས་བས་མ་བཟུང་བ་བློའི་ཆོས་ཡིན་པའི་ཕྱིར། གཏན་ཚིགས་ཀྱི་དོན་མ་གྲུབ་པ་ཉིད་མ་ཡིན་ནོ། །གྲངས་ཅན་དག་ན་རེ། གཟུགས་ལ་སོགས་པ་དག་ལས་ས་ལ་སོགས་པ་དག་གཞན་མ་ཡིན་པས། དེ་ནི་གྲུབ་པ་ལ་སྒྲུབ་པ་ཡིན་ནོ་ཞེས་ཟེར་རོ། །དེ་ནི་བཟང་པོ་མ་ཡིན་ཏེ། གཞན་ཉིད་དགག་པས་གཞན་མ་ཡིན་པ་ཉིད་དུ་སྟོན་པར་མི་བྱེད་པའི་ཕྱིར་དང། ཕ་རོལ་པོ་འདོད་པའི་གཞན་མ་ཡིན་པ་ཉིད་ཀྱང་ཁས་མ་བླངས་པའི་ཕྱིར་རོ། །བྱེ་བྲག་པ་དག་གཏན་ཚིགས་མ་ངེས་པ་ཉིད་དུ་རྒོལ་བར་བྱེད་དེ། མར་མེད་མ་བཟུང་ཡང་དེ་ལས་གཞན་པ་ཡོད་ན་བུམ་པ་ལ་དེའི་བློ་ཡོད་པའི་ཕྱིར་རོ་ཞེ་ན། དེ་ཡང་བཟང་པོ་མ་ཡིན་ཏེ། དེའི་བློ་མེད་པ་ཁོ་ནའི་ཕྱིར་རོ་ཞེས་ངེས་པར་བཟུང་བའི་ཕྱིར་དང། མར་མེ་མེད་ཀྱང་ནོར་བུ་དང། འོད་ཟེར་དང། སྨན་དང་ཟླ་བ་དང། ཉི་མའི་སྣང་བ་ཡོད་ན་དེའི་བློ་ཡོད་པས། དེའི་མི་མཐུན་པའི་ཕྱོགས་ལ་བསྒྲུབ་པའི་ཆོས་མེད་པའི་ཕྱིར་མ་ངེས་པ་ཉིད་མ་ཡིན་ནོ། །རང་གི་ཚོགས་པའི་ཡན་ལག་དག་ལས་གཞན་མ་ཡིན་ཏེ་ཞེས་དམ་བཅས་པ་ཁྱད་པར་ཅན་ཉེ་བར་བཟུང་བའི་ཕྱིར་མར་མེ་ནི་བུམ་པའི་རང་གི་ཚོགས་པའི་ཡན་ལག་མ་ཡིན་ནོ། །འོག་ནས་གང་ཡང་གང་དང་ལྷན་ཅིག་ཏུ་གཞན་པ་ཉིད་དུ་མི་འཐད་དོ་ཞེས་སྟོན་པས་མི་མཐུན་པའི་ཕྱོགས་མེད་པའི་ཕྱིར། དོན་དམ་པར་མར་མེ་ལས་བུམ་པ་གཞན་ཉིད་དུ་མ་གྲུབ་པའི་ཕྱིར་ཡང་མ་ངེས་པ་ཉིད་མ་ཡིན་ནོ། །གལ་ཏེ་དམག་ལ་སོགས་པ་ཡན་ལག་ཅན་གྱི་རྫས་དག་ལ། རྩོམ་པ་ཡོད་པའི་ཕྱིར་ས་ལ་སོགས་པ་དག་རྫས་སུ་ཡོད་པ་ཉིད་མ་ཡིན་པར་རབ་ཏུ་སྒྲུབ་པའི་རྫས་སུ་དཔག་པ་དག་གིས་དཔེ་མ་གྲུབ་བོ་ཞེ་ན། དམག་གི་ཡན་ལག་དག་ནི་དམག་ཅེས་བྱ་བ་ཡན་ལག་ཅན་གྱི་རྫས་རྩོམ་པར་བྱེད་པ་མ་ཡིན་ཏེ། ཡན་ལག་ཡིན་པའི་ཕྱིར། དཔེར་ན། ཤིང་གི་ཡན་ལག་རྩ་བ་དང། སྡོང་པོ་དང། ཡལ་ག་དང། ཡལ་ག་ཕྲ་མོ་ལ་(85B)ཡང་ན་གླང་པོ་ཆེ་དག་ལ་ཡོངས་སུ་རྫོགས་པ་དེའི་ཡན་ལག་གང་ཡིན་པ་དེ་ནི་ཤིང་རྟ་དང་རྟ་ལ་སོགས་པ་དག་རྩོམ་པར་བྱེད་པ་མ་ཡིན་ཏེ། དེ་ལ་མེད་པའི་ཕྱིར་དཔེར་ན་རྒྱུ་སྤུན་ལ་སོགས་པ་བཞིན་པས་དཔེ་མེད་པ་མ་ཡིན་ནོ། །དེ་བཞིན་དུ། <b>གཟུགས་ཞེས་བྱ་བ་མ་གཏོགས་པར༑ །གཟུགས་ཀྱི་རྒྱུ་ཡང་མི་སྣང་ངོ། །</b>ཞེས་བྱ་བ་འདི་ལ་ཡང་སྔ་མ་བཞིན་དུ་བསྒྲུབ་པར་བྱ་བ་དང། སྒྲུབ་པའི་ཆོས་དག་ཉེ་བར་སྦྱར་ནས། རྗེས་སུ་དཔག་པ་རྒྱས་པར་བརྗོད་པར་བྱའོ། །ཇི་ལྟར་གཟུགས་ས་ལ་སོགས་པ་དག་ལས་གཞན་མ་ཡིན་པ་དེ་བཞིན་དུ། ས་ལ་སོགས་པ་དག་གཟུགས་ལས་གཞན་མ་ཡིན་པ་ཡང་མ་ཡིན་ཏེ། འོག་ནས་གཞན་མ་ཡིན་པ་ཉིད་ཀྱང་འགོག་པའི་ཕྱིར་དང། གཞན་མ་ཡིན་པ་ཉིད་ཀྱིས་འོ་མ་ཡང་ཞོ་ཉིད་དུ་འགྱུར་བའམ། ཞོ་ཡང་འོ་མ་ཉིད་དུ་འགྱུར་ན་མི་རུང་བའི་ཕྱིར་རོ། །དེའི་ཕྱིར། གཅིག་པ་ཉིད་དང་གཞན་ཉིད་དུ། །ཇི་ལྟར་བྱིས་པས་རྣམ་བརྟགས་ལྟར། །དངོས་པོ་གཞན་པ་མ་ཡིན་དང། །ཚོགས་ལས་གཞན་པའང་གང་ནའང་མེད། །ཅེས་གསུངས་པ་དེ་གྲུབ་པ་ཡིན་ནོ། །དེའི་ཕྱིར་དེ་ལྟར་སྐྱེ་མཆེད་རྣམས་རབ་ཏུ་བསྒྲུབ་པའི་ཕྱིར་གཏན་ཚིགས་ཕུང་པོས་བསྡུས་པའི་ཕྱིར་རོ་ཟེས་སྨྲས་པའི་དོན་མ་གྲུབ་པ་ཉིད་དམ། དོན་འགལ་བ་ཉིད་ཡིན་ནོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><div class='kilderef' id='9009305'></div><div class='clear'></div><span id='9009305bi' class='verse'>
+							(4)skandhaparīkṣā caturtha prakaraṇam |&nbsp;</span><span id='9009306bi' class='verse'>
+						 atrāha- yady evaṃ cakṣurādīnīndriyāṇi na santi, na skandhāḥ, apratiṣedhāt tadantargatāni cendriyāṇi, atas tāny api bhaviṣyantīti | ucyate | syur eva, yadi skandhāḥ syuḥ tatra rūpaskandham adhikṛtyāha-<br /> <b>rūpakāraṇanirmuktaṃ na rūpam upalabhyate |<br /> rūpeṇāpi na nirmuktaṃ dṛśyate rūpakāraṇam || 1 ||<br /></b> tatra rūpaṃ bhautikam | tasya kāraṇaṃ catvāri mahābhūtāni | tadvayatiriktaṃ pṛthagbhūtaṃ rūpaṃ rūpaśabdagandharasaspraṣṭavyākhyaṃ nopalabhyate ghaṭād iva paṭaḥ | rūpeṇāpi na nirmuktaṃ rūpāt pṛthagbhūtaṃ rūpakāraṇam upalabhyate || 1 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904007bi' class='verse'>
+							rūpakāraṇanirmukte rūpe rūpaṃ prasajyate |<br />āhetukaṃ na cāsty arthaḥ kaścid āhetukaḥ kvacit || 2 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859534bi' class='verse'>
+							離色因有色 是色則無因<br />無因而有法 是事則不然&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903381bi' class='verse'>
+							gzugs kyi rgyu ni ma gtogs par | | gzugs na gzugs ni rgyu med par | |<br />thal bar gyur te (5)don gang yang | | rgyu med pa ni gang na’ang med | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8904895bi' class='verse'>
+							2. If the visible form existed apart from its basic cause, it would logically follow that visible form is without cause;<br />But there is nothing anywhere [arising] without cause.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860492bi' class='verse'>
+							If there were form apart from the cause of form, it would follow that form is without cause; there is no object at all that is without cause.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8900977bi' class='verse'>
+							འདིར་བཤད་པ། <b>གཟུགས་ཀྱི་རྒྱུ་ནི་མ་གཏོགས་པར། །གཟུགས་ན་གཟུགས་ནི་རྒྱུ་མེད་པར། །ཐལ་བར་འགྱུར་ཏེ། </b>གཟུགས་ཀྱི་རྒྱུ་མ་གཏོགས་་པར་གཟུགས་དམིགས་པར་གྱུར་ན། གཟུགས་རྒྱུ་མེད་པར་ཐལ་བར་འགྱུར་རོ། །དེ་ལ་འདི་སྙམ་དུ་རྒྱུ་མེད་པར་གྱུར་ཀྱང་བླ་བར་སེམས་ན། དེ་ལ་བཤད་པར་བྱ་སྟེ། <b>དོན་གང་ཡང་། རྒྱུ་མེད་པ་ནི་གང་ནའང་མེད། </b>དོན་གང་ཡང་རྒྱུ་མེད་པ་ནི་གང་ན་ཡང་མེད་དེ། ནམ་མཁའ་ལ་ས་བོན་དང་(39B)མྱུ་གུ་བཞིན་ནོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8905909bi' class='verse'>
+							答曰(25)<b>離色因有色 是色則無因(26)無因而有法 是事則不然</b>(27)如離縷有布。布則無因。無因而有法。世間(28)所無有。問曰。佛法外道法世間法中皆有(29)無因法。佛法有三無爲。無爲常故無因。外道(6c1)法中虚空時方神微塵涅槃等。世間法虚空(2)時方等。是三法無處不有。故名爲常。常故(3)無因。汝何以説無因法世間所無。答曰。此(4)無因法但有言説。思惟分別則皆無。若法從(5)因縁有。不應言無因。若無因縁則如我(6)説。問曰。有二種因。一者作因。二者言説因。(7)是無因法無作因。但有言説因。令人知故。(8)答曰。雖有言説因。是事不然。虚空如六種(9)中破。餘事後當破。復次現事尚皆可破。何(10)況微塵等不可見法。是故説無因法世間所(11)無。問曰。若離色有色因。有何過。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901456bi' class='verse'>
+							ཅིའི་ཕྱིར་ཞེ་ན། འདི་ལྟར། <b>གཟུགས་ཀྱི་རྒྱུ་་ནི་མ་གཏོགས་པར། །གཟུགས་ན་གཟུགས་ནི་རྒྱུ་མེད་པར། །ཐལ་བར་འགྱུར་ཏེ་དོན་གང་ཡང་། །རྒྱུ་མེད་པ་ནི་གང་ནའང་མེད། </b>གལ་ཏེ་རྒྱུ་བས་ཀྱང་འབྲས་བུ་ཡོད་ན་ནི་དེའི་ཚེ་རྒྱུ་མེད་པ་ཅན་དུ་འགྱུར་ཏེ། དོན་གང་ཡང་རྒྱུ་མེད་པ་ཅན་ནི། མ་མཐོང་ཞིང་གང་དུ་ཡང་མ་བསྟན་ཏེ། རྟག་ཏུ་ཐམས་ཅད་ལས་ཐམས་ཅད་འབྱུང་བར་ཐལ་བར་འགྱུར་བའི་ཕྱིར་དང་། རྩོམ་པ་ཐམས་ཅད་དོན་མེད་པ་ཉིད་ཀྱི་སྐྱོན་དུ་འགྱུར་བའི་ཕྱིར་རོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901935bi' class='verse'>
+							གཟུགས་ཀྱི་རྒྱུ་མ་གཏོགས་པར་ཡང་གཟུགས་ཡོད་དོ་ཞེས་ཤེས་པར་བྱར་མི་ནུས་ཏེ། འོན་ཀྱང་རྣམ་པར་རྟོག་ན། <b>གཟུགས་ཀྱི་རྒྱུ་ནི་མ་གཏོགས་པར། །གཟུགས་ན་གཟུགས་ནི་རྒྱུ་མེད་པར། །ཐལ་བར་འགྱུར་ཏེ། </b>གཟུགས་ཀྱི་རྒྱུ་ཞེས་བྱ་བ་ནི་གཟུགས་ཀྱི་ཡོད་པ་ཉིད་ཀྱི་རྒྱུ་སྟེ་བར་གྱི་ཚིག་མི་མངོན་པའི་ཕྱིར་མིའི་རྒྱུ་བཞིན་ནོ། །དེ་མ་གཏོགས་པར་ཞེས་བྱ་བ་ནི་གཟུགས་ཀྱི་རྒྱུ་མ་གཏོགས་པར་ཏེ། གཟུགས་ཡོད་པ་ཉིད་དུ་སྟོན་པའི་རྒྱུ་མེད་པར་ཞེས་བྱ་བར་དགོངས་སོ། །གཟུགས་ན་ཞེས་བྱ་བ་ནི་དམ་བཅས་པ་ཙམ་ལས་རྣམ་པ་དེ་ལྟ་བུ་དེ་འདོད་ནའོ། །གཟུགས་ནི་རྒྱུ་མེད་པར་ཐལ་བར་འགྱུར་ཏེ་ཞེས་བྱ་བ་ནི་འཐད་པ་མེད་པར་ཞེས་བྱ་བའི་ཐ་ཚིག་གོ། །དེ་ཡང་མི་འདོད་པས་ཇི་སྐད་སྨྲས་པའི་སྐྱོན་ལྡོག་པ་མེད་དོ། །རྒྱུ་མེད་པར་གང་དག་དངོས་པོ་ཐམས་ཅད་རྒྱུ་མེད་པ་ཁོ་ན་ལས་སྐྱེ་བར་ཁས་བླངས་པའི་ཕྱིར། གཟུགས་འགྲུབ་པ་ཡང་དེ་དག་དང་འདྲའོ་ཞེས་ཟེར་ན། དེ་ལ་བཤད་པ་(86A)གལ་ཏེ་འགའ་ཞིག་ཇི་སྐད་སྨྲས་པའི་རྣམ་པ་ལྟ་བུར་གྱུར་ན་ནི་དེ་ཡང་རུང་བ་ཞིག་ན། <b>དོན་གང་ཡང། རྒྱུ་མེད་པ་ནི་གང་ནའང་མེད། །</b>དེ་ཡང་དཔེ་མེད་པའི་ཕྱིར་སྨྲ་བ་དེ་ལ་ཡང་གྲུབ་པ་མེད་དོ། །ཁོ་བོས་དང་པོ་ཉིད་དུ་ཡང་རྒྱུ་མེད་པར་སྨྲ་བ་དག་བསལ་ཟིན་པས་དེ་ནི་བདེན་པ་མ་ཡིན་ནོ༑ །གང་དག་གྲངས་ཅན་དག་གི་ཚུལ་ལ་མཁས་སུ་རེ་བས། འདི་སྐད་ཅེས་ཁྱོད་ཀྱིས་ས་ལ་སོགས་པ་དག་གཟུགས་ལ་སོགས་པ་དག་ལས་གཞན་མ་ཡིན་ནོ་ཞེས་སྨྲས་པས། དེ་དག་གཞན་མ་ཡིན་པ་ཉིད་དུ་ཁས་བླངས་པ་ཡིན་པས་དེས་ན་དོན་དམ་པར་ས་ལ་སོགས་པ་དག་རྫས་སུ་ཡོད་པར་ཤེས་པར་བྱར་ནུས་ཏེ། གཟུགས་ལ་སོགས་པ་དག་ལས་གཞན་ཉིད་མ་ཡིན་པའི་ཕྱིར། དཔེར་ན་གཟུགས་ལ་སོགས་པའི་རང་གི་བདག་ཉིད་བཞིན་ནོ་ཞེས་ཟེར་ན་ཇི་སྐད་པ་སྟན་པའི་ཚུལ་གྱིས་གཞན་མ་ཡིན་པ་ཉིད་མ་གྲུབ་པའི་ཕྱིར་གཏན་ཚིགས་ཀྱི་དོན་མ་གྲུབ་པ་ཉིད་ཡིན་ནོ། །དཔེ་ཡང་མེད་དེ། གཟུགས་ལ་སོགས་པའི་རང་གི་བདག་ཉིད་བསལ་བའི་ཕྱིར་རོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009307bi' class='verse'>
+							tadetatpratijñādvayaṃ prasādhayitukāma āha-<br /> <b>rūpakāraṇanirmukte rūpe rūpaṃ prasajyate |<br /> āhetukaṃ, na cāsty arthaḥ kaścid āhetukaḥ kvacit || 2 ||<br /></b> yathā ghaṭād arthāntarabhūtaḥ paṭo na ghaṭahetukaḥ, evaṃ rūpakāraṇacaturmahābhūtavyatirikta bhautikaṃ rūpam iṣyamāṇaṃ na bhūtahetukaṃ syāt | na cāsty arthaḥ kaścid āhetukaḥ kvacit | tasmād ahetukatvadoṣaprasaṅgān na rūpakāraṇanirmuktaṃ rūpam abhyupetavyam iti || 2 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904008bi' class='verse'>
+							rūpeṇa tu vinirmuktaṃ yadi syād rūpakāraṇam |<br />akāryakaṃ kāraṇaṃ syād nāsty akāryaṃ ca kāraṇam || 3 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859535bi' class='verse'>
+							若離色有因 則是無果因<br />若言無果因 則無有是處&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903382bi' class='verse'>
+							gal te gzugs ni ma gtogs par | | gzugs kyi rgyu zhig yod na ni | |<br />’bras bu med pa’i rgyur ’gyur te | | ’bras bu med pa’i rgyu med do | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8904896bi' class='verse'>
+							3. On the other hand, if there would be a basic cause apart from visible form,<br />The basic cause would be without any product; but there is no basic cause without a product.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860493bi' class='verse'>
+							If a cause of form existed apart from form, it would exist as a cause without fruit; causes without fruit do not exist.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8900978bi' class='verse'>
+							འདིར་སྨྲས་པ། འོ་ན་ད་གཟུགས་ཞེས་བྱ་བ་མ་གཏོགས་པར་གཟུགས་ཀྱི་རྒྱུ་སྣང་ན། སྐྱོན་དུ་ཐལ་བ་ཅི་ཞིག་ཏུ་ཐལ་བར་འགྱུར། འདིར་བཤད་པ། <b>གལ་ཏེ་གཟུགས་ནི་མ་གཏོགས་པར། །གཟུགས་ཀྱི་རྒྱུ་ཞིག་ཡོད་ན་ནི། །འབྲས་བུ་མེད་པའི་རྒྱུར་འགྱུར་་ཏེ། །</b>གལ་ཏེ་གཟུགས་མ་གཏོགས་པར་གཟུགས་ཀྱི་རྒྱུ་ཞིག་ཡོད་པར་གྱུར་ན། དེ་ལྟ་ན་འབྲས་བུ་མེད་པའི་རྒྱུར་འགྱུར་རོ། །དེ་ལ་འབྲས་བུ་མེད་པའི་རྒྱུ་ཞེས་བྱ་བ་དེ་ལ་མངོན་པར་ཞེན་པས་དེ་ལྟར་གྱུར་ཅིག་ཅེ་ན། དེ་ལ་བཤད་པར་བྱ་སྟེ། <b>འབྲས་བུ་མེད་པའི་རྒྱུ་མེད་དོ། །</b>འབྲས་་བུ་མེད་པའི་རྒྱུ་ནི་ཅུང་ཟད་ཀྱང་མེད་དེ། ཕ་དང་བུ་བཞིན་ནོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8905910bi' class='verse'>
+							答曰(12)<b>若離色有因 則是無果因(13)若言無果因 則無有是處</b>(14)若除色果。但有色因者。即是無果因。問曰。(15)若無果有因。有何咎。答曰。無果有因世間(16)所無。何以故。以果故名爲因。若無果云何(17)名因。復次若因中無果者。物何以不從非(18)因生。是事如破因縁品中説。是故無有無(19)果因。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901457bi' class='verse'>
+							དེ་བཞིན་དུ། <b>གལ་ཏེ་གཟུགས་ནི་མ་གཏོགས་པར། །གཟུགས་ཀྱི་རྒྱུ་ཞིག་ཡོད་ན་ནི། །འབྲས་བུ་མེད་པའི་རྒྱུར་འགྱུར་ཏེ། །འབྲས་བུ་མེད་་པའི་རྒྱུ་མེད་དོ། །</b>གལ་ཏེ་འབྲས་བུ་བསལ་ཀྱང་རྒྱུ་ཡོད་ན་ནི་རྒྱུ་དེ་འབྲས་བུ་མེད་པ་ཅན་དུ་ཐལ་བར་འགྱུར་རོ། །འབྲས་བུ་མེད་པ་ཅན་གྱི་རྒྱུ་ནི་མེད་དེ། འདི་ནི་འདིའིའོ་ཞེས་བྱ་བའི་ཐ་སྙད་ཀྱང་མི་འཐད་པའི་ཕྱིར་དང་། ཐམས་ཅད་ཀྱི་རྒྱུ་ཐམས་ཅད་ཡིན་པར་ཐལ་བར་འགྱུར་བའི་ཕྱིར་ཏེ། དེ་ལྟ་བས་(178B)ན་གཟུགས་ཀྱི་རྒྱུ་དག་ཀྱང་མི་འཐད་པ་ཉིད་ཡིན་ལ། གཟུགས་ཀྱང་འབྲས་བུར་མི་འཐད་དོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901936bi' class='verse'>
+							གཞན་དག་ན་རེ། དོན་དམ་པར་ས་ལ་སོགས་པ་དག་ཡོད་པ་ཁོ་ན་ཡིན་ཏེ། དེ་དག་གི་འབྲས་བུ་ཡོད་པའི་ཕྱིར་རོ། །འདི་ན་གང་མེད་པ་དེ་ལ་ནི་འབྲས་བུ་གཟུང་དུ་མེད་དེ། དཔེར་ན་ནམ་མཁའི་མེ་ཏོག་བཞིན་ནོ། །ས་ལ་སོགས་པ་དག་ལ་ནི་འབྲས་བུ་གཟུགས་ལ་སོགས་པ་དག་ཡོད་པས་དེའི་ཕྱིར་ས་ལ་སོགས་པ་དག་ཡོད་པ་ཁོ་ན་ཡིན་ནོ་ཞེས་ཟེར་རོ། །འདིར་བཤད་པ། <b>གལ་ཏེ་གཟུགས་ནི་མ་གཏོགས་པར། །གཟུགས་ཀྱི་རྒྱུ་ཞིག་ཡོད་ན་ནི། །འབྲས་བུ་མེད་པའི་རྒྱུར་འགྱུར་ཏེ། །འབྲས་བུ་མེད་པའི་རྒྱུ་མེད་དོ། །</b>ཁོ་བོའི་ཕྱོགས་ལ་གལ་ཏེ་གཟུགས་མ་གཏོགས་པར་གཟུགས་ཀྱི་རྒྱུ་ས་ལ་སོགས་པ་ཞིག་ཡོད་ན་ནི་དེས་ན་འབྲས་བུ་མེད་པའི་རྒྱུར་འགྱུར་ཏེ། འབྲས་བུ་གཟུགས་ལ་སོགས་པའི་མཚན་ཉིད་ཀྱིས་འབྲས་བུ་མེད་པའི་རྒྱུར་འགྱུར་བའི་ཕྱིར་རོ། །གཞན་ཡིན་པའི་ཕྱིར་རྩི་སྐྱང་ལ་སོགས་པ་བཞིན་ནོ། །འབྲས་བུ་མེད་པའི་རྒྱུ་མེད་དོ་ཞེས་བྱ་བ་ནི། དེ་ཡང་གཟུགས་ལ་སོགས་པ་འདུས་པའི་བདག་ཉིད་ཡིན་པའི་ཕྱིར་རོ་ཞེས་བྱ་བར་དགོངས་སོ། །དེའི་ཕྱིར་རྒྱུ་བཞིན་དུ་འབྲས་བུ་ཡང་མ་གྲུབ་པའི་ཕྱིར་དེ་དག་གི་འབྲས་བུ་ཡོད་པའི་ཕྱིར་རོ་ཞེས་སྔར་སྨྲས་པའི་གཏན་ཚིགས་ཀྱི་དོན་མ་གྲུབ་པ་ཉིད་ཀྱི་སྐྱོན་ཡོད་དོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009308bi' class='verse'>
+							idānīṃ rūpeṇāpi vinirmuktaṃ yathā rūpakāraṇaṃ nāsti, tathā pratipādayann āha- <b>rūpeṇa tu vinirmuktaṃ yadi syād rūpakāraṇam |<br /></b> yadi kāryarūpavinirmuktaṃ rūpakāraṇaṃ syāt, tadā, yathā ghaṭātkuṇḍaṃ pṛthaksiddhaṃ ghaṭahetukaṃ na bhavati, evaṃ kāryātpṛthagbhūtaṃ kāraṇamiṣyamāṇam-<br /> <b>akāryakaṃ kāraṇaṃ syāt<br /></b> nirhetukaṃ syāt | kāraṇasya hi kāraṇatve kāryapravṛttirhetuḥ, kāryanirapekṣāc ca kāraṇāt pṛthaksiddhā nāsti kāryapravṛttiḥ | yaccākāryakaṃ kāraṇaṃ tan nirhetukatvānnaroragaturagaviṣāṇavannāstyevety āha-<br /> <b>nāstyakāryaṃ ca kāraṇam || 3 ||</b>iti || 3 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904009bi' class='verse'>
+							rūpe saty eva rūpasya kāraṇaṃ nopapadyate |<br />rūpe ’saty eva rūpasya kāraṇaṃ nopapadyate || 4 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859536bi' class='verse'>
+							若已有色者 則不用色因<br />若無有色者 亦不用色因&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903383bi' class='verse'>
+							gzugs yod na yang gzugs kyi ni | | rgyu yang ’thad par mi ’gyur nyid | |<br />gzugs med (6)na yang gzugs kyi ni | | rgyu yang ’thad par mi ’gyur nyid | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8904897bi' class='verse'>
+							4. Just as when there is visible form no basic cause of form obtains,<br />So when there is no visible form no basic cause of form obtains.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860494bi' class='verse'>
+							If form existed, a cause of form would be untenable; if form did not exist, a cause of form would be untenable.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8900979bi' class='verse'>
+							ཡང་གཞན་ཡང་། <b>གཟུགས་ཡོད་ན་ཡང་གཟུགས་ཀྱི་ནི། །རྒྱུ་ཡང་འཐད་པར་མི་འགྱུར་ཉིད། །གཟུགས་མེད་ན་ཡང་གཟུགས་ཀྱི་ནི། །རྒྱུ་ཡང་འཐད་པར་མི་འགྱུར་ཉིད། །</b>གཉི་ག་ལྟར་ན་ཡང་གཟུགས་ཀྱི་རྒྱུ་འཐད་པར་་མི་འགྱུར་བ་ཉིད་དེ། གཟུགས་ཡོད་ན་ཡང་གཟུགས་ཀྱི་རྒྱུ་འཐད་པར་མི་འགྱུར་བ་ཉིད་ལ། གཟུགས་མེད་ན་ཡང་གཟུགས་ཀྱི་རྒྱུ་འཐད་པར་མི་འགྱུར་བ་ཉིད་དེ། བསྲེགས་པ་དང་མ་བསྲེགས་པ་བཞིན་ནོ། །དེ་ལ་འདི་སྙམ་དུ་གཟུགས་ནི་རྒྱུ་མེད་པ་ཡིན་པར་སེམས་ན། 
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8905911bi' class='verse'>
+							復次(20)<b>若已有色者 則不用色因(21)若無有色者 亦不用色因</b>(22)二處有色因。是則不然。若先因中有色。(23)不名爲色因。若先因中無色。亦不名爲色(24)因。問曰。若二處倶不然。但有無因色。有何(25)咎。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901458bi' class='verse'>
+							ཡང་གཞན་ཡང་། <b>གཟུགས་ཡོད་ན་ཡང་གཟུགས་ཀྱི་ནི། །རྒྱུ་ཡང་འཐད་པར་མི་འགྱུར་ཉིད། །གཟུགས་མེད་ན་ཡང་གཟུགས་ཀྱི་ནི། །རྒྱུ་ཡང་འཐད་པར་མི་འགྱུར་ཉིད། །</b>འདི་ལ་གཟུགས་ཀྱི་་རྒྱུ་ཅི་ཞིག་བརྟགས་ན་གཟུགས་ཡོད་པ་ལ་བརྟག་གམ། འོན་ཏེ་གཟུགས་མེད་པ་ལ་བརྟག་གྲང་ན། གཟུགས་ཡོད་པ་ལ་ནི་གཟུགས་ཀྱི་རྒྱུ་མི་འཐད་དེ། མེད་པ་ལ་ཡང་མི་འཐད་དོ། །དེ་ལ་རེ་ཞིག་ཡོད་པ་ནི་མི་འཐད་དེ། འདི་ལྟར་ཡོད་པ་ལ་རྒྱུས་ཅི་ཞིག་བྱ། ཅི་སྟེ་ཡོད་པ་ལ་ཡང་རྒྱུའི་་བྱ་བ་ཡོད་པར་འགྱུར་ན་ནི་ནམ་ཡང་མི་བྱ་བར་མི་འགྱུར་རོ། །དེ་ཡང་མི་འདོད་དེ། དེ་ལྟ་བས་ན་གཟུགས་ཡོད་པ་ལ་གཟུགས་ཀྱི་རྒྱུ་མི་འཐད་དོ། །གཟུགས་མེད་པ་ལ་ཡང་གཟུགས་ཀྱི་རྒྱུ་མི་འཐད་དེ། འདི་ལྟར་གཟུགས་མེད་ན་དེ་གང་གི་རྒྱུར་འགྱུར། དེ་ལྟ་བས་ན་གཟུགས་མེད་པ་ལ་ཡང་གཟུགས་་ཀྱི་རྒྱུ་མི་འཐད་དོ། །དེ་ནི་རྐྱེན་དགག་པར་ཡང་མེད་དམ། ཡོད་པའི་དོན་ལ་ཡང་། རྐྱེན་ནི་རུང་བ་མ་ཡིན་ཏེ། །ཞེས་རབ་ཏུ་བསྟན་ཟིན་མོད་ཀྱི། ཡང་འདི་ཡང་སྐབས་སུ་བབ་པས་བསྟན་ཏོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901937bi' class='verse'>
+							སྤྱིར་གྲགས་པའི་གཏན་ཚིགས་ཉིད་དུ་བརྗོད་ན་ནི་དོན་(86B)སུན་དབྱུང་བའི་ལེན་གཞན་ཡང་ཡོད་དེ། འདི་ལ་གཟུགས་ཀྱི་རྒྱུ་ཞིག་བརྟགས་ན་གཟུགས་ཡོད་པའམ། མེད་པ་ལ་བརྟག་གྲང་ན། གཉི་ག་ལ་ཡང་མི་འཐད་པར་བཤད་པ། <b>གཟུགས་ཡོད་ན་ཡང་གཟུགས་ཀྱི་ནི། །རྒྱུ་ཡང་འཐད་པར་མི་འགྱུར་ཉིད། །</b>ཡོད་པའི་ཕྱིར་དཔེར་ན་བུམ་པ་དང་སྣམ་བུ་ཡོད་པ་བཞིན་ནོ། །ཅི་སྟེ་མེད་ན་ཡང། <b>གཟུགས་མེད་ན་ཡང་གཟུགས་ཀྱི་ནི། །རྒྱུ་ཡང་འཐད་པར་མི་འགྱུར་ཉིད། </b>ས་ལ་སོགས་པ་འདོད་པ་སྟེ། །སྐྱེ་བའི་སྔོན་རོལ་ན་མེད་པའི་ཕྱིར་དེ་ལས་གཞན་པ་བཞིན་ནོ་ཞེས་བྱ་བར་དགོངས་སོ། །འདིར་སྐྱེ་བ་མེད་པའི་རབ་ཏུ་བྱེད་པར་བསྟན་པའི་སུན་དབྱུང་བ་རྗེས་སུ་བཟླས་པས། སུན་དབྱུང་བ་བརྗོད་པར་རིག་པར་བྱའོ། །རྒྱུ་མེད་པར་སྨྲ་བ་དག་རྒྱུ་མེད་པ་ཁོ་ནའོ་ཞེས་ཟེར་བ་དེ་དག་གི་ཕྱིར་བཤད་པ། རྒྱུ་མེད་པ་ཡི་གཟུགས་དག་ནི། །འཐད་པར་མི་རུང་རུང་མ་ཡིན། །ཀུན་རྫོབ་ཏུ་ཡང་དེ་ཁས་མ་བླངས་པའི་ཕྱིར་རོ་ཞེས་བྱ་བར་དགོངས་སོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009309bi' class='verse'>
+							atha cedaṃ rūpasya kāraṇamiṣyamāṇaṃ sati vā rūpe kāraṇatveneṣyate ’sati vā? ubhayathā ca nopapadyata ity āha-<br /> <b>rūpe satyeva rūpasya kāraṇaṃ nopapadyate |<br /> rūpe ’satyeva rūpasya kāraṇaṃ nopapadyate || 4 ||<br /></b> sati vā saṃvidyamāne rūpe kiṃ rūpakāraṇena prayojanam? asati asaṃvidyamāne rūpe kiṃ kiṃ rūpakāraṇena prayojanam, kasya vā tatkāraṇaṃ parikalpyate? tasmād asaty api rūpe rūpakāraṇaṃ nopapadyate || 4 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904010bi' class='verse'>
+							niṣkāraṇaṃ punā rūpaṃ naiva naivopapadyate |<br />tasmād rūpagatān kāṃścin na vikalpān vikalpayet || 5 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859537bi' class='verse'>
+							無因而有色 是事終不然<br />是故有智者 不應分別色&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903384bi' class='verse'>
+							rgyu med pa yi gzugs dag ni | | ’thad par mi rung rung min nyid | |<br />de phyir gzugs kyi rnam par rtog | | ’ga’ yang rnam par brtag mi bya | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8904898bi' class='verse'>
+							5. Furthermore, it does not obtain that no visible form exists without a basic cause,<br />One should not construe any constructs concerning the form.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860495bi' class='verse'>
+							Forms which do not have a cause are not at all tenable. Therefore, do not conceive the concept of form at all.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8900980bi' class='verse'>
+							དེ་ལ་བཤད་པར་་བྱ་སྟེ། <b>རྒྱུ་མེད་པ་ཡི་གཟུགས་དག་ནི། །འཐད་པར་མི་རུང་རུང་མ་ཡིན། །</b>རྒྱུ་མེད་པའི་གཟུགས་དག་ནི། རྣམ་པ་ཐམས་ཅད་ཀྱི་ཐམས་ཅད་དུ་འཐད་པར་མི་རུང་སྟེ། རུང་བ་མ་ཡིན་ནོ། །གང་གི་ཕྱིར་དེ་ལྟ་ཡིན་པ། <b>དེ་ཕྱིར་གཟུགས་ཀྱི་རྣམ་པར་རྟོག །འགའ་ཡང་རྣམ་པར་བརྟག་་མི་བྱ། །</b>དེ་ཕྱིར་ཞེས་བྱ་བ་ནི་མཇུག་པ་སྡུ་བའོ། །གཟུགས་ཀྱི་ཞེས་བྱ་བ་ནི་གཟུགས་ལ་གནས་པའི་ཞེས་བྱ་བའི་ཐ་ཚིག་གོ། །གང་གི་ཕྱིར་དེ་ལྟར་ཡོངས་སུ་བརྟགས་ན། རྣམ་པ་ཐམས་ཅད་དུ་གཟུགས་མི་འཐད་པ་དེའི་ཕྱིར། གཟུགས་ལ་གནས་པའི་རྣམ་པར་རྟོག་པ་འགའ་་ཡང་རྣམ་པར་བརྟག་པར་མི་བྱ་སྟེ། ནམ་མཁའ་བཞིན་ནོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8905912bi' class='verse'>
+							答曰(26)<b>無因而有色 是事終不然(27)是故有智者 不應分別色</b>(28)若因中有果因中無果。此事尚不可得何況(29)無因有色。是故言無因而有色。是事終不(7a1)然。是故有智者。不應分別色。分別名凡(2)夫。以無明愛染貪著色。然後以邪見生分(3)別戲論説因中有果無果等。今此中求色不(4)可得。是故智者不應分別。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901459bi' class='verse'>
+							<b>རྒྱུ་མེད་པ་ཡི་གཟུགས་དག་ནི། །འཐད་པར་མི་རུང་རུང་མིན་ཉིད། །</b>རྒྱུ་མ་བསྟན་པ་གློ་བུར་་གྱི་གཟུགས་ནི་འཐད་པར་མི་རུང་བ་ཉིད་དེ་རུང་བ་མ་ཡིན་པ་ཉིད་དོ། །ཅིའི་ཕྱིར་ཞེ་ན། རྟག་ཏུ་ཐམས་ཅད་འབྱུང་བར་ཐལ་བར་འགྱུར་བའི་ཕྱིར་དང་། རྩོམ་པ་ཐམས་ཅད་དོན་མེད་པ་ཉིད་ཀྱི་སྐྱོན་དུ་འགྱུར་བའི་ཕྱིར་རོ། །དེ་བས་ན་རྒྱུ་མེད་པ་ཅན་གྱི་ཕྱོགས་ནི་ཐམས་ཅད་ཁོ་ན་ཡིན་པའི་ཕྱིར་འཐད་པར་་མི་རུང་བ་ཉིད་དེ་རུང་བ་མ་ཡིན་པ་ཉིད་དོ། །ཞེས་ཡང་དང་ཡང་དུ་ངེས་པར་བཟུང་སྟེ་བཤད་དོ། །<b>དེ་ཕྱིར་གཟུགས་ཀྱི་རྣམ་པར་རྟོག །འགའ་ཡང་རྣམ་པར་བརྟག་མི་བྱ། །</b>གང་གི་ཕྱིར་གཟུགས་ཀྱི་རྒྱུ་མ་གཏོགས་པར་གཟུགས་དམིགས་པར་མི་འགྱུར་བ་དང་། གཟུགས་ཡོད་པ་་དང་མེད་པ་ལ་ཡང་གཟུགས་ཀྱི་རྒྱུ་མི་འཐད་པ་དང་། རྒྱུ་མེད་པའི་གཟུགས་ནི་འཐད་པར་མི་རུང་བ་ཉིད་དེ་རུང་བ་མ་ཡིན་པ་ཉིད་ཡིན་པ་དེའི་ཕྱིར་ཁྱོད་ལྟ་བུ་མཁས་པའི་རང་བཞིན་ཅན་དེ་ཁོ་ན་རྟོགས་པར་འདོད་པས་གཟུགས་ཀྱི་རྣམ་པར་རྟོག་པ་འགའ་ཡང་རྣམ་པར་བརྟག་པར་མི་བྱ་བར་རིགས་(179A)ཏེ། འདི་ལྟར་གནས་མེད་པ་ལ་བསམ་པ་ཇི་ལྟར་རིགས་པར་འགྱུར། 
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901938bi' class='verse'>
+							ཡང་ན་བྱེ་བྲག་ཏུ་སྨྲ་བ་དག་མ་འོངས་པའི་གཟུགས་ཀྱང་ཡོད་དོ་ཞེས་ཟེར་བས་དེ་དག་གི་ཕྱིར་བཤད་པ། <b>རྒྱུ་མེད་པ་ཡི་གཟུགས་དག་ནི། །འཐད་པར་མི་རུང་རུང་མ་ཡིན། །</b>མ་འོངས་པ་སྐྱེ་བའི་རྒྱུ་མ་བླངས་པ་དག་ཉིད་ཀྱི་དངོས་པོ་མ་ཐོབ་པ་ནི་ཐ་སྙད་དུ་ཡང་ཡོད་པར་མི་འགྲུབ་པའི་ཕྱིར་རོ་ཞེས་བྱ་བར་དགོངས་སོ། །གང་གི་ཕྱིར་དེ་ལྟར་འབྱུང་བ་དང། འབྱུང་བ་ལས་གྱུར་པའི་བདག་ཉིད་ཀྱི་གཟུགས་རྣམ་པ་ཐམས་ཅད་དུ་མི་འཐད་པ། <b>དེ་ཕྱིར་གཟུགས་ཀྱི་རྣམ་པར་རྟོག་འགའ་ཡང་རྣམ་པར་བརྟག་མི་བྱ། །</b>མཁས་པ་ཆོས་ཀྱི་དེ་ཁོ་ན་རྣམ་པར་རྟོག་པ་དང། ལེགས་པར་བྲལ་བར་རྟོགས་པར་འདོད་པ་ཡང་དག་པའི་ཤེས་པའི་མིག་ཡང་དག་པར་བྱེ་བས་གཟུགས་རྫས་སུ་ཡོད་པ་དང། རྒྱུ་ལས་གཞན་པ་དང། རྒྱུ་ལས་གཞན་པ་མ་ཡིན་པ་དང། དེ་དག་ལ་སོགས་པ་ཁ་དོག་དང། དབྱིབས་ཀྱི་དབྱེ་བ་ལ་སོགས་པ་ཡུལ་གྱི་རྣམ་པར་རྟོག་པ་མང་པོ་བུ་མ་བཙས་པའི་རྨི་ལམ་ན་བུའི་གཟུགས་དང་སྤྱོད་པ་ལ་སོགས་པའི་ཡུལ་དག་པ་ཐོང་ནས་སད་པ་ལྟ་བུ་དག་ལ་རྣམ་པར་བརྟག་པར་མི་བྱའོ། །དེའི་ཕྱིར་དེ་ལྟར་གཟུགས་ཀྱི་རྒྱུ་མི་འཐད་པའི་ཕྱིར་ཇི་སྐད་སྨྲས་པའི་སྐྱོན་དང་མ་བྲལ་ལོ།། །།
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009310bi' class='verse'>
+							atha syāt- yady api evaṃ rūpakāraṇaṃ na saṃbhavati, tathāpi kāryaṃ rūpaṃ saṃvidyate, sadbhāvāt kāraṇam api bhaviṣyatīti | syād evam , yadi kāryaṃ rūpaṃ syāt | na tvasti | yasmāt-<br /> <b>niṣkāraṇaṃ punā rūpaṃ naiva naivopapadyate |<br /></b> rūpakāraṇaṃ yathā nāsti tathoktam | asati kāraṇe kuto nirhetukaṃ kāryaṃ rūpaṃ bhavet? naiva naivetyanena sāvadhāraṇena pratiṣedhadvayena ahetukatvādasyātyaniṣṭatāṃ darśayati | yataś caivaṃ rūpaṃ sarvathā vicāryamāṇaṃ na saṃbhavati,<br /> tasmāt<br /> tattvadarśī yogī<br /> <b>rūpagatān kāṃścin na vikalpān vikalpayet || 5 ||</b> sapratighāpratighasanidarśanānidarśanātītānāgatanīlapītādivikalpān rūpālambanān na kāṃścitparikalpayitumarhatītyarthaḥ || 5 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904011bi' class='verse'>
+							na kāraṇasya sadṛśaṃ kāryam ity upapadyate |<br />na kāraṇasyāsadṛśaṃ kāryam ity upapadyate || 6 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859538bi' class='verse'>
+							若果似於因 是事則不然<br />果若不似因 是事亦不然&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903385bi' class='verse'>
+							’bras bu rgyu dang ’dra ba zhes | | bya ba ’thad pa ma yin te | |<br />’bras bu rgyu dang mi ’dra (7)zhes | | bya ba’ang ’thad pa ma yin no | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8904899bi' class='verse'>
+							6. Just as it does not obtain that the product is the same as the cause,<br />So it does not obtain that product is not the same as the cause.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860496bi' class='verse'>
+							It is untenable to say, “the fruit is like the cause.” It is also untenable to say, “the fruit is unlike the cause.”&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8900981bi' class='verse'>
+							ཡང་གཞན་ཡང་། <b>འབྲས་བུ་རྒྱུ་དང་འདྲ་བ་ཞེས་</b>བྱ་བ་འཐད་པ་མ་ཡིན་ཏེ། འབྲས་བུ་རྒྱུ་དང་འདྲ་བ་ཞེས། །<b>བྱ་བ་འཐད་པ་མ་ཡིན་ཏེ། །འབྲས་བུ་རྒྱུ་དང་མི་འདྲ་ཞེས། །བྱ་བའང་འཐད་པ་མ་ཡིན་ནོ། །</b>རིགས་པས་(40A)རྣམ་པར་དཔྱད་ན། ད་འབྲས་བུ་རྒྱུ་དང་འདྲ་བ་ཞེས་བྱ་བ་དེ་ཡང་འཐད་པ་མ་ཡིན་ལ། འབྲས་བུ་རྒྱུ་དང་མི་འདྲ་ཞེས་བྱ་བ་དེ་ཡང་འཐད་པ་མ་ཡིན་ཏེ། ས་བོན་དང་མྱུ་གུ་དང་འབྲས་བུ་བཞིན་ནོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8905913bi' class='verse'>
+							復次(5)<b>若果似於因 是事則不然(6)果若不似因 是事亦不然</b>(7)若果與因相似。是事不然。因細果麁故。因(8)果色力等各異。如布似縷則不名布。縷多(9)布一故。不得言因果相似。若因果不相似。(10)是亦不然。如麻縷不成絹。麁縷無出細(11)布。是故不得言因果不相似。二義不然。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901460bi' class='verse'>
+							ཡང་གཞན་ཡང་། <b>འབྲས་བུ་རྒྱུ་དང་འདྲ་བ་ཞིས་བྱ་བ་འཐད་པ་མ་ཡིན་ཏེ། འབྲས་བུ་རྒྱུ་དང་མི་འདྲ་ཞེས། །བྱ་བའང་འཐད་པ་མ་ཡིན་ནོ། །</b>འབྲས་བུ་དང་རྒྱུར་བརྟགས་ན། །འབྲས་བུ་རྒྱུ་དང་་འདྲ་བའམ། མི་འདྲ་བར་བརྟག་གྲང་ན། དེ་ལ་འབྲས་བུ་རྒྱུ་དང་འདྲ་བ་ཞེས་བྱ་བ་ནི་ཕྱོགས་དེ་ལ་ནི་གཟུགས་འབྱུང་བ་རྣམས་ཀྱི་འབྲས་བུར་མི་འཐད་པ་ཉིད་དོ། །འབྲས་བུ་རྒྱུ་དང་མི་འདྲ་བ་ཞེས་བྱ་བའི་ཕྱོགས་དེ་ལ་ཡང་གཟུགས་འབྱུང་བ་རྣམས་ཀྱི་འབྲས་བུར་མི་འཐད་པ་ཉིད་དོ། །ཇི་་ལྟར་ཞེ་ན། འདི་ལ་འབྱུང་བ་རྣམས་ནི་སྲ་བ་དང་། གཤེར་བ་དང་། ཚ་བ་དང་གཡོ་བའི་ངོ་བོ་ཉིད་དུ་བསྟན་ན་འབྱུང་བའི་ཡོན་ཏན་དེ་དག་ནི་གཟུགས་ལ་དམིགས་སུ་མེད་དེ། འདི་ལྟར་ས་ནི་སྲ་བ་ཉིད། ཆུ་ནི་གཤེར་བ་ཉིད། མེ་ནི་ཚ་བ་ཉིད། རླུང་ནི་གཡོ་བ་ཉིད་དུ་དམིགས་པས་དེའི་ཕྱིར་དེ་་ལྟར་འབྲས་བུ་རྒྱུ་དང་འདྲ་བ་ཡང་མེད་ལ། རྒྱུ་དང་མི་འདྲ་བ་ཡང་མེད་པ་དེའི་ཕྱིར་གཟུགས་འབྲས་བུའོ། །ཞེས་བྱ་བར་མི་འཐད་པ་ཉིད་དོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901939bi' class='verse'>
+							དབུ་མའི་རྩ་བའི་འགྲེལ་པ་ཤེས་རབ་སྒྲོན་མ། བམ་པོ་ལྔ་པ། ཡང་གཞན་ཡང་འདི་ན་རྒྱུའི་ཡོན་ཏན་སྔ་ན་ཡོད་པའི་(87A)རིམ་གྱིས་འབྲས་བུ་ལ་ཡང་ཡོན་ཏན་མཐོང་བའི་མཚན་ཉིད་ཀྱི་གང་དག་འབྲས་བུ་རྒྱུ་དང་འདྲའོ་ཞེས་ཟེར་བ་དེ་དག་གི་ཕྱིར་བཤད་པ། <b>འབྲས་བུ་རྒྱུ་དང་འདྲ་བ་ཞེས། །བྱ་བ་འཐད་པ་མ་ཡིན་ཏེ། །</b>འབྲས་བུ་རྒྱུ་དང་འདྲ་བར་བསྟན་པ་འཐད་པ་མ་ཡིན་ཏེ། རྒྱུ་དེ་འབྲས་བུ་མ་ཡིན་པ་ཉིད་དོ་ཞེས་བྱ་བའི་ཐ་ཚིག་གོ། །འདིར་ནི་བསྒྲུབ་པར་བྱ་བ་ཆོས་སྨྲ་བར་འདོད་པའི་རྒྱུ། རྒྱུ་མ་ཡིན་པ་ཉིད་དང། སྒྲུབ་པའི་ཆོས་འདྲ་བར་བསྟན་པ་ཉེ་བར་བཞག་གོ། །དཔེ་ནི་དེའི་དབང་གིས་ཏེ། རྒྱུད་ཐ་དད་པའི་རྫས་ཡིན་པ་བཞིན་ནོ། །འདིར་སྦྱོར་བའི་ཚིག་ནི་དོན་དམ་པར་སྨྲ་བར་འདོད་པའི་རྒྱུ། རྒྱུ་སྤུན་སྔོན་པོ་ནི་ལ་བ་སྔོན་པོའི་རྒྱུ་མ་ཡིན་ཏེ། འདྲ་བའི་ཕྱིར་དཔེར་ན་དེ་ལས་གཞན་པའི་ལ་བ་སྔོན་པོ་བཞིན་ནོ། །འདིར་གྲངས་ཅན་དག་ན་རེ་དེ་ལས་གཞན་པའི་ལ་བ་སྔོན་པོ་ལ་ཡང་སྨྲ་བར་འདོད་པའི་ལ་བ་སྔོན་པོའི་རྒྱུ་མེད་པར་མ་གྲུབ་པའི་ཕྱིར་དཔེ་མེད་དོ་ཞེས་ཟེར་རོ། །དེ་ནི་བཟང་པོ་མ་ཡིན་ཏེ། ད་ལྟར་དེ་འབྱུང་བའི་རྒྱུ་ནི་དངོས་པོ་མ་ཡིན་པར་གྲུབ་པ་ཉིད་དཔེ་ཉིད་དུ་འདོད་པའི་ཕྱིར་དང། དགག་པ་འདི་ནི་སྒྲ་གང་དང་ལྷན་ཅིག་སྦྱོར་བར་བྱེད་པ་དེའི་བརྗོད་པར་བྱ་བ་དོན་དགག་པ་ཁོ་ནས་མཐུ་ཉེ་བར་ཟད་པ་ཡིན་ཏེ། དེ་ན་དེའི་ཁྱད་པར་མི་སྟོན་པའི་ཕྱིར། བྲམ་ཟེ་མ་ཡིན་ནོ་ཞེས་བྱ་བ་བཞིན་པས་སྐྱོན་མེད་དོ། །རང་གི་སྡེ་པ་དག་ནི་འབྲས་བུ་རྒྱུ་དང་འདྲ་བ་དང་མི་འདྲ་བར་ཡང་སྨྲ་བས་སྐད་ཅིག་མ་སྔ་མ་མཚན་ཉིད་འདྲ་བ་ལས་སྐད་ཅིག་མ་ཕྱི་མ་སྐྱེ་བ་ལ་ལྟོས་ནས། དཔེར་ན་མར་མེ་དང་ཆུའི་རྒྱུན་ལ་སོགས་པ་དག་ལ་ནི་རྒྱུའི་སྐད་ཅིག་མ་དང་འདྲ་བའི་ཕྱིར། འདྲ་བ་ཡིན་ནོ། །སྐད་ཅིག་མ་སྔ་མ་མཚན་ཉིད་མི་འདྲ་བ་ལས་སྐད་ཅིག་མ་ཕྱི་མ་སྐྱེད་པ་ལ་ལྟོས་ནས། དཔེར་ན་ཤིང་དང་འོ་མ་དང་དེ་ལ་སོགས་པའི་ཐལ་བ་དང། ཞོ་ལ་སོགས་པ་དག་ལ་ནི་རྒྱུའི་སྐད་ཅིག་མ་དང་མི་འདྲ་བའི་ཕྱིར་མི་འདྲ་བ་ཡིན་ནོ་ཞེ་ན། དེ་ལ་འབྲས་བུ་རྒྱུ་དང་འདྲ་བ་གང་ཡིན་པ་དེ་ནི་རྗེས་སུ་དཔག་པ་ཇི་སྐད་བསྟན་པ་ཉིད་ཀྱིས་དགག་ཟིན་ཏོ། །འབྲས་བུ་རྒྱུ་དང་མི་འདྲ་བ་གང་ཡིན་པ་དེའི་དབང་དུ་བྱས་ཏེ་བཤད་པ། <b>འབྲས་བུ་རྒྱུ་དང་མི་འདྲ་ཞེས། །བྱ་བའང་འཐད་པ་མ་ཡིན་ནོ། །</b>འདིར་ཡང་བསྒྲུབ་པར་བྱ་བའི་ཆོས་མྱུ་གུ་སྨྲ་བར་འདོད་པའི་རྒྱུའི་འབྲས་བུ་མ་ཡིན་པ་ཉིད་དང། སྒྲུབ་པའི་ཆོས་མི་འདྲ་བར་བསྟན་པ་ཉེ་བར་བཞག་གོ། །དེས་ན་ཡན་ལག་ལྷག་(87B)འདིར་རྗེས་སུ་དཔག་པ་ནི་དོན་དམ་པར་མྱུ་གུ་ནི་སྨྲ་བར་འདོད་པའི་རྒྱུའི་འབྲས་བུ་མ་ཡིན་ཏེ། མི་འདྲ་བའི་ཕྱིར་དཔེར་ན་གྱོ་མོ་ལ་སོགས་པ་བཞིན་ནོ། །ཅི་སྟེ་ཡང་འབྲུ་ནི་མྱུ་གུའི་རྒྱུ་ཁོ་ན་ཡིན་ཏེ། དེ་ཡོད་ན་འབྱུང་བའི་ཕྱིར་རམ། དེས་ཐ་སྙད་འདོགས་པའི་ཕྱིར་དཔེར་ན་རྔ་བོ་ཆེའི་སྒྲ་འམ་ནས་ཀྱི་མྱུ་གུ་བཞིན་ནོ་ཞེ་ན། དེ་ནི་བཟང་པོ་མ་ཡིན་ཏེ། སྐྱེ་བ་ཅན་རྣམས་ཀྱི་སྐྱེ་བ་རྣམ་པ་ཐམས་ཅད་དུ་བཀག་པས་དཔེ་མ་གྲུབ་པའི་ཕྱིར་སྒྲུབ་པ་མཚང་བའི་སྐྱོན་ཡོད་དོ། །གང་དག་འདི་སྐད་ཅེས་མིག་ལ་སོགས་པའི་འབྲས་བུ་ནི་མིག་གི་རྣམ་པར་ཤེས་པ་ལ་སོགས་པ་མི་འདྲ་བ་ཡིན་པའི་ཕྱིར་མི་འདྲ་བ་ཞེས་བྱ་བའི་གཏན་ཚིག་མ་ངེས་པ་ཉིད་དོ་ཞེས་ཟེར་ན། དེ་ཡང་བཟང་པོ་མ་ཡིན་ཏེ། མིག་གི་རྣམ་པར་ཤེས་པ་ལ་སོགས་པ་ཡང་བསྒྲུབ་པར་བྱ་བ་དང། རིགས་མཐུན་པ་ཉིད་ཀྱིས་དེ་བཞིན་དུ་དགག་པར་བྱ་བ་ཡིན་པའི་ཕྱིར་མི་མཐུན་པའི་ཕྱོགས་མེད་པས་མ་ངེས་པ་ཉིད་ཀྱི་སྐབས་མེད་དོ། །ཡང་ན་སྨྲ་བར་འདོད་པ་ས་ལ་སོགས་པ་དག་རྒྱུ་མ་ཡིན་པས་གཟུགས་མ་གྲུབ་པའི་ཕྱིར་དེ་དག་གི་འབྲས་བུ་ཡོད་པའི་ཕྱིར་རོ་ཞེས་བྱ་བའི་གཏན་ཚིགས་ཀྱི་དོན་མ་གྲུབ་པ་ཉིད་དམ། དོན་འགལ་བ་ཉིད་ཡིན་ནོ་ཞེས་ཇི་སྐད་བསྟན་པའི་ཚུལ་དང་འདྲའོ། །བྱེ་བྲག་ཏུ་སྨྲ་བ་དག་ན་རེ། འབྲས་བུ་ནི་རྒྱུ་དང་འདྲ་བ་ཡང་ཡིན་ལ། མི་འདྲ་བ་ཡང་ཡིན་ཏེ། བྱེད་པའི་རྒྱུས་འདུས་བྱས་ཀྱི་བྱེད་པའི་རྒྱུ་ནི་ཐམས་ཅད་ཡིན་པར་ཁས་བླངས་པའི་ཕྱིར་དཔེ་མེད་དོ་ཞེས་ཟེར་རོ། །དེ་ནི་བཟང་པོ་མ་ཡིན་ཏེ། རིགས་མཐུན་པ་བསྐྱེད་པའི་རྒྱུ་ཐུན་མོང་མ་ཡིན་པ་ལ་སོགས་པའི་ཁྱད་པར་ཅན་གྱི་སྒྲུབ་པར་བྱེད་པ་ཉིད་འགོག་པར་འདོད་པའི་ཕྱིར་རོ། །དེ་ལྟར་ན་གཞུང་གི་ཚོགས་དེས་འབྱུང་བའི་གཟུགས་དང། རྒྱུར་བྱས་པའི་གཟུགས་བཀག་པས་གཟུགས་ཀྱི་ཕུང་པོ་མི་སྲིད་པར་བསྟན་ཏོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009311bi' class='verse'>
+							api ca | idaṃ rūpakāraṇamiṣyamāṇaṃ sadṛśaṃ kāryaṃ niṣpādayedasadṛśaṃ vā? ubhayathā ca nopapadyate ity āha-<br /> <b>na kāraṇasya sadṛśaṃ kāryamityupapadyate |<br /> na kāraṇasyāsadṛśaṃ kāryamityupapadyate || 6 ||<br /></b> tatra rūpakāraṇaṃ kaṭhinadravoṣṇataralasvabhāvam | bhautikaṃ tu cakṣurādhyātmikaṃ pañcacakṣurvijñānādyāśrayakarūpaprasādātmakam | bāhyaṃ tu rūpādyāyatanādikaṃ cakṣurvijñānādigrāhyalakṣaṇaṃ na mahābhūtasvabhāvam iti | ato bhinnalakṣaṇatvānnirvāṇavatkāryakāraṇayoḥ sādṛśyam eva nāstīti<br /> na kāraṇasya sadṛśaṃ kāryamityupapadyate |<br /> na cāpi sadṛśānāṃ śālibījādīnāṃ parasparakāryakāraṇabhāvo dṛṣṭaḥ, ityataḥ na kāraṇasya sadṛśaṃ kāryamityupapadyate |<br /> tathāpi<br /> na kāraṇasyāsadṛśaṃ kāryamityupapadyate |<br /> bhinnalakṣaṇatvānnirvāṇavadevetyabhiprāyaḥ || 6 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904012bi' class='verse'>
+							vedanācittasaṃjñānāṃ saṃskārāṇāṃ ca sarvaśaḥ |<br />sarveṣām eva bhāvānāṃ rūpeṇaiva samaḥ kramaḥ || 7 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859539bi' class='verse'>
+							受陰及想陰 行陰識陰等<br />其餘一切法 皆同於色陰&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903386bi' class='verse'>
+							tshor dang ’du shes ’du byed dang | | sems dang dngos po thams cad kyang | |<br />rnam pa dag ni thams cad du | | gzugs nyid kyis ni rim pa mtshungs | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8904900bi' class='verse'>
+							7. Also, sensation, thought, mental conception, conditioned elements (<i>saṃskāra</i>) and<br />All “things” (<i>bhāva</i>) are to be dealt with in the same way as visible form.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860497bi' class='verse'>
+							Feeling and perception, impulses and mind and all things are comparable in every aspect, at every stage with form.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8900982bi' class='verse'>
+							<b>ཚོར་དང་འདུ་ཤེས་འདུ་བྱེད་དང་། །སེམས་དང་དངོས་པོ་ཐམས་་ཅད་ཀྱང་། །རྣམ་པ་དག་ནི་ཐམས་ཅད་དུ། །གཟུགས་ཉིད་ཀྱིས་ནི་རིམ་པ་མཚུངས། །</b>ཚོར་བ་དང་འདུ་ཤེས་དང་འདུ་བྱེད་དང་། སེམས་ཀྱི་ཕུང་པོ་རྣམས་དང་། དངོས་པོ་ཐམས་ཅད་ཀྱང་རྣམ་པ་ཐམས་ཅད་དུ་རྒྱུ་དང་འབྲས་བུ་ལ་འཇུག་པ་མི་འཐད་པའི་རིམ་པ། གཟུགས་མི་་འཐད་པའི་རིམ་པ་བསྟན་པ་ཉིད་ཀྱིས་མཚུངས་པར་བསམ་པར་བྱ་སྟེ། ཙ་ན་ག་ཀའི་གསེར་བཞིན་ནོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8905914bi' class='verse'>
+							故(12)無色無色因(13)<b>受陰及想陰 行陰識陰等(14)其餘一切法 皆同於色陰</b>(15)四陰及一切法。亦應如是思惟破。又今造(16)論者。欲讃美空義故。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901461bi' class='verse'>
+							<b>ཚོར་བ་འདུ་ཤེས་འདུ་བྱེད་དང་། །སེམས་དང་དངོས་པོ་ཐམས་ཅད་ཀྱང་། །རྣམ་པ་དག་ནི་ཐམས་ཅད་དུ། །གཟུགས་ཉིད་ཀྱིས་ནི་རིམ་པ་་མཚུངས། །</b>ཚོར་བ་དང་། འདུ་ཤེས་དང་། འདུ་བྱེད་དང་། རྣམ་པར་ཤེས་པ་དེ་དག་ཀྱང་གཟུགས་མི་འཐད་པ་ཉིད་ཀྱིས་མི་འཐད་པར་རིམ་པ་མཚུངས་ཏེ། ཇི་ལྟར་འབྱུང་བ་མ་གཏོགས་པར་གཟུགས་མེད་པ་དེ་བཞིན་དུ་རེག་པ་མ་གཏོགས་པར་ཚོར་བ་མེད་ལ། ཇི་ལྟར་གཟུགས་་མ་གཏོགས་པར་གཟུགས་ཀྱི་རྒྱུ་མེད་པ་དེ་བཞིན་དུ་ཚོར་བ་མ་གཏོགས་པར་ཡང་རེག་པ་མེད་དེ། དེ་ལྟར་བཅོམ་ལྡན་འདས་ཀྱིས་ཀྱང་། བདེ་བ་མྱོང་བར་འགྱུར་བའི་རེག་པ་ལ་བརྟེན་ནས་བདེ་བའི་ཚོར་བ་སྐྱེའོ་ཞེས་གསུངས་སོ། །ལྷག་མ་རྣམས་ལ་ཡང་དེ་བཞིན་དུ་སྦྱར་བར་་བྱ་སྟེ་དེ་ལྟ་བས་ན་ཕུང་པོ་རྣམས་ཡོད་དོ་ཞེས་བྱ་བ་དེ་མི་འཐད་པ་ཉིད་དོ། །བཅོམ་ལྡན་འདས་ཀྱིས་ཀྱང་སྒྱུ་མ་འདི་ནི་བྱིས་པ་འདྲིད་པའོ། །ཞེས་གསུངས་སོ། །དེ་ལྟར་ཡང་། གཟུགས་ནི་དབུ་བརྡོས་པ་འདྲ། །ཚོར་བ་ཆུ་བུར་དག་དང་མཚུངས། །འདུ་ཤེས་སྨིག་རྒྱུ་འདྲ་བ་སྟེ། །འདུ་(179B)བྱེད་རྣམས་ནི་ཆུ་ཤིང་བཞིན། །རྣམ་ཤེས་སྒྱུ་མ་ལྟ་བུ་ཞེས། །ཉི་མའི་གཉེན་གྱིས་བཀའ་སྩལ་ཏོ། །ཞེས་ཀྱང་གསུངས་སོ། །ཕུང་པོ་རྣམས་ཉི་ཚེ་གཟུགས་མི་འཐད་པ་ཉིད་ཀྱིས་མི་འཐད་པར་རིམ་པ་མཚུངས་པར་མ་ཟད་ཀྱི། ཆོས་ཐམས་ཅད་ཀྱང་གཟུགས་མི་འཐད་་པ་ཉིད་ཀྱིས་མི་འཐད་པར་རིམ་པ་མཚུངས་སོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901940bi' class='verse'>
+							ད་ནི་གཟུགས་བཀག་པ་བཞིན་དུ་ཚོ་རབ་ལ་སོགས་པ་དག་དགག་པ་ཡང་རིམ་པ་མཚུངས་པར་བསྟན་པར་བྱ་སྟེ། <b>ཚོར་དང་འདུ་ཤེས་འདུ་བྱེད་དང། །སེམས་དང་དངོས་པོ་ཐམས་ཅད་ཀྱང། །རྣམ་པ་དག་ནི་ཐམས་ཅད་དུ། །གཟུགས་ཉིད་ཀྱིས་ནི་རིམ་པ་མཚུངས། །</b>གཟུགས་དགག་པ་བཞིན་དུ་ཚོར་བ་ལ་སོགས་པ་དག་དགག་པ་ཡང་རིམ་པ་མཚུངས་པའི་ཕྱིར་རོ་ཞེས་བྱ་བར་དགོངས་སོ། །ཇི་ལྟར་དོན་དམ་པར་གཟུགས་རྫས་སུ་ཡོད་པ་མ་ཡིན་ཏེ། རང་གི་རྒྱུ་མ་(88A)བཟུང་ན་དེའི་བློ་མེད་པའི་ཕྱིར། དཔེར་ན་དམག་ལ་སོགས་པ་བཞིན་ནོ་ཞེས་བསྟན་པ་དེ་བཞིན་དུ་དོན་དམ་པར། ཚོར་བ་དང། འདུ་ཤེས་དང། འདུ་བྱེད་རྣམས་དང། རྣམ་པར་ཤེས་པ་དག་ཀྱང་རྫས་སུ་ཡོད་པ་མ་ཡིན་ཏེ། རང་གི་རྒྱུ་མ་བཟུང་ན་དེའི་བློ་མེད་པའི་ཕྱིར། དཔེར་ན་དམག་ལ་སོགས་པ་བཞིན་ནོ་ཞེས་རྒྱས་པར་ཁོང་དུ་ཆུད་པར་བྱའོ། །ཚོར་བ་ལ་སོགས་པ་དག་གི་རྒྱུ་ནི། རེག་པ་དང། མིག་དང། གཟུགས་དང། སྣང་བ་དང། ནམ་མཁའ་དང། ཡིད་ལ་བྱེད་པ་ལ་སོགས་པ་དག་ཡིན་པར་ཅི་རིགས་པར་བརྗོད་པར་བྱའོ། །ཇི་ལྟར་དོན་དམ་པར་གཟུགས་ནི་རང་གི་ཚོགས་པའི་ཡན་ལག་དག་ལས་གཞན་མ་ཡིན་ཏེ། དེ་མ་བཟུང་ན་དེའི་བློ་མེད་པའི་ཕྱིར། དཔེར་ན་ས་ལ་སོགས་པའི་རང་གི་བདག་ཉིད་བཞིན་ནོ་ཞེས་བྱ་བས་དོན་དམ་པར་གཟུགས་རང་གི་རྒྱུ་དག་ལས་གཞན་མ་ཡིན་པར་བསྟན་པ་དེ་བཞིན་དུ་འདིར་ཡང་དོན་དམ་པར་ཚོར་བ་ལ་སོགས་པ་དག་རང་གི་རྒྱུ་དག་ལས་གཞན་མ་ཡིན་པར་བརྗོད་པར་བྱའོ། །འདིར་སུན་འབྱིན་པ་དང། སུན་འབྱིན་པའི་ལན་དག་ཀྱང་སྔ་མ་བཞིན་ནོ། །དངོས་པོ་ཐམས་ཅད་ཀྱང་ཞེས་བྱ་བ་ནི་ཕུང་པོ་ལས་གཞན་པ་འདུས་བྱས་ཀྱི་ཆོས་མེད་མོད་ཀྱི། དེ་དག་གི་བྱེ་བྲག་དག་དགག་པ་བརྗོད་པར་བཞེད་པས་ཉེ་བར་བཞག་སྟེ། ཡོངས་སུ་བརྟག་པའི་བུམ་པ་དང། སྣམ་བུ་ལ་སོགས་པ་དག་རྫས་སུ་ཡོད་པ་ཉིད་དང། གཞན་པ་ཉིད་དགག་པའི་ཕྱིར་རོ། །འདིར་ཡང་སྔ་མ་བཞིན་དུ་སྦྱོར་བའི་ཚིག་དག་ཅི་རིགས་པར་བརྗོད་པར་བྱའོ། །དེ་ལྟར་ཕུང་པོ་རྣམས་མ་གྲུབ་པའི་ཕྱིར་ཕུང་པོས་བསྡུས་པ་ཞེས་བྱ་བའི་གཏན་ཚིགས་ཀྱི་དོན་མ་གྲུབ་པ་ཉིད་དང། དཔེ་མེད་དོ། །ཇི་ལྟ་ཞེ་ན། འདི་ལྟ་སྟེ། གཟུགས་ལ་སོགས་པའི་ཕུང་པོས་བསྡུས་པ་དག་དོན་དམ་པར་ཡོད་དོ་ཞེས་བྱ་བ་མེད་པའི་ཕྱིར་རོ། །ཡང་ན་གཏན་ཚིགས་ཀྱི་དོན་འགལ་བ་ཉིད་ཀྱང་ཡིན་ཏེ། ཕུང་པོས་བསྡུས་པ་ནི་ཐ་སྙད་ཁོ་ནར་ཡོད་པ་ཡིན་པའི་ཕྱིར་རོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009312bi' class='verse'>
+							yathā cedaṃ rūpaṃ vicāryamāṇaṃ sarvathā nopapadyate, evaṃ vedanādayo ’pi, ityatidiśann āha-<br /> <b>vedanācittasaṃjñānāṃ saṃskārāṇāṃ ca sarvaśaḥ |<br /> sarveṣām eva bhāvānāṃ rūpeṇaiva samaḥ kramaḥ || 7 ||<br /></b> vedanādikam api sarvaṃ rūpavicāreṇaiva samaṃ yojyam | yathaiva hyekasya dharmasya śūnyatā pratipādayitumiṣṭā mādhyamikena, tathaiva sarvadharmāṇāmapīti || 7 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904013bi' class='verse'>
+							vigrahe yaḥ parīhāraṃ kṛte śūnyatayā vadet |<br />sarvaṃ tasyāparihṛtaṃ samaṃ sādhyena jāyate || 8 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859540bi' class='verse'>
+							若人有問者 離空而欲答<br />是則不成答 俱同於彼疑&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903387bi' class='verse'>
+							stong pa nyid kyis brtsad byas te | | gang zhig lan ’debs smra byed pa | |<br />de yis thams cad (4a1)lan btab min | | bsgrub par bya dang mtshungs par ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8904901bi' class='verse'>
+							8. Whoever argues against “emptiness” in order to refute an argument,<br />For him everything, including the point of contention (<i>sādhya</i>) is known to be unrefuted.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860498bi' class='verse'>
+							When having argued by means of emptiness, everything of that one who objects is not an objection; it is similar to what is to be established .&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8900983bi' class='verse'>
+							<b>སྟོང་པ་ཉིད་ཀྱིས་བརྩད་བྱས་ཚེ། །གང་ཞིག་ལན་འདེབས་སྨྲ་བྱེད་པ། །དེ་ནི་ཐམས་ཅད་ལན་བཏབ་མིན། །བསྒྲུབ་པར་བྱ་དང་མཚུངས་པར་འགྱུར། །</b>གང་དུ་ལ་ལར་སྟོང་པ་་ཉིད་ཀྱིས་བརྩད་པར་བྱས་པའི་ཚེ། གང་ཞིག་སྟོང་པ་ཉིད་མ་ཡིན་པས་ལེན་འདེབས་ཤིང་སྨྲ་བར་བྱེད་པ་དེ་ཐམས་ཅད་ནི་ལན་བཏབ་པ་མ་ཡིན་ཏེ། དེ་དག་ནི་བསྒྲུབ་པར་བྱ་བ་དང་མཚུངས་པར་འགྱུར་བར་ཤེས་པར་བྱའོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8905915bi' class='verse'>
+							而説偈(17)<b>若人有問者 離空而欲答(18)是則不成答 倶同於彼疑</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901462bi' class='verse'>
+							དེ་ལྟར་གང་གི་ཕྱིར་ཆོས་ཐམས་ཅད་གཟུགས་མི་འཐད་པ་ཉིད་ཀྱིས་མི་འཐད་པར་རིམ་པ་མཚུངས་པ་དེའི་ཕྱིར། <b>སྟོང་པ་ཉིད་ཀྱིས་བརྩད་བྱས་ཚེ། །གང་ཞིག་ལན་འདེབས་སྨྲ་བྱེད་པ། །དེ་ཡིས་ཐམས་ཅད་ལན་བཏབ་མིན། །བསྒྲུབ་པར་བྱ་དང་མཚུངས་པར་འགྱུར། །</b>སྟོང་པ་ཉིད་ཀྱིས་བརྩད་ཅིང་འགྱེད་པ་བརྩམས་ཏེ་ཡོངས་སུ་གླེང་བའི་ཚེ་གང་ཞིག་སྟོང་པ་ཉིད་མ་ཡིན་པས་ལན་འདེབས་ཤིང་སྨྲ་བར་བྱེད་པ་དེའི་ཚེ་དེ་དག་ཐམས་ཅད་ནི་ལན་བཏབ་པ་མ་ཡིན་ནོ། །ཅིའི་ཕྱིར་ཞེ་ན། བསྒྲུབ་པར་བྱ་བ་དང་་མཚུངས་པར་འགྱུར་བའི་ཕྱིར་དང་། འདི་ལྟ་སྟེ་དཔེར་ན་དངོས་པོ་ཐམས་ཅད་ངོ་བོ་ཉིད་སྟོང་པའོ། །ཞེས་དམ་བཅས་ན་དཔེ་བསྟན་པའི་ཕྱིར་སྣམ་བུ་ངོ་བོ་ཉིད་སྟོང་པར་སྒྲུབ་པར་བྱེད་པའི་ཚེ་གང་ཞིག་རེ་ཞིག་རེ་ཞིག་རྒྱུ་སྤུན་དག་ནི་ཡོད་དོ་ཞེས་ཟེར་བའི་དེ་ནི་བསྒྲུབ་པར་བྱ་བ་དང་མཚུངས་པ་ཡིན་་ཏེ། གཏན་ཚིགས་གང་དག་ཉིད་ཀྱིས་སྣམ་བུ་ངོ་བོ་ཉིད་སྟོང་པར་བསྟན་པ་དེ་དག་ཉིད་རྒྱུ་སྤུན་དག་སྟོང་པ་ཉིད་དུ་རབ་ཏུ་སྒྲུབ་པར་བྱེད་པ་ཡང་ཡིན་པས་དེའི་ཕྱིར་རྒྱུར་སྤུན་དག་སྟོང་པ་ཉིད་མ་ཡིན་པར་སྟོན་པ་ནི་བསྒྲུབ་པར་བྱ་བ་སྣམ་བུ་དང་མཚུངས་པ་ཡིན་ནོ། །དེ་བཞིན་དུ་་སྐྱེ་བོ་ཆོས་ཀྱི་གནས་སྐབས་ཤེས་པ་དག་དགེ་བའི་ཆོས་རྣམས་ཀྱི་ངོ་བོ་ཉིད་ནི་དགེ་བའོ་སྙམ་པ་དང་། ལྷག་མ་རྣམས་ཀྱང་དེ་བཞིན་དུ་རྣམ་པར་ངེས་སོ་སྙམ་དུ་སེམས་ཤིང་དེ་དག་ལ་སོགས་པ་སྨྲ་ན་དགེ་བའི་ཆོས་རྣམས་ཀྱང་རྟེན་ཅིང་འབྲེལ་བར་འབྱུང་བ་ཡིན་པའི་ཕྱིར་ངོ་བོ་ཉིད་་མེད་པས་ན་དེ་ཡང་བསྒྲུབ་པར་བྱ་བ་དང་མཚུངས་པ་ཡིན་ཏེ། བསྒྲུབ་པར་བྱ་བ་དང་མཚུངས་པའི་ཕྱིར་ལན་བཏབ་པ་མ་ཡིན་ནོ། །སློབ་དཔོན་འཕགས་པ་ལྟས་ཀྱང་། །དངོས་པོ་གཅིག་ལ་གང་ལྟ་བ། །དེ་ནི་ཀུན་ལའང་ལྟ་བར་འདོད། །གཅིག་གི་སྟོང་ཉིད་གང་ཡིན་པ། །དེ་ཉིད་(180A)ཀུན་གྱི་སྟོང་པ་ཉིད། །ཅེས་གསུངས་སོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901941bi' class='verse'>
+							དེ་ལྟར་རིགས་པ་དེས་ན༑ <b>སྟོང་པ་ཉིད་ཀྱིས་བརྩད་བྱས་ཚེ། །གང་ཞིག་ལན་འདེབས་སྨྲ་བྱེད་པ། །དེ་ཡི་ཐམས་ཅན་ལན་བཏབ་མིན། །བསྒྲུབ་པར་བ་དང་མཚུངས་པར་འགྱུར། །</b>དེ་ཁོ་ན་བརྟག་པའི་མཚན་ཉིད་ལ་དངོས་པོ་འགའ་ཞིག་གི་དོན་དམ་པ་བའི་ངོ་བོ་ཉིད་བརྟག་པ་བརྩམ་པ་ན་སྟོང་པ་ཉིད་ཀྱིས་དོན་དམ་པར་སྐྱེ་མཆེད་(88B) རྫས་སུ་ཡོད་པ་མ་ཡིན་པར་ཚད་མ་ཡོངས་སུ་བཟུང་སྟེ། བརྩད་ཅིང་འགྱེད་པ་བྱས་པའི་ཚེ། །གང་ཞིག་རྟོག་གེ་ཕྱི་མ་ཉེ་བར་བཞག་པས་ལན་འདེབས་ཤིང་སྨྲ་བར་བྱེད་པ་དེའི་དེ་དག་ཐམས་ཅད་ནི་ལན་བཏབ་པ་མ་ཡིན་ཏེ། བསྒྲུབ་པར་བྱ་བ་དང་མཚུངས་པར་འགྱུར་བའི་ཕྱིར་རོ། །དེ་སྟོན་པའི་གཏན་ཚིགས་དང། དཔེ་དེ་དག་བསྒྲུབ་པར་བྱ་བ་དང་མཚུངས་པར་མ་གྲུབ་པའི་ཕྱིར། རྟོག་གེ་ཕྱི་མ་མི་འགྲུབ་བོ་ཞེས་བྱ་བར་དགོངས་སོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009313bi' class='verse'>
+							ataḥ-<br /> <b>vigrahe yaḥ parīhāraṃ kṛte śūnyatayā vadet |<br /> sarvaṃ tasyāparihṛtaṃ samaṃ sādhyena jāyate || 8 ||<br /></b> tatra parapakṣadūṣaṇaṃ vigrahaḥ | śūnyatayā kāraṇabhūtayā rūpaṃ niḥsvabhāvam ity evaṃ sasvabhāvavāde pratiṣiddhe, yadi paraḥ parihāraṃ brūyāt- vedanādayas tāvat santi, tadvadrūpam apy astīti, tad etat sarvaṃ tasyāparihṛtaṃ bhavati | yasmād vedanādīnām api sadbhāvaḥ sādhyena rūpasadbhāvena samo veditavyaḥ | yathā rūpaṃ svakāraṇāt tattvānyatvena vicāryamāṇamasat, evaṃ sparśapratyayā vedanā, vijñānasahajā saṃjñā, avidyāpratyayāḥ saṃskārāḥ, saṃskārapratyayaṃ ca vijñānaṃ svakāraṇāt sparśādeḥ tattvānyatvādinā vicāryamāṇaṃ nāstīti sarvam etat sādhyasamaṃ bhavati | yathā vedanādayaḥ sādhyasamāḥ, evaṃ lakṣyalakṣaṇakāryakāraṇāvayavyavayavādayo ’pi sarva eva padārthāḥ rūpeṇa sādhyena samā iti kutaḥ parasya parīhāra saṃbhavet? sarvaṃ vacanam asya sādhyasamaṃ bhavatīti sarvatra śāstre parīhāreṇa sādhyasamatvaṃ mādhyamikenā grāhaṇīyam ity ācāryaḥ śikṣayati || 8 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904014bi' class='verse'>
+							vyākhyāne ya upālambhaṃ kṛte śūnyatayā vadet |<br />sarvaṃ tasyānupālabdhaṃ samaṃ sādhyena jāyate || 9 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859541bi' class='verse'>
+							若人有難問 離空說其過<br />是不成難問 俱同於彼疑&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903388bi' class='verse'>
+							stong pa nyid kyis bshad byas tshe | | gang zhig skyon ’dogs smra byed pa | |<br />de yis thams cad skyon btags min | | bsgrub par bya dang mtshungs par ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8904902bi' class='verse'>
+							9. Whoever argues by means of “emptiness” in order to explain an understanding,<br />For him, everything including the point to be proved (<i>sādhya</i>) is known to be misunderstood.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860499bi' class='verse'>
+							When having explained by means of emptiness, everything of that one who finds fault is not a fault; it is similar to what is to be established.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8900984bi' class='verse'>
+							<b>སྟོང་པ་ཉིད་ཀྱིས་བཤད་བྱས་ཚེ། །གང་ཞིག་སྐྱོན་འདོགས་སྨྲ་་བྱེད་པ། །དེ་ཡིས་ཐམས་ཅད་སྐྱོན་བཏགས་མིན། །བསྒྲུབ་པར་བྱ་དང་མཚུངས་པར་འགྱུར། །</b>གང་དུ་ལ་ལར་སྟོང་བ་ཉིད་བཤད་པར་བྱས་པའི་ཚེ། གང་ཞིག་སྟོང་པ་ཉིད་མ་ཡིན་པས་སྐྱོན་འདོགས་ཤིང་སྨྲ་བར་བྱེད་པ་དེས་ཐམས་ཅད་ནི་སྐྱོན་བཏགས་པ་མ་ཡིན་ཏེ། བསྒྲུབ་པར་བྱ་བ་དང་། མཚུངས་པར་ཤེས་པར་བྱའོ། །རབ་ཏུ་བྱེད་པ་འདིའི་ཚིགས་སུ་བཅད་པ་ཐ་མ་དེ་གཉིས་ནི་སྟོང་པ་ཉིད་དང་ལྡན་པའི་གཏམ་ཐམས་ཅད་ལ་སྙིང་པོར་གྱུར་བ་ཡིན་པར་བལྟ་བར་བྱ་སྟེ། དྲི་ཟའི་གྲོང་ཁྱེར་སྟོང་པ་བཞིན་ནོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8905916bi' class='verse'>
+							<b>(19)若人有難問 離空説其過(20)是不成難問 倶同於彼疑</b>(21)若人論議時。各有所執。離於空義而有問(22)答者。皆不成問答。倶亦同疑。如人言瓶是(23)無常。問者言。何以故無常。答言。從無常因(24)生故。此不名答。何以故。因縁中亦疑不知(25)爲常爲無常。是爲同彼所疑。問者若欲説(26)其過。不依於空而説諸法無常。則不名問(27)難。何以故。汝因無常破我常。我亦因常破(28)汝無常。若實無常則無業報。眼耳等諸法念(29)念滅。亦無有分別。有如是等過。皆不成(7b1)問難。同彼所疑。若依空破常者。則無有(2)過。何以故。此人不取空相故。是故若欲問(3)答。尚應依於空法。何況欲求離苦寂滅(4)相者◎&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901463bi' class='verse'>
+							<b>སྟོང་པ་ཉིད་ཀྱིས་བཤད་བྱས་ཚེ། །གང་ཞིག་སྐྱོན་འདོགས་སྨྲ་བྱེད་པ། །དེ་ཡིས་ཐམས་ཅད་སྐྱོན་བཏགས་མིན། །བསྒྲུབ་པར་བྱ་དང་མཚུངས་པར་འགྱུར། །</b>སྟོང་པ་ཉིད་ཀྱི་དངོས་པོ་ངོ་བོ་ཉིད་མེད་པ་ཉིད་དུ་་རྣམ་པར་བཤད་པའི་ཚེ་གང་ཞིག་སྟོང་པ་ཉིད་མ་ཡིན་པས་སྐྱོན་འདོགས་ཤིང་སྨྲ་བར་བྱེད་པ་དེའི་དེ་དག་ཐམས་ཅད་ཀྱང་སྔ་མ་ཁོ་ན་བཞིན་དུ་བསྒྲུབ་པར་བྱ་བ་དང་མཚུངས་པའི་ཕྱིར་སྐྱོན་བཏགས་པ་མ་ཡིན་ཏེ། དེ་ནི་དོན་གཅིག་པ་ཁོ་ན་ཡིན་མོད་ཀྱི། གནས་སྐབས་གཞན་་གྱི་བྱེ་བྲག་གིས་ཡང་བསྟན་ཏོ། །ཚིགས་སུ་བཅད་པ་འདི་གཉིས་ནི་རབ་ཏུ་བྱེད་པ་ཐམས་ཅད་ཀྱི་ཁོངས་སུ་གཏོགས་པར་བལྟ་བར་བྱ་སྟེ། ཐམས་ཅད་དུ་གྲུབ་པའི་ཕྱིར་རོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901942bi' class='verse'>
+							དེ་བཞིན་དུ། <b>སྟོང་པ་ཉིད་ཀྱིས་བཤད་བྱས་ཏེ། །གང་ཞིག་སྐྱོན་འདོགས་སྨྲ་བྱེད་པ། །དེ་ཡི་ཐམས་ཅད་སྐྱོན་བརྟགས་མིན། །བསྒྲུབ་པར་བྱ་དང་མཚུངས་པར་འགྱུར། །</b>ཕུང་པོ་དང། ཁམས་དང། སྐྱེ་མཆེད་དག་ངོ་བོ་ཉིད་མེད་པ་ཉིད་དུ་བསྟན་པ་ན་སྟོང་པ་ཉིད་ཀྱིས་སྦྱོར་བ་རྣམ་པར་དབྱེ་བ་བྱས་ཏེ། རྣམ་པར་བཤད་པའི་ཚེ་གང་ཞིག་ཚད་མ་ལོག་པས་བློ་གྲོས་བསླད་པ་ཉིད་ཀྱིས་ཕུང་པོ་ལ་སོགས་པ་དག་ཡོད་པ་ཁོ་ན་ཡིན་ཏེ། བདེན་པ་ལ་སོགས་པས་བསྡུས་པའི་ཕྱིར་རོ་ཞེས་བྱ་བ་ལ་སོགས་པས་སྐྱོན་འདོགས་ཤིང་སྨྲ་བར་བྱེད་པ་དེའི་དེ་དག་ཐམས་ཅད་ཀྱང་སྐྱོན་བརྟགས་ཤིང་སུན་འབྱིན་པ་མ་ཡིན་ཏེ། བསྒྲུབ་པར་བྱ་བ་དང་མཚུངས་པར་འགྱུར་བའི་ཕྱིར་རོ་ཞེས་བྱ་བའི་ཚིག་གི་ལྷག་མའོ། །ཇི་ལྟ་ཞེ་ན། སུན་དབྱུང་བ་དང་འདྲ་བའི་ཕྱིར། །བསྒྲུབ་པར་བྱ་བ་མ་གྲུབ་པ་ཉིད་དང་སྤྱིར་མཚུངས་ཏེ། དངོས་པོ་གཅིག་ལ་གང་ལྟ་བ། །དེ་ནི་ཀུན་ལའང་ལྟ་བར་འདོད། །གཅིག་གི་སྟོང་ཉིད་གང་ཡིན་པ། །དེ་ཉིད་ཀུན་གྱི་སྟོང་པ་ཉིད། །ཅེས་གང་གསུངས་སོ། །དེ་ལ་འདིར་རབ་ཏུ་བྱེད་པའི་དོན་ནི་སྐྱེ་མཆེད་རྣམས་ཡོད་པར་སྟོན་པ་ཉེ་བར་བཞག་པའི་སྒྲུབ་པའི་སྐྱོན་བརྗོད་པས། ཕུང་པོ་རྣམས་ངོ་བོ་ཉིད་མེད་པ་ཉིད་དུ་བསྟན་པ་ཡིན་ནོ། །དེའི་ཕྱིར་རབ་ཀྱི་རྩལ་གྱིས་རྣམ་པར་གནོན་པ་ཕུང་པོ་ལྔ་པོ་དག་གི་མངོན་པར་འགྲུབ་པར་གཏོགས་པ་སྟོན་པ་གང་ཡིན་པ་དེ་ནི། ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་མ་ཡིན་ནོ། །རབ་ཀྱི་རྩལ་གྱིས་རྣམ་པར་གནོན་པ་གཟུགས་ངོ་བོ་ཉིད་དང་བྲལ་བ་ནི་གཟུགས་སོ། །དེ་བཞིན་དུ་ཚོར་བ་དང། འདུ་ཤེས་དང། འདུ་བྱེད་རྣམས་དང། རྣམ་པར་ཤེས་པ་ངོ་བོ་ཉིད་དང་བྲལ་བ་ནི་རྣམ་པར་ཤེས་པའོ། །གཟུགས་དང། ཚོར་བ་དང། འདུ་ཤེས་དང། འདུ་བྱེད་རྣམས་དང། རྣམ་པར་ཤེས་པ་དག་གི་ངོ་བོ་ཉིད་དང་བྲལ་བ་གང་ཡིན་པ་དེ་ནི་(89A)ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའོ། །རབ་ཀྱི་རྩལ་གྱིས་རྣམ་པར་གནོན་པ་གཟུགས་ངོ་བོ་ཉིད་མེད་པ་ནི་གཟུགས་སོ། །དེ་བཞིན་དུ་ཚོར་བ་དང། འདུ་ཤེས་དང། འདུ་བྱེད་རྣམས་དང། རྣམ་པར་ཤེས་པ་ངོ་བོ་ཉིད་མེད་པ་ནི་རྣམ་པར་ཤེས་པའོ། །གཟུགས་དང། ཚོར་བ་དང། འདུ་ཤེས་དང་འདུ་བྱེད་རྣམས་དང། རྣམ་པར་ཤེས་པ་དག་གི་ངོ་བོ་ཉིད་མེད་པ་གང་ཡིན་པ་དེ་ནི་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའོ་ཞེས་བྱ་བ་དང། དེ་བཞིན་དུ། ངས་ནི་འཇིག་རྟེན་ཕུང་པོ་བསྟན། །དེ་ལ་འཇིག་རྟེན་གནས་བར་གྱུར། །མཁས་པ་དེ་ལ་མི་གནས་པ། །འཇིག་རྟེན་ཆོས་ཀྱིས་མི་གོས་སོ། །འཇིག་རྟེན་ནམ་མཁའི་མཚན་ཉིད་དེ། །ནམ་མཁའ་ལ་ཡང་མཚན་ཉིད་མེད། །དེ་ཕྱིར་དེ་ཡི་དེ་བརྟགས་པས། །འཇིག་རྟེན་ཆོས་ཀྱིས་མི་གོས་སོ། །ཞེས་བྱ་བ་དང། དེ་བཞིན་དུ་བྱང་ཆུབ་སེམས་དཔས། གཟུགས་དང། སྒྲ་དང། དྲི་དང། རོ་དང། རེག་བྱ་དང། ཆོས་ལ་གནས་ཏེ་སྦྱིན་པ་སྦྱིན་པར་མི་བྱའོ་ཞེས་བྱ་བ་དང། དེ་བཞིན་དུ། སྲིད་པ་གསུམ་ནི་བརྟགས་པ་ཙམ། །ངོ་བོ་ཉིད་ཀྱིས་དངོས་པོ་མེད། །བརྟགས་པ་དངོས་པོའི་རང་བཞིན་དུ། །ངན་རྟོག་རྣམས་ནི་རྟོག་པར་བྱེད། །བློ་ཡིས་རྣམ་པར་བརྟག་བྱས་ན། །ངོ་བོ་ཉིད་ནི་གཟུང་དུ་མེད། །དེ་ཕྱིར་དེ་དག་བརྗོད་མེད་དང། །ངོ་བོ་ཉིད་ནི་མེད་པར་བསྟན། །ཞེས་བྱ་བ་ལ་སོགས་པ་གསུངས་པ་དེ་དག་གྲུབ་པ་ཡིན་ནོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009314bi' class='verse'>
+							yathā ca parapakṣadūṣaṇe vihi ’toyaṃ vidhiḥ, evaṃ vyākhyānakāle ’pīty āha-<br /> <b>vyākhyāne ya upālambhaṃ kṛte śūnyatayā vadet |<br /> sarvaṃ tasyānupālabdhaṃ samaṃ sādhyena jāyate || 9 ||<br /></b> vyākhyānakāle ’pi yaḥ śiṣyadeśīyaścodyamupālambhaṃ kuryāt, tasyāpi taccodyamupālambhākhyaṃ pūrvavatsādhyasamaṃ veditavyam | yathoktam-<br /> bhāvasyaikasya yo draṣṭā draṣṭā sarvasya sa smṛtaḥ | ekasya śūnyatā yaiva saiva sarvasya śūnyatā || iti |<br /> āryagaganagañjasamādhisūtre ’pi-<br /> ekena dharmeṇa tu sarvadharmān anugacchate māyamarīcisādṛśān |<br /> agrāhyatucchānalikānaśāśvatān so bodhimaṇḍaṃ nacireṇa gacchati || iti ||<br /> samādhirājasūtre ’pi-<br /> yatha ñāta tayātmasaṃjña tathaiva sarvatra peṣitā buddhiḥ |<br /> sarve ca tatsvabhāvā dharma viśuddhā gaganakalpāḥ ||<br /> ekena sarvaṃ jānāti sarvamekena paśyati | kiyadbahu pi bhāvetvā na tasyotpadyate madaḥ || iti |&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904015bi' class='chaptertitle'>
+							skandhaparīkṣā nāma caturthaṃ prakaraṇaṃ ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904651";
+							kilderef = "Mmk San: La Vallée Poussin (1913)  - San: La Vallée Poussin (1913) 128,15-16";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859542bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904644";
+							kilderef = "Mmk Chi: Kumārajīva, T. 1564 6b18 - Chi: Kumārajīva, T. 1564 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903389bi' class='chaptertitle'>
+							phung po brtag pa zhes bya ba ste rab tu byed pa bzhi (2)pa’o || ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904650";
+							kilderef = "Mmk Tib: Tg, tsa  - Tib: Tg, tsa 4a1-2";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8904903bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904893";
+							kilderef = "Mmk Eng: Streng (1967)  - Eng: Streng (1967) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860500bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904645";
+							kilderef = "Mmk Eng: Batchellor (2000)  - Eng: Batchellor (2000) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8900985bi' class='chaptertitle'>
+							ཕུང་པོ་བརྟག་པ་ཞེས་བྱ་བ་སྟེ། རབ་ཏུ་བྱེད་པ་བཞི་པའོ།། །། 
+&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904646";
+							kilderef = "Mmk Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829  - Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8905917bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8905907";
+							kilderef = "Mmk Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564  6b18 - Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564 7b4";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901464bi' class='chaptertitle'>
+							ཕུང་པོ་བརྟག་པ་ཞེས་བྱ་སྟེ་རབ་ཏུ་བྱེད་པ་བཞི་པའོ།། །།
+&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904647";
+							kilderef = "Mmk Buddhapālita "Vṛtti" Tg 3842  - Buddhapālita "Vṛtti" Tg 3842 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901943bi' class='chaptertitle'>
+							སློབ་དཔོན་ལེགས་ལྡན་བྱེད་ཀྱིས་ཉེ་བར་སྦྱར་བ། དབུ་མའི་རྩ་བའི་འགྲེལ་པ་ཤེས་རབ་སྒྲོན་མ་ལས་ཕུང་པོ་བརྟག་པ་ཞེས་བྱ་བ་སྟེ། རབ་ཏུ་བྱེད་པ་བཞི་པའོ།། །།
+&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904648";
+							kilderef = "Mmk Bhāvaviveka "Prajñāpradīpa" Tg 3853  - Bhāvaviveka "Prajñāpradīpa" Tg 3853 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009315bi' class='chaptertitle'>
+							ity ācāryacandrakīrtipādoparacittāyāṃ prasannapadāyāṃ madhyamakavṛttau skandhaparīkṣā nāma caturtha prakaraṇam ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "9009305";
+							kilderef = "Mmk Candrakīrti "Prasannapadā" Vaidya 1960  - Candrakīrti "Prasannapadā" Vaidya 1960 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div></div><div class='clear'></div><div class="fontboks"><a onClick=onOffdiv('permlink') name="permlink" href="#permlink">Permanent link</a></div><div class='clear'></div><div class='perm_felt' id='permlink'>http://www2.hf.uio.no/common/apps/permlink/permlink.php?app=polyglotta&amp;context=ctext&amp;uid=083e4934-6be5-11df-870c-00215aecadea</div></div></div><!-- infofelt --></div><!-- divControl --><div class="clear"></div>
+<div style="clear:both"></div><div class="signatur"><div class="signatur_left">
+		<a href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation">Go to Wiki Documentation</a></br>Enhet: <a HREF=http://www.hf.uio.no>Det humanistiske fakultet</a> &nbsp; Utviklet av: <a href="http://www.hf.uio.no/tjenester/it">IT-seksjonen ved HF</a></div><!--signatur_left -->
+		<div class="signatur_right"><a href="/polyglotta/admin/index.php">Login</a></div>
+		<div style="clear:both"></div></div>
+</body></html><SCRIPT LANGUAGE="JAVASCRIPT">
+	
+	$("#tr_IA").click(function(){
+	    if ($("#toggle_container_IA").is(':hidden'))
+	    	$("#toggle_container_IA").show();
+	    else{
+	        $("#toggle_container_IA").hide();
+	    }
+	    return false;
+		});
+
+	$("#tr_lang").click(function(){
+	    if ($("#toggle_container_lan").is(':hidden'))
+	    	$("#toggle_container_lan").show();
+	    else{
+	        $("#toggle_container_lan").hide();
+	    }
+	    return false;
+	});
+
+	$("#tr_img").click(function(){
+	    if ($("#toggle_container_img").is(':hidden'))
+	    	$("#toggle_container_img").show();
+	    else{
+	        $("#toggle_container_img").hide();
+	    }
+	    return false;
+	});
+
+	$("#diac2button").click(function(){
+	   if ($("#ex3a").is(':hidden')){
+		   $("#ex3a").show();
+	       $("#diac2button").html("Hide&#32Diacritica-help");
+	   }else{
+	       $("#ex3a").hide();
+	       $("#diac2button").html("Diacritica-help");
+	   }
+	   return false;
+	});
+
+	$("#diacbutton").click(function(){
+	   if ($("#diacritical_sign").is(':hidden')){
+		   	$("#diacritical_sign").show();
+	      	$("#diacbutton").html("Hide&#32diacritica");
+	   }else{
+	        $("#diacritical_sign").hide();
+	        $("#diacbutton").html("Diacritica");
+	   }
+	   return false;
+    });
+
+	$('#toggle_container_IA').click(function(e) {
+	   e.stopPropagation();
+	});
+
+	$('#toggle_container_lan').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#toggle_container_img').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#ex3a').click(function(e) {
+	    e.stopPropagation();
+	});
+
+	$('#diacritical_sign').click(function(e) {
+        e.stopPropagation();
+    });
+
+	//Kode for å sette inn diakritiske tegn
+	$('#diacritical > tbody > tr > td').click(function() {
+	  	//alert('red');
+		$("#sokeboks").val($("#sokeboks").val() + $(this).text());
+	});
+
+	$('.diac2button').text(($('.diacbutton').text() == 'Diacritica-help') ? 'Hide Diacritica-help' : 'Diacritica-help');
+	
+	//Lukker alle åpnede pop'uper ved klikk på siden
+	$(document).click(function() {
+		$('#toggle_container_IA').hide();
+	    
+        $('#toggle_container_lan').hide();
+    
+        $('#toggle_container_img').hide();
+   
+   		$('#diacritical_sign').hide();
+   		$("#diacbutton").html("Diacritica");
+   
+       	$('#ex3a').hide();
+       	$("#diac2button").html("Diacritica-help");
+   });
+	</SCRIPT>

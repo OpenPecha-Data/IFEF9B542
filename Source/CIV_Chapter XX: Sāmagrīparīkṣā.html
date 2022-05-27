@@ -1,0 +1,740 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Bibliotheca Polyglotta</title>
+<link rel='stylesheet' type='text/css' href='css/bp.css'>
+<link rel='stylesheet' type='text/css' href='css/diac_doc.css'>
+
+<link rel='stylesheet' type='text/css' href='css/imageGallery.css'>
+<link rel='stylesheet' type='text/css' href='css/ss.css'>
+	      <link rel='stylesheet' type='text/css' href='css/tree_menu.css'>
+<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+<!--  <script type="text/javascript" src="js/jqModal.js"></script>-->
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/tree_menu.js"></script>
+<!-- <script src="js/analytics_tracking.js" type="text/javascript"></script> -->
+
+
+<!-- <script type="text/javascript" src="js/popupDivhandling.js"></script> -->
+<!--  <script type="text/javascript" src="jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery-imagegallery.js"></script>-->
+</head>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//vrtx.uio.no/js/analytics/v2/analytics.js','ga');
+
+ga('create', 'UA-86407471-1', 'auto');
+ga(function(tracker) {
+
+	// Modifies sendHitTask to hit ipproxy instead of http://www.google-analytics.com directly
+	tracker.set('sendHitTask', function(model) {
+		payload = model.get('hitPayload');
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', '//w3prod-ipproxy.uio.no/collect' +'?' + payload, true);
+		xhr.send();
+	});
+		ga('send', 'pageview');
+});
+</script>
+<body><div class='banner'></div><!-- banner --><div class='uiologo'>
+<a href='http://www.hf.uio.no/'><img src='https://www2.hf.uio.no/polyglotta/hfe.png' border='0'></a></div><!-- uiologo --><div class='clear'></div>
+<div class='smule_tittel'>
+<div class='brodsmuleboks'>You are here: <a href='/polyglotta/index.php' accesskey='1'> BP HOME</a> >  <a href='/polyglotta/index.php?page=library&amp;bid=2' accesskey='1'>TLB</a> > <a href='/polyglotta/index.php
+	?page=volume&amp;vid=1124' accesskey='1'>Nāgārjuna: Mūlamadhyamakakārikā</a> > fulltext</div><div class='clear'></div>
+<div class='headline'>Nāgārjuna: Mūlamadhyamakakārikā<div class='clear'></div></div><!-- headline -->
+</div><!-- smule_tittel -->
+<!--<div>-->
+
+<h2 class="trigger" id="tr_lang"><a  href="#">Choose languages</a></h2>
+<h2 class="trigger" id="tr_img"><a  href="#">Choose images, etc.</a></h2>
+
+
+<div id="toggle_container_lan">
+
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_lan.php" method="POST">
+
+<div style="float:left; width:auto; text-align:left; margin-left:20px;">
+<h5>Choose languages</h5>
+<ul>
+<input value="Choose all" type="button" onClick="markAll('tr')"><input value="Uncheck all" type="button" onClick="markNone('tr')">
+
+	<li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6176]" value="6176" id="lancheckbox" checked >Sanskrit: San: La Vallée Poussin (1913), </label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[5667]" value="5667" id="lancheckbox" checked >Chinese: Chi: Kumārajīva, T. 1564</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6175]" value="6175" id="lancheckbox" checked >Tibetan: Tib: Tg, tsa</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6177]" value="6177" id="lancheckbox" checked >English: Eng: Streng (1967)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[5669]" value="5669" id="lancheckbox" checked >English: Eng: Batchellor (2000)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6170]" value="6170" id="lancheckbox" checked >Tibetan: Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6179]" value="6179" id="lancheckbox" checked >Chinese: Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6171]" value="6171" id="lancheckbox" checked >Tibetan: Buddhapālita "Vṛtti" Tg 3842</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6172]" value="6172" id="lancheckbox" checked >Tibetan: Bhāvaviveka "Prajñāpradīpa" Tg 3853</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6340]" value="6340" id="lancheckbox" checked >Sanskrit: Candrakīrti "Prasannapadā" Vaidya 1960</label></li><div style="clear:both"></div>
+<input type='submit' name='set_cookie' value='Save view'>
+<div style="clear:both"></div>
+
+</ul>
+<input type="hidden" name="vid" value="1124">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+</div>
+
+<div id="toggle_container_img">
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_img.php" method="POST">
+
+<div style="float:left; width:auto; text-align: left;">
+<h5>Choose display</h5>
+<ul>
+		
+	<li> 
+		<input type='checkbox' name='bilder' checked="checked" > Enable images
+	</li>
+	<li> 
+	<input type='checkbox' onclick="onOffCheckbox();" name='fotnoter' checked="checked"> Enable footnotes
+	<div id="pff" style="display:block" >
+	<ul>
+	<li><input type='radio' name='fotnote_valg'  value='show_a' checked> Show all footnotes</li>
+	<li><input type='radio' name='fotnote_valg'  value='show_h'  > Minimize footnotes</li>
+	</ul>
+	</li>
+	
+	</div>
+	<div style="float:left; width:20em; text-align: left; margin-left:120px ">
+	<div style="clear:both"></div>
+	<input type='submit' name='set_cookie' value='Save view'>
+	<div style="clear:both"></div>
+	</div>
+	
+</ul>
+<input type="hidden" name="vid" value="1124">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+	
+
+
+
+</div>
+</div>
+
+<div class='sok'><form name='Sok' id='FormBlock' action='/polyglotta/index.php' method='get'>
+<input type='hidden' name='page' value='search'>
+<input type='hidden' name='bid' value='2'>
+<input type='hidden' name='vid' value='1124'>
+<div class='sokeboks'>
+<input name='sokefelt' id='sokeboks' type='text' size='30' value=''>
+<input type='submit' name='Sok' value='Search' id='nsubmit'>
+<div class='clear'></div><a class="diacbutton" id="diacbutton" href="#">Diacritica</a><a id="diac2button" class="diac2button"  href="#">Diacritica-help</a><a class="s2button" href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation:SearchHelp">Search-help</a><div class='diacritical' id='diacritical_sign'><div style="text-align: left; ">
+<table class = 'diacritica' width="200" border="1" cellpadding="1" cellspacing="1" id="diacritical">
+    <tbody>
+        <tr>
+            <td style="text-align: center; ">ā</td>
+            <td style="text-align: center; ">ī</td>
+            <td style="text-align: center; ">ū</td>
+            <td style="text-align: center; ">ṛ</td>
+            <td style="text-align: center; ">ṝ</td>
+            <td style="text-align: center; ">ḷ</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ḹ</td>
+            <td style="text-align: center; ">&rsquo;</td>
+            <td style="text-align: center; ">ṃ</td>
+            <td style="text-align: center; ">ḥ</td>
+            <td style="text-align: center; ">ṅ</td>
+            <td style="text-align: center; ">&ntilde;</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ṭ</td>
+            <td style="text-align: center; ">ḍ</td>
+            <td style="text-align: center; ">ṇ</td>
+            <td style="text-align: center; ">ṣ</td>
+            <td style="text-align: center; ">ś</td>
+            <td style="text-align: center; ">ź</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">&scaron;</td>
+            <td style="text-align: center; ">č</td>
+            <td style="text-align: center; ">ǰ</td>
+            <td style="text-align: center; ">&gamma;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+</div></div><!-- diacritical --><div id="ex3a" class="jqmDialog"><div>
+	<span style="font-size:12px;">Note on the transliteration:</span></div>
+<div>
+	<span style="font-size:12px;">The transliteration system of the BP/TLB is based on the Unicode/UTF-8 system. However, there may be difficulties with some of the letters &ndash; particularly on PC/Windows-based systems, but not so much on the Mac. We have chosen the most accepted older and traditional systems of transliteration against, e.g, Wylie for Tibetan, since with Unicode it is possible, in Sanskrit and Tibetan, etc., to represent one sound with one letter in almost all the cases (excepting Sanskrit and Tibetan aspirated letters, and Tibetan tsa, tsha, dza). We thus do not use the Wylie system which widely employs two letters for one sound (ng, ny, sh, zh etc.).</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">Important:</span></div>
+<div>
+	<span style="font-size:12px;">We ask you in particular to note the use of the &rsquo; apostrophe and not the &#39; representing the avagrāha in Sanskrit, and most important the &rsquo;a-chuṅ in Tibetan. On the Mac the &rsquo; is Alt-M.</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">If you cannot find the letters on your key-board, you may click on the link &quot;Diacritica&quot; to access it for your search.</span></div>
+</div><!-- diacritical_doc --><div class='clear'></div><select name='searchmode'><option selected value='phrase'>Search for exact phrase</option>
+<option  value='phraseregex'>Search for exact phrase (regex)</option>
+<option  value='word'>Search for every word in one record</option>
+<option  value='free'>Search for every word fragment in one record</option>
+</select>
+<select name='context'>
+<option ($_GET[context]=="a" ? "selected" : "") value="a"> Search in all libraries</option><option selected value="bTLB">Search in TLB</option><option selected value="v1124">Search in Nāgārjuna: Mūlamadhyamakakārikā</option></select><div class='clear'></div><a class='sbutton' href='/polyglotta/index.php?page=asearch&amp;bid=2&amp;vid=1124'>Choose specific texts..</a><div class='clear'></div></div></form></div><!-- sok --><div class='clear'></div><!-- clear --><div id='dcr' class='divControlRead'><div class='venstrefulltekstfelt'><div class='bverknavn'><a href='/polyglotta/index.php?page=volume&amp;vid=1124'>Nāgārjuna: Mūlamadhyamakakārikā</a></div><table class="tlvl2">
+					<tr>
+						<td bgcolor="#ffffff"> &nbsp; &nbsp;
+						<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_7627.Verses41-58" border=0 hspace=2>
+						<a href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124" class="ajax_tree0">Complete text</a>
+						</td>
+					</tr>
+				  </table><input type="hidden" name="tree_top_options" id="tree_top_options" value="134642.Title|134643.Preface|134644.ChaptersI-V|134650.ChaptersVI-X|134656.ChaptersXI-XV|134662.ChaptersXVI-XX|134668.ChaptersXXI-XXV|134674.ChaptersXXVI-XXVII|134677.Colophon|">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134642.Title" border=0 hspace=2><a id="href_134642.Title" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942958&level=1&cid=843905" class="ajax_tree0">Title
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134643.Preface" border=0 hspace=2><a id="href_134643.Preface" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942959&level=1&cid=843906" class="ajax_tree0">Preface
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134644.ChaptersI-V','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134644.ChaptersI-V" border=0 hspace=2><a id="href_134644.ChaptersI-V" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942960&level=1&cid=843907" class="ajax_tree0">Chapters I-V
+</td></tr></table>
+<div style="display:none;"  id="div_134644.ChaptersI-V">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134645.ChapterI:Pratyayaparīkṣā" border=0 hspace=2><a id="href_134645.ChapterI:Pratyayaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942960&level=2&cid=843907" class="ajax_tree1">Chapter I: Pratyayaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134646.ChapterII:Gatāgataparīkṣaṇa" border=0 hspace=2><a id="href_134646.ChapterII:Gatāgataparīkṣaṇa" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942975&level=2&cid=843922" class="ajax_tree1">Chapter II: Gatāgataparīkṣaṇa
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134647.ChapterIII:Cakṣurādīndriyaparīkṣā" border=0 hspace=2><a id="href_134647.ChapterIII:Cakṣurādīndriyaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943001&level=2&cid=843948" class="ajax_tree1">Chapter III: Cakṣurādīndriyaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134648.ChapterIV:Skandhaparīkṣā" border=0 hspace=2><a id="href_134648.ChapterIV:Skandhaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943011&level=2&cid=843958" class="ajax_tree1">Chapter IV: Skandhaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134649.ChapterV:Dhātuparīkṣā" border=0 hspace=2><a id="href_134649.ChapterV:Dhātuparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943021&level=2&cid=843968" class="ajax_tree1">Chapter V: Dhātuparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134650.ChaptersVI-X','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134650.ChaptersVI-X" border=0 hspace=2><a id="href_134650.ChaptersVI-X" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943030&level=1&cid=843977" class="ajax_tree0">Chapters VI-X
+</td></tr></table>
+<div style="display:none;"  id="div_134650.ChaptersVI-X">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134651.ChapterVI:Rāgasaktiparīkṣā" border=0 hspace=2><a id="href_134651.ChapterVI:Rāgasaktiparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943030&level=2&cid=843977" class="ajax_tree1">Chapter VI: Rāgasaktiparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134652.ChapterVII:Saṃskr̥̥taparīkṣā" border=0 hspace=2><a id="href_134652.ChapterVII:Saṃskr̥̥taparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943041&level=2&cid=843988" class="ajax_tree1">Chapter VII: Saṃskr̥̥taparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134653.ChapterVIII:Karmakārakaparīkṣā" border=0 hspace=2><a id="href_134653.ChapterVIII:Karmakārakaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943076&level=2&cid=844023" class="ajax_tree1">Chapter VIII: Karmakārakaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134654.ChapterIX:Pūrvaparīkṣā" border=0 hspace=2><a id="href_134654.ChapterIX:Pūrvaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943090&level=2&cid=844037" class="ajax_tree1">Chapter IX: Pūrvaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134655.ChapterX:Agnīndhanaparīkṣā" border=0 hspace=2><a id="href_134655.ChapterX:Agnīndhanaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943103&level=2&cid=844050" class="ajax_tree1">Chapter X: Agnīndhanaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134656.ChaptersXI-XV','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134656.ChaptersXI-XV" border=0 hspace=2><a id="href_134656.ChaptersXI-XV" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943120&level=1&cid=844067" class="ajax_tree0">Chapters XI-XV
+</td></tr></table>
+<div style="display:none;"  id="div_134656.ChaptersXI-XV">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134657.ChapterXI:Pūrvāparakoṭiparīkṣa" border=0 hspace=2><a id="href_134657.ChapterXI:Pūrvāparakoṭiparīkṣa" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943120&level=2&cid=844067" class="ajax_tree1">Chapter XI: Pūrvāparakoṭiparīkṣa
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134658.ChapterXII:Duḥkhaparīkṣā" border=0 hspace=2><a id="href_134658.ChapterXII:Duḥkhaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943129&level=2&cid=844076" class="ajax_tree1">Chapter XII: Duḥkhaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134659.ChapterXIII:Saṃskāraparīkṣā" border=0 hspace=2><a id="href_134659.ChapterXIII:Saṃskāraparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943140&level=2&cid=844087" class="ajax_tree1">Chapter XIII: Saṃskāraparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134660.ChapterXIV:Saṃsargaparīkṣā" border=0 hspace=2><a id="href_134660.ChapterXIV:Saṃsargaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943150&level=2&cid=844096" class="ajax_tree1">Chapter XIV: Saṃsargaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134661.ChapterXV:Svabhāvaparīkṣā" border=0 hspace=2><a id="href_134661.ChapterXV:Svabhāvaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943159&level=2&cid=844105" class="ajax_tree1">Chapter XV: Svabhāvaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134662.ChaptersXVI-XX','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134662.ChaptersXVI-XX" border=0 hspace=2><a id="href_134662.ChaptersXVI-XX" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943171&level=1&cid=844117" class="ajax_tree0">Chapters XVI-XX
+</td></tr></table>
+<div style="display:none;"  id="div_134662.ChaptersXVI-XX">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134663.ChapterXVI:Bandhanamokṣaparīkṣā" border=0 hspace=2><a id="href_134663.ChapterXVI:Bandhanamokṣaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943171&level=2&cid=844117" class="ajax_tree1">Chapter XVI: Bandhanamokṣaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134664.ChapterXVII:Karmaphalaparīkṣā" border=0 hspace=2><a id="href_134664.ChapterXVII:Karmaphalaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943182&level=2&cid=844128" class="ajax_tree1">Chapter XVII: Karmaphalaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134665.ChapterXVIII:Ātmaparīkṣā" border=0 hspace=2><a id="href_134665.ChapterXVIII:Ātmaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943216&level=2&cid=844162" class="ajax_tree1">Chapter XVIII: Ātmaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134666.ChapterXIX:Kālaparīkṣā" border=0 hspace=2><a id="href_134666.ChapterXIX:Kālaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943229&level=2&cid=844175" class="ajax_tree1">Chapter XIX: Kālaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134667.ChapterXX:Sāmagrīparīkṣā" border=0 hspace=2><a id="href_134667.ChapterXX:Sāmagrīparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943236&level=2&cid=844182" class="ajax_tree1">Chapter XX: Sāmagrīparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134668.ChaptersXXI-XXV','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134668.ChaptersXXI-XXV" border=0 hspace=2><a id="href_134668.ChaptersXXI-XXV" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943261&level=1&cid=844207" class="ajax_tree0">Chapters XXI-XXV
+</td></tr></table>
+<div style="display:none;"  id="div_134668.ChaptersXXI-XXV">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134669.ChapterXXI:Saṃbhavavibhavaparīkṣā" border=0 hspace=2><a id="href_134669.ChapterXXI:Saṃbhavavibhavaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943261&level=2&cid=844207" class="ajax_tree1">Chapter XXI: Saṃbhavavibhavaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134670.ChapterXXII:Tathāgataparīkṣā" border=0 hspace=2><a id="href_134670.ChapterXXII:Tathāgataparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943283&level=2&cid=844229" class="ajax_tree1">Chapter XXII: Tathāgataparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134671.ChapterXXIII:Viparyāsaparīkṣā" border=0 hspace=2><a id="href_134671.ChapterXXIII:Viparyāsaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943300&level=2&cid=844246" class="ajax_tree1">Chapter XXIII: Viparyāsaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134672.ChapterXXIV:Āryasatyaparīkṣā" border=0 hspace=2><a id="href_134672.ChapterXXIV:Āryasatyaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943326&level=2&cid=844272" class="ajax_tree1">Chapter XXIV: Āryasatyaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134673.ChapterXXV:nirvāṇaparīkṣā" border=0 hspace=2><a id="href_134673.ChapterXXV:nirvāṇaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943367&level=2&cid=844313" class="ajax_tree1">Chapter XXV: nirvāṇaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134674.ChaptersXXVI-XXVII','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134674.ChaptersXXVI-XXVII" border=0 hspace=2><a id="href_134674.ChaptersXXVI-XXVII" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943392&level=1&cid=844338" class="ajax_tree0">Chapters XXVI-XXVII
+</td></tr></table>
+<div style="display:none;"  id="div_134674.ChaptersXXVI-XXVII">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134675.ChapterXXVI:Dvādaśāṅgaparīkṣā" border=0 hspace=2><a id="href_134675.ChapterXXVI:Dvādaśāṅgaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943392&level=2&cid=844338" class="ajax_tree1">Chapter XXVI: Dvādaśāṅgaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134676.ChapterXXVII:Dr̥ṣṭiparīkṣā" border=0 hspace=2><a id="href_134676.ChapterXXVII:Dr̥ṣṭiparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943405&level=2&cid=844351" class="ajax_tree1">Chapter XXVII: Dr̥ṣṭiparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134677.Colophon" border=0 hspace=2><a id="href_134677.Colophon" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943436&level=1&cid=844382" class="ajax_tree0">Colophon
+</td></tr></table>
+<script language=javascript>test('134667.ChapterXX:Sāmagrīparīkṣā|134662.ChaptersXVI-XX|')</script><div class='bverknavn'><a href='/polyglotta/index.php?page=library&amp;bid=2'>Back to library</a></div></div><!-- venstrefulltekstfelt --><div class="clear"></div><!-- clear --><div id="nav-menu"><ul>
+  		  <li  id="nav-1"><a class="tabValgt" href="/polyglotta/index.php?page=record&amp;view=record&amp;vid=1124&amp;mid=1943236&amp;level=2">Sentence by sentence view</a></li>
+  		  <li  id="nav-2"><a  href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124&amp;cid=844182&amp;mid=1943236&amp;level=2">Continuous text view</a></li>
+ 		<li  id="nav-3"><a  href="/polyglotta/admin/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124&amp;cid=844182&amp;mid=1943236&amp;level=2">View in admin</a></li>
+
+  		  </ul></div><div class='clear'></div><!-- clear -->			<script language="javascript" type="text/javascript">
+			var kilderef = '';
+			var tekstid = 0;
+			var tekstid_bilder = 0;
+			var filsti = '';
+			var thumbnail = '';
+			</script>
+		<div class='infofulltekstfelt'><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><div class='kilderef' id='8904779'></div><div class='clear'></div><span id='8904779bi' class='generelltekst'>
+							&nbsp;</span><span id='8904231bi' class='verse'>
+						 hetoś ca pratyayānāṃ ca sāmagryā jāyate yadi |<br />phalam asti ca sāmagryāṃ sāmagryā jāyate katham || 1 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><div class='kilderef' id='8904772'></div><div class='clear'></div><span id='8904772bi' class='generelltekst'>
+							中論觀因果品第二十(二十四偈)&nbsp;</span><span id='7859758bi' class='verse'>
+						 若眾緣和合 而有果生者<br />和合中已有 何須和合生&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904778'></div><div class='clear'></div><span id='8904778bi' class='generelltekst'>
+							&nbsp;</span><span id='8903605bi' class='verse'>
+						 || gal te rgyu dang rkyen rnams kyi | | tshogs pa nyid las skye ’gyur zhing | |<br />tshogs la ’bras bu yod na ni | | ji ltar tshogs pa nyid las skye | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><div class='kilderef' id='8905134'></div><div class='clear'></div><span id='8905134bi' class='verse'>
+							[Chapter] 20: An Analysis of the Aggregate (samagri) of Causes and Conditions (cause and effect)&nbsp;</span><span id='8905135bi' class='verse'>
+						 1. If a product (phala) is produced through the aggregate of causes and conditions,<br />And exists in an aggregate, how will it be produced in the aggregate?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><div class='kilderef' id='8904773'></div><div class='clear'></div><span id='8904773bi' class='generelltekst'>
+							Investigation of Combination&nbsp;</span><span id='7860716bi' class='verse'>
+						 If a fruit is born from the combination of cause and conditions and exists in the combination, how can it be born from the combination itself?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904774'></div><div class='clear'></div><span id='8904774bi' class='generelltekst'>
+							&nbsp;</span><span id='8901201bi' class='verse'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><div class='kilderef' id='8906148'></div><div class='clear'></div><span id='8906148bi' class='verse'>
+							◎ 中論 觀因果品第二十 二十四偈&nbsp;</span><span id='8906149bi' class='verse'>
+						 (2)問曰。衆因縁和合現有果生故。當知是果(3)從衆縁和合有。答曰(4)<b>若衆縁和合 而有果生者(5)和合中已有 何須和合生</b>(6)若謂衆因縁和合有果生。是果則和合中(7)已有。而從和合生者。是事不然。何以故。果(8)若先有定體。則不應從和合生。問曰。衆縁(9)和合中雖無果。而果從衆縁生者。有何咎。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904775'></div><div class='clear'></div><span id='8904775bi' class='generelltekst'>
+							&nbsp;</span><span id='8901680bi' class='verse'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904776'></div><div class='clear'></div><span id='8904776bi' class='generelltekst'>
+							&nbsp;</span><span id='8902159bi' class='verse'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><div class='kilderef' id='9009546'></div><div class='clear'></div><span id='9009546bi' class='verse'>
+							&nbsp;</span><span id='9009547bi' class='verse'>
+						 &nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904232bi' class='verse'>
+							hetoś ca pratyayānāṃ ca sāmagryā jāyate yadi |<br />phalaṃ nāsti ca sāmagryāṃ sāmagryā jāyate katham || 2 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859759bi' class='verse'>
+							若眾緣和合 是中無果者<br />云何從眾緣 和合而果生&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903606bi' class='verse'>
+							gal te rgyu dang rkyen rnams kyi | | tshogs pa nyid (3)las skye ’gyur zhing | |<br />tshogs la ’bras bu med na ni | | ji ltar tshogs pa nyid las skye | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905136bi' class='verse'>
+							2. If a product is produced in the aggregate of causes and conditions,<br />And does not exist in the aggregate, how will it be produced in the aggregate?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860717bi' class='verse'>
+							If a fruit is born from the combination of cause and conditions and does not exist in the combination, how can it be born from the combination itself?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901202bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906150bi' class='verse'>
+							(10)答曰(11)<b>若衆縁和合 是中無果者(12)云何從衆縁 和合而果生</b>(13)若從衆縁和合則果生者。是和合中無果。(14)而從和合生。是事不然。何以故。若物無自(15)性。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901681bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902160bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009548bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904233bi' class='verse'>
+							hetoś ca pratyayānāṃ ca sāmagryām asti cet phalam |<br />gṛhyeta nanu sāmagryāṃ sāmagryāṃ ca na gṛhyate || 3 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859760bi' class='verse'>
+							若眾緣和合 是中有果者<br />和合中應有 而實不可得&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903607bi' class='verse'>
+							gal te rgyu dang rkyen rnams kyi | | tshogs la ’bras bu yod na ni | |<br />tshogs la gzung du yod rigs na | | tshogs pa nyid la gzung du med | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905137bi' class='verse'>
+							3. If the product is in the aggregate of causes and conditions,<br />Would it not be “grasped” [i.e., located] in the aggregate? But it is not “grasped” in the aggregate.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860718bi' class='verse'>
+							If the fruit exists in the combination of cause and conditions, it would be correct for it to be apprehendable in the combination but it is not apprehendable in the combination.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901203bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906151bi' class='verse'>
+							是物終不生復次(16)<b>若衆縁和合 是中有果者(17)和合中應有 而實不可得</b>(18)若從衆縁和合中有果者。若色應可眼見。(19)若非色應可意知。而實和合中果不可得。是(20)故和合中有果。是事不然。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901682bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902161bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009549bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904234bi' class='verse'>
+							hetoś ca pratyayānāṃ ca sāmagryāṃ nāsti cet phalam |<br />hetavaḥ pratyayāś ca syur ahetupratyayaiḥ samāḥ || 4 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859761bi' class='verse'>
+							若眾緣和合 是中無果者<br />是則眾因緣 與非因緣同&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903608bi' class='verse'>
+							gal te rgyu dang rkyen rnams kyi | | tshogs (4)la ’bras bu med na ni | |<br />rgyu rnams dang ni rkyen dag kyang | | rgyu rkyen ma yin mtshungs par ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905138bi' class='verse'>
+							4. If the product is not in the aggregate of causes and conditions,<br />Then the causes and conditions would be the same as non-causes and non-conditions.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860719bi' class='verse'>
+							If the fruit does not exist in the combination of cause and conditions, the causes and conditions would be comparable to non-causes and conditions.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901204bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906152bi' class='verse'>
+							復次(21)<b>若衆縁和合 是中無果者(22)是則衆因縁 與非因縁同</b>(23)若衆縁和合中無果者。則衆因縁即同非因(24)縁。如乳是酪因縁。若乳中無酪。水中亦無(25)酪。若乳中無酪則與水同。不應言但從(26)乳出。是故衆縁和合中無果者。是事不然。(27)問曰。因爲果作因已滅。而有因果。無如(28)是咎。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901683bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902162bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009550bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904235bi' class='verse'>
+							hetuṃ phalasya dattvā ca yadi hetur nirudhyate |<br />yad dattaṃ yan nirudhaṃ ca hetor ātmadvayaṃ bhavet || 5 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859762bi' class='verse'>
+							若因與果因 作因已而滅<br />是因有二體 一與一則滅&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903609bi' class='verse'>
+							gal te rgyus ni ’bras bu la | | rgyu byin nas ni ’gag ’gyur na | |<br />gang byin pa dang gang ’gags pa’i | | rgyu yi bdag nyid gnyis su ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905139bi' class='verse'>
+							5. If a cause, having given the cause for a product, is stopped,<br />Then that which is “given” and that which is stopped would be two identities of the cause.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860720bi' class='verse'>
+							If the cause stops once it has given the cause to the fruit, there would be a double nature of the cause: one that gives and one that stops.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901205bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906153bi' class='verse'>
+							答曰(29)<b>若因與果因 作因已而滅</b>(26c1)<b>是因有二體 一與一則滅</b>(2)若因與果作因已而滅者是因則有二體。一(3)謂與因。二謂滅因。是事不然。一法有二體(4)故。是故因與果作因已而滅。是事不然。問(5)曰。若謂因不與果作因已而滅。亦有果生。(6)有何咎。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901684bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902163bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009551bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904236bi' class='verse'>
+							hetuṃ phalasyādattvā ca yadi hetur nirudhyate |<br />hetau niruddhe jātaṃ tat phalam āhetukaṃ bhavet || 6 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859763bi' class='verse'>
+							若因不與果 作因已而滅<br />因滅而果生 是果則無因&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903610bi' class='verse'>
+							gal te rgyus ni ’bras bu la | | (5)rgyu ma byin par ’gag ’gyur na | |<br />rgyu ’gags nas ni skyes pa yi | | ’bras bu de dag rgyu med ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905140bi' class='verse'>
+							6. If a cause without having given the cause for a product is stopped<br />Then, the cause being stopped, the product would be produced as something derived from a non-cause (ahetuka).&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860721bi' class='verse'>
+							If the cause stops without having given the cause to the fruit, those fruits which are born after the cause has stopped would be uncaused.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901206bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906154bi' class='verse'>
+							答曰(7)<b>若因不與果 作因已而滅(8)因滅而果生 是果則無因</b>(9)若是因不與果。作因已而滅者。則因滅已(10)而果生。是果則無因。是事不然。何以故。現(11)見一切果。無有無因生者。是故汝説因不(12)與果作因已而滅亦有果生者。是事不然。(13)問曰。衆縁合時而有果生者。有何咎。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901685bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902164bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009552bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904237bi' class='verse'>
+							phalaṃ sahaiva sāmagryā yadi prādurbhavet punaḥ |<br />ekakālau prasajyete janako yaś ca janyate || 7 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859764bi' class='verse'>
+							若眾緣合時 而有果生者<br />生者及可生 則為一時俱&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903611bi' class='verse'>
+							gal te tshogs dang lhan cig tu | | ’bras bu yang ni skye ’gyur na | |<br />skyed par byed dang bskyed bya gang | | dus gcig par ni thal bar ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905141bi' class='verse'>
+							7. If the product would become visible concomitantly with the aggregate [of causes and conditions],<br />Then it would logically follow that the producer and that which is produced [exist] in the same moment.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860722bi' class='verse'>
+							If the fruit were also born at the same time as the combination, it would follow that the producer and the produced would be simultaneous.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901207bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906155bi' class='verse'>
+							答曰(14)<b>若衆縁合時 而有果生者(15)生者及可生 則爲一時倶</b>(16)若衆縁合時有果生者。則生者可生即一時(17)倶。但是事不爾何以故。如父子不得一時(18)生。是故汝説衆縁合時有果生者。是事不(19)然。問曰。若先有果生。而後衆縁合。有何咎。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901686bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902165bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009553bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904238bi' class='verse'>
+							pūrvam eva ca sāmagryāḥ phalaṃ prādurbhaved yadi |<br />hetupratyayanirmuktaṃ phalam āhetukaṃ bhavet || 8 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859765bi' class='verse'>
+							若先有果生 而後眾緣合<br />此即離因緣 名為無因果&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903612bi' class='verse'>
+							gal te tshogs pa’i snga rol (6)du |  | ’bras bu skyes par gyur na ni | |<br />rgyu dang rkyen rnams med pa yi | | ’bras bu rgyu med ’byung bar ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905142bi' class='verse'>
+							8. If the product would become visible before the aggregate,<br />Then the product, without being related to causes and conditions, would be something derived from a non-cause.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860723bi' class='verse'>
+							If the fruit were born prior to the combination, there would occur an uncaused fruit which has no cause and conditions.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901208bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906156bi' class='verse'>
+							(20)答曰(21)<b>若先有果生 而後衆縁合(22)此即離因縁 名爲無因果</b>(23)若衆縁未合。而先有果生者。是事不然。(24)果離因縁故。則名無因果。是故汝説衆縁(25)未合時先有果生者。是事則不然。問曰。因(26)滅變爲果者。有何咎。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901687bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902166bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009554bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904239bi' class='verse'>
+							niruddhe cet phalaṃ hetau hetoḥ saṃkramaṇaṃ bhavet |<br />pūrvajātasya hetoś ca punarjanma prasajyate || 9 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859766bi' class='verse'>
+							若因變為果 因即至於果<br />是則前生因 生已而復生&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903613bi' class='verse'>
+							gal te rgyu ’gags ’bras bu na | | rgyu ni kun tu ’pho bar ’gyur | |<br />sngon skyes pa yi rgyu yang ni | | yang skye bar ni thal bar ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905143bi' class='verse'>
+							9. If, when the cause of the product is stopped, there would be a continuation of the cause,<br />It would logically follow that there would be another production of the previous producing cause.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860724bi' class='verse'>
+							If [when] a cause stops, it is forever transferred to the fruit, then it would follow that the cause which was born before would be born again.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901209bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906157bi' class='verse'>
+							答曰(27)<b>若因變爲果 因即至於果(28)是則前生因 生已而復生</b>(29)因有二種。一者前生。二者共生。若因滅變(27a1)爲果。是前生因應還更生。但是事不然。何(2)以故。已生物不應更生。若謂是因即變(3)爲果。是亦不然。何以故。若即是不名爲(4)變。若變不名即是。問曰。因不盡滅但名字(5)滅。而因體變爲果。如泥團變爲瓶。失泥團(6)名而瓶名生。答曰。泥團先滅而有瓶生。(7)不名爲變。又泥團體不獨生。瓶盆甕等皆(8)從泥中出。若泥團但有名。不應變爲瓶。(9)變名如乳變爲酪。是故汝説因名雖滅而(10)變爲果。是事不然。問曰。因雖滅失而能(11)生果。是故有果。無如是咎。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901688bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902167bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009555bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904240bi' class='verse'>
+							janayet phalam utpannaṃ niruddho ’staṃgataḥ katham |<br />hetus tiṣṭhann api kathaṃ phalena janayed vṛtaḥ || 10 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859767bi' class='verse'>
+							云何因滅失 而能生於果<br />又若因在果 云何因生果&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903614bi' class='verse'>
+							’gags pa nub par gyur pa yis | | (7)’bras bu skyes pa ji ltar skyed | |<br />’bras bu dang ni ’brel ba’i rgyu | | gnas pas kyang ni ji ltar skyed | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905144bi' class='verse'>
+							10. How can that which is stopped, i.e., something which has disappeared, produce the arising of a product?<br />How could a cause which is enclosed by its product, even though it persists, originate [that product]?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860725bi' class='verse'>
+							How can the production of fruit be produced by the stopping and disappearing [of something]? Also how can fruit be produced by related causes which persist with it?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901210bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906158bi' class='verse'>
+							答曰(12)<b>云何因滅失 而能生於果(13)又若因在果 云何因生果</b>(14)若因滅失已。云何能生果。若因不滅而與(15)果合。何能更生果。問曰。是因遍有果而果(16)生。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901689bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902168bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009556bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904241bi' class='verse'>
+							athāvṛtaḥ phalenāsau katamaj janayet phalam |<br />na hy adṛṣṭvā na dṛṣṭvāpi<a class='fotnote cn' name='FN6176cn1' href='#N6176cn1'><sup>1</sup></a>
+ hetur janayate phalam || 11 ||&nbsp;</span><div style='' id='1' class='note cn'>1.<a class="internt" name='N6176cn1' href='#FN6176cn1'> Ye (2007, 152): <i>ca dṛṣṭvā ca</i>.</a>&nbsp; </div><div class='clear'></div></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859768bi' class='verse'>
+							若因遍有果 更生何等果<br />因見不見果 是二俱不生&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903615bi' class='verse'>
+							ci ste rgyu ’bras ma ’brel na | | ’bras bu gang zhig skyed par byed | |<br />rgyus ni mthong dang ma mthong bar | | ’bras bu skyed par mi byed do | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905145bi' class='verse'>
+							11. Or if that [cause] were not enclosed by the product, which product would it produce?<br />For the cause does not produce the product, having seen or not having seen [the product].&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860726bi' class='verse'>
+							If cause and fruit are not related, what fruit can be produced? Causes do not produce fruits they either see or don’t see.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901211bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906159bi' class='verse'>
+							答曰(17)<b>若因遍有果 更生何等果(18)因見不見果 是二倶不生</b>(19)是因若不見果。尚不應生果。何況見。若因(20)自不見果。則不應生果。何以故。若不見(21)果。果則不隨因。又未有果。云何生果若(22)因先見果。不應復生。果已有故。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901690bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902169bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009557bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904242bi' class='verse'>
+							nātītasya hy atītena phalasya saha hetunā |<br />nājātena na jātena saṃgatir jātu vidyate || 12 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859769bi' class='verse'>
+							若言過去因 而於過去果<br />未來現在果 是則終不合&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903616bi' class='verse'>
+							’bras bu ’das pa rgyu ’das dang | | ma skyes pa dang (12a1)skyes pa dang | |<br />lhan cig phrad par ’gyur pa ni | | nam yang yod pa ma yin no | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905146bi' class='verse'>
+							12. There is no concomitance of a past product with a past cause, a future [cause] or present [cause].&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860727bi' class='verse'>
+							The simultaneous connection of a past fruit with a past, a future and a present cause never exists.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901212bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906160bi' class='verse'>
+							復次(23)<b>若言過去因 而於過去果(24)未來現在果 是則終不合</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901691bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902170bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009558bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904243bi' class='verse'>
+							na jātasya hy<a class='fotnote cn' name='FN6176cn2' href='#N6176cn2'><sup>2</sup></a>
+ ajātena phalasya saha hetunā |<br />nātītena na jātena saṃgatir jātu vidyate || 13 ||&nbsp;</span><div style='' id='2' class='note cn'>2.<a class="internt" name='N6176cn2' href='#FN6176cn2'> Ye (2007, 160): <i>nājātasya hi/nājātasyāpi</i>.</a>&nbsp; </div><div class='clear'></div></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859770bi' class='verse'>
+							若言未來因 而於未來果<br />現在過去果 是則終不合&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903617bi' class='verse'>
+							’bras bu skyes pa rgyu ma skyes | | ’das pa dang ni skyes pa dang | |<br />lhan cig phrad par ’gyur pa ni | | nam yang yod pa ma yin no | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905147bi' class='verse'>
+							13. Certainly there is no concomitance of the present product with future cause, past [cause] or present [cause].&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860728bi' class='verse'>
+							The simultaneous connection of a present fruit with a future, a past and a present cause never exists.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901213bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906161bi' class='verse'>
+							<b>(25)若言未來因 而於未來果(26)現在過去果 是則終不合</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901692bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902171bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009559bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904244bi' class='verse'>
+							nājātasya hi jātena phalasya saha hetunā |<br />nājātena na naṣṭena saṃgatir jātu vidyate || 14 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859771bi' class='verse'>
+							若言現在因 而於現在果<br />未來過去果 是則終不合&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903618bi' class='verse'>
+							’bras bu ma skyes rgyu skyes dang | | ma skyes pa dang ’das pa dang |  (2)lhan cig phrad par ’gyur ba ni | | nam yang yod pa ma yin no | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905148bi' class='verse'>
+							14. Certainly there is no concomitance of a future product with a present cause, future [cause] or past [cause].&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860729bi' class='verse'>
+							The simultaneous connection of a future fruit with a present, a future and a past cause never exists.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901214bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906162bi' class='verse'>
+							<b>(27)若言現在因 而於現在果(28)未來過去果 是則終不合</b>(29)過去果不與過去未來現在因合。未來果(27b1)不與未來現在過去因合。現在果不與現(2)在未來過去因合。如是三種果。終不與過(3)去未來現在因合。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901693bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902172bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009560bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904245bi' class='verse'>
+							asatyāṃ saṃgatau hetuḥ kathaṃ janayate phalam |<br />satyāṃ vā saṃgatau hetuḥ kathaṃ janayate phalam || 15 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859772bi' class='verse'>
+							若不和合者 因何能生果<br />若有和合者 因何能生果&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903619bi' class='verse'>
+							phrad pa yod pa ma yin na | | rgyus ni ’bras bu ji ltar skyed | |<br />phrad pa yod pa yin na yang | | rgyus ni ’bras bu ji ltar skyed | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905149bi' class='verse'>
+							15. If there is no concomitance whatever, how would the cause produce the product?<br />Or if a concomitance exists, how would the cause produce the product?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860730bi' class='verse'>
+							When there is no connection, how can a cause produce fruit? Even when there is connection, how can a cause produce fruit?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901215bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906163bi' class='verse'>
+							復次(4)<b>若不和合者 因何能生果(5)若有和合者 因何能生果</b>(6)若因果不和合則無果。若無果云何因能(7)生果。若謂因果和合時因能生果者。是亦(8)不然。何以故。若果在因中。則因中已有果。(9)云何而復生。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901694bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902173bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009561bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904246bi' class='verse'>
+							hetuḥ phalena śūnyaś cet kathaṃ janayate phalam |<br />hetuḥ phalenāśūnyaś cet kathaṃ janayate phalam || 16 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859773bi' class='verse'>
+							若因空無果 因何能生果<br />若因不空果 因何能生果&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903620bi' class='verse'>
+							gal te ’bras bus stong pa’i rgyus | | ji ltar ’bras bu skyed par byed | |<br />gal te ’bras bus mi stong (3)rgyus | | ji ltar ’bras bu skyed par byed | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905150bi' class='verse'>
+							16. If the cause is empty of a product, how would it produce the product?<br />If the cause is not empty of a product, how would it produce the product?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860731bi' class='verse'>
+							If a cause is empty of fruit, how can it produce fruit? If a cause is not empty of fruit, how can it produce fruit?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901216bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906164bi' class='verse'>
+							復次(10)<b>若因空無果 因何能生果(11)若因不空果 因何能生果</b>(12)若因無果者。以無果故因空。云何因生果。(13)如人不懷妊。云何能生子。若因先有果。已(14)有果故不應復生。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901695bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902174bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009562bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904247bi' class='verse'>
+							phalaṃ notpatsyate<a class='fotnote cn' name='FN6176cn3' href='#N6176cn3'><sup>3</sup></a>
+ ’śūnyam aśūnyaṃ na nirotsyate |<br />aniruddham anutpannam aśūnyaṃ tad bhaviṣyati || 17 ||&nbsp;</span><div style='' id='3' class='note cn'>3.<a class="internt" name='N6176cn3' href='#FN6176cn3'> Ye (2007, 167): <i>notpatsyate</i>.</a>&nbsp; </div><div class='clear'></div></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859774bi' class='verse'>
+							果不空不生 果不空不滅<br />以果不空故 不生亦不滅&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903621bi' class='verse'>
+							’bras bu mi stong skye mi ’gyur | | mi stong ’gag par mi ’gyur ro | |<br />mi stong de ni mi ’gags dang | | ma skyes par yang ’gyur pa yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905151bi' class='verse'>
+							17. A non-empty product would not be originated, [and] a non-empty [product] would not be destroyed.<br />Then that is non-empty which will not originate or not disappear.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860732bi' class='verse'>
+							Unempty fruit would not be produced; the unempty would not stop. That unempty is unstoppable and also unproducable.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901217bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906165bi' class='verse'>
+							復次今當説果(15)<b>果不空不生 果不空不滅(16)以果不空故 不生亦不滅</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901696bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902175bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009563bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904248bi' class='verse'>
+							katham utpatsyate śūnyaṃ kathaṃ śūnyaṃ nirotsyate |<br />śūnyam apy aniruddhaṃ tad anutpannaṃ prasajyate || 18 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859775bi' class='verse'>
+							果空故不生 果空故不滅<br />以果是空故 不生亦不滅&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903622bi' class='verse'>
+							stong pa ji ltar skye ’gyur zhing | | stong pa ji ltar ’gag par ’gyur | |<br />stong pa de yang ma ’gags dang | | ma skyes (4)par yang thal bar ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905152bi' class='verse'>
+							18. How would that be produced which is empty?<br />How would that be destroyed which is empty?<br />It logically follows, then, that which is empty is not originated and not destroyed.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860733bi' class='verse'>
+							How would empty [fruit] be produced? And how would the empty stop? It follows that that empty too is unstoppable and also unproducable.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901218bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906166bi' class='verse'>
+							<b>(17)果空故不生 果空故不滅(18)以果是空故 不生亦不滅</b>(19)果若不空。不應生不應滅。何以故。果若因(20)中先決定有。更不須復生。生無故無滅。是(21)故果不空故。不生不滅。若謂果空故有生(22)滅。是亦不然。何以故。果若空。空名無所有。(23)云何當有生滅。是故説果空故不生不滅。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901697bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902176bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009564bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904249bi' class='verse'>
+							hetoḥ phalasya caikatvaṃ na hi jātūpapadyate |<br />hetoḥ phalasya cānyatvaṃ na hi jātūpapadyate || 19 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859776bi' class='verse'>
+							因果是一者 是事終不然<br />因果若異者 是事亦不然&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903623bi' class='verse'>
+							rgyu dang ’bras bu gcig nyid du | | nam yang ’thad par mi ’gyur ro | |<br />rgyu dang ’bras bu gzhan nyid du | | nam yang ’thad par mi ’gyur ro | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905153bi' class='verse'>
+							19. Certainly a oneness of cause and product is not possible at all.<br />Nor is a difference of cause and product possible at all.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860734bi' class='verse'>
+							It is never possible that cause and fruit are identical. It is never possible that cause and fruit are other.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901219bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906167bi' class='verse'>
+							(24)復次今以一異破因果(25)<b>因果是一者 是事終不然(26)因果若異者 是事亦不然</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901698bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902177bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009565bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904250bi' class='verse'>
+							ekatve phalahetvoḥ syād aikyaṃ janakajanyayoḥ |<br />pṛthaktve phalahetvoḥ syāt tulyo hetur ahetunā || 20 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859777bi' class='verse'>
+							若因果是一 生及所生一<br />若因果是異 因則同非因&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903624bi' class='verse'>
+							rgyu dang ’bras bu gcig nyid na | | bskyed bya skyed byed gcig tu ’gyur | |<br />rgyu dang ’bras bu gzhan nyid na | | rgyu dang rgyu min (5)mtshungs par ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905154bi' class='verse'>
+							20. If there were a oneness of the cause and product, then there would be an identity of the originator and what is originated.<br />If there were a difference of product and cause, then a cause would be the same as that which is not a cause.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860735bi' class='verse'>
+							If cause and fruit were identical, produce and producer would be identical. If cause and fruit were other, cause and non-cause would be similar.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901220bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906168bi' class='verse'>
+							<b>(27)若因果是一 生及所生一(28)若因果是異 因則同非因</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901699bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902178bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009566bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904251bi' class='verse'>
+							phalaṃ svabhāvasadbhūtaṃ kiṃ hetur janayiṣyati |<br />phalaṃ svabhāvāsadbhūtaṃ kiṃ hetur janayiṣyati || 21 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859778bi' class='verse'>
+							若果定有性 因為何所生<br />若果定無性 因為何所生&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903625bi' class='verse'>
+							’bras bu ngo bo nyid yod na | | rgyus ni ci zhig skyed par byed | |<br />’bras bu ngo bo nyid med na | | rgyus ni ci zhig skyed par byed | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905155bi' class='verse'>
+							21. Can a cause produce a product which is essentially existing in itself (svabhva)?<br />Can a cause produce a product which is not essentially existing in itself (svabhava)?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860736bi' class='verse'>
+							If fruit existed essentially, what would a cause produce? If fruit did not exist essentially, what would a cause produce?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901221bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906169bi' class='verse'>
+							<b>(29)若果定有性 因爲何所生</b>(27c1)<b>若果定無性 因爲何所生</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901700bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902179bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009567bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904252bi' class='verse'>
+							na cājanayamānasya hetutvam upapadyate |<br />hetutvānupapattau ca phalaṃ kasya bhaviṣyati || 22 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859779bi' class='verse'>
+							因不生果者 則無有因相<br />若無有因相 誰能有是果&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903626bi' class='verse'>
+							skyed par byed pa ma yin na | | rgyu nyid ’thad par mi ’gyur ro | |<br />rgyu nyid ’thad pa yod min na | | ’bras bu gang gi yin par ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905156bi' class='verse'>
+							22. It is not possible to have “what is by its nature a cause” (hetutva) of “that which is not producing.”<br />If “what is by its nature a cause” is not possible, whose product will exist?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860737bi' class='verse'>
+							If it were not productive, the cause itself would be impossible. If the cause itself were impossible, whose would the fruit be?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901222bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906170bi' class='verse'>
+							<b>(2)因不生果者 則無有因相(3)若無有因相 誰能有是果</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901701bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902180bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009568bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904253bi' class='verse'>
+							na ca pratyayahetūnām iyam ātmānam ātmanā |<br />yā sāmagrī janayate sā kathaṃ janayet<a class='fotnote cn' name='FN6176cn4' href='#N6176cn4'><sup>4</sup></a>
+ phalam || 23 ||&nbsp;</span><div style='' id='4' class='note cn'>4.<a class="internt" name='N6176cn4' href='#FN6176cn4'> Ye (2007, 152): <i>katham janayate</i>; cf. Tib: <i>ji ltar skyed par byed</i>.</a>&nbsp; </div><div class='clear'></div></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859780bi' class='verse'>
+							若從眾因緣 而有和合生<br />和合自不生 云何能生果&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903627bi' class='verse'>
+							rgyu rnams (6)dang ni rkyen dag gi | | tshogs pa gang yin de yin ni | |<br />bdag gis bdag nyid mi skyed na | | ’bras bu ji ltar skyed par byed | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905157bi' class='verse'>
+							23. How will that [aggregate of causes and conditions] produce a product when<br />That which is the aggregate of causes and conditions does not produce itself by itself?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860738bi' class='verse'>
+							If whatever is a combination of causes and conditions does not produce itself by itself, how could it produce fruit?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901223bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906171bi' class='verse'>
+							<b>(4)若從衆因縁 而有和合生(5)和合自不生 云何能生果</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901702bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902181bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009569bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904254bi' class='verse'>
+							na sāmagrīkṛtaṃ phalaṃ<a class='fotnote cn' name='FN6176cn5' href='#N6176cn5'><sup>5</sup></a>
+ nāsāmagrīkṛtaṃ phalam |<br />asti pratyayasāmagrī kuta eva phalaṃ vinā || 24 ||&nbsp;</span><div style='' id='5' class='note cn'>5.<a class="internt" name='N6176cn5' href='#FN6176cn5'> Ye (2007, 152): <i>na sāmagrīkṛtam tasmān</i>; cf. Tib: <i>de phyir tshogs pas byas pa dang</i>.</a>&nbsp; </div><div class='clear'></div></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859781bi' class='verse'>
+							是故果不從 緣合不合生<br />若無有果者 何處有合法&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903628bi' class='verse'>
+							de phyir tshogs pas byas pa med | | tshogs min byas pa’i ’bras bu med | |<br />’bras bu yod pa ma yin na | | rkyen gyi tshogs pa ga la yod | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905158bi' class='verse'>
+							24. The product is not produced by the aggregate; nor is the product not produced by the aggregate.<br />Without the product, how is there an aggregate of conditions?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860739bi' class='verse'>
+							Therefore, there is no fruit which has been made by combination [or] made by non-combination. If fruit does not exist, where can a combination of conditions exist?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901224bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906172bi' class='verse'>
+							<b>(6)是故果不從 縁合不合生(7)若無有果者 何處有合法</b>(8)是衆縁和合法。不能生自體。自體無故云(9)何能生果。是故果不從縁合生。亦不從不(10)合生。若無有果者。何處有合法&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901703bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902182bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009570bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904255bi' class='chaptertitle'>
+							sāmagrīparīkṣā nāma vimśatitamaṃ prakaraṇaṃ ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904779";
+							kilderef = "Mmk San: La Vallée Poussin (1913)  - San: La Vallée Poussin (1913) 409,11-12";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859782bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904772";
+							kilderef = "Mmk Chi: Kumārajīva, T. 1564 26b1 - Chi: Kumārajīva, T. 1564 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903629bi' class='chaptertitle'>
+							tshogs pa brtag pa (7)zhes bya ba ste rab tu byed pa nyi shu pa’o ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904778";
+							kilderef = "Mmk Tib: Tg, tsa  - Tib: Tg, tsa 12a6-7";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905159bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8905134";
+							kilderef = "Mmk Eng: Streng (1967)  - Eng: Streng (1967) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860740bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904773";
+							kilderef = "Mmk Eng: Batchellor (2000)  - Eng: Batchellor (2000) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901225bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904774";
+							kilderef = "Mmk Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829  - Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906173bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8906148";
+							kilderef = "Mmk Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564  26b1 - Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564 27c10";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901704bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904775";
+							kilderef = "Mmk Buddhapālita "Vṛtti" Tg 3842  - Buddhapālita "Vṛtti" Tg 3842 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902183bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904776";
+							kilderef = "Mmk Bhāvaviveka "Prajñāpradīpa" Tg 3853  - Bhāvaviveka "Prajñāpradīpa" Tg 3853 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009571bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "9009546";
+							kilderef = "Mmk Candrakīrti "Prasannapadā" Vaidya 1960  - Candrakīrti "Prasannapadā" Vaidya 1960 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div></div><div class='clear'></div><div class="fontboks"><a onClick=onOffdiv('permlink') name="permlink" href="#permlink">Permanent link</a></div><div class='clear'></div><div class='perm_felt' id='permlink'>http://www2.hf.uio.no/common/apps/permlink/permlink.php?app=polyglotta&amp;context=ctext&amp;uid=088edca0-6be5-11df-870c-00215aecadea</div></div></div><!-- infofelt --></div><!-- divControl --><div class="clear"></div>
+<div style="clear:both"></div><div class="signatur"><div class="signatur_left">
+		<a href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation">Go to Wiki Documentation</a></br>Enhet: <a HREF=http://www.hf.uio.no>Det humanistiske fakultet</a> &nbsp; Utviklet av: <a href="http://www.hf.uio.no/tjenester/it">IT-seksjonen ved HF</a></div><!--signatur_left -->
+		<div class="signatur_right"><a href="/polyglotta/admin/index.php">Login</a></div>
+		<div style="clear:both"></div></div>
+</body></html><SCRIPT LANGUAGE="JAVASCRIPT">
+	
+	$("#tr_IA").click(function(){
+	    if ($("#toggle_container_IA").is(':hidden'))
+	    	$("#toggle_container_IA").show();
+	    else{
+	        $("#toggle_container_IA").hide();
+	    }
+	    return false;
+		});
+
+	$("#tr_lang").click(function(){
+	    if ($("#toggle_container_lan").is(':hidden'))
+	    	$("#toggle_container_lan").show();
+	    else{
+	        $("#toggle_container_lan").hide();
+	    }
+	    return false;
+	});
+
+	$("#tr_img").click(function(){
+	    if ($("#toggle_container_img").is(':hidden'))
+	    	$("#toggle_container_img").show();
+	    else{
+	        $("#toggle_container_img").hide();
+	    }
+	    return false;
+	});
+
+	$("#diac2button").click(function(){
+	   if ($("#ex3a").is(':hidden')){
+		   $("#ex3a").show();
+	       $("#diac2button").html("Hide&#32Diacritica-help");
+	   }else{
+	       $("#ex3a").hide();
+	       $("#diac2button").html("Diacritica-help");
+	   }
+	   return false;
+	});
+
+	$("#diacbutton").click(function(){
+	   if ($("#diacritical_sign").is(':hidden')){
+		   	$("#diacritical_sign").show();
+	      	$("#diacbutton").html("Hide&#32diacritica");
+	   }else{
+	        $("#diacritical_sign").hide();
+	        $("#diacbutton").html("Diacritica");
+	   }
+	   return false;
+    });
+
+	$('#toggle_container_IA').click(function(e) {
+	   e.stopPropagation();
+	});
+
+	$('#toggle_container_lan').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#toggle_container_img').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#ex3a').click(function(e) {
+	    e.stopPropagation();
+	});
+
+	$('#diacritical_sign').click(function(e) {
+        e.stopPropagation();
+    });
+
+	//Kode for å sette inn diakritiske tegn
+	$('#diacritical > tbody > tr > td').click(function() {
+	  	//alert('red');
+		$("#sokeboks").val($("#sokeboks").val() + $(this).text());
+	});
+
+	$('.diac2button').text(($('.diacbutton').text() == 'Diacritica-help') ? 'Hide Diacritica-help' : 'Diacritica-help');
+	
+	//Lukker alle åpnede pop'uper ved klikk på siden
+	$(document).click(function() {
+		$('#toggle_container_IA').hide();
+	    
+        $('#toggle_container_lan').hide();
+    
+        $('#toggle_container_img').hide();
+   
+   		$('#diacritical_sign').hide();
+   		$("#diacbutton").html("Diacritica");
+   
+       	$('#ex3a').hide();
+       	$("#diac2button").html("Diacritica-help");
+   });
+	</SCRIPT>

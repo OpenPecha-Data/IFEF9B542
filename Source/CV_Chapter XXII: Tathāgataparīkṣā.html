@@ -1,0 +1,656 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Bibliotheca Polyglotta</title>
+<link rel='stylesheet' type='text/css' href='css/bp.css'>
+<link rel='stylesheet' type='text/css' href='css/diac_doc.css'>
+
+<link rel='stylesheet' type='text/css' href='css/imageGallery.css'>
+<link rel='stylesheet' type='text/css' href='css/ss.css'>
+	      <link rel='stylesheet' type='text/css' href='css/tree_menu.css'>
+<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+<!--  <script type="text/javascript" src="js/jqModal.js"></script>-->
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/tree_menu.js"></script>
+<!-- <script src="js/analytics_tracking.js" type="text/javascript"></script> -->
+
+
+<!-- <script type="text/javascript" src="js/popupDivhandling.js"></script> -->
+<!--  <script type="text/javascript" src="jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery-imagegallery.js"></script>-->
+</head>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//vrtx.uio.no/js/analytics/v2/analytics.js','ga');
+
+ga('create', 'UA-86407471-1', 'auto');
+ga(function(tracker) {
+
+	// Modifies sendHitTask to hit ipproxy instead of http://www.google-analytics.com directly
+	tracker.set('sendHitTask', function(model) {
+		payload = model.get('hitPayload');
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', '//w3prod-ipproxy.uio.no/collect' +'?' + payload, true);
+		xhr.send();
+	});
+		ga('send', 'pageview');
+});
+</script>
+<body><div class='banner'></div><!-- banner --><div class='uiologo'>
+<a href='http://www.hf.uio.no/'><img src='https://www2.hf.uio.no/polyglotta/hfe.png' border='0'></a></div><!-- uiologo --><div class='clear'></div>
+<div class='smule_tittel'>
+<div class='brodsmuleboks'>You are here: <a href='/polyglotta/index.php' accesskey='1'> BP HOME</a> >  <a href='/polyglotta/index.php?page=library&amp;bid=2' accesskey='1'>TLB</a> > <a href='/polyglotta/index.php
+	?page=volume&amp;vid=1124' accesskey='1'>Nāgārjuna: Mūlamadhyamakakārikā</a> > fulltext</div><div class='clear'></div>
+<div class='headline'>Nāgārjuna: Mūlamadhyamakakārikā<div class='clear'></div></div><!-- headline -->
+</div><!-- smule_tittel -->
+<!--<div>-->
+
+<h2 class="trigger" id="tr_lang"><a  href="#">Choose languages</a></h2>
+<h2 class="trigger" id="tr_img"><a  href="#">Choose images, etc.</a></h2>
+
+
+<div id="toggle_container_lan">
+
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_lan.php" method="POST">
+
+<div style="float:left; width:auto; text-align:left; margin-left:20px;">
+<h5>Choose languages</h5>
+<ul>
+<input value="Choose all" type="button" onClick="markAll('tr')"><input value="Uncheck all" type="button" onClick="markNone('tr')">
+
+	<li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6176]" value="6176" id="lancheckbox" checked >Sanskrit: San: La Vallée Poussin (1913), </label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[5667]" value="5667" id="lancheckbox" checked >Chinese: Chi: Kumārajīva, T. 1564</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6175]" value="6175" id="lancheckbox" checked >Tibetan: Tib: Tg, tsa</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6177]" value="6177" id="lancheckbox" checked >English: Eng: Streng (1967)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[5669]" value="5669" id="lancheckbox" checked >English: Eng: Batchellor (2000)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6170]" value="6170" id="lancheckbox" checked >Tibetan: Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6179]" value="6179" id="lancheckbox" checked >Chinese: Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6171]" value="6171" id="lancheckbox" checked >Tibetan: Buddhapālita "Vṛtti" Tg 3842</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6172]" value="6172" id="lancheckbox" checked >Tibetan: Bhāvaviveka "Prajñāpradīpa" Tg 3853</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6340]" value="6340" id="lancheckbox" checked >Sanskrit: Candrakīrti "Prasannapadā" Vaidya 1960</label></li><div style="clear:both"></div>
+<input type='submit' name='set_cookie' value='Save view'>
+<div style="clear:both"></div>
+
+</ul>
+<input type="hidden" name="vid" value="1124">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+</div>
+
+<div id="toggle_container_img">
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_img.php" method="POST">
+
+<div style="float:left; width:auto; text-align: left;">
+<h5>Choose display</h5>
+<ul>
+		
+	<li> 
+		<input type='checkbox' name='bilder' checked="checked" > Enable images
+	</li>
+	<li> 
+	<input type='checkbox' onclick="onOffCheckbox();" name='fotnoter' checked="checked"> Enable footnotes
+	<div id="pff" style="display:block" >
+	<ul>
+	<li><input type='radio' name='fotnote_valg'  value='show_a' checked> Show all footnotes</li>
+	<li><input type='radio' name='fotnote_valg'  value='show_h'  > Minimize footnotes</li>
+	</ul>
+	</li>
+	
+	</div>
+	<div style="float:left; width:20em; text-align: left; margin-left:120px ">
+	<div style="clear:both"></div>
+	<input type='submit' name='set_cookie' value='Save view'>
+	<div style="clear:both"></div>
+	</div>
+	
+</ul>
+<input type="hidden" name="vid" value="1124">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+	
+
+
+
+</div>
+</div>
+
+<div class='sok'><form name='Sok' id='FormBlock' action='/polyglotta/index.php' method='get'>
+<input type='hidden' name='page' value='search'>
+<input type='hidden' name='bid' value='2'>
+<input type='hidden' name='vid' value='1124'>
+<div class='sokeboks'>
+<input name='sokefelt' id='sokeboks' type='text' size='30' value=''>
+<input type='submit' name='Sok' value='Search' id='nsubmit'>
+<div class='clear'></div><a class="diacbutton" id="diacbutton" href="#">Diacritica</a><a id="diac2button" class="diac2button"  href="#">Diacritica-help</a><a class="s2button" href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation:SearchHelp">Search-help</a><div class='diacritical' id='diacritical_sign'><div style="text-align: left; ">
+<table class = 'diacritica' width="200" border="1" cellpadding="1" cellspacing="1" id="diacritical">
+    <tbody>
+        <tr>
+            <td style="text-align: center; ">ā</td>
+            <td style="text-align: center; ">ī</td>
+            <td style="text-align: center; ">ū</td>
+            <td style="text-align: center; ">ṛ</td>
+            <td style="text-align: center; ">ṝ</td>
+            <td style="text-align: center; ">ḷ</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ḹ</td>
+            <td style="text-align: center; ">&rsquo;</td>
+            <td style="text-align: center; ">ṃ</td>
+            <td style="text-align: center; ">ḥ</td>
+            <td style="text-align: center; ">ṅ</td>
+            <td style="text-align: center; ">&ntilde;</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ṭ</td>
+            <td style="text-align: center; ">ḍ</td>
+            <td style="text-align: center; ">ṇ</td>
+            <td style="text-align: center; ">ṣ</td>
+            <td style="text-align: center; ">ś</td>
+            <td style="text-align: center; ">ź</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">&scaron;</td>
+            <td style="text-align: center; ">č</td>
+            <td style="text-align: center; ">ǰ</td>
+            <td style="text-align: center; ">&gamma;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+</div></div><!-- diacritical --><div id="ex3a" class="jqmDialog"><div>
+	<span style="font-size:12px;">Note on the transliteration:</span></div>
+<div>
+	<span style="font-size:12px;">The transliteration system of the BP/TLB is based on the Unicode/UTF-8 system. However, there may be difficulties with some of the letters &ndash; particularly on PC/Windows-based systems, but not so much on the Mac. We have chosen the most accepted older and traditional systems of transliteration against, e.g, Wylie for Tibetan, since with Unicode it is possible, in Sanskrit and Tibetan, etc., to represent one sound with one letter in almost all the cases (excepting Sanskrit and Tibetan aspirated letters, and Tibetan tsa, tsha, dza). We thus do not use the Wylie system which widely employs two letters for one sound (ng, ny, sh, zh etc.).</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">Important:</span></div>
+<div>
+	<span style="font-size:12px;">We ask you in particular to note the use of the &rsquo; apostrophe and not the &#39; representing the avagrāha in Sanskrit, and most important the &rsquo;a-chuṅ in Tibetan. On the Mac the &rsquo; is Alt-M.</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">If you cannot find the letters on your key-board, you may click on the link &quot;Diacritica&quot; to access it for your search.</span></div>
+</div><!-- diacritical_doc --><div class='clear'></div><select name='searchmode'><option selected value='phrase'>Search for exact phrase</option>
+<option  value='phraseregex'>Search for exact phrase (regex)</option>
+<option  value='word'>Search for every word in one record</option>
+<option  value='free'>Search for every word fragment in one record</option>
+</select>
+<select name='context'>
+<option ($_GET[context]=="a" ? "selected" : "") value="a"> Search in all libraries</option><option selected value="bTLB">Search in TLB</option><option selected value="v1124">Search in Nāgārjuna: Mūlamadhyamakakārikā</option></select><div class='clear'></div><a class='sbutton' href='/polyglotta/index.php?page=asearch&amp;bid=2&amp;vid=1124'>Choose specific texts..</a><div class='clear'></div></div></form></div><!-- sok --><div class='clear'></div><!-- clear --><div id='dcr' class='divControlRead'><div class='venstrefulltekstfelt'><div class='bverknavn'><a href='/polyglotta/index.php?page=volume&amp;vid=1124'>Nāgārjuna: Mūlamadhyamakakārikā</a></div><table class="tlvl2">
+					<tr>
+						<td bgcolor="#ffffff"> &nbsp; &nbsp;
+						<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_7627.Verses41-58" border=0 hspace=2>
+						<a href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124" class="ajax_tree0">Complete text</a>
+						</td>
+					</tr>
+				  </table><input type="hidden" name="tree_top_options" id="tree_top_options" value="134642.Title|134643.Preface|134644.ChaptersI-V|134650.ChaptersVI-X|134656.ChaptersXI-XV|134662.ChaptersXVI-XX|134668.ChaptersXXI-XXV|134674.ChaptersXXVI-XXVII|134677.Colophon|">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134642.Title" border=0 hspace=2><a id="href_134642.Title" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942958&level=1&cid=843905" class="ajax_tree0">Title
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134643.Preface" border=0 hspace=2><a id="href_134643.Preface" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942959&level=1&cid=843906" class="ajax_tree0">Preface
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134644.ChaptersI-V','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134644.ChaptersI-V" border=0 hspace=2><a id="href_134644.ChaptersI-V" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942960&level=1&cid=843907" class="ajax_tree0">Chapters I-V
+</td></tr></table>
+<div style="display:none;"  id="div_134644.ChaptersI-V">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134645.ChapterI:Pratyayaparīkṣā" border=0 hspace=2><a id="href_134645.ChapterI:Pratyayaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942960&level=2&cid=843907" class="ajax_tree1">Chapter I: Pratyayaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134646.ChapterII:Gatāgataparīkṣaṇa" border=0 hspace=2><a id="href_134646.ChapterII:Gatāgataparīkṣaṇa" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942975&level=2&cid=843922" class="ajax_tree1">Chapter II: Gatāgataparīkṣaṇa
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134647.ChapterIII:Cakṣurādīndriyaparīkṣā" border=0 hspace=2><a id="href_134647.ChapterIII:Cakṣurādīndriyaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943001&level=2&cid=843948" class="ajax_tree1">Chapter III: Cakṣurādīndriyaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134648.ChapterIV:Skandhaparīkṣā" border=0 hspace=2><a id="href_134648.ChapterIV:Skandhaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943011&level=2&cid=843958" class="ajax_tree1">Chapter IV: Skandhaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134649.ChapterV:Dhātuparīkṣā" border=0 hspace=2><a id="href_134649.ChapterV:Dhātuparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943021&level=2&cid=843968" class="ajax_tree1">Chapter V: Dhātuparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134650.ChaptersVI-X','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134650.ChaptersVI-X" border=0 hspace=2><a id="href_134650.ChaptersVI-X" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943030&level=1&cid=843977" class="ajax_tree0">Chapters VI-X
+</td></tr></table>
+<div style="display:none;"  id="div_134650.ChaptersVI-X">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134651.ChapterVI:Rāgasaktiparīkṣā" border=0 hspace=2><a id="href_134651.ChapterVI:Rāgasaktiparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943030&level=2&cid=843977" class="ajax_tree1">Chapter VI: Rāgasaktiparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134652.ChapterVII:Saṃskr̥̥taparīkṣā" border=0 hspace=2><a id="href_134652.ChapterVII:Saṃskr̥̥taparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943041&level=2&cid=843988" class="ajax_tree1">Chapter VII: Saṃskr̥̥taparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134653.ChapterVIII:Karmakārakaparīkṣā" border=0 hspace=2><a id="href_134653.ChapterVIII:Karmakārakaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943076&level=2&cid=844023" class="ajax_tree1">Chapter VIII: Karmakārakaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134654.ChapterIX:Pūrvaparīkṣā" border=0 hspace=2><a id="href_134654.ChapterIX:Pūrvaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943090&level=2&cid=844037" class="ajax_tree1">Chapter IX: Pūrvaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134655.ChapterX:Agnīndhanaparīkṣā" border=0 hspace=2><a id="href_134655.ChapterX:Agnīndhanaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943103&level=2&cid=844050" class="ajax_tree1">Chapter X: Agnīndhanaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134656.ChaptersXI-XV','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134656.ChaptersXI-XV" border=0 hspace=2><a id="href_134656.ChaptersXI-XV" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943120&level=1&cid=844067" class="ajax_tree0">Chapters XI-XV
+</td></tr></table>
+<div style="display:none;"  id="div_134656.ChaptersXI-XV">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134657.ChapterXI:Pūrvāparakoṭiparīkṣa" border=0 hspace=2><a id="href_134657.ChapterXI:Pūrvāparakoṭiparīkṣa" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943120&level=2&cid=844067" class="ajax_tree1">Chapter XI: Pūrvāparakoṭiparīkṣa
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134658.ChapterXII:Duḥkhaparīkṣā" border=0 hspace=2><a id="href_134658.ChapterXII:Duḥkhaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943129&level=2&cid=844076" class="ajax_tree1">Chapter XII: Duḥkhaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134659.ChapterXIII:Saṃskāraparīkṣā" border=0 hspace=2><a id="href_134659.ChapterXIII:Saṃskāraparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943140&level=2&cid=844087" class="ajax_tree1">Chapter XIII: Saṃskāraparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134660.ChapterXIV:Saṃsargaparīkṣā" border=0 hspace=2><a id="href_134660.ChapterXIV:Saṃsargaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943150&level=2&cid=844096" class="ajax_tree1">Chapter XIV: Saṃsargaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134661.ChapterXV:Svabhāvaparīkṣā" border=0 hspace=2><a id="href_134661.ChapterXV:Svabhāvaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943159&level=2&cid=844105" class="ajax_tree1">Chapter XV: Svabhāvaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134662.ChaptersXVI-XX','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134662.ChaptersXVI-XX" border=0 hspace=2><a id="href_134662.ChaptersXVI-XX" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943171&level=1&cid=844117" class="ajax_tree0">Chapters XVI-XX
+</td></tr></table>
+<div style="display:none;"  id="div_134662.ChaptersXVI-XX">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134663.ChapterXVI:Bandhanamokṣaparīkṣā" border=0 hspace=2><a id="href_134663.ChapterXVI:Bandhanamokṣaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943171&level=2&cid=844117" class="ajax_tree1">Chapter XVI: Bandhanamokṣaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134664.ChapterXVII:Karmaphalaparīkṣā" border=0 hspace=2><a id="href_134664.ChapterXVII:Karmaphalaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943182&level=2&cid=844128" class="ajax_tree1">Chapter XVII: Karmaphalaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134665.ChapterXVIII:Ātmaparīkṣā" border=0 hspace=2><a id="href_134665.ChapterXVIII:Ātmaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943216&level=2&cid=844162" class="ajax_tree1">Chapter XVIII: Ātmaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134666.ChapterXIX:Kālaparīkṣā" border=0 hspace=2><a id="href_134666.ChapterXIX:Kālaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943229&level=2&cid=844175" class="ajax_tree1">Chapter XIX: Kālaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134667.ChapterXX:Sāmagrīparīkṣā" border=0 hspace=2><a id="href_134667.ChapterXX:Sāmagrīparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943236&level=2&cid=844182" class="ajax_tree1">Chapter XX: Sāmagrīparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134668.ChaptersXXI-XXV','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134668.ChaptersXXI-XXV" border=0 hspace=2><a id="href_134668.ChaptersXXI-XXV" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943261&level=1&cid=844207" class="ajax_tree0">Chapters XXI-XXV
+</td></tr></table>
+<div style="display:none;"  id="div_134668.ChaptersXXI-XXV">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134669.ChapterXXI:Saṃbhavavibhavaparīkṣā" border=0 hspace=2><a id="href_134669.ChapterXXI:Saṃbhavavibhavaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943261&level=2&cid=844207" class="ajax_tree1">Chapter XXI: Saṃbhavavibhavaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134670.ChapterXXII:Tathāgataparīkṣā" border=0 hspace=2><a id="href_134670.ChapterXXII:Tathāgataparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943283&level=2&cid=844229" class="ajax_tree1">Chapter XXII: Tathāgataparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134671.ChapterXXIII:Viparyāsaparīkṣā" border=0 hspace=2><a id="href_134671.ChapterXXIII:Viparyāsaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943300&level=2&cid=844246" class="ajax_tree1">Chapter XXIII: Viparyāsaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134672.ChapterXXIV:Āryasatyaparīkṣā" border=0 hspace=2><a id="href_134672.ChapterXXIV:Āryasatyaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943326&level=2&cid=844272" class="ajax_tree1">Chapter XXIV: Āryasatyaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134673.ChapterXXV:nirvāṇaparīkṣā" border=0 hspace=2><a id="href_134673.ChapterXXV:nirvāṇaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943367&level=2&cid=844313" class="ajax_tree1">Chapter XXV: nirvāṇaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134674.ChaptersXXVI-XXVII','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134674.ChaptersXXVI-XXVII" border=0 hspace=2><a id="href_134674.ChaptersXXVI-XXVII" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943392&level=1&cid=844338" class="ajax_tree0">Chapters XXVI-XXVII
+</td></tr></table>
+<div style="display:none;"  id="div_134674.ChaptersXXVI-XXVII">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134675.ChapterXXVI:Dvādaśāṅgaparīkṣā" border=0 hspace=2><a id="href_134675.ChapterXXVI:Dvādaśāṅgaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943392&level=2&cid=844338" class="ajax_tree1">Chapter XXVI: Dvādaśāṅgaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134676.ChapterXXVII:Dr̥ṣṭiparīkṣā" border=0 hspace=2><a id="href_134676.ChapterXXVII:Dr̥ṣṭiparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943405&level=2&cid=844351" class="ajax_tree1">Chapter XXVII: Dr̥ṣṭiparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134677.Colophon" border=0 hspace=2><a id="href_134677.Colophon" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943436&level=1&cid=844382" class="ajax_tree0">Colophon
+</td></tr></table>
+<script language=javascript>test('134670.ChapterXXII:Tathāgataparīkṣā|134668.ChaptersXXI-XXV|')</script><div class='bverknavn'><a href='/polyglotta/index.php?page=library&amp;bid=2'>Back to library</a></div></div><!-- venstrefulltekstfelt --><div class="clear"></div><!-- clear --><div id="nav-menu"><ul>
+  		  <li  id="nav-1"><a class="tabValgt" href="/polyglotta/index.php?page=record&amp;view=record&amp;vid=1124&amp;mid=1943283&amp;level=2">Sentence by sentence view</a></li>
+  		  <li  id="nav-2"><a  href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124&amp;cid=844229&amp;mid=1943283&amp;level=2">Continuous text view</a></li>
+ 		<li  id="nav-3"><a  href="/polyglotta/admin/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124&amp;cid=844229&amp;mid=1943283&amp;level=2">View in admin</a></li>
+
+  		  </ul></div><div class='clear'></div><!-- clear -->			<script language="javascript" type="text/javascript">
+			var kilderef = '';
+			var tekstid = 0;
+			var tekstid_bilder = 0;
+			var filsti = '';
+			var thumbnail = '';
+			</script>
+		<div class='infofulltekstfelt'><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><div class='kilderef' id='8904795'></div><div class='clear'></div><span id='8904795bi' class='generelltekst'>
+							&nbsp;</span><span id='8904278bi' class='verse'>
+						 skandhā na nānyaḥ skandhebhyo nāsmin skandhā na teṣu saḥ |<br />tathāgataḥ skandhavān na katamo ’tra<a class='fotnote cn' name='FN6176cn1' href='#N6176cn1'><sup>1</sup></a>
+ tathāgataḥ || 1 ||&nbsp;</span><div style='' id='1' class='note cn'>1.<a class="internt" name='N6176cn1' href='#FN6176cn1'> Ye (2007, 154): <i>nu</i>.</a>&nbsp; </div><div class='clear'></div></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><div class='kilderef' id='8904788'></div><div class='clear'></div><span id='8904788bi' class='generelltekst'>
+							觀如來品第二十二(十六偈)&nbsp;</span><span id='7859805bi' class='verse'>
+						 非陰不離陰 此彼不相在<br />如來不有陰 何處有如來&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904794'></div><div class='clear'></div><span id='8904794bi' class='generelltekst'>
+							&nbsp;</span><span id='8903652bi' class='verse'>
+						 || phung min phung po las gzhan min | | de la phung med de der med | |<br />de bzhin (4)gshegs pa phung ldan min | | de bzhin gshegs pa gang zhig yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><div class='kilderef' id='8905183'></div><div class='clear'></div><span id='8905183bi' class='verse'>
+							[Chapter] 22: An Analysis of the “Fully Completed” (Tathagata) (the Buddha)&nbsp;</span><span id='8905184bi' class='verse'>
+						 1. That one [who is “fully-completed”] is not the “groups of universal elements” (skandha), nor something other than the “groups”; the “groups” are not in him, nor is he in them;<br />The “fully completed” does not possess the “groups.”<br />What, then, is the “fully completed”?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><div class='kilderef' id='8904789'></div><div class='clear'></div><span id='8904789bi' class='generelltekst'>
+							Investigation of the Tathagata&nbsp;</span><span id='7860763bi' class='verse'>
+						 Not the aggregates, not other than the aggregates; the aggregates are not in him; he is not in them: the Tathagata does not possess the aggregates. What is the Tathagata?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904790'></div><div class='clear'></div><span id='8904790bi' class='generelltekst'>
+							&nbsp;</span><span id='8901248bi' class='verse'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><div class='kilderef' id='8906197'></div><div class='clear'></div><span id='8906197bi' class='verse'>
+							(6)  ◎ 觀如來品第二十二 十六偈&nbsp;</span><span id='8906198bi' class='verse'>
+						 (7)問曰。一切世中尊。唯有如來正遍知。號爲(8)法王。一切智人是則應有。答曰。今諦思惟。(9)若有應取。若無何所取。何以故。如來(10)<b>非陰不離陰 此彼不相在(11)如來不有陰 何處有如來</b>(12)若如來實有者。爲五陰是如來。爲離五陰(13)有如來。爲如來中有五陰。爲五陰中有如(14)來。爲如來有五陰。是事皆不然。五陰非是(15)如來。何以故。生滅相故。五陰生滅相。若如來(16)是五陰。如來即是生滅相。若生滅相者。如(17)來即有無常斷滅等過。又受者受法則一。受(18)者是如來。受法是五陰。是事不然。是故如來(19)非是五陰。離五陰亦無如來。若離五陰(20)有如來者。不應有生滅相。若爾者。如來(21)有常等過。又眼等諸根不能見知。但是事(22)不然。是故離五陰亦無如來。如來中亦(23)無五陰。何以故。若如來中有五陰。如器中(24)有果水中有魚者。則爲有異。若異者。即有(25)如上常等過。是故如來中無五陰。又五陰中(26)無如來。何以故。若五陰中有如來。如床上(27)有人器中有乳者。如是則有別異。如上説(28)過。是故五陰中無如來。如來亦不有五陰。(29)何以故。若如來有五陰。如人有子。如是則(30a1)有別異。若爾者。有如上過。是事不然。是故(2)如來不有五陰。如是五種求不可得。何等(3)是如來。問曰。如是義求如來不可得。而五(4)陰和合有如來。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904791'></div><div class='clear'></div><span id='8904791bi' class='generelltekst'>
+							&nbsp;</span><span id='8901727bi' class='verse'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904792'></div><div class='clear'></div><span id='8904792bi' class='generelltekst'>
+							&nbsp;</span><span id='8902206bi' class='verse'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><div class='kilderef' id='9009595'></div><div class='clear'></div><span id='9009595bi' class='verse'>
+							&nbsp;</span><span id='9009596bi' class='verse'>
+						 &nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904279bi' class='verse'>
+							buddhaḥ skandhān upādāya yadi nāsti svabhāvataḥ |<br />svabhāvataś ca yo nāsti kutaḥ sa parabhāvataḥ || 2 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859806bi' class='verse'>
+							陰合有如來 則無有自性<br />若無有自性 云何因他有&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903653bi' class='verse'>
+							gal te sangs rgyas phung po la | | brten nas rang bzhin las yod min | |<br />rang bzhin las ni gang med pa | | de gzhan dngos las ga la yod | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905185bi' class='verse'>
+							2. If the Buddha exists dependent on the “groups,” then he is not “that which exists by itself” (svabbava)<br />And how can he exist as something else (parabhava) (“other-existence”) if he is not “that which exists by itself” (svabbava)?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860764bi' class='verse'>
+							If the buddha depends on the aggregates, he does not exist from an own-nature. How can that which does not exist from an own-nature exist from an other-nature?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901249bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906199bi' class='verse'>
+							答曰(5)<b>陰合有如來 則無有自性(6)若無有自性 云何因他有</b>(7)若如來五陰和合故有。即無自性。何以故。(8)因五陰和合有故。問曰。如來不以自性(9)有。但因他性有。答曰。若無自性。云何因(10)他性有。何以故。他性亦無自性。又無相待(11)因故。他性不可得。不可得故不名爲他。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901728bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902207bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009597bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904280bi' class='verse'>
+							pratītya parabhāvaṃ yaḥ so ’nātmety upapadyate |<br />yaś cānātmā sa ca kathaṃ bhaviṣyati tathāgataḥ || 3 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859807bi' class='verse'>
+							法若因他生 是即為非我<br />若法非我者 云何是如來&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903654bi' class='verse'>
+							gang zhig gzhan gyi dngos brten nas | | de bdag nyid du (5)mi ’thad do | |<br />gang zhig bdag nyid med pa de | | ji ltar de bzhin gshegs par ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905186bi' class='verse'>
+							3. That which exists presupposing another existent thing is properly called a “non-individual self” (anatma).<br />How will that which is a non-individual self become the “fully completed”?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860765bi' class='verse'>
+							It is not tenable for something dependent on other-nature to be self-existent. How can that which has no self-existence be tathagata?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901250bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906200bi' class='verse'>
+							復(12)次(13)<b>法若因他生 是即爲非我(14)若法非我者 云何是如來</b>(15)若法因衆縁生。即無有我。如因五指有(16)拳。是拳無有自體。如是因五陰名我。是(17)我即無自體。我有種種名。或名衆生人天(18)如來等。若如來因五陰有。即無自性。無自(19)性故無我。若無我云何説名如來。是故偈(20)中説法若因他生是即爲非我。若法非我者(21)云何是如來。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901729bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902208bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009598bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904281bi' class='verse'>
+							yadi nāsti svabhāvaś ca parabhāvaḥ kathaṃ bhavet |<br />svabhāvaparabhāvābhyām ṛte kaḥ sa tathāgataḥ || 4 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859808bi' class='verse'>
+							若無有自性 云何有他性<br />離自性他性 何名為如來&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903655bi' class='verse'>
+							gal te rang bzhin yod min na | | gzhan dngos yod par ji ltar ’gyur | |<br />rang bzhin dang ni gzhan dngos dag | | ma gtogs de bzhin gshegs de gang | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905187bi' class='verse'>
+							4. And if there is no self-existence (svabhava), how would it have an “other-existence” (parabhava)?<br />What would that “fully completed” [reality] be without either a self-existence or other-existence?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860766bi' class='verse'>
+							If self-nature does not exist, how can there be the existence of other-nature? What is a Tathagata apart from own-nature and other-nature?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901251bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906201bi' class='verse'>
+							復次(22)<b>若無有自性 云何有他性(23)離自性他性 何名爲如來</b>(24)若無自性。他性亦不應有。因自性故名(25)他性。此無故彼亦無。是故自性他性二倶無。(26)若離自性他性。誰爲如來。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901730bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902209bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009599bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904282bi' class='verse'>
+							skandhān yady anupādāya bhavet kaścit tathāgataḥ |<br />sa idānīm upādadyād upādāya tato bhavet || 5 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859809bi' class='verse'>
+							若不因五陰 先有如來者<br />以今受陰故 則說為如來&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903656bi' class='verse'>
+							gal te phung po ma brten par | | (6)de bzhin gshegs pa ’ga’ yod na | |<br />de ni da gdong rten ’gyur zhing | | brten nas de nas ’gyur la rag | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905188bi' class='verse'>
+							5. If some kind of “fully completed” [thing] would exist without dependence on the “groups,”<br />It is dependent now; therefore it exists dependent [on something].&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860767bi' class='verse'>
+							If there exists a tathagata [who is] not depending on the aggregates, he exists in depending [on them] now and will henceforth depend.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901252bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906202bi' class='verse'>
+							復次(27)<b>若不因五陰 先有如來者(28)以今受陰故 則説爲如來</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901731bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902210bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009600bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904283bi' class='verse'>
+							skandhāṃś cāpy anupādāya nāsti kaścit tathāgataḥ |<br />yaś ca nāsty anupādāya sa upādāsyate katham || 6 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859810bi' class='verse'>
+							今實不受陰 更無如來法<br />若以不受無 今當云何受&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903657bi' class='verse'>
+							phung po rnams la ma brten par | | de bzhin gshegs pa ’ga’ yang med | |<br />gang zhig ma brten yod min na | | des ni ji ltar nyer len ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905189bi' class='verse'>
+							6. There is no kind of “fully completed” [being] which is not dependent on the “groups.”<br />And whatever is not non-dependent—how will it become dependent?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860768bi' class='verse'>
+							If there does not exist a tathagata [who is]not depending on the aggregates, how does he grasp [depend on? them]?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901253bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906203bi' class='verse'>
+							<b>(29)今實不受陰 更無如來法</b>(30b1)<b>若以不受無 今當云何受</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901732bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902211bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009601bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904284bi' class='verse'>
+							na bhavaty anupādattam upādānaṃ ca kiṃ cana |<br />na cāsti nirupādānaḥ kathaṃ cana tathāgataḥ || 7 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859811bi' class='verse'>
+							若其未有受 所受不名受<br />無有無受法 而名為如來&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903658bi' class='verse'>
+							nye bar blangs pa ma yin (7)pa |  | nye bar len par cis mi ’gyur | |<br />nye bar len pa med pa yi | | de bzhin gshegs pa ci yang med | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905190bi' class='verse'>
+							7. There is nothing whatever that is dependent on [the “groups”] and there is no thing whatever on which something does not depend.<br />There would not exist in any way a “fully completed” [being] without being dependent on [the “groups”].&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860769bi' class='verse'>
+							[Since] there is nothing to be grasped/dependent on, there can be no grasping/depending. There is no tathagata at all who is without grasping/depending.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901254bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906204bi' class='verse'>
+							<b>(2)若其未有受 所受不名受(3)無有無受法 而名爲如來</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901733bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902212bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009602bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904285bi' class='verse'>
+							tattvānyatvena yo nāsti mṛgyamāṇaś ca pañcadhā |<br />upādānena sa kathaṃ prajñapyate tathāgataḥ || 8 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859812bi' class='verse'>
+							若於一異中 如來不可得<br />五種求亦無 云何受中有&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903659bi' class='verse'>
+							rnam pa lngas ni btsal byas na | | gang zhig de nyid gzhan nyid du | |<br />med pa’i de bzhin gshegs pa de | | nye bar len pas ji ltar gdags | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905191bi' class='verse'>
+							8. That [fully completed being] which does not exist by its actual reality (tattva) or by some other reality (anyatva) according to the five-fold examination—<br />How is the “fully completed” [being] perceived by being dependent?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860770bi' class='verse'>
+							If having examined in five ways, how can that tathagata who does not exist as that one or the other be [conventionally] understood by grasping/depending?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901255bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906205bi' class='verse'>
+							<b>(4)若於一異中 如來不可得(5)五種求亦無 云何受中有</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901734bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902213bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009603bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904286bi' class='verse'>
+							yad apīdam upādānaṃ tat svabhāvān na vidyate |<br />svabhāvataś ca yan nāsti kutas tat parabhāvataḥ || 9 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859813bi' class='verse'>
+							又所受五陰 不從自性有<br />若無自性者 云何有他性&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903660bi' class='verse'>
+							gang zhig nye bar blang ba de | | de ni (13b1)rang bzhin las yod min | |<br />bdag gi dngos las gang med pa | | de gzhan dngos las yod re skan | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905192bi' class='verse'>
+							9. So when there is dependence, self-existence does not exist;<br />And if there is no self-existence whatever, how is an other-existence possible?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860771bi' class='verse'>
+							That which is grasped/depended on does not exist from its own nature. It is impossible for that which does not exist from its own nature to exist from another nature.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901256bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906206bi' class='verse'>
+							<b>(6)又所受五陰 不從自性有(7)若無自性者 云何有他性</b>(8)若未受五陰。先有如來者。是如來今應受(9)五陰。已作如來。而實未受五陰時先無如(10)來。今云何當受。又不受五陰者。五陰不名(11)爲受。無有無受而名爲如來。又如來一異(12)中求不可得。五陰中五種求亦不可得。若爾(13)者。云何於五陰中説有如來。又所受五陰。(14)不從自性有。若謂從他性有。若不從自(15)性有。云何從他性有。何以故。以無自性(16)故。又他性亦無。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901735bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902214bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009604bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904287bi' class='verse'>
+							evaṃ śūnyam upādānam upādātā ca sarvaśaḥ |<br />prajñapyate ca śūnyena kathaṃ śūnyas tathāgataḥ || 10 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859814bi' class='verse'>
+							以如是義故 受空受者空<br />云何當以空 而說空如來&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903661bi' class='verse'>
+							de ltar nyer blang nyer len po | | rnam pa kun gyis stong pa yin | |<br />stong pas de bzhin gshegs stong pa | | ji lta bur na ’dogs par ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905193bi' class='verse'>
+							10. Thus “dependence” and “that which is dependent” are completely empty (sunya).<br />How is that empty “fully completed one” known through that which is empty?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860772bi' class='verse'>
+							In that way, what is grasped/depended on and what grasps/depends are empty in every aspect. How can an empty tathagata be [conventionally] understood by what is empty?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901257bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906207bi' class='verse'>
+							復次(17)<b>以如是義故 受空受者空(18)云何當以空 而説空如來</b>(19)以是義思惟。受及受者皆空。若受空者。云(20)何以空受。而説空如來。問曰。汝謂受空受(21)者空。則定有空耶。答曰不然。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901736bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902215bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009605bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904288bi' class='verse'>
+							śūnyam iti na vaktavyam aśūnyam iti vā bhavet |<br />ubhayaṃ nobhayaṃ ceti prajñaptyarthaṃ tu kathyate || 11 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859815bi' class='verse'>
+							空則不可說 非空不可說<br />共不共叵說 但以假名說&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903662bi' class='verse'>
+							stong ngo zhes kyang mi brjod de | | mi (2)stong zhes kyang mi bya zhing | |<br />gnyis dang gnyis min mi bya ste | | gdags pa’i don du brjod par bya | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905194bi' class='verse'>
+							11. One may not say that there is “emptiness” (sunya) (1) nor that there is non-emptiness. (2)”<br />Nor that both [exist simultaneously] (3), nor that neither exists (4); the purpose for saying [“emptiness”] is for the purpose of conveying knowledge.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860773bi' class='verse'>
+							Do not say “empty,” or “not empty,” or “both,” or “neither:” these are mentioned for the sake of [conventional] understanding.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901258bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906208bi' class='verse'>
+							何以故(22)<b>空則不可説 非空不可説(23)共不共叵説 但以假名説</b>(24)諸法空則不應説。諸法不空亦不應説。諸(25)法空不空亦不應説。非空非不空亦不應(26)説。何以故。但破相違故。以假名説。如是(27)正觀思惟。諸法實相中。不應以諸難爲難。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901737bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902216bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009606bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904289bi' class='verse'>
+							śāśvatāśāśvatādy atra kutaḥ śānte catuṣṭayam |<br />antānantādi cāpy atra kutaḥ śānte catuṣṭayam || 12 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859816bi' class='verse'>
+							寂滅相中無 常無常等四<br />寂滅相中無 邊無邊等四&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903663bi' class='verse'>
+							rtag dang mi rtag la sogs bzhi | | zhi ba ’di la ga la yod | |<br />mtha’ dang mtha’ med la sogs bzhi | | zhi ba ’di la ga la yod | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905195bi' class='verse'>
+							12. How, then, will “eternity,” “non-eternity,” and [the rest of] the Tetralemma apply to bliss (santa)?<br />How, then, will “the end,” “without end,” and [the rest of] the Tetralemma apply to bliss?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860774bi' class='verse'>
+							Where can the four such as permanence and impermanence exist in this peaceful one? Where can the four such as end and no-end [of the world] exist in this peaceful one?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901259bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906209bi' class='verse'>
+							(28)何以故(29)<b>寂滅相中無 常無常等四</b>(30c1)<b>寂滅相中無 邊無邊等四</b>(2)諸法實相。如是微妙寂滅。但因過去世。起(3)四種邪見。世間有常。世間無常。世間常無(4)常。世間非常非無常。寂滅中盡無。何以故。諸(5)法實相。畢竟清淨不可取。空尚不受。何況(6)有四種見。四種見皆因受生。諸法實相無(7)所因受。四種見皆以自見爲貴。他見爲賤。(8)諸法實相無有此彼。是故説寂滅中無四(9)種見。如因過去世有四種見。因未來世(10)有四種見亦如是。世間有邊。世間無邊。世(11)間有邊無邊。世間非有邊非無邊。問曰。若(12)如是破如來者。則無如來耶。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901738bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902217bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009607bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904290bi' class='verse'>
+							ghanagrāho gṛhītas tu yenāstīti tathāgataḥ |<br />nāstīti sa vikalpayan nirvṛtasyāpi kalpayet || 13 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859817bi' class='verse'>
+							邪見深厚者 則說無如來<br />如來寂滅相 分別有亦非&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903664bi' class='verse'>
+							gang gis de bzhin gshegs yod ces | | (3)’dzin pa stug po bzung gyur pa | |<br />de ni mya ngan ’das pa la | | med ces rnam rtog rtog par byed | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905196bi' class='verse'>
+							13. That image of nirvana [in which] the Buddha (Tathagata) either “is” or “is not”—<br />By him who [so imagines nirvana] the notion is crudely grasped.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860775bi' class='verse'>
+							Those who hold the dense apprehension, “the tathagata exists” conceive the thought, “he does not exist in nirvana.”&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901260bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906210bi' class='verse'>
+							答曰(13)<b>邪見深厚者 則説無如來(14)如來寂滅相 分別有亦非</b>(15)邪見有二種。一者破世間樂。二者破涅槃(16)道。破世間樂者。是麁邪見。言無罪無福。(17)無如來等賢聖。起是邪見捨善爲惡。則破(18)世間樂。破涅槃道者。貪著於我。分別有無。(19)起善滅惡。起善故得世間樂。分別有無故(20)不得涅槃。是故若言無如來者。是深厚邪(21)見。乃失世間樂。何況涅槃。若言有如來。亦(22)是邪見。何以故。如來寂滅相。而種種分別故。(23)是故寂滅相中。分別有如來。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901739bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902218bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009608bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904291bi' class='verse'>
+							svabhāvataś ca śūnye ’smiṃś cintā naivopapadyate |<br />paraṃ nirodhād bhavati buddho na bhavatīti vā || 14 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859818bi' class='verse'>
+							如是性空中 思惟亦不可<br />如來滅度後 分別於有無&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903665bi' class='verse'>
+							rang bzhin gyis ni stong de la | | sangs rgyas mya ngan ’das nas ni | |<br />yod do zhe’am med do zhes | | bsam pa ’thad pa nyid mi ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905197bi' class='verse'>
+							14. Concerning that which is empty by its own nature (svabhava), the thoughts do not arise that:<br />The Buddha “exists” or “does not exist” after death.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860776bi' class='verse'>
+							For that one empty of own-nature, it is entirely inappropriate to think that once the buddha has nirvana-ed he either “exists” or “does not exist.”&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901261bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906211bi' class='verse'>
+							亦爲非(24)<b>如是性空中 思惟亦不可(25)如來滅度後 分別於有無</b>(26)諸法實相性空故。不應於如來滅後思惟(27)若有若無。若有無。如來從本已來畢竟空。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901740bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902219bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009609bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904292bi' class='verse'>
+							prapañcayanti ye buddhaṃ prapañcātītam avyayam |<br />te prapañcahatāḥ sarve na paśyanti tathāgatam || 15 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859819bi' class='verse'>
+							如來過戲論 而人生戲論<br />戲論破慧眼 是皆不見佛&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903666bi' class='verse'>
+							gang dag sangs rgyas spros ’das shing | | zad (4)pa med la spros byed pa | |<br />spros pas nyams pa de kun gyis | | de bzhin gshegs pa mthong mi ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905198bi' class='verse'>
+							15. Those who describe in detail the Buddha, who is unchanging and beyond all detailed description—<br />Those, completely defeated by description, do not perceive the “fully completed” [being].&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860777bi' class='verse'>
+							Those who make fixations about Buddha who is beyond fixations and without deterioration -- all those who are damaged by fixations do not see the tathagata.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901262bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906212bi' class='verse'>
+							(28)何況滅後(29)<b>如來過戲論 而人生戲論</b>(31a1)<b>戲論破慧眼 是皆不見佛</b>(2)戲論名憶念取相分別此彼。言佛滅不滅(3)等。是人爲戲論。覆慧眼故不能見如來法(4)身。此如來品中。初中後思惟。如來定性不(5)可得。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901741bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902220bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009610bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904293bi' class='verse'>
+							tathāgato yatsvabhāvas tatsvabhāvam idaṃ jagat |<br />tathāgato niḥsvabhāvo niḥsvabhāvam idaṃ jagat || 16 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859820bi' class='verse'>
+							如來所有性 即是世間性<br />如來無有性 世間亦無性&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903667bi' class='verse'>
+							de bzhin gshegs pa’i rang bzhin gang | | de ni ’gro ’di’i rang bzhin yin | |<br />de bzhin gshegs pa rang bzhin med | | ’gro ba ’di yi rang bzhin med | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905199bi' class='verse'>
+							16. The self-existence of the “fully completed” [being] is the self-existence of the world.<br />The “fully completed” [being] is without self-existence [and] the world is without self-existence.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860778bi' class='verse'>
+							Whatever is the own-nature of the tathagata, that is the own-nature of this world. The tathagata has no own-nature. This world has no own-nature.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901263bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906213bi' class='verse'>
+							是故偈説(6)<b>如來所有性 即是世間性(7)如來無有性 世間亦無性</b>(8)此品中思惟推求。如來性即是一切世間性。(9)問曰。何等是如來性。答曰。如來無有性。同(10)世間無性&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901742bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902221bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009611bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904294bi' class='chaptertitle'>
+							tathāgataparīkṣā nāma dvāviṃśatitamaṃ prakaraṇaṃ ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904795";
+							kilderef = "Mmk San: La Vallée Poussin (1913)  - San: La Vallée Poussin (1913) 450,11-12";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859821bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904788";
+							kilderef = "Mmk Chi: Kumārajīva, T. 1564 29c6 - Chi: Kumārajīva, T. 1564 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903668bi' class='chaptertitle'>
+							de bzhin gshegs (5)pa brtag pa zhes bya ba ste rab tu byed pa nyi shu gnyis pa’o ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904794";
+							kilderef = "Mmk Tib: Tg, tsa  - Tib: Tg, tsa 13b4-5";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905200bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8905183";
+							kilderef = "Mmk Eng: Streng (1967)  - Eng: Streng (1967) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860779bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904789";
+							kilderef = "Mmk Eng: Batchellor (2000)  - Eng: Batchellor (2000) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901264bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904790";
+							kilderef = "Mmk Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829  - Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906214bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8906197";
+							kilderef = "Mmk Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564  29b6 - Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564 31a10";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901743bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904791";
+							kilderef = "Mmk Buddhapālita "Vṛtti" Tg 3842  - Buddhapālita "Vṛtti" Tg 3842 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902222bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904792";
+							kilderef = "Mmk Bhāvaviveka "Prajñāpradīpa" Tg 3853  - Bhāvaviveka "Prajñāpradīpa" Tg 3853 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009612bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "9009595";
+							kilderef = "Mmk Candrakīrti "Prasannapadā" Vaidya 1960  - Candrakīrti "Prasannapadā" Vaidya 1960 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div></div><div class='clear'></div><div class="fontboks"><a onClick=onOffdiv('permlink') name="permlink" href="#permlink">Permanent link</a></div><div class='clear'></div><div class='perm_felt' id='permlink'>http://www2.hf.uio.no/common/apps/permlink/permlink.php?app=polyglotta&amp;context=ctext&amp;uid=089b8e00-6be5-11df-870c-00215aecadea</div></div></div><!-- infofelt --></div><!-- divControl --><div class="clear"></div>
+<div style="clear:both"></div><div class="signatur"><div class="signatur_left">
+		<a href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation">Go to Wiki Documentation</a></br>Enhet: <a HREF=http://www.hf.uio.no>Det humanistiske fakultet</a> &nbsp; Utviklet av: <a href="http://www.hf.uio.no/tjenester/it">IT-seksjonen ved HF</a></div><!--signatur_left -->
+		<div class="signatur_right"><a href="/polyglotta/admin/index.php">Login</a></div>
+		<div style="clear:both"></div></div>
+</body></html><SCRIPT LANGUAGE="JAVASCRIPT">
+	
+	$("#tr_IA").click(function(){
+	    if ($("#toggle_container_IA").is(':hidden'))
+	    	$("#toggle_container_IA").show();
+	    else{
+	        $("#toggle_container_IA").hide();
+	    }
+	    return false;
+		});
+
+	$("#tr_lang").click(function(){
+	    if ($("#toggle_container_lan").is(':hidden'))
+	    	$("#toggle_container_lan").show();
+	    else{
+	        $("#toggle_container_lan").hide();
+	    }
+	    return false;
+	});
+
+	$("#tr_img").click(function(){
+	    if ($("#toggle_container_img").is(':hidden'))
+	    	$("#toggle_container_img").show();
+	    else{
+	        $("#toggle_container_img").hide();
+	    }
+	    return false;
+	});
+
+	$("#diac2button").click(function(){
+	   if ($("#ex3a").is(':hidden')){
+		   $("#ex3a").show();
+	       $("#diac2button").html("Hide&#32Diacritica-help");
+	   }else{
+	       $("#ex3a").hide();
+	       $("#diac2button").html("Diacritica-help");
+	   }
+	   return false;
+	});
+
+	$("#diacbutton").click(function(){
+	   if ($("#diacritical_sign").is(':hidden')){
+		   	$("#diacritical_sign").show();
+	      	$("#diacbutton").html("Hide&#32diacritica");
+	   }else{
+	        $("#diacritical_sign").hide();
+	        $("#diacbutton").html("Diacritica");
+	   }
+	   return false;
+    });
+
+	$('#toggle_container_IA').click(function(e) {
+	   e.stopPropagation();
+	});
+
+	$('#toggle_container_lan').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#toggle_container_img').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#ex3a').click(function(e) {
+	    e.stopPropagation();
+	});
+
+	$('#diacritical_sign').click(function(e) {
+        e.stopPropagation();
+    });
+
+	//Kode for å sette inn diakritiske tegn
+	$('#diacritical > tbody > tr > td').click(function() {
+	  	//alert('red');
+		$("#sokeboks").val($("#sokeboks").val() + $(this).text());
+	});
+
+	$('.diac2button').text(($('.diacbutton').text() == 'Diacritica-help') ? 'Hide Diacritica-help' : 'Diacritica-help');
+	
+	//Lukker alle åpnede pop'uper ved klikk på siden
+	$(document).click(function() {
+		$('#toggle_container_IA').hide();
+	    
+        $('#toggle_container_lan').hide();
+    
+        $('#toggle_container_img').hide();
+   
+   		$('#diacritical_sign').hide();
+   		$("#diacbutton").html("Diacritica");
+   
+       	$('#ex3a').hide();
+       	$("#diac2button").html("Diacritica-help");
+   });
+	</SCRIPT>

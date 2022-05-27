@@ -1,0 +1,825 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Bibliotheca Polyglotta</title>
+<link rel='stylesheet' type='text/css' href='css/bp.css'>
+<link rel='stylesheet' type='text/css' href='css/diac_doc.css'>
+
+<link rel='stylesheet' type='text/css' href='css/imageGallery.css'>
+<link rel='stylesheet' type='text/css' href='css/ss.css'>
+	      <link rel='stylesheet' type='text/css' href='css/tree_menu.css'>
+<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+<!--  <script type="text/javascript" src="js/jqModal.js"></script>-->
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/tree_menu.js"></script>
+<!-- <script src="js/analytics_tracking.js" type="text/javascript"></script> -->
+
+
+<!-- <script type="text/javascript" src="js/popupDivhandling.js"></script> -->
+<!--  <script type="text/javascript" src="jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery-imagegallery.js"></script>-->
+</head>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//vrtx.uio.no/js/analytics/v2/analytics.js','ga');
+
+ga('create', 'UA-86407471-1', 'auto');
+ga(function(tracker) {
+
+	// Modifies sendHitTask to hit ipproxy instead of http://www.google-analytics.com directly
+	tracker.set('sendHitTask', function(model) {
+		payload = model.get('hitPayload');
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', '//w3prod-ipproxy.uio.no/collect' +'?' + payload, true);
+		xhr.send();
+	});
+		ga('send', 'pageview');
+});
+</script>
+<body><div class='banner'></div><!-- banner --><div class='uiologo'>
+<a href='http://www.hf.uio.no/'><img src='https://www2.hf.uio.no/polyglotta/hfe.png' border='0'></a></div><!-- uiologo --><div class='clear'></div>
+<div class='smule_tittel'>
+<div class='brodsmuleboks'>You are here: <a href='/polyglotta/index.php' accesskey='1'> BP HOME</a> >  <a href='/polyglotta/index.php?page=library&amp;bid=2' accesskey='1'>TLB</a> > <a href='/polyglotta/index.php
+	?page=volume&amp;vid=1124' accesskey='1'>Nāgārjuna: Mūlamadhyamakakārikā</a> > fulltext</div><div class='clear'></div>
+<div class='headline'>Nāgārjuna: Mūlamadhyamakakārikā<div class='clear'></div></div><!-- headline -->
+</div><!-- smule_tittel -->
+<!--<div>-->
+
+<h2 class="trigger" id="tr_lang"><a  href="#">Choose languages</a></h2>
+<h2 class="trigger" id="tr_img"><a  href="#">Choose images, etc.</a></h2>
+
+
+<div id="toggle_container_lan">
+
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_lan.php" method="POST">
+
+<div style="float:left; width:auto; text-align:left; margin-left:20px;">
+<h5>Choose languages</h5>
+<ul>
+<input value="Choose all" type="button" onClick="markAll('tr')"><input value="Uncheck all" type="button" onClick="markNone('tr')">
+
+	<li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6176]" value="6176" id="lancheckbox" checked >Sanskrit: San: La Vallée Poussin (1913), </label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[5667]" value="5667" id="lancheckbox" checked >Chinese: Chi: Kumārajīva, T. 1564</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6175]" value="6175" id="lancheckbox" checked >Tibetan: Tib: Tg, tsa</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6177]" value="6177" id="lancheckbox" checked >English: Eng: Streng (1967)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[5669]" value="5669" id="lancheckbox" checked >English: Eng: Batchellor (2000)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6170]" value="6170" id="lancheckbox" checked >Tibetan: Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6179]" value="6179" id="lancheckbox" checked >Chinese: Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6171]" value="6171" id="lancheckbox" checked >Tibetan: Buddhapālita "Vṛtti" Tg 3842</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6172]" value="6172" id="lancheckbox" checked >Tibetan: Bhāvaviveka "Prajñāpradīpa" Tg 3853</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6340]" value="6340" id="lancheckbox" checked >Sanskrit: Candrakīrti "Prasannapadā" Vaidya 1960</label></li><div style="clear:both"></div>
+<input type='submit' name='set_cookie' value='Save view'>
+<div style="clear:both"></div>
+
+</ul>
+<input type="hidden" name="vid" value="1124">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+</div>
+
+<div id="toggle_container_img">
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_img.php" method="POST">
+
+<div style="float:left; width:auto; text-align: left;">
+<h5>Choose display</h5>
+<ul>
+		
+	<li> 
+		<input type='checkbox' name='bilder' checked="checked" > Enable images
+	</li>
+	<li> 
+	<input type='checkbox' onclick="onOffCheckbox();" name='fotnoter' checked="checked"> Enable footnotes
+	<div id="pff" style="display:block" >
+	<ul>
+	<li><input type='radio' name='fotnote_valg'  value='show_a' checked> Show all footnotes</li>
+	<li><input type='radio' name='fotnote_valg'  value='show_h'  > Minimize footnotes</li>
+	</ul>
+	</li>
+	
+	</div>
+	<div style="float:left; width:20em; text-align: left; margin-left:120px ">
+	<div style="clear:both"></div>
+	<input type='submit' name='set_cookie' value='Save view'>
+	<div style="clear:both"></div>
+	</div>
+	
+</ul>
+<input type="hidden" name="vid" value="1124">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+	
+
+
+
+</div>
+</div>
+
+<div class='sok'><form name='Sok' id='FormBlock' action='/polyglotta/index.php' method='get'>
+<input type='hidden' name='page' value='search'>
+<input type='hidden' name='bid' value='2'>
+<input type='hidden' name='vid' value='1124'>
+<div class='sokeboks'>
+<input name='sokefelt' id='sokeboks' type='text' size='30' value=''>
+<input type='submit' name='Sok' value='Search' id='nsubmit'>
+<div class='clear'></div><a class="diacbutton" id="diacbutton" href="#">Diacritica</a><a id="diac2button" class="diac2button"  href="#">Diacritica-help</a><a class="s2button" href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation:SearchHelp">Search-help</a><div class='diacritical' id='diacritical_sign'><div style="text-align: left; ">
+<table class = 'diacritica' width="200" border="1" cellpadding="1" cellspacing="1" id="diacritical">
+    <tbody>
+        <tr>
+            <td style="text-align: center; ">ā</td>
+            <td style="text-align: center; ">ī</td>
+            <td style="text-align: center; ">ū</td>
+            <td style="text-align: center; ">ṛ</td>
+            <td style="text-align: center; ">ṝ</td>
+            <td style="text-align: center; ">ḷ</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ḹ</td>
+            <td style="text-align: center; ">&rsquo;</td>
+            <td style="text-align: center; ">ṃ</td>
+            <td style="text-align: center; ">ḥ</td>
+            <td style="text-align: center; ">ṅ</td>
+            <td style="text-align: center; ">&ntilde;</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ṭ</td>
+            <td style="text-align: center; ">ḍ</td>
+            <td style="text-align: center; ">ṇ</td>
+            <td style="text-align: center; ">ṣ</td>
+            <td style="text-align: center; ">ś</td>
+            <td style="text-align: center; ">ź</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">&scaron;</td>
+            <td style="text-align: center; ">č</td>
+            <td style="text-align: center; ">ǰ</td>
+            <td style="text-align: center; ">&gamma;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+</div></div><!-- diacritical --><div id="ex3a" class="jqmDialog"><div>
+	<span style="font-size:12px;">Note on the transliteration:</span></div>
+<div>
+	<span style="font-size:12px;">The transliteration system of the BP/TLB is based on the Unicode/UTF-8 system. However, there may be difficulties with some of the letters &ndash; particularly on PC/Windows-based systems, but not so much on the Mac. We have chosen the most accepted older and traditional systems of transliteration against, e.g, Wylie for Tibetan, since with Unicode it is possible, in Sanskrit and Tibetan, etc., to represent one sound with one letter in almost all the cases (excepting Sanskrit and Tibetan aspirated letters, and Tibetan tsa, tsha, dza). We thus do not use the Wylie system which widely employs two letters for one sound (ng, ny, sh, zh etc.).</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">Important:</span></div>
+<div>
+	<span style="font-size:12px;">We ask you in particular to note the use of the &rsquo; apostrophe and not the &#39; representing the avagrāha in Sanskrit, and most important the &rsquo;a-chuṅ in Tibetan. On the Mac the &rsquo; is Alt-M.</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">If you cannot find the letters on your key-board, you may click on the link &quot;Diacritica&quot; to access it for your search.</span></div>
+</div><!-- diacritical_doc --><div class='clear'></div><select name='searchmode'><option selected value='phrase'>Search for exact phrase</option>
+<option  value='phraseregex'>Search for exact phrase (regex)</option>
+<option  value='word'>Search for every word in one record</option>
+<option  value='free'>Search for every word fragment in one record</option>
+</select>
+<select name='context'>
+<option ($_GET[context]=="a" ? "selected" : "") value="a"> Search in all libraries</option><option selected value="bTLB">Search in TLB</option><option selected value="v1124">Search in Nāgārjuna: Mūlamadhyamakakārikā</option></select><div class='clear'></div><a class='sbutton' href='/polyglotta/index.php?page=asearch&amp;bid=2&amp;vid=1124'>Choose specific texts..</a><div class='clear'></div></div></form></div><!-- sok --><div class='clear'></div><!-- clear --><div id='dcr' class='divControlRead'><div class='venstrefulltekstfelt'><div class='bverknavn'><a href='/polyglotta/index.php?page=volume&amp;vid=1124'>Nāgārjuna: Mūlamadhyamakakārikā</a></div><table class="tlvl2">
+					<tr>
+						<td bgcolor="#ffffff"> &nbsp; &nbsp;
+						<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_7627.Verses41-58" border=0 hspace=2>
+						<a href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124" class="ajax_tree0">Complete text</a>
+						</td>
+					</tr>
+				  </table><input type="hidden" name="tree_top_options" id="tree_top_options" value="134642.Title|134643.Preface|134644.ChaptersI-V|134650.ChaptersVI-X|134656.ChaptersXI-XV|134662.ChaptersXVI-XX|134668.ChaptersXXI-XXV|134674.ChaptersXXVI-XXVII|134677.Colophon|">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134642.Title" border=0 hspace=2><a id="href_134642.Title" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942958&level=1&cid=843905" class="ajax_tree0">Title
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134643.Preface" border=0 hspace=2><a id="href_134643.Preface" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942959&level=1&cid=843906" class="ajax_tree0">Preface
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134644.ChaptersI-V','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134644.ChaptersI-V" border=0 hspace=2><a id="href_134644.ChaptersI-V" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942960&level=1&cid=843907" class="ajax_tree0">Chapters I-V
+</td></tr></table>
+<div style="display:none;"  id="div_134644.ChaptersI-V">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134645.ChapterI:Pratyayaparīkṣā" border=0 hspace=2><a id="href_134645.ChapterI:Pratyayaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942960&level=2&cid=843907" class="ajax_tree1">Chapter I: Pratyayaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134646.ChapterII:Gatāgataparīkṣaṇa" border=0 hspace=2><a id="href_134646.ChapterII:Gatāgataparīkṣaṇa" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942975&level=2&cid=843922" class="ajax_tree1">Chapter II: Gatāgataparīkṣaṇa
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134647.ChapterIII:Cakṣurādīndriyaparīkṣā" border=0 hspace=2><a id="href_134647.ChapterIII:Cakṣurādīndriyaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943001&level=2&cid=843948" class="ajax_tree1">Chapter III: Cakṣurādīndriyaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134648.ChapterIV:Skandhaparīkṣā" border=0 hspace=2><a id="href_134648.ChapterIV:Skandhaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943011&level=2&cid=843958" class="ajax_tree1">Chapter IV: Skandhaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134649.ChapterV:Dhātuparīkṣā" border=0 hspace=2><a id="href_134649.ChapterV:Dhātuparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943021&level=2&cid=843968" class="ajax_tree1">Chapter V: Dhātuparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134650.ChaptersVI-X','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134650.ChaptersVI-X" border=0 hspace=2><a id="href_134650.ChaptersVI-X" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943030&level=1&cid=843977" class="ajax_tree0">Chapters VI-X
+</td></tr></table>
+<div style="display:none;"  id="div_134650.ChaptersVI-X">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134651.ChapterVI:Rāgasaktiparīkṣā" border=0 hspace=2><a id="href_134651.ChapterVI:Rāgasaktiparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943030&level=2&cid=843977" class="ajax_tree1">Chapter VI: Rāgasaktiparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134652.ChapterVII:Saṃskr̥̥taparīkṣā" border=0 hspace=2><a id="href_134652.ChapterVII:Saṃskr̥̥taparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943041&level=2&cid=843988" class="ajax_tree1">Chapter VII: Saṃskr̥̥taparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134653.ChapterVIII:Karmakārakaparīkṣā" border=0 hspace=2><a id="href_134653.ChapterVIII:Karmakārakaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943076&level=2&cid=844023" class="ajax_tree1">Chapter VIII: Karmakārakaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134654.ChapterIX:Pūrvaparīkṣā" border=0 hspace=2><a id="href_134654.ChapterIX:Pūrvaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943090&level=2&cid=844037" class="ajax_tree1">Chapter IX: Pūrvaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134655.ChapterX:Agnīndhanaparīkṣā" border=0 hspace=2><a id="href_134655.ChapterX:Agnīndhanaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943103&level=2&cid=844050" class="ajax_tree1">Chapter X: Agnīndhanaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134656.ChaptersXI-XV','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134656.ChaptersXI-XV" border=0 hspace=2><a id="href_134656.ChaptersXI-XV" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943120&level=1&cid=844067" class="ajax_tree0">Chapters XI-XV
+</td></tr></table>
+<div style="display:none;"  id="div_134656.ChaptersXI-XV">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134657.ChapterXI:Pūrvāparakoṭiparīkṣa" border=0 hspace=2><a id="href_134657.ChapterXI:Pūrvāparakoṭiparīkṣa" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943120&level=2&cid=844067" class="ajax_tree1">Chapter XI: Pūrvāparakoṭiparīkṣa
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134658.ChapterXII:Duḥkhaparīkṣā" border=0 hspace=2><a id="href_134658.ChapterXII:Duḥkhaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943129&level=2&cid=844076" class="ajax_tree1">Chapter XII: Duḥkhaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134659.ChapterXIII:Saṃskāraparīkṣā" border=0 hspace=2><a id="href_134659.ChapterXIII:Saṃskāraparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943140&level=2&cid=844087" class="ajax_tree1">Chapter XIII: Saṃskāraparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134660.ChapterXIV:Saṃsargaparīkṣā" border=0 hspace=2><a id="href_134660.ChapterXIV:Saṃsargaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943150&level=2&cid=844096" class="ajax_tree1">Chapter XIV: Saṃsargaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134661.ChapterXV:Svabhāvaparīkṣā" border=0 hspace=2><a id="href_134661.ChapterXV:Svabhāvaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943159&level=2&cid=844105" class="ajax_tree1">Chapter XV: Svabhāvaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134662.ChaptersXVI-XX','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134662.ChaptersXVI-XX" border=0 hspace=2><a id="href_134662.ChaptersXVI-XX" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943171&level=1&cid=844117" class="ajax_tree0">Chapters XVI-XX
+</td></tr></table>
+<div style="display:none;"  id="div_134662.ChaptersXVI-XX">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134663.ChapterXVI:Bandhanamokṣaparīkṣā" border=0 hspace=2><a id="href_134663.ChapterXVI:Bandhanamokṣaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943171&level=2&cid=844117" class="ajax_tree1">Chapter XVI: Bandhanamokṣaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134664.ChapterXVII:Karmaphalaparīkṣā" border=0 hspace=2><a id="href_134664.ChapterXVII:Karmaphalaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943182&level=2&cid=844128" class="ajax_tree1">Chapter XVII: Karmaphalaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134665.ChapterXVIII:Ātmaparīkṣā" border=0 hspace=2><a id="href_134665.ChapterXVIII:Ātmaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943216&level=2&cid=844162" class="ajax_tree1">Chapter XVIII: Ātmaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134666.ChapterXIX:Kālaparīkṣā" border=0 hspace=2><a id="href_134666.ChapterXIX:Kālaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943229&level=2&cid=844175" class="ajax_tree1">Chapter XIX: Kālaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134667.ChapterXX:Sāmagrīparīkṣā" border=0 hspace=2><a id="href_134667.ChapterXX:Sāmagrīparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943236&level=2&cid=844182" class="ajax_tree1">Chapter XX: Sāmagrīparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134668.ChaptersXXI-XXV','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134668.ChaptersXXI-XXV" border=0 hspace=2><a id="href_134668.ChaptersXXI-XXV" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943261&level=1&cid=844207" class="ajax_tree0">Chapters XXI-XXV
+</td></tr></table>
+<div style="display:none;"  id="div_134668.ChaptersXXI-XXV">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134669.ChapterXXI:Saṃbhavavibhavaparīkṣā" border=0 hspace=2><a id="href_134669.ChapterXXI:Saṃbhavavibhavaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943261&level=2&cid=844207" class="ajax_tree1">Chapter XXI: Saṃbhavavibhavaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134670.ChapterXXII:Tathāgataparīkṣā" border=0 hspace=2><a id="href_134670.ChapterXXII:Tathāgataparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943283&level=2&cid=844229" class="ajax_tree1">Chapter XXII: Tathāgataparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134671.ChapterXXIII:Viparyāsaparīkṣā" border=0 hspace=2><a id="href_134671.ChapterXXIII:Viparyāsaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943300&level=2&cid=844246" class="ajax_tree1">Chapter XXIII: Viparyāsaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134672.ChapterXXIV:Āryasatyaparīkṣā" border=0 hspace=2><a id="href_134672.ChapterXXIV:Āryasatyaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943326&level=2&cid=844272" class="ajax_tree1">Chapter XXIV: Āryasatyaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134673.ChapterXXV:nirvāṇaparīkṣā" border=0 hspace=2><a id="href_134673.ChapterXXV:nirvāṇaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943367&level=2&cid=844313" class="ajax_tree1">Chapter XXV: nirvāṇaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134674.ChaptersXXVI-XXVII','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134674.ChaptersXXVI-XXVII" border=0 hspace=2><a id="href_134674.ChaptersXXVI-XXVII" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943392&level=1&cid=844338" class="ajax_tree0">Chapters XXVI-XXVII
+</td></tr></table>
+<div style="display:none;"  id="div_134674.ChaptersXXVI-XXVII">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134675.ChapterXXVI:Dvādaśāṅgaparīkṣā" border=0 hspace=2><a id="href_134675.ChapterXXVI:Dvādaśāṅgaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943392&level=2&cid=844338" class="ajax_tree1">Chapter XXVI: Dvādaśāṅgaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134676.ChapterXXVII:Dr̥ṣṭiparīkṣā" border=0 hspace=2><a id="href_134676.ChapterXXVII:Dr̥ṣṭiparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943405&level=2&cid=844351" class="ajax_tree1">Chapter XXVII: Dr̥ṣṭiparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134677.Colophon" border=0 hspace=2><a id="href_134677.Colophon" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943436&level=1&cid=844382" class="ajax_tree0">Colophon
+</td></tr></table>
+<script language=javascript>test('134664.ChapterXVII:Karmaphalaparīkṣā|134662.ChaptersXVI-XX|')</script><div class='bverknavn'><a href='/polyglotta/index.php?page=library&amp;bid=2'>Back to library</a></div></div><!-- venstrefulltekstfelt --><div class="clear"></div><!-- clear --><div id="nav-menu"><ul>
+  		  <li  id="nav-1"><a class="tabValgt" href="/polyglotta/index.php?page=record&amp;view=record&amp;vid=1124&amp;mid=1943182&amp;level=2">Sentence by sentence view</a></li>
+  		  <li  id="nav-2"><a  href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124&amp;cid=844128&amp;mid=1943182&amp;level=2">Continuous text view</a></li>
+ 		<li  id="nav-3"><a  href="/polyglotta/admin/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124&amp;cid=844128&amp;mid=1943182&amp;level=2">View in admin</a></li>
+
+  		  </ul></div><div class='clear'></div><!-- clear -->			<script language="javascript" type="text/javascript">
+			var kilderef = '';
+			var tekstid = 0;
+			var tekstid_bilder = 0;
+			var filsti = '';
+			var thumbnail = '';
+			</script>
+		<div class='infofulltekstfelt'><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><div class='kilderef' id='8904755'></div><div class='clear'></div><span id='8904755bi' class='generelltekst'>
+							&nbsp;</span><span id='8904177bi' class='verse'>
+						 ātmasaṃyamakaṃ cetaḥ parānugrāhakaṃ ca yat |<br />maitraṃ sa dharamas tad bījaṃ phalasya pretya ceha ca || 1 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><div class='kilderef' id='8904748'></div><div class='clear'></div><span id='8904748bi' class='generelltekst'>
+							中論觀業品第十七(三十三偈)&nbsp;</span><span id='7859704bi' class='verse'>
+						 人能降伏心 利益於眾生<br />是名為慈善 二世果報種&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904754'></div><div class='clear'></div><span id='8904754bi' class='generelltekst'>
+							&nbsp;</span><span id='8903551bi' class='verse'>
+						 bdag nyid legs par sdom pa dang | | gzhan la phan ’dogs byams sems gang | |<br />de chos de ni ’di gzhan du | | ’bras bu dag gi sa bon yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><div class='kilderef' id='8905077'></div><div class='clear'></div><span id='8905077bi' class='verse'>
+							[Chapter] 17: An Analysis of Action (karma) and Its Product (phala) (action and its results)&nbsp;</span><span id='8905078bi' class='verse'>
+						 1. The state of mind which is self-disciplined, being favorably disposed toward others,<br />And friendship: that is the dharma; that is the seed for the fruit now and after death.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><div class='kilderef' id='8904749'></div><div class='clear'></div><span id='8904749bi' class='generelltekst'>
+							Investigation of Actions and Fruits&nbsp;</span><span id='7860662bi' class='verse'>
+						 Restraining oneself well and loving thoughts that benefit others are the Dharma which is the seed of fruits here and elsewhere.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904750'></div><div class='clear'></div><span id='8904750bi' class='generelltekst'>
+							&nbsp;</span><span id='8901147bi' class='verse'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><div class='kilderef' id='8906091'></div><div class='clear'></div><span id='8906091bi' class='verse'>
+							(20)  ＊中論 觀業品第十七 三十三偈&nbsp;</span><span id='8906092bi' class='verse'>
+						 (21)問曰。汝雖種種破諸法。而業決定有。能令(22)一切衆生受果報。如經説。一切衆生皆隨(23)業而生。惡者入地獄。修福者生天。行道者(24)得涅槃。是故一切法不應空。所謂業者(25)<b>人能降伏心 利益於衆生(26)是名爲慈善 二世果報種</b>(27)人有三毒。爲惱他故生行。善者先自滅(28)惡。是故説降伏其心利益他人。利益他(29)者。行布施持戒忍辱等不惱衆生。是名利(21c1)益他。亦名慈善福徳。亦名今世後世樂果種(2)子。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904751'></div><div class='clear'></div><span id='8904751bi' class='generelltekst'>
+							&nbsp;</span><span id='8901626bi' class='verse'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904752'></div><div class='clear'></div><span id='8904752bi' class='generelltekst'>
+							&nbsp;</span><span id='8902105bi' class='verse'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><div class='kilderef' id='9009489'></div><div class='clear'></div><span id='9009489bi' class='verse'>
+							&nbsp;</span><span id='9009490bi' class='verse'>
+						 &nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904178bi' class='verse'>
+							cetanā cetayitvā ca karmoktaṃ paramarṣiṇā |<br />tasyānekavidho bhedaḥ karmaṇaḥ parikīrtitaḥ || 2 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859705bi' class='verse'>
+							大聖說二業 思與從思生<br />是業別相中 種種分別說&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903552bi' class='verse'>
+							drang srong mchog gis las (3)rnams ni | | sems pa dang ni bsam par gsungs | |<br />las de bdag gi bye brag ni | | rnams pa du mar yongs su bsgrags | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905079bi' class='verse'>
+							2. The most perceptive seer [Buddha] has said that there is action (karma) as volition and as a result of having willed.<br />The variety of acts of that [action] has been explained in many ways.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860663bi' class='verse'>
+							The great sage has taught all actions to be intention and what is intended. The specifics of those actions are well known to be of many kinds.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901148bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906093bi' class='verse'>
+							復次(3)<b>大聖説二業 思與從思生(4)是業別相中 種種分別説</b>(5)大聖略説業有二種。一者思。二者從思生。(6)是二業如阿毘曇中廣説。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901627bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902106bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009491bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904179bi' class='verse'>
+							tatra yac cetanety uktaṃ karma tan mānasaṃ smṛtam |<br />cetayitvā ca yat tūktaṃ tat tu kāyikavācikam || 3 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859706bi' class='verse'>
+							佛所說思者 所謂意業是<br />所從思生者 即是身口業&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903553bi' class='verse'>
+							de la las gang sems pa zhes | | gsungs pa de ni yi kyir ’dod | |<br />bsams pa zhes ni gang gsungs pa | | de ni lus dang ngag gir yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905080bi' class='verse'>
+							3. Thus, that action which is called “volition”: that is considered [by tradition] as mental;<br />But that action which is a result of having willed: that is considered [by tradition] as physical or verbal.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860664bi' class='verse'>
+							In this respect action spoken of as “intention” is regarded as being that of mind. That spoken of as “what is intended” is regarded as being that of body and speech.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901149bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906094bi' class='verse'>
+							(7)<b>佛所説思者 所謂意業是(8)所從思生者 即是身口業</b>(9)思是心數法。諸心數法中能發起有所作故(10)名業。因是思故起外身口業。雖因餘心心(11)數法有所作。但思爲所作本。故説思爲業。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901628bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902107bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009492bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904180bi' class='verse'>
+							vāgviṣpando ’viratayo yāś cāvijñaptisaṃjñitāḥ |<br />avijñaptaya evānyāḥ smṛtā viratayas tathā || 4 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859707bi' class='verse'>
+							身業及口業 作與無作業<br />如是四事中 亦善亦不善&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903554bi' class='verse'>
+							(4)ngag dang bskyod dang mi spong ba’i | | rnam rig byed min zhes bya gang | |<br />spong ba’i rnam rig byed min pa | | gzhan dag kyang ni de bzhin ’dod | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905081bi' class='verse'>
+							4. Sound (1), gesture (2) and that which does not rest which is considered as unknown (3),<br />Also the other unknown which is considered to be at rest (4);&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860665bi' class='verse'>
+							Whatever (1) speech and (2) movements and (3) “unconscious not-letting-go,” (4) other kinds of unconscious letting-go are also regarded like that.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901150bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906095bi' class='verse'>
+							(12)是業今當説相(13)<b>身業及口業 作與無作業(14)如是四事中 亦善亦不善</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901629bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902108bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009493bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904181bi' class='verse'>
+							paribhogānvayaṃ puṇyam apuṇyaṃ ca tathāvidham |<br />cetanā ceti saptaite dharmāḥ karmāñjanāḥ smṛtāḥ || 5 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859708bi' class='verse'>
+							從用生福德 罪生亦如是<br />及思為七法 能了諸業相&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903555bi' class='verse'>
+							longs spyod las byung bsod nams dang | | bsod nams ma yin tshul de bzhin | |<br />sems pa dang ni chos de bdun | | las su (5)mngon par ’dod pa yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905082bi' class='verse'>
+							5. That which is pure as a result of enjoyment (5), that which is impure as a result of enjoyment (6),<br />And volition (7): these seven basic elements (dharma) are considered [by the tradition] as the modes of action.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860666bi' class='verse'>
+							(5) Goodness that arises from enjoyment/use and in the same manner (6) what is not goodness,[and] (7) intention. These seven dharmas are clearly regarded as action.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901151bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906096bi' class='verse'>
+							<b>(15)從用生福徳 罪生亦如是(16)及思爲七法 能了諸業相</b>(17)口業者四種口業。身業者。三種身業。是七種(18)業有二種差別。有作有無作。作時名作(19)業。作已常隨逐生名無作業。是二種有善不(20)善。不善名不止惡。善名止惡。復有從用生(21)福徳。如施主施受者。若受者受用。施主得(22)二種福。一從施生。二從用生。如人以箭射(23)人。若箭殺人有二種罪。一者從射生。二(22a1)者從殺生。若射不殺。射者但得射罪。無殺(2)罪。是故偈中説罪福從用生。如是名爲六(3)種業。第七名思。是七種即是分別業相。是(4)業有今世後世果報。是故決定有業有果(5)報故。諸法不應空。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901630bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902109bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009494bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904182bi' class='verse'>
+							tiṣṭhaty ā pākakālāc cet karma tan nityatām iyāt |<br />niruddhaṃ cen niruddhaṃ sat kiṃ phalaṃ janayiṣyati || 6 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859709bi' class='verse'>
+							業住至受報 是業即為常<br />若滅即無業 云何生果報&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903556bi' class='verse'>
+							gal te smin pa’i dus bar du | | gnas na las de rtag par ’gyur | |<br />gal te ’gags na ’gags gyur pa | | ji ltar ’bras bu skye par ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905083bi' class='verse'>
+							6. If an action [exists] by enduring to the time of its fulfillment, that [action] would be eternal.<br />If [an action] were stopped—being stopped, what will it produce?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860667bi' class='verse'>
+							If the action remained until the time of ripening, it would become permanent. If it stopped, by having stopped, how could a fruit be born?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901152bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906097bi' class='verse'>
+							答曰(6)<b>業住至受報 是業即爲常(7)若滅即無業 云何生果報</b>(8)業若住至受果報。即爲是常。是事不然。何(9)以故。業是生滅相。一念尚不住。何況至果(10)報。若謂業滅。滅則無。云何能生果報。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901631bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902110bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009495bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904183bi' class='verse'>
+							yo ’ṅkuraprabhṛtir bījāt saṃtāno ’bhipravartate |<br />tataḥ phalam ṛte bījāt sa ca nābhipravartate || 7 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859710bi' class='verse'>
+							如芽等相續 皆從種子生<br />從是而生果 離種無相續&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903557bi' class='verse'>
+							myu gu la sogs rgyun gang ni | | sa bon las ni mngon par ’byung | |<br />de las ’bras bu sa bon ni | | (6)med na de yang ’byung mi ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905084bi' class='verse'>
+							7. There is fruit (phala) when a process, a sprout, etc., starts from a seed;<br />But without a seed that [process] does not proceed.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860668bi' class='verse'>
+							The continuum of sprouts and so on clearly emerges from seeds, and from that fruits. If there were no seeds, they too would not emerge.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901153bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906098bi' class='verse'>
+							問曰(11)<b>如芽等相續 皆從種子生(12)從是而生果 離種無相續</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901632bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902111bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009496bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904184bi' class='verse'>
+							bījāc ca yasmāt saṃtānaḥ saṃtānāc ca phalodbhavaḥ |<br />bījapūrvaṃ phalaṃ tasmān nocchinnaṃ nāpi śāśvatam || 8 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859711bi' class='verse'>
+							從種有相續 從相續有果<br />先種後有果 不斷亦不常&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903558bi' class='verse'>
+							gang phyir sa bon las rgyun dang | | rgyun las ’bras bu ’byung ’gyur zhing | |<br />las ni ’bras bu’i sngon ’gro ba | | de phyir chad min rtag ma yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905085bi' class='verse'>
+							8. Inasmuch as the process is dependent on a seed and the fruit is produced from the process,<br />The fruit, presupposing the seed, neither comes to an end nor is eternal.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860669bi' class='verse'>
+							Because continuums are from seedsand fruits emerge from continuums and seeds precede fruits, therefore, there is no annihilation and no permanence.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901154bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906099bi' class='verse'>
+							<b>(13)從種有相續 從相續有果(14)先種後有果 不斷亦不常</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901633bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902112bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009497bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904185bi' class='verse'>
+							yas tasmāc cittasaṃtānaś cetaso ’bhipravartate |<br />tataḥ phalam ṛte cittāt sa ca nābhipravartate || 9 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859712bi' class='verse'>
+							如是從初心 心法相續生<br />從是而有果 離心無相續&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903559bi' class='verse'>
+							sems kyi rgyun ni gang yin pa | | sems las mngon par ’byung bar ’gyur | |<br />de las ’bras bu (7)sems lta zhig  | med na de yang ’byung mi ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905086bi' class='verse'>
+							9. There is a product (phala) when a mental process starts from a thoughts;<br />But without a thought that [process] does not proceed.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860670bi' class='verse'>
+							The continuum of mind clearly emerges from mind, and from that fruits. If there were no mind, they too would not emerge.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901155bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906100bi' class='verse'>
+							<b>(15)如是從初心 心法相續生(16)從是而有果 離心無相續</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901634bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902113bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009498bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904186bi' class='verse'>
+							cittāc ca yasmāt saṃtānaḥ saṃtānāc ca phalodbhavaḥ |<br />karmapūrvaṃ phalaṃ tasmān nocchinnaṃ nāpi śāśvatam || 10 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859713bi' class='verse'>
+							從心有相續 從相續有果<br />先業後有果 不斷亦不常&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903560bi' class='verse'>
+							gang phyir sems las rgyun dang ni | | rgyun las ’bras bu ’byung ’gyur zhing | |<br />las ni ’bras bu’i sngon ’gro ba | | de phyir chad min rtag ma yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905087bi' class='verse'>
+							10. Inasmuch as the process is dependent on a thought and the product (phala) is produced from the process,<br />The product, presupposing the thought, neither comes to an end nor is eternal.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860671bi' class='verse'>
+							Because continuums are from minds and fruits emerge from continuums and actions precede fruits, therefore, there is no annihilation and no permanence.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901156bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906101bi' class='verse'>
+							<b>(17)從心有相續 從相續有果(18)先業後有果 不斷亦不常</b>(19)如從穀有芽。從芽有莖葉等相續。從是相(20)續而有果生。離種無相續生。是故從穀子(21)有相續。從相續有果。先種後有果。故不(22)斷亦不常。如穀種喩。業果亦如是。初心起(23)罪福。猶如穀種。因是心餘心心數法相續(24)生。乃至果報。先業後果故不斷亦不常。若(25)離業有果報。則有斷常。是善業因縁果報(26)者。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901635bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902114bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009499bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904187bi' class='verse'>
+							dharmasya sādhanopāyāḥ śuklāḥ karmapathā daśa |<br />phalaṃ kāmaguṇāḥ pañca dharmasya pretya ceha ca || 11 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859714bi' class='verse'>
+							能成福德者 是十白業道<br />二世五欲樂 即是白業報&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903561bi' class='verse'>
+							dkar po’i las kyi lam bcu po | | chos sgrub pa yi thabs yin te | |<br />(10a1)chos kyi ’bras bu ’di gzhan du | | ’dod pa’i yon tan rnam lnga’o | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905088bi' class='verse'>
+							11. The ten pure “paths of action” are means for realizing the dharma.<br />And the five qualities of desired objects [i.e., desire to know the form, sound, odor, taste, and touch of existence] are fruits (phala) of the dharma both now and after death.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860672bi' class='verse'>
+							The ten paths of white action are the means of practising Dharma. Here and elsewhere, the fruits of Dharma are the five kinds of sensual qualities.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901157bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906102bi' class='verse'>
+							所謂(27)<b>能成福徳者 是十白業道(28)二世五欲樂 即是白業報</b>(29)白名善淨。成福徳因縁者。從是十白業道。(22b1)生不殺不盜不邪婬不妄語不兩舌不惡口(2)不無益語不嫉不恚不邪見。是名爲善。從身(3)口意生是果報者。得今世名利。後世天人(4)中貴處生。布施恭敬等雖有種種福徳。略説(5)則攝在十善道中。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901636bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902115bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009500bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904188bi' class='verse'>
+							bahavaś ca mahāntaś ca doṣāḥ syur yadi kalpanā |<br />syād eṣā tena naivaiṣā kalpanātropapadyate || 12 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859715bi' class='verse'>
+							若如汝分別 其過則甚多<br />是故汝所說 於義則不然&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903562bi' class='verse'>
+							gal te brtag pa der ’gyur na | | nyes pa chen po mang por ’gyur | |<br />de lta bas na brtag pa de | | ’dir ni ’thad pa ma yin no | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905089bi' class='verse'>
+							12. There would be many great mistakes if that explanation [were accepted].<br />Therefore, that explanation is not possible.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860673bi' class='verse'>
+							If it were as that investigation, many great mistakes would occur. Therefore, that investigation is not valid here.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901158bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906103bi' class='verse'>
+							答曰(6)<b>若如汝分別 其過則甚多(7)是故汝所説 於義則不然</b>(8)若以業果報相續故。以穀子爲喩者。其過(9)甚多。但此中不廣説。汝説穀子喩者。是喩(10)不然。何以故。穀子有觸有形。可見有相(11)續。我思惟是事。尚未受此言。況心及業。無(12)觸無形不可見。生滅不住欲以相續。是(13)事不然。復次從穀子有芽等相續者。爲滅(14)已相續。爲不滅相續。若穀子滅已相續者。(15)則爲無因。若穀子不滅而相續者。從是穀(16)子常生諸穀。若如是者。一穀子則生一切(17)世間穀。是事不然。是故業果報相續則不(18)然。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901637bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902116bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009501bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904189bi' class='verse'>
+							imāṃ punaḥ pravakṣyāmi kalpanāṃ yātra yojyate |<br />buddhaiḥ pratyekabuddhaiś ca śrāvakaiś cānuvarṇitām || 17 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859716bi' class='verse'>
+							今當復更說 順業果報義<br />諸佛辟支佛 賢聖所稱歎&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903563bi' class='verse'>
+							sangs rgyas rnams dang rang rgyal dang | | nyan thos rnams (2)kyis gang gsungs pa’i | |<br />brtag pa gang zhig ’dir ’thad pa | | de ni rab tu brjod par bya | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905090bi' class='verse'>
+							13. In rebuttal I will explain the interpretation which can be made to fit [the facts],<br />That which is followed by the Buddha, the self-sufficient enlightened ones (pratyekabuddha) and the disciples [of Buddha].&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860674bi' class='verse'>
+							I will fully declare the investigation which is taught by the Buddhas, Pratyekabuddhas and Sravakas, which is valid here.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901159bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906104bi' class='verse'>
+							問曰(19)<b>今當復更説 順業果報義(20)諸佛辟支佛 賢聖所稱歎</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901638bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902117bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009502bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904190bi' class='verse'>
+							pattraṃ yathā ’vipraṇāśas tatharṇam iva karma ca |<br />caturvidho dhātutaḥ sa prakṛtyāvyākṛtaś ca saḥ || 17 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859717bi' class='verse'>
+							不失法如券 業如負財物<br />此性則無記 分別有四種&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903564bi' class='verse'>
+							ji ltar dbang rgya de bzhin chung | | mi za las ni bu lon bzhin | |<br />de ni khams las rnam pa bzhi | | de yang rang bzhin lung ma bstan | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905091bi' class='verse'>
+							14. As “that which is imperishable” is like a credit [on an account statement], so an action (karma) is like a debt.<br />[The imperishable is] of four kinds in its elements (dhatu) [i.e., desire, form, non-form, and pure]; in its essential nature it cannot be analyzed.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860675bi' class='verse'>
+							Just like a contract, irrevocable action is like a debt. In terms of realms, there are four types. Moreover, its nature is unspecified.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901160bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906105bi' class='verse'>
+							(21)所謂(22)<b>不失法如券 業如負財物(23)此性則無記 分別有四種</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901639bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902118bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009503bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904191bi' class='verse'>
+							prahāṇato na praheyo bhāvanāheya eva vā |<br />tasmād avipraṇāśena jāyate karmaṇāṃ phalam || 17 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859718bi' class='verse'>
+							見諦所不斷 但思惟所斷<br />以是不失法 諸業有果報&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903565bi' class='verse'>
+							spong bas spang ba ma yin te | (3)bsgom pas spang ba nyid kyang yin | |<br />de phyir chud mi za ba yis | | las kyi ’bras bu skyed par ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905092bi' class='verse'>
+							15. [An imperishable force] is not destroyed qua destruction; rather it is destroyed according to spiritual discipline.<br />Therefore, the fruit of actions originates by the imperishable force.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860676bi' class='verse'>
+							It is not let go of by letting go, but only let go of by cultivation. Therefore through irrevocability are the fruits of acts produced.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901161bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906106bi' class='verse'>
+							<b>(24)見諦所不斷 但思惟所斷(25)以是不失法 諸業有果報</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901640bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902119bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009504bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904192bi' class='verse'>
+							prahāṇataḥ praheyaḥ syāt karmaṇaḥ saṃkrameṇa vā |<br />yadi doṣāḥ prasajyeraṃs tatra karmavadhādayaḥ || 17 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859719bi' class='verse'>
+							若見諦所斷 而業至相似<br />則得破業等 如是之過咎&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903566bi' class='verse'>
+							gal te spong bas spang ba dang | | las ’pho ba yis ’jig ’gyur na | |<br />de la las ’jig la sogs pa’i | | skyon rnams su ni thal bar ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905093bi' class='verse'>
+							16. If [the imperishable force] were that which is destroyed by [usual] destruction or by transference of action,<br />Fallacies [like] the destruction of action would logically result.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860677bi' class='verse'>
+							If it perished through being let go of by letting go and the transcendence of the action, then faults would follow such as the perishing of actions.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901162bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906107bi' class='verse'>
+							<b>(26)若見諦所斷 而業至相似(27)則得破業等 如是之過咎</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901641bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902120bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009505bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904193bi' class='verse'>
+							sarveṣāṃ visabhāgānāṃ sabhāgānāṃ ca karmaṇām |<br />pratisaṃdhau sadhātūnām eka utpadyate tu saḥ || 17 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859720bi' class='verse'>
+							一切諸行業 相似不相似<br />一界初受身 爾時報獨生&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903567bi' class='verse'>
+							khams (4)mtshungs las ni cha mtshungs dang | | cha mi mtshungs pa thams cad kyi | |<br />de ni nying mtshams sbyor ba’i tshe | | gcig po kho na skye bar ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905094bi' class='verse'>
+							17. At the moment of transition that [imperishable force]<br />Of all identical and different actions belonging to the same element (dhatu) originates.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860678bi' class='verse'>
+							The very [irrevocability] of all actions in similar or dissimilar realms, that one alone is born when crossing the boundary [i.e. reborn].&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901163bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906108bi' class='verse'>
+							<b>(28)一切諸行業 相似不相似(29)一界初受身 爾時報獨生</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901642bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902121bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009506bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904194bi' class='verse'>
+							karmaṇaḥ karmaṇo dṛṣṭe dharma utpadyate tu saḥ |<br />dviprakārasya sarvasya vipakve ’pi ca tiṣṭhati || 18 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859721bi' class='verse'>
+							如是二種業 現世受果報<br />或言受報已 而業猶故在&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903568bi' class='verse'>
+							mthong ba’i chos la rnam gnyis po | | kun gyi las dang las kyi de | |<br />tha dad par ni skye ’gyur zhing | | rnam par smin kyang (5)gnas pa yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905095bi' class='verse'>
+							18. That [imperishable force] is the dharma, having arisen by one action after another in visible existence;<br />And it remains [constant] even in the development of all bifurcating action.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860679bi' class='verse'>
+							In the visible world there are two kinds. Actions of all [types] and that [irrevocability] of actions are produced as different things and remain [so?] even on ripening.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901164bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906109bi' class='verse'>
+							(22c1)<b>如是二種業 現世受果報(2)或言受報已 而業猶故在</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901643bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902122bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009507bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904195bi' class='verse'>
+							phalavyatikramād vā sa maraṇād vā nirudhyate |<br />anāsravaṃ sāsravaṃ ca vibhāgaṃ tatra lakṣayet || 19 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859722bi' class='verse'>
+							若度果已滅 若死已而滅<br />於是中分別 有漏及無漏&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903569bi' class='verse'>
+							de ni ’bras bu ’pho ba dang | | shi bar gyur na ’gag par ’gyur | |<br />de yi rnam dbye zag med dang | | zag dang bcas par shes par bya | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905096bi' class='verse'>
+							19. That [imperishable force] is destroyed by death and by avoiding the product (phala) .<br />There the difference is characterized as impure and pure.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860680bi' class='verse'>
+							When the fruit is transcendent and when one dies, that ceases. One should know its divisions to be without-corruption and with-corruption.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901165bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906110bi' class='verse'>
+							<b>(3)若度果已滅 若死已而滅(4)於是中分別 有漏及無漏</b>(5)不失法者。當知如券。業者如取物。是不失(6)法。欲界繋色界繋無色界繋亦不繋。若分別(7)善不善無記中。但是無記。是無記義阿毘(8)曇中廣説。見諦所不斷。從一果至一果。於(9)中思惟所斷。是以諸業。以不失法故果生。(10)若見諦所斷而業至相似。則得破業過。是(11)事阿毘曇中廣説。復次不失法者。於一界諸(12)業相似不相似。初受身時果報獨生。於現在(13)身從業更生業。是業有二種。隨重而受(14)報。或有言。是業受報已業猶在。以不念念(15)滅故。若度果已滅。若死已而滅者。須陀洹(16)等度果已而滅。諸凡夫及阿羅漢死已而滅。(17)於此中分別有漏及無漏者。從須陀洹等(18)諸賢聖。有漏無漏等應分別。答曰。是義倶不(19)離斷常過。是故亦不應受。問曰。若爾者。則(20)無業果報。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901644bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902123bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009508bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904196bi' class='verse'>
+							śūnyatā ca na cocchedaḥ saṃsāraś ca na śāśvatam |<br />karmaṇo ’vipraṇāśaś ca dharmo buddhena deśitaḥ || 20 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859723bi' class='verse'>
+							雖空亦不斷 雖有亦不常<br />業果報不失 是名佛所說&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903570bi' class='verse'>
+							stong pa nyid dang tshad med dang | | ’khor ba dang ni rtag pa min | |<br />las rnams chud mi za ba’i chos | | sangs (6)rgyas kyis ni bstan pa yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905097bi' class='verse'>
+							20. “Emptiness,” “no annihilation,” existence-in-flux, “non-eternity,”<br />And the imperishable reality of action: such was the teaching taught by the Buddha.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860681bi' class='verse'>
+							Emptiness is not annihilation and samsara is not permanent. The dharma of the irrevocability of actions is taught by the Buddha.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901166bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906111bi' class='verse'>
+							答曰(21)<b>雖空亦不斷 雖有亦不常(22)業果報不失 是名佛所説</b>(23)此論所説義。離於斷常。何以故。業畢竟空(24)寂滅相。自性離有何法可斷何法可失。顛(25)倒因縁故往來生死。亦不常。何以故。若法(26)從顛倒起。則是虚妄無實。無實故非常。復(27)次貪著顛倒不知實相故。言業不失。此是(28)佛所説。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901645bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902124bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009509bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904197bi' class='verse'>
+							karma notpadyate kasmān niḥsvabhāvaṃ yatas tataḥ |<br />yasmāc ca tad anutpannaṃ na tasmād vipraṇaśyati || 21 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859724bi' class='verse'>
+							諸業本不生 以無定性故<br />諸業亦不滅 以其不生故&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903571bi' class='verse'>
+							gang phyir las ni skye ba med | | ’di ltar rang bzhin med de’i phyir | |<br />gang phyir de ni ma skyes pa | | de phyir chud zar mi ’gyur ro | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905098bi' class='verse'>
+							[Nagarjuna refutes the above arguments:]<br />21. Why does the action not originate?<br />Because it is without self-existence.<br />Since it does not originate, it does not perish.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860682bi' class='verse'>
+							Because actions are not born, in this way they have no nature. Therefore, because they are not born, therefore they are irrevocable.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901167bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906112bi' class='verse'>
+							復次(29)<b>諸業本不生 以無定性故</b>(23a1)<b>諸業亦不滅 以其不生故</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901646bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902125bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009510bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904198bi' class='verse'>
+							karma svabhāvataś cet syāc chāśvataṃ syād asaṃśayam |<br />akṛtaṃ ca bhavet karma kriyate na hi śāśvatam || 22 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859725bi' class='verse'>
+							若業有性者 是則名為常<br />不作亦名業 常則不可作&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903572bi' class='verse'>
+							gal te las la rang bzhin yod | | rtag par ’gyur bar the tshom med | |<br />las ni byas pa ma yin ’gyur | | rtag la (7)bya ba med phyir ro | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905099bi' class='verse'>
+							22. If an action did exist as a self-existent thing, without a doubt, it would be eternal.<br />An action would be an unproduced thing; certainly, there is no eternal thing which is produced.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860683bi' class='verse'>
+							If actions existed [by] nature, without doubt they would be permanent. Actions would not be done [by an agent] because what is permanent cannot be done.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901168bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906113bi' class='verse'>
+							<b>(2)若業有性者 是則名爲常(3)不作亦名業 常則不可作</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901647bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902126bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009511bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904199bi' class='verse'>
+							akṛtābhyāgamabhayaṃ syāt karmākṛtakaṃ yadi |<br />abrahmacaryavāsaś ca doṣastatra prasajyate || 23 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859726bi' class='verse'>
+							若有不作業 不作而有罪<br />不斷於梵行 而有不淨過&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903573bi' class='verse'>
+							ci ste las ni ma byas na | | ma byas pa dang phrad ’jigs ’gyur | |<br />tshangs spyod gnas pa ma yin pa’ang | | de la skyon du thal bar ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905100bi' class='verse'>
+							23. If the action were not produced, then there could be the fear attaining something from “something not produced”;<br />Then the opposite to a saintly discipline would follow as a fallacy.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860684bi' class='verse'>
+							If actions were not done [by anyone], one would fear meeting what [one] has not done. Also the fault would follow for that [person] of not dwelling in the pure life.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901169bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906114bi' class='verse'>
+							<b>(4)若有不作業 不作而有罪(5)不斷於梵行 而有不淨過</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901648bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902127bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009512bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904200bi' class='verse'>
+							vyavahārā virudhyante sarva eva na saṃśayaḥ |<br />puṇyapāpakṛtor naiva pravibhāgaś ca yujyate || 24 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859727bi' class='verse'>
+							是則破一切 世間語言法<br />作罪及作福 亦無有差別&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903574bi' class='verse'>
+							tha snyad thams cad nyid dang yang | | ’gal bar ’gyur bar the tshom med | |<br />bsod nams dang ni sdig byed pa’i (10b1)rnam pa dbye ba’ang ’thad mi ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905101bi' class='verse'>
+							24. Then, undoubtedly, all daily affairs would be precluded.<br />And even the distinction between saints and sinners is not possible.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860685bi' class='verse'>
+							All conventions also without doubt would be contradictory. Also the distinction between doing good and evil would not be valid.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901170bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906115bi' class='verse'>
+							<b>(6)是則破一切 世間語言法(7)作罪及作福 亦無有差別</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901649bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902128bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009513bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904201bi' class='verse'>
+							tad vipakvavipākaṃ ca punar eva vipakṣyati |<br />karma vyavasthitaṃ yasmāt tasmāt svābhāvikaṃ yadi || 25 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859728bi' class='verse'>
+							若言業決定 而自有性者<br />受於果報已 而應更復受&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903575bi' class='verse'>
+							de ni rnam smin smin ’gyur pa | | yang dang yang du rnam smin ’gyur | |<br />gal te rang bzhin yod na ni | | gang phyir las gnas de yi phyir | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905102bi' class='verse'>
+							25. Then an act whose development had taken place would develop again,<br />If an act, because it persists, exists through its own nature.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860686bi' class='verse'>
+							[When] the ripening of that [action] has ripened it would ripen again and again, because if it existed [by] nature, it would [always] remain.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901171bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906116bi' class='verse'>
+							<b>(8)若言業決定 而自有性者(9)受於果報已 而應更復受</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901650bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902129bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009514bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904202bi' class='verse'>
+							karma kleśātmakaṃ cedaṃ te ca kleśā na tattvataḥ |<br />na cet te tattvataḥ kleśāḥ karma syāt tattvataḥ katham || 26 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859729bi' class='verse'>
+							若諸世間業 從於煩惱生<br />是煩惱非實 業當何有實&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903576bi' class='verse'>
+							las ’di nyon mongs dag nyid la | nyon mongs de dag yang dag min | |<br />gal te nyon mongs (2)yang dag min | | las ni yang dag ji ltar yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905103bi' class='verse'>
+							26. An action is that whose “self” (atman) is desire, and the desires do not really exist.<br />If these desires do not really exist, how would the action really exist?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860687bi' class='verse'>
+							This action has the character of affliction and afflictions are not real. If affliction is not real, how can action be real?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901172bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906117bi' class='verse'>
+							<b>(10)若諸世間業 從於煩惱生(11)是煩惱非實 業當何有實</b>(12)第一義中諸業不生。何以故。無性故。以不(13)生因縁故則不滅。非以常故不滅。若不爾(14)者。業性應決定有。若業決定有性。則爲是(15)常。若常則是不作業。何以故。常法不可作(16)故。復次若有不作業者。則他人作罪此人(17)受報。又他人斷梵行而此人有罪。則破世(18)俗法。若先有者。冬不應思爲春事。春不應(19)思爲夏事。有如是等過。復次作福及作罪(20)者。則無有別異。起布施持戒等業。名爲作(21)福。起殺盜等業。名爲作罪。若不作而有業。(22)則無有分別。復次是業若決定有性。則一(23)時受果報已。復應更受。是故汝説以不失(24)法故有業報。則有如是等過。復次若業從(25)煩惱起。是煩惱無有決定。但從憶想分別(26)有。若諸煩惱無實。業云何有實。何以故。(27)因無性故業亦無性。問曰。若諸煩惱及業(28)無性不實。今果報身現有。應是實。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901651bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902130bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009515bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904203bi' class='verse'>
+							karma kleśāś ca dehānāṃ pratyayāḥ samudāhṛtāḥ |<br />karma kleśāś ca te śūnyā yadi deheṣu kā kathā || 27 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859730bi' class='verse'>
+							諸煩惱及業 是說身因緣<br />煩惱諸業空 何況於諸身&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903577bi' class='verse'>
+							las dang nyon mongs pa dag ni | | lus rnams kyi ni rkyen du bstan | |<br />gal te las dang nyon mongs pa | | de stong lus la ji ltar brjod | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905104bi' class='verse'>
+							27. Action and desire are declared to be the conditioning cause of the body.<br />If action and desire are empty, what need one say about “body”?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860688bi' class='verse'>
+							Actions and afflictions are taught to be the conditions for bodies. If actions and afflictions are empty, how can one speak of bodies?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901173bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906118bi' class='verse'>
+							答曰。(29)<b>諸煩惱及業 是説身因縁</b>(23b1)<b>煩惱諸業空 何況於諸身</b>(2)諸賢聖説。煩惱及業是身因縁。是中愛能潤(3)生。業能生上中下好醜貴賤等果報。今諸(4)煩惱及業。種種推求無有決定。何況諸身(5)有決定果。隨因縁故。問曰。汝雖種種因縁(6)破業及果報。而經説。有起業者。起業者有(7)故。有業有果報。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901652bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902131bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009516bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904204bi' class='verse'>
+							avidyānivṛto jantus tṛṣṇāsaṃyojanaś ca saḥ |<br />sa bhoktā sa ca na kartur anyo na ca sa eva saḥ || 28 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859731bi' class='verse'>
+							無明之所蔽 愛結之所縛<br />而於本作者 不即亦不異&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903578bi' class='verse'>
+							ma rig bsgribs pa’i skye bo gang | | sred ldan de mi za ba po | |<br />de yang byed (3)las gzhan min zhing | | de nyid de yang ma yin no | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905105bi' class='verse'>
+							28. [An opponent tries to establish an identifiable entity by saying:]<br />The man shrouded in ignorance, and chained by craving (trsna)<br />Is one who seeks enjoyment. He is not different from the one who acts, nor identical to it.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860689bi' class='verse'>
+							People who are obscured by ignorance, those with craving, are the consumers [of the fruits of action]. They are not other than those who do the action and they are also not those very ones.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901174bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906119bi' class='verse'>
+							如説(8)<b>無明之所蔽 愛結之所縛(9)而於本作者 不即亦不異</b>(10)無始經中説。衆生爲無明所覆。愛結所縛。(11)於無始生死中。往來受種種苦樂。今受者(12)於先作者。不即是亦不異。若即是人作罪(13)受牛形。則人不作牛。牛不作人。若異則(14)失業果報墮於無因。無因則斷滅。是故(15)今受者於先作者。不即是亦不異。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901653bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902132bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009517bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904205bi' class='verse'>
+							na pratyayasamutpannaṃ nāpratyayasamutthitam |<br />asti yasmād idaṃ karma tasmāt kartāpi nāsty ataḥ || 29 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859732bi' class='verse'>
+							業不從緣生 不從非緣生<br />是故則無有 能起於業者&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903579bi' class='verse'>
+							gang gi phyir na las ’di ni | | rkyen las byung ba ma yin zhing | |<br />rkyen min las byung yod min pa | | de phyir byed pa po yang med | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905106bi' class='verse'>
+							29. [Nagarjuna answers:]<br />Since action is not “originated presupposing the conditions” nor fails to arise from presupposing the conditions,<br />There is no one acting.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860690bi' class='verse'>
+							Because the action does not emerge from conditions and does not emerge from non-conditions, therefore, the agent too does not exist.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901175bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906120bi' class='verse'>
+							答曰(16)<b>業不從縁生 不從非縁生(17)是故則無有 能起於業者</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901654bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902133bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009518bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904206bi' class='verse'>
+							karma cen nāsti kartā ca kutaḥ syāt karmajaṃ phalam |<br />asaty atha phale bhoktā kuta eva bhaviṣyati || 30 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859733bi' class='verse'>
+							無業無作者 何有業生果<br />若其無有果 何有受果者&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903580bi' class='verse'>
+							gal te las dang byed med na | | las skyes ’bras bu ga las yod | |<br />ci ste ’bras bu (4)yod min na | | za ba po lta ga la yod | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905107bi' class='verse'>
+							30. If there is no action, how could there be one who acts and the product of action?<br />And if there is no product, how can there be an enjoyer of the product?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860691bi' class='verse'>
+							If neither the action nor the agent exists, where can there be a fruit of the action? If the fruit does not exist, where can the consumer exist?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901176bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906121bi' class='verse'>
+							<b>(18)無業無作者 何有業生果(19)若其無有果 何有受果者</b>(20)若無業無作業者。何有從業生果報。若(21)無果報。云何有受果報者。業有三種。五陰(22)中假名人是作者。是業於善惡處生。名爲(23)果報。若起業者尚無。何況有業有果報及(24)受果報者。問曰。汝雖種種破業果報及起(25)業者。而今現見衆生作業受果報。是事云(26)何。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901655bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902134bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009519bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904207bi' class='verse'>
+							yathā nirmitakaṃ śāstā nirmimīta rddhisaṃpadā |<br />nirmito nirmimītānyaṃ sa ca nirmitakaḥ punaḥ || 31 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859734bi' class='verse'>
+							如世尊神通 所作變化人<br />如是變化人 復變作化人&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903581bi' class='verse'>
+							ji ltar ston pas sprul pa ni | | rdzul ’phrul phun tshogs kyis sprul zhing | |<br />sprul pa de yang sprul pa na | | slar yang gzhan ni sprul pa ltar | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905108bi' class='verse'>
+							31. Just as a teacher, by his magical power, formed a magical form,<br />And this magical form formed again another magical form—&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860692bi' class='verse'>
+							Just as a teacher creates a creation by a wealth of magical powers, and just as if that creation too created, again another would be created,&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901177bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906122bi' class='verse'>
+							答曰(27)<b>如世尊神通 所作變化人(28)如是變化人 復變作化人</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901656bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902135bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009520bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904208bi' class='verse'>
+							tathā nirmitakākāraḥ kartā yat karma tat kṛtam |<br />tadyathā nirmitenānyo nirmito nirmitas tathā || 32 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859735bi' class='verse'>
+							如初變化人 是名為作者<br />變化人所作 是則名為業&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903582bi' class='verse'>
+							de bzhin byed po de las gang | | byas pa’ang sprul pa’i rnam pa bzhin | |<br />dper na (5)sprul pas sprul gzhan zhig | | sprul pa mdzad pa de bzhin no | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905109bi' class='verse'>
+							32. Just so the “one who forms” is himself being formed magically; and the act performed by him<br />Is like a magical form being magically formed by another magical form.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860693bi' class='verse'>
+							Like this, whatever action too done by that agent [is ]also like the aspect of a creation. It is just like, for example, a creation creating another creation.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901178bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906123bi' class='verse'>
+							<b>(29)如初變化人 是名爲作者</b>(23c1)<b>變化人所作 是則名爲業</b>&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901657bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902136bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009521bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904209bi' class='verse'>
+							kleśāḥ karmāṇi dehāś ca kartāraś ca phalāni ca |<br />gandharvanagarākārā marīcisvapnasaṃnibhāḥ || 33 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859736bi' class='verse'>
+							諸煩惱及業 作者及果報<br />皆如幻與夢 如炎亦如嚮&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903583bi' class='verse'>
+							nyon mongs las dang lus rnams dang | | byed pa po dang ’bras bu dag | |<br />dri za’i grong khyer lta bu dang | | smig rgyu rmi lam ’dra ba yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905110bi' class='verse'>
+							33. Desires, actions, bodies, producers, and products<br />Are like a fairy castle, resembling a mirage, a dream.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860694bi' class='verse'>
+							Afflictions, actions and bodies and agents and fruits are like a city of gandharvas, a mirage, a dream.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901179bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906124bi' class='verse'>
+							<b>(2)諸煩惱及業 作者及果報(3)皆如幻與夢 如炎亦如嚮</b>(4)如佛神通力所作化人。是化人復化作化人。(5)如化人無有實事但可眼見。又化人口業(6)説法。身業布施等。是業雖無實而可眼見。(7)如是生死身作者及業。亦應如是知。諸煩(8)惱者。名爲三毒。分別有九十八使九結十纒(9)六垢等無量諸煩惱。業名爲身口意業。今世(10)後世分別有善不善無記。苦報樂報不苦不(11)樂報。現報業生報業後報業。如是等無量作(12)者。名爲能起諸煩惱業能受果報者。果報(13)名從善惡業生無記五陰。如是等諸業皆(14)空無性。如幻如夢。如炎如嚮&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901658bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902137bi' class='verse'>
+							&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009522bi' class='verse'>
+							&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904210bi' class='chaptertitle'>
+							karma[phala]parīkṣā nāma saptadaśamaṃ prakaraṇaṃ ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904755";
+							kilderef = "Mmk San: La Vallée Poussin (1913)  - San: La Vallée Poussin (1913) 339,3-4";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859737bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904748";
+							kilderef = "Mmk Chi: Kumārajīva, T. 1564 21b7 - Chi: Kumārajīva, T. 1564 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903584bi' class='chaptertitle'>
+							las brtag pa zhes bya ba ste rab tu byed pa bcu bdun pa’o ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904754";
+							kilderef = "Mmk Tib: Tg, tsa  - Tib: Tg, tsa 10b5";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905111bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8905077";
+							kilderef = "Mmk Eng: Streng (1967)  - Eng: Streng (1967) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860695bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904749";
+							kilderef = "Mmk Eng: Batchellor (2000)  - Eng: Batchellor (2000) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901180bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904750";
+							kilderef = "Mmk Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829  - Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906125bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8906091";
+							kilderef = "Mmk Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564  21b20 - Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564 23c14";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901659bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904751";
+							kilderef = "Mmk Buddhapālita "Vṛtti" Tg 3842  - Buddhapālita "Vṛtti" Tg 3842 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902138bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904752";
+							kilderef = "Mmk Bhāvaviveka "Prajñāpradīpa" Tg 3853  - Bhāvaviveka "Prajñāpradīpa" Tg 3853 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009523bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "9009489";
+							kilderef = "Mmk Candrakīrti "Prasannapadā" Vaidya 1960  - Candrakīrti "Prasannapadā" Vaidya 1960 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div></div><div class='clear'></div><div class="fontboks"><a onClick=onOffdiv('permlink') name="permlink" href="#permlink">Permanent link</a></div><div class='clear'></div><div class='perm_felt' id='permlink'>http://www2.hf.uio.no/common/apps/permlink/permlink.php?app=polyglotta&amp;context=ctext&amp;uid=08805d42-6be5-11df-870c-00215aecadea</div></div></div><!-- infofelt --></div><!-- divControl --><div class="clear"></div>
+<div style="clear:both"></div><div class="signatur"><div class="signatur_left">
+		<a href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation">Go to Wiki Documentation</a></br>Enhet: <a HREF=http://www.hf.uio.no>Det humanistiske fakultet</a> &nbsp; Utviklet av: <a href="http://www.hf.uio.no/tjenester/it">IT-seksjonen ved HF</a></div><!--signatur_left -->
+		<div class="signatur_right"><a href="/polyglotta/admin/index.php">Login</a></div>
+		<div style="clear:both"></div></div>
+</body></html><SCRIPT LANGUAGE="JAVASCRIPT">
+	
+	$("#tr_IA").click(function(){
+	    if ($("#toggle_container_IA").is(':hidden'))
+	    	$("#toggle_container_IA").show();
+	    else{
+	        $("#toggle_container_IA").hide();
+	    }
+	    return false;
+		});
+
+	$("#tr_lang").click(function(){
+	    if ($("#toggle_container_lan").is(':hidden'))
+	    	$("#toggle_container_lan").show();
+	    else{
+	        $("#toggle_container_lan").hide();
+	    }
+	    return false;
+	});
+
+	$("#tr_img").click(function(){
+	    if ($("#toggle_container_img").is(':hidden'))
+	    	$("#toggle_container_img").show();
+	    else{
+	        $("#toggle_container_img").hide();
+	    }
+	    return false;
+	});
+
+	$("#diac2button").click(function(){
+	   if ($("#ex3a").is(':hidden')){
+		   $("#ex3a").show();
+	       $("#diac2button").html("Hide&#32Diacritica-help");
+	   }else{
+	       $("#ex3a").hide();
+	       $("#diac2button").html("Diacritica-help");
+	   }
+	   return false;
+	});
+
+	$("#diacbutton").click(function(){
+	   if ($("#diacritical_sign").is(':hidden')){
+		   	$("#diacritical_sign").show();
+	      	$("#diacbutton").html("Hide&#32diacritica");
+	   }else{
+	        $("#diacritical_sign").hide();
+	        $("#diacbutton").html("Diacritica");
+	   }
+	   return false;
+    });
+
+	$('#toggle_container_IA').click(function(e) {
+	   e.stopPropagation();
+	});
+
+	$('#toggle_container_lan').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#toggle_container_img').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#ex3a').click(function(e) {
+	    e.stopPropagation();
+	});
+
+	$('#diacritical_sign').click(function(e) {
+        e.stopPropagation();
+    });
+
+	//Kode for å sette inn diakritiske tegn
+	$('#diacritical > tbody > tr > td').click(function() {
+	  	//alert('red');
+		$("#sokeboks").val($("#sokeboks").val() + $(this).text());
+	});
+
+	$('.diac2button').text(($('.diacbutton').text() == 'Diacritica-help') ? 'Hide Diacritica-help' : 'Diacritica-help');
+	
+	//Lukker alle åpnede pop'uper ved klikk på siden
+	$(document).click(function() {
+		$('#toggle_container_IA').hide();
+	    
+        $('#toggle_container_lan').hide();
+    
+        $('#toggle_container_img').hide();
+   
+   		$('#diacritical_sign').hide();
+   		$("#diacbutton").html("Diacritica");
+   
+       	$('#ex3a').hide();
+       	$("#diac2button").html("Diacritica-help");
+   });
+	</SCRIPT>

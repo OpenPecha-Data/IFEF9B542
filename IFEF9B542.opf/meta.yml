@@ -1,0 +1,145 @@
+id: IFEF9B542
+source: https://www2.hf.uio.no/polyglotta/index.php?page=library&bid=2
+source_file: null
+initial_creation_type: input
+imported: '2022-05-27T19:34:54.161277'
+last_modified: '2022-05-27T19:34:54.161291'
+parser: null
+source_metadata:
+  title: 'Nāgārjuna: Mūlamadhyamakakārikā'
+  language: bo
+  base:
+    f2EFE:
+      title: Title
+      base_file: f2EFE.txt
+      order: 1
+    fB2A3:
+      title: Preface
+      base_file: fB2A3.txt
+      order: 2
+    f00E4:
+      title: 'CI_Chapter I: Pratyayaparīkṣā'
+      base_file: f00E4.txt
+      order: 3
+    fAF50:
+      title: 'CI_Chapter II: Gatāgataparīkṣaṇa'
+      base_file: fAF50.txt
+      order: 4
+    f80F0:
+      title: 'CI_Chapter III: Cakṣurādīndriyaparīkṣā'
+      base_file: f80F0.txt
+      order: 5
+    fA636:
+      title: 'CI_Chapter IV: Skandhaparīkṣā'
+      base_file: fA636.txt
+      order: 6
+    f95D4:
+      title: 'CI_Chapter V: Dhātuparīkṣā'
+      base_file: f95D4.txt
+      order: 7
+    fD22B:
+      title: 'CII_Chapter VI: Rāgasaktiparīkṣā'
+      base_file: fD22B.txt
+      order: 8
+    fCCBB:
+      title: 'CII_Chapter VII: Saṃskr̥̥taparīkṣā'
+      base_file: fCCBB.txt
+      order: 9
+    f70B2:
+      title: 'CII_Chapter VIII: Karmakārakaparīkṣā'
+      base_file: f70B2.txt
+      order: 10
+    f0FF6:
+      title: 'CII_Chapter IX: Pūrvaparīkṣā'
+      base_file: f0FF6.txt
+      order: 11
+    f42F7:
+      title: 'CII_Chapter X: Agnīndhanaparīkṣā'
+      base_file: f42F7.txt
+      order: 12
+    f7A75:
+      title: 'CIII_Chapter XI: Pūrvāparakoṭiparīkṣa'
+      base_file: f7A75.txt
+      order: 13
+    f1166:
+      title: 'CIII_Chapter XII: Duḥkhaparīkṣā'
+      base_file: f1166.txt
+      order: 14
+    f762E:
+      title: 'CIII_Chapter XIII: Saṃskāraparīkṣā'
+      base_file: f762E.txt
+      order: 15
+    f3BBB:
+      title: 'CIII_Chapter XIV: Saṃsargaparīkṣā'
+      base_file: f3BBB.txt
+      order: 16
+    fE894:
+      title: 'CIII_Chapter XV: Svabhāvaparīkṣā'
+      base_file: fE894.txt
+      order: 17
+    f5CBB:
+      title: 'CIV_Chapter XVI: Bandhanamokṣaparīkṣā'
+      base_file: f5CBB.txt
+      order: 18
+    f7896:
+      title: 'CIV_Chapter XVII: Karmaphalaparīkṣā'
+      base_file: f7896.txt
+      order: 19
+    f9606:
+      title: 'CIV_Chapter XVIII: Ātmaparīkṣā'
+      base_file: f9606.txt
+      order: 20
+    f22BF:
+      title: 'CIV_Chapter XIX: Kālaparīkṣā'
+      base_file: f22BF.txt
+      order: 21
+    f9553:
+      title: 'CIV_Chapter XX: Sāmagrīparīkṣā'
+      base_file: f9553.txt
+      order: 22
+    fEE9C:
+      title: 'CV_Chapter XXI: Saṃbhavavibhavaparīkṣā'
+      base_file: fEE9C.txt
+      order: 23
+    f598E:
+      title: 'CV_Chapter XXII: Tathāgataparīkṣā'
+      base_file: f598E.txt
+      order: 24
+    fE256:
+      title: 'CV_Chapter XXIII: Viparyāsaparīkṣā'
+      base_file: fE256.txt
+      order: 25
+    fD74B:
+      title: 'CV_Chapter XXIV: Āryasatyaparīkṣā'
+      base_file: fD74B.txt
+      order: 26
+    f1404:
+      title: 'CV_Chapter XXV: nirvāṇaparīkṣā'
+      base_file: f1404.txt
+      order: 27
+    f2CCC:
+      title: 'CVI_Chapter XXVI: Dvādaśāṅgaparīkṣā'
+      base_file: f2CCC.txt
+      order: 28
+    fC8DD:
+      title: 'CVI_Chapter XXVII: Dr̥ṣṭiparīkṣā'
+      base_file: fC8DD.txt
+      order: 29
+    fEA21:
+      title: Colophon
+      base_file: fEA21.txt
+      order: 30
+  chapter_to_tile:
+    CI: Chapters I-V
+    CII: Chapters VI-X
+    CIII: Chapters XI-XV
+    CIV: Chapters XVI-XX
+    CV: Chapters XXI-XXV
+    CVI: Chapters XXVI-XXVII
+statistics: {}
+quality: {}
+copyright:
+  status: Unknown
+  notice: ''
+  info_url: null
+license: null

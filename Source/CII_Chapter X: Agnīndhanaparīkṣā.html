@@ -1,0 +1,871 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Bibliotheca Polyglotta</title>
+<link rel='stylesheet' type='text/css' href='css/bp.css'>
+<link rel='stylesheet' type='text/css' href='css/diac_doc.css'>
+
+<link rel='stylesheet' type='text/css' href='css/imageGallery.css'>
+<link rel='stylesheet' type='text/css' href='css/ss.css'>
+	      <link rel='stylesheet' type='text/css' href='css/tree_menu.css'>
+<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+<!--  <script type="text/javascript" src="js/jqModal.js"></script>-->
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/tree_menu.js"></script>
+<!-- <script src="js/analytics_tracking.js" type="text/javascript"></script> -->
+
+
+<!-- <script type="text/javascript" src="js/popupDivhandling.js"></script> -->
+<!--  <script type="text/javascript" src="jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery-imagegallery.js"></script>-->
+</head>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//vrtx.uio.no/js/analytics/v2/analytics.js','ga');
+
+ga('create', 'UA-86407471-1', 'auto');
+ga(function(tracker) {
+
+	// Modifies sendHitTask to hit ipproxy instead of http://www.google-analytics.com directly
+	tracker.set('sendHitTask', function(model) {
+		payload = model.get('hitPayload');
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', '//w3prod-ipproxy.uio.no/collect' +'?' + payload, true);
+		xhr.send();
+	});
+		ga('send', 'pageview');
+});
+</script>
+<body><div class='banner'></div><!-- banner --><div class='uiologo'>
+<a href='http://www.hf.uio.no/'><img src='https://www2.hf.uio.no/polyglotta/hfe.png' border='0'></a></div><!-- uiologo --><div class='clear'></div>
+<div class='smule_tittel'>
+<div class='brodsmuleboks'>You are here: <a href='/polyglotta/index.php' accesskey='1'> BP HOME</a> >  <a href='/polyglotta/index.php?page=library&amp;bid=2' accesskey='1'>TLB</a> > <a href='/polyglotta/index.php
+	?page=volume&amp;vid=1124' accesskey='1'>Nāgārjuna: Mūlamadhyamakakārikā</a> > fulltext</div><div class='clear'></div>
+<div class='headline'>Nāgārjuna: Mūlamadhyamakakārikā<div class='clear'></div></div><!-- headline -->
+</div><!-- smule_tittel -->
+<!--<div>-->
+
+<h2 class="trigger" id="tr_lang"><a  href="#">Choose languages</a></h2>
+<h2 class="trigger" id="tr_img"><a  href="#">Choose images, etc.</a></h2>
+
+
+<div id="toggle_container_lan">
+
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_lan.php" method="POST">
+
+<div style="float:left; width:auto; text-align:left; margin-left:20px;">
+<h5>Choose languages</h5>
+<ul>
+<input value="Choose all" type="button" onClick="markAll('tr')"><input value="Uncheck all" type="button" onClick="markNone('tr')">
+
+	<li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6176]" value="6176" id="lancheckbox" checked >Sanskrit: San: La Vallée Poussin (1913), </label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[5667]" value="5667" id="lancheckbox" checked >Chinese: Chi: Kumārajīva, T. 1564</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6175]" value="6175" id="lancheckbox" checked >Tibetan: Tib: Tg, tsa</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6177]" value="6177" id="lancheckbox" checked >English: Eng: Streng (1967)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[5669]" value="5669" id="lancheckbox" checked >English: Eng: Batchellor (2000)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6170]" value="6170" id="lancheckbox" checked >Tibetan: Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6179]" value="6179" id="lancheckbox" checked >Chinese: Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6171]" value="6171" id="lancheckbox" checked >Tibetan: Buddhapālita "Vṛtti" Tg 3842</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6172]" value="6172" id="lancheckbox" checked >Tibetan: Bhāvaviveka "Prajñāpradīpa" Tg 3853</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1124[6340]" value="6340" id="lancheckbox" checked >Sanskrit: Candrakīrti "Prasannapadā" Vaidya 1960</label></li><div style="clear:both"></div>
+<input type='submit' name='set_cookie' value='Save view'>
+<div style="clear:both"></div>
+
+</ul>
+<input type="hidden" name="vid" value="1124">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+</div>
+
+<div id="toggle_container_img">
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_img.php" method="POST">
+
+<div style="float:left; width:auto; text-align: left;">
+<h5>Choose display</h5>
+<ul>
+		
+	<li> 
+		<input type='checkbox' name='bilder' checked="checked" > Enable images
+	</li>
+	<li> 
+	<input type='checkbox' onclick="onOffCheckbox();" name='fotnoter' checked="checked"> Enable footnotes
+	<div id="pff" style="display:block" >
+	<ul>
+	<li><input type='radio' name='fotnote_valg'  value='show_a' checked> Show all footnotes</li>
+	<li><input type='radio' name='fotnote_valg'  value='show_h'  > Minimize footnotes</li>
+	</ul>
+	</li>
+	
+	</div>
+	<div style="float:left; width:20em; text-align: left; margin-left:120px ">
+	<div style="clear:both"></div>
+	<input type='submit' name='set_cookie' value='Save view'>
+	<div style="clear:both"></div>
+	</div>
+	
+</ul>
+<input type="hidden" name="vid" value="1124">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+	
+
+
+
+</div>
+</div>
+
+<div class='sok'><form name='Sok' id='FormBlock' action='/polyglotta/index.php' method='get'>
+<input type='hidden' name='page' value='search'>
+<input type='hidden' name='bid' value='2'>
+<input type='hidden' name='vid' value='1124'>
+<div class='sokeboks'>
+<input name='sokefelt' id='sokeboks' type='text' size='30' value=''>
+<input type='submit' name='Sok' value='Search' id='nsubmit'>
+<div class='clear'></div><a class="diacbutton" id="diacbutton" href="#">Diacritica</a><a id="diac2button" class="diac2button"  href="#">Diacritica-help</a><a class="s2button" href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation:SearchHelp">Search-help</a><div class='diacritical' id='diacritical_sign'><div style="text-align: left; ">
+<table class = 'diacritica' width="200" border="1" cellpadding="1" cellspacing="1" id="diacritical">
+    <tbody>
+        <tr>
+            <td style="text-align: center; ">ā</td>
+            <td style="text-align: center; ">ī</td>
+            <td style="text-align: center; ">ū</td>
+            <td style="text-align: center; ">ṛ</td>
+            <td style="text-align: center; ">ṝ</td>
+            <td style="text-align: center; ">ḷ</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ḹ</td>
+            <td style="text-align: center; ">&rsquo;</td>
+            <td style="text-align: center; ">ṃ</td>
+            <td style="text-align: center; ">ḥ</td>
+            <td style="text-align: center; ">ṅ</td>
+            <td style="text-align: center; ">&ntilde;</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ṭ</td>
+            <td style="text-align: center; ">ḍ</td>
+            <td style="text-align: center; ">ṇ</td>
+            <td style="text-align: center; ">ṣ</td>
+            <td style="text-align: center; ">ś</td>
+            <td style="text-align: center; ">ź</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">&scaron;</td>
+            <td style="text-align: center; ">č</td>
+            <td style="text-align: center; ">ǰ</td>
+            <td style="text-align: center; ">&gamma;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+</div></div><!-- diacritical --><div id="ex3a" class="jqmDialog"><div>
+	<span style="font-size:12px;">Note on the transliteration:</span></div>
+<div>
+	<span style="font-size:12px;">The transliteration system of the BP/TLB is based on the Unicode/UTF-8 system. However, there may be difficulties with some of the letters &ndash; particularly on PC/Windows-based systems, but not so much on the Mac. We have chosen the most accepted older and traditional systems of transliteration against, e.g, Wylie for Tibetan, since with Unicode it is possible, in Sanskrit and Tibetan, etc., to represent one sound with one letter in almost all the cases (excepting Sanskrit and Tibetan aspirated letters, and Tibetan tsa, tsha, dza). We thus do not use the Wylie system which widely employs two letters for one sound (ng, ny, sh, zh etc.).</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">Important:</span></div>
+<div>
+	<span style="font-size:12px;">We ask you in particular to note the use of the &rsquo; apostrophe and not the &#39; representing the avagrāha in Sanskrit, and most important the &rsquo;a-chuṅ in Tibetan. On the Mac the &rsquo; is Alt-M.</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">If you cannot find the letters on your key-board, you may click on the link &quot;Diacritica&quot; to access it for your search.</span></div>
+</div><!-- diacritical_doc --><div class='clear'></div><select name='searchmode'><option selected value='phrase'>Search for exact phrase</option>
+<option  value='phraseregex'>Search for exact phrase (regex)</option>
+<option  value='word'>Search for every word in one record</option>
+<option  value='free'>Search for every word fragment in one record</option>
+</select>
+<select name='context'>
+<option ($_GET[context]=="a" ? "selected" : "") value="a"> Search in all libraries</option><option selected value="bTLB">Search in TLB</option><option selected value="v1124">Search in Nāgārjuna: Mūlamadhyamakakārikā</option></select><div class='clear'></div><a class='sbutton' href='/polyglotta/index.php?page=asearch&amp;bid=2&amp;vid=1124'>Choose specific texts..</a><div class='clear'></div></div></form></div><!-- sok --><div class='clear'></div><!-- clear --><div id='dcr' class='divControlRead'><div class='venstrefulltekstfelt'><div class='bverknavn'><a href='/polyglotta/index.php?page=volume&amp;vid=1124'>Nāgārjuna: Mūlamadhyamakakārikā</a></div><table class="tlvl2">
+					<tr>
+						<td bgcolor="#ffffff"> &nbsp; &nbsp;
+						<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_7627.Verses41-58" border=0 hspace=2>
+						<a href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124" class="ajax_tree0">Complete text</a>
+						</td>
+					</tr>
+				  </table><input type="hidden" name="tree_top_options" id="tree_top_options" value="134642.Title|134643.Preface|134644.ChaptersI-V|134650.ChaptersVI-X|134656.ChaptersXI-XV|134662.ChaptersXVI-XX|134668.ChaptersXXI-XXV|134674.ChaptersXXVI-XXVII|134677.Colophon|">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134642.Title" border=0 hspace=2><a id="href_134642.Title" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942958&level=1&cid=843905" class="ajax_tree0">Title
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134643.Preface" border=0 hspace=2><a id="href_134643.Preface" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942959&level=1&cid=843906" class="ajax_tree0">Preface
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134644.ChaptersI-V','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134644.ChaptersI-V" border=0 hspace=2><a id="href_134644.ChaptersI-V" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942960&level=1&cid=843907" class="ajax_tree0">Chapters I-V
+</td></tr></table>
+<div style="display:none;"  id="div_134644.ChaptersI-V">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134645.ChapterI:Pratyayaparīkṣā" border=0 hspace=2><a id="href_134645.ChapterI:Pratyayaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942960&level=2&cid=843907" class="ajax_tree1">Chapter I: Pratyayaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134646.ChapterII:Gatāgataparīkṣaṇa" border=0 hspace=2><a id="href_134646.ChapterII:Gatāgataparīkṣaṇa" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1942975&level=2&cid=843922" class="ajax_tree1">Chapter II: Gatāgataparīkṣaṇa
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134647.ChapterIII:Cakṣurādīndriyaparīkṣā" border=0 hspace=2><a id="href_134647.ChapterIII:Cakṣurādīndriyaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943001&level=2&cid=843948" class="ajax_tree1">Chapter III: Cakṣurādīndriyaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134648.ChapterIV:Skandhaparīkṣā" border=0 hspace=2><a id="href_134648.ChapterIV:Skandhaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943011&level=2&cid=843958" class="ajax_tree1">Chapter IV: Skandhaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134649.ChapterV:Dhātuparīkṣā" border=0 hspace=2><a id="href_134649.ChapterV:Dhātuparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943021&level=2&cid=843968" class="ajax_tree1">Chapter V: Dhātuparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134650.ChaptersVI-X','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134650.ChaptersVI-X" border=0 hspace=2><a id="href_134650.ChaptersVI-X" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943030&level=1&cid=843977" class="ajax_tree0">Chapters VI-X
+</td></tr></table>
+<div style="display:none;"  id="div_134650.ChaptersVI-X">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134651.ChapterVI:Rāgasaktiparīkṣā" border=0 hspace=2><a id="href_134651.ChapterVI:Rāgasaktiparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943030&level=2&cid=843977" class="ajax_tree1">Chapter VI: Rāgasaktiparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134652.ChapterVII:Saṃskr̥̥taparīkṣā" border=0 hspace=2><a id="href_134652.ChapterVII:Saṃskr̥̥taparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943041&level=2&cid=843988" class="ajax_tree1">Chapter VII: Saṃskr̥̥taparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134653.ChapterVIII:Karmakārakaparīkṣā" border=0 hspace=2><a id="href_134653.ChapterVIII:Karmakārakaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943076&level=2&cid=844023" class="ajax_tree1">Chapter VIII: Karmakārakaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134654.ChapterIX:Pūrvaparīkṣā" border=0 hspace=2><a id="href_134654.ChapterIX:Pūrvaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943090&level=2&cid=844037" class="ajax_tree1">Chapter IX: Pūrvaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134655.ChapterX:Agnīndhanaparīkṣā" border=0 hspace=2><a id="href_134655.ChapterX:Agnīndhanaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943103&level=2&cid=844050" class="ajax_tree1">Chapter X: Agnīndhanaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134656.ChaptersXI-XV','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134656.ChaptersXI-XV" border=0 hspace=2><a id="href_134656.ChaptersXI-XV" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943120&level=1&cid=844067" class="ajax_tree0">Chapters XI-XV
+</td></tr></table>
+<div style="display:none;"  id="div_134656.ChaptersXI-XV">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134657.ChapterXI:Pūrvāparakoṭiparīkṣa" border=0 hspace=2><a id="href_134657.ChapterXI:Pūrvāparakoṭiparīkṣa" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943120&level=2&cid=844067" class="ajax_tree1">Chapter XI: Pūrvāparakoṭiparīkṣa
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134658.ChapterXII:Duḥkhaparīkṣā" border=0 hspace=2><a id="href_134658.ChapterXII:Duḥkhaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943129&level=2&cid=844076" class="ajax_tree1">Chapter XII: Duḥkhaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134659.ChapterXIII:Saṃskāraparīkṣā" border=0 hspace=2><a id="href_134659.ChapterXIII:Saṃskāraparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943140&level=2&cid=844087" class="ajax_tree1">Chapter XIII: Saṃskāraparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134660.ChapterXIV:Saṃsargaparīkṣā" border=0 hspace=2><a id="href_134660.ChapterXIV:Saṃsargaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943150&level=2&cid=844096" class="ajax_tree1">Chapter XIV: Saṃsargaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134661.ChapterXV:Svabhāvaparīkṣā" border=0 hspace=2><a id="href_134661.ChapterXV:Svabhāvaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943159&level=2&cid=844105" class="ajax_tree1">Chapter XV: Svabhāvaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134662.ChaptersXVI-XX','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134662.ChaptersXVI-XX" border=0 hspace=2><a id="href_134662.ChaptersXVI-XX" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943171&level=1&cid=844117" class="ajax_tree0">Chapters XVI-XX
+</td></tr></table>
+<div style="display:none;"  id="div_134662.ChaptersXVI-XX">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134663.ChapterXVI:Bandhanamokṣaparīkṣā" border=0 hspace=2><a id="href_134663.ChapterXVI:Bandhanamokṣaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943171&level=2&cid=844117" class="ajax_tree1">Chapter XVI: Bandhanamokṣaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134664.ChapterXVII:Karmaphalaparīkṣā" border=0 hspace=2><a id="href_134664.ChapterXVII:Karmaphalaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943182&level=2&cid=844128" class="ajax_tree1">Chapter XVII: Karmaphalaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134665.ChapterXVIII:Ātmaparīkṣā" border=0 hspace=2><a id="href_134665.ChapterXVIII:Ātmaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943216&level=2&cid=844162" class="ajax_tree1">Chapter XVIII: Ātmaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134666.ChapterXIX:Kālaparīkṣā" border=0 hspace=2><a id="href_134666.ChapterXIX:Kālaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943229&level=2&cid=844175" class="ajax_tree1">Chapter XIX: Kālaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134667.ChapterXX:Sāmagrīparīkṣā" border=0 hspace=2><a id="href_134667.ChapterXX:Sāmagrīparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943236&level=2&cid=844182" class="ajax_tree1">Chapter XX: Sāmagrīparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134668.ChaptersXXI-XXV','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134668.ChaptersXXI-XXV" border=0 hspace=2><a id="href_134668.ChaptersXXI-XXV" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943261&level=1&cid=844207" class="ajax_tree0">Chapters XXI-XXV
+</td></tr></table>
+<div style="display:none;"  id="div_134668.ChaptersXXI-XXV">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134669.ChapterXXI:Saṃbhavavibhavaparīkṣā" border=0 hspace=2><a id="href_134669.ChapterXXI:Saṃbhavavibhavaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943261&level=2&cid=844207" class="ajax_tree1">Chapter XXI: Saṃbhavavibhavaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134670.ChapterXXII:Tathāgataparīkṣā" border=0 hspace=2><a id="href_134670.ChapterXXII:Tathāgataparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943283&level=2&cid=844229" class="ajax_tree1">Chapter XXII: Tathāgataparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134671.ChapterXXIII:Viparyāsaparīkṣā" border=0 hspace=2><a id="href_134671.ChapterXXIII:Viparyāsaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943300&level=2&cid=844246" class="ajax_tree1">Chapter XXIII: Viparyāsaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134672.ChapterXXIV:Āryasatyaparīkṣā" border=0 hspace=2><a id="href_134672.ChapterXXIV:Āryasatyaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943326&level=2&cid=844272" class="ajax_tree1">Chapter XXIV: Āryasatyaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134673.ChapterXXV:nirvāṇaparīkṣā" border=0 hspace=2><a id="href_134673.ChapterXXV:nirvāṇaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943367&level=2&cid=844313" class="ajax_tree1">Chapter XXV: nirvāṇaparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('134674.ChaptersXXVI-XXVII','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_134674.ChaptersXXVI-XXVII" border=0 hspace=2><a id="href_134674.ChaptersXXVI-XXVII" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943392&level=1&cid=844338" class="ajax_tree0">Chapters XXVI-XXVII
+</td></tr></table>
+<div style="display:none;"  id="div_134674.ChaptersXXVI-XXVII">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134675.ChapterXXVI:Dvādaśāṅgaparīkṣā" border=0 hspace=2><a id="href_134675.ChapterXXVI:Dvādaśāṅgaparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943392&level=2&cid=844338" class="ajax_tree1">Chapter XXVI: Dvādaśāṅgaparīkṣā
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134676.ChapterXXVII:Dr̥ṣṭiparīkṣā" border=0 hspace=2><a id="href_134676.ChapterXXVII:Dr̥ṣṭiparīkṣā" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943405&level=2&cid=844351" class="ajax_tree1">Chapter XXVII: Dr̥ṣṭiparīkṣā
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_134677.Colophon" border=0 hspace=2><a id="href_134677.Colophon" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1124&mid=1943436&level=1&cid=844382" class="ajax_tree0">Colophon
+</td></tr></table>
+<script language=javascript>test('134655.ChapterX:Agnīndhanaparīkṣā|134650.ChaptersVI-X|')</script><div class='bverknavn'><a href='/polyglotta/index.php?page=library&amp;bid=2'>Back to library</a></div></div><!-- venstrefulltekstfelt --><div class="clear"></div><!-- clear --><div id="nav-menu"><ul>
+  		  <li  id="nav-1"><a class="tabValgt" href="/polyglotta/index.php?page=record&amp;view=record&amp;vid=1124&amp;mid=1943103&amp;level=2">Sentence by sentence view</a></li>
+  		  <li  id="nav-2"><a  href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124&amp;cid=844050&amp;mid=1943103&amp;level=2">Continuous text view</a></li>
+ 		<li  id="nav-3"><a  href="/polyglotta/admin/index.php?page=fulltext&amp;view=fulltext&amp;vid=1124&amp;cid=844050&amp;mid=1943103&amp;level=2">View in admin</a></li>
+
+  		  </ul></div><div class='clear'></div><!-- clear -->			<script language="javascript" type="text/javascript">
+			var kilderef = '';
+			var tekstid = 0;
+			var tekstid_bilder = 0;
+			var filsti = '';
+			var thumbnail = '';
+			</script>
+		<div class='infofulltekstfelt'><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><div class='kilderef' id='8904699'></div><div class='clear'></div><span id='8904699bi' class='generelltekst'>
+							&nbsp;</span><span id='8904098bi' class='verse'>
+						 yad indhanaṃ<a class='fotnote cn' name='FN6176cn1' href='#N6176cn1'><sup>1</sup></a>
+ sa ced agnir ekatvaṃ kartṛkarmaṇoḥ |<br />anyaś ced indhanād agnir indhanād apy ṛte bhavet || 1 ||&nbsp;</span><div style='' id='1' class='note cn'>1.<a class="internt" name='N6176cn1' href='#FN6176cn1'> Ye (2007, 158): <i>yadīndhanam</i>.</a>&nbsp; </div><div class='clear'></div></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><div class='kilderef' id='8904692'></div><div class='clear'></div><span id='8904692bi' class='subtitle'>
+							中論觀燃可燃品第十(十六偈)&nbsp;</span><span id='7859625bi' class='verse'>
+						 若燃是可燃 作作者則一<br />若燃異可燃 離可燃有燃&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904698'></div><div class='clear'></div><span id='8904698bi' class='generelltekst'>
+							&nbsp;</span><span id='8903472bi' class='verse'>
+						 bud shing gang de me yin na | | byed pa po dang las gcig ’gyur | |<br />gal te shing las me gzhan na | | shing med par yang ’byung bar ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><div class='kilderef' id='8904991'></div><div class='clear'></div><span id='8904991bi' class='subtitle'>
+							[Chapter] 10: An Analysis of Fire and Kindling (fire and fuel)&nbsp;</span><span id='8904992bi' class='verse'>
+						 1. If fire is identical to its kindling, then it is both producer and product.<br />And if fire is different from kindling, then surely [fire] exists without kindling (i.e. separate).&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><div class='kilderef' id='8904693'></div><div class='clear'></div><span id='8904693bi' class='subtitle'>
+							Investigation of Fire and Firewood&nbsp;</span><span id='7860583bi' class='verse'>
+						 If firewood were fire, actor and act would be one. If fire were other than wood, it would occur even without wood.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904694'></div><div class='clear'></div><span id='8904694bi' class='generelltekst'>
+							&nbsp;</span><span id='8901068bi' class='verse'>
+						 འདིར་སྨྲས་པ། མེ་དང་བུད་ཤིང་གི་དཔེ་ཉེ་བར་སྦྱར་བ་མེ་བཞིན་དུ་ཉེ་བར་ལེན་པ་པོ་བདག་ལ་ཡོད། བུད་ཤིང་བཞིན་དུ་ཉེ་བར་བླང་བ་ཕུང་པོ་ལྔ་ཡང་ཡོད་དོ། །འདིར་བཤད་པ། དེ་དག་ནི་ཡོད་པ་མ་ཡིན་ཏེ། ཅིའི་ཕྱིར་ཞེ་ན། མེ་དང་བུད་ཤིང་དག་མ་གྲུབ་པའི་ཕྱིར་ཏེ། འདི་ལ་མེད་དང་བུད་ཤིང་དག་གཅིག་པ་ཉིད་དམ་གཞན་ཉིད་དུ་རབ་ཏུ་འགྲུབ་པར་འགྱུར་གྲང་ན། གཉི་ག་ལྟར་ཡང་རབ་ཏུ་མི་འགྲུབ་བོ། །གལ་ཏེ་ཇི་ལྟར་ཞེ་ན། བཤད་པ། <b>གལ་ཏེ་ཤིང་དེ་མེ་ཡིན་ན། །བྱེད་པ་པོ་དང་ལས་་གཅིག་འགྱུར། །</b>གལ་ཏེ་རེ་ཞིག་བུད་ཤིང་གང་ཁོ་ན་ཡིན་པ་དེ་ཉིད་མེ་ཡིན་པར་གྱུར་ན་བྱེད་པ་པོ་དང་ལས་གཅིག་པ་ཉིད་དུ་ཐལ་བར་འགྱུར་ཏེ། ཅིའི་ཕྱིར་ཞེ་ན། མེ་ནི་བྱེད་པ་པོར་འགྱུར་བ་ཡིན་ལ་བུད་ཤིང་ནི་ལས་སུ་གྱུར་པ་ཡིན་པའི་ཕྱིར་ཏེ། དེ་ལྟ་བས་ན་མེ་དང་བུད་ཤིང་དག་་གཅིག་པ་ཉིད་ཡིན་ནོ་ཞེས་བྱ་བ་དེ་རིགས་པ་མ་ཡིན་ནོ། །ཅི་སྟེ་འདི་སྙམ་དུ་མེ་དང་བུད་ཤིང་དག་གཞན་ཉིད་ཡིན་པར་སེམས་ན། དེ་ལ་བཤད་པར་བྱ་སྟེ། <b>གལ་ཏེ་ཤིང་ལས་མེ་གཞན་ན། །ཤིང་མེད་པར་ཡང་འབྱུང་བར་འགྱུར། །</b>གལ་ཏེ་བུད་ཤིང་ལས་མེ་གཞན་ཉིད་ཡིན་པར་གྱུར་་ན།་དེ་ལྟ་ན་བུད་ཤིང་མེད་པར་ཡང་མེ་འབྱུང་བར་འགྱུར་བས། དེ་ཕྱིར་མེ་དང་བུད་ཤིང་དག་གཞན་ཉིད་ཅེས་བྱ་བ་དེ་ཡང་རིགས་པ་མ་ཡིན་ནོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><div class='kilderef' id='8906005'></div><div class='clear'></div><span id='8906005bi' class='subtitle'>
+							(14)  ＊中論 觀燃可燃品第十 十六偈&nbsp;</span><span id='8906006bi' class='verse'>
+						 (15)問曰應有受受者。如燃可燃。燃是受者。可(16)燃是受。所謂五陰。答曰。是事不然。何以故。(17)燃可燃倶不成故。燃可燃。若以一法成。若(18)以二法成。二倶不成。問曰。且置一異法。若(19)言無燃可燃。今云何以一異相破。如兔角(20)龜毛無故不可破。世間眼見實有事而後(21)可思惟。如有金然後可燒可鍛。若無燃可(22)燃。不應以一異法思惟。若汝許有一異(23)法。當知有燃可燃。若許有者則爲已有。答(24)曰。隨世俗法言説。不應有過。燃可燃若(25)説一若説異。不名爲受。若離世俗言説。則(26)無所論。若不説燃可燃。云何能有所破。若(27)無所説則義不可明。如有論者。破破有(28)無。必應言有無。不以稱有無故而受有(29)無。是以隨世間言説故無咎。若口有言(14c1)便是受者。汝言破即爲自破。燃可燃亦如(2)是。雖有言説亦復不受。是故以一異法。(3)思惟燃可燃。二倶不成。何以故(4)<b>若燃是可燃 作作者則一(5)若燃異可燃 離可燃有燃</b>(6)燃是火。可燃是薪。作者是人。作是業。若燃可(7)燃一。則作作者亦應一。若作作者一。則陶師(8)與瓶一。作者是陶師。作是瓶。陶師非瓶。(9)瓶非陶師。云何爲一。是以作作者不一故。(10)燃可燃亦不一。若謂一不可則應異。是亦(11)不然。何以故。若燃與可燃異。應離可燃(12)別有燃。分別是可燃是燃。處處離可燃(13)應有燃。而實不爾是故異亦不可。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904695'></div><div class='clear'></div><span id='8904695bi' class='generelltekst'>
+							&nbsp;</span><span id='8901547bi' class='verse'>
+						 སྨྲས་པ། མེ་དང་བུད་ཤིང་དག་བཞིན་དུ། ཉེ་བར་ལེན་པ་པོ་དང་ཉེ་བར་བླང་བ་དག་རབ་ཏུ་འགྲུབ་ཀྱི། བྱེད་པ་པོ་དང་ལས་དག་བཞིན་དུ་རབ་ཏུ་མི་འགྲུབ་པ་ནི་མ་ཡིན་ནོ། །བཤད་པ། གལ་ཏེ་མེ་བུད་ཤིང་རབ་ཏུ་གྲུབ་ན་ནི་དེ་དག་ཀྱང་རབ་ཏུ་འགྲུབ་པར་འགྱུར་གྲང་ན། གང་གི་ཚེ་མེ་དང་བུད་ཤིང་དག་བྱེད་པ་པོ་དང་ལས་དག་ཁོ་ན་བཞིན་དུ་རབ་ཏུ་མི་འགྲུབ་པ་དེའི་ཚེ་ཉེ་བར་ལེན་པ་པོ་དང་། ཉེ་བར་བླང་བ་དག་ཇི་ལྟར་རབ་ཏུ་འགྲུབ་པར་འགྱུར། གལ་ཏེ་མེད་དང་བུད་ཤིང་དག་ངོ་བོ་ཉིད་ཀྱིས་རབ་ཏུ་གྲུབ་པར་གྱུར་ན། གཅིག་པ་ཉིད་དམ་གཞན་ཉིད་དུ་རབ་ཏུ་འགྲུབ་་པར་འགྱུར་གྲང་ན། གཉི་ག་ལྟར་ཡང་མི་འཐད་དོ། །ཇི་ལྟར་ཞེ་ན། <b>བུད་ཤིང་གང་དེ་མེ་ཡིན་ན། །བྱེད་པ་པོ་དང་ལས་གཅིག་འགྱུར། །</b>གལ་ཏེ་རེ་ཞིག་བུད་ཤིང་གང་ཁོ་ན་ཡིན་པ་དེ་ཉིད་མེ་ཡིན་པར་རབ་ཏུ་རྟོག་ན། དེ་ལྟ་ན་བྱེད་པ་པོ་དང་ལས་གཅིག་པ་ཉིད་དུ་ཐལ་བར་འགྱུར་ཏེ། དེ་ལ་མེ་ནི་(205B)སྲེག་པར་བྱེད་པའོ་ཞེས་བྱ་བ་དག་མི་སྲིད་པར་འགྱུར་རོ། །ཅི་སྟེ་གཅིག་པ་ཉིད་ཡིན་ཡང་དེ་དག་སྲིད་ན་ནི་མེ་ནི་སྲེག་པར་བྱེད་པའོ། །བུད་ཤིང་ནི་བསྲེག་པར་བྱ་བའོ་ཞེས་བྱ་བ་དག་ཀྱང་སྲིད་པར་འགྱུར་བ་ཞིག་ན་མི་སྲིད་པར་འགྱུར་བ་ཞིག་ན་མི་སྲིད་པས་དེ་ལྟ་བས་ན་དེ་གཉིས་གཅིག་པ་ཉིད་མི་འཐད་དོ། །དེ་ལ་བུད་ཤིང་་ལས་མེ་གཞན་ཉིད་ཡིན་པར་སེམས་ན། དེ་ལ་བཤད་པར་བྱ་སྟེ། <b>གལ་ཏེ་ཤིང་ལས་མེ་གཞན་ན། །ཤིང་མེད་པར་ཡང་འབྱུང་བར་འགྱུར། །</b>གལ་ཏེ་བུད་ཤིང་ལས་མེ་གཞན་ཉིད་ཡིན་པར་གྱུར་ན། བུད་ཤིང་མེད་ཅིང་བུད་ཤིང་མ་གཏོགས་པར་ཁོ་ནར་ཡང་མི་འབྱུང་བར་འགྱུར་བ་ཞིག་ན། བུད་ཤིང་མེད་པར་མེ་འབྱུང་བས་དེ་ལྟ་བས་ན་དེ་ཉིད་གཞན་ཉིད་དུ་ཡང་མི་འཐད་དོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><div class='kilderef' id='8904696'></div><div class='clear'></div><span id='8904696bi' class='generelltekst'>
+							&nbsp;</span><span id='8902026bi' class='verse'>
+						 ད་ནི་ཉེ་བར་ལེན་པ་པོ་དང། ཉེ་བར་བླང་བ་དག་ངོ་བོ་ཉིད་མེད་པའི་མི་མཐུན་པའི་ཕྱོགས་ཀྱི་ཁྱད་པར་དགག་པས་རྟེན་ཅིང་འབྲེལ་པར་འབྱུང་བ་དོན་གཅིག་པ་མ་ཡིན་པ་དང། དོན་ཐ་དད་པ་མ་ཡིན་པའི་ཁྱད་པར་དང་ལྡན་པ། བསྟན་པའི་དོན་གྱི་དབང་གིས་རབ་ཏུ་བྱེད་པ་བཅུ་པ་བརྩམ་མོ། །འདིར་སྨྲས་པ། འདི་ལ་ཁྱོད་ཀྱིས་ཉེ་བར་ལེན་པ་པོ་དང། ཉེ་བར་བླང་བ་དག་ཕན་ཚུན་ལྟོས་ནས་རབ་ཏུ་འགྲུབ་པར་སྨྲས་པས། དེའི་ཕྱིར་གཏན་ཚིགས་རབ་ཏུ་གྲུབ་པའི་དབང་གིས་ཉེ་བར་ལེན་པ་པོ་དང། ཉེ་བར་བླང་བ་ཉིད་དག་བསྒྲུབ་པའི་ཕྱིར་སྒྲུབ་པ་སྨྲ་བར་བྱ་སྟེ། དོན་དམ་པར་ཉེ་བར་ལེན་པ་པོ་དང་ཉེ་བར་བླང་བ་དག་ཡོད་པ་ཁོ་ན་ཡིན་ཏེ། ཕན་ཚུན་ལྟོས་པའི་ཕྱིར་དཔེར་ན་མེ་དང་བུད་ཤིང་བཞིན་ནོ། །དེའི་ཕྱིར་དེ་གྲུབ་པས་དོན་དམ་པར་ཕུང་པོ་ལ་སོགས་པ་དག་ཡོད་པ་ཁོ་ན་ཡིན་ཏེ། བཅོམ་ལྡན་འདས་ཀྱིས་དེ་དག་ལ་བརྟེན་ནས། ཉེ་བར་ལེན་པ་པོ་དང། ཉེ་བར་བླང་བ་དག་བསྟན་པའི་ཕྱིར་རོ། །དེ་ལྟར་གཏན་ཚིགས་གྲུབ་པས་འདོད་པ་གྲུབ་པོ། །(130A)འདིར་བཤད་པ། སྐྱེ་བ་སྤྱིར་བཀག་པ་ཉིད་དང། གཟུགས་ཀྱི་རྒྱུ་ནི་མ་གཏོགས་པར། །གཟུགས་ནི་དམིགས་པར་མི་འགྱུར་རོ། །ཞེས་བྱ་བ་དེར་རྫས་སུ་ཡོད་པ་ཉིད་བཀག་པས། མེ་དང་བུད་ཤིང་དག་གི་ཡོད་པ་ཉིད་དགག་པ་ཡང་གྲུབ་མོད་ཀྱི། ཡང་དེ་མེད་པ་ཉིད་དུ་བསྟན་པའི་ཕྱིར། སྒྲུབ་པ་གཞན་སེམས་གཏོད་ལ་ཉོན་ཅིག་འདི་ལ་མེ་དང་བུད་ཤིང་དག་ཡོད་པ་ཉིད་དུ་འདོད་ན་གཅིག་པ་ཉིད་དམ། གཞན་ཉིད་དུ་ཁས་བླང་བར་བྱ་གྲང་ན་དེས་ཅིར་འགྱུར་ཞེ་ན། <b>གལ་ཏེ་ཤིང་དེ་མེ་ཡིན་ན། །བྱེད་པ་པོ་དང་ལས་གཅིག་འགྱུར། །</b>དེ་ལ་བུད་ཤིང་ནི་ས་ལ་སོགས་པ་འབྱུང་བ་གསུམ་པོ་དག་ཡིན་ལ། མེ་ནི་མེའི་ཁམས་སོ། །ཁ་ཅིག་ན་རེ། མེ་ནི་འབྱུང་བ་བཞི་པོ་དག་ལས་མེ་ཤས་ཆེ་བར་གྱུར་པའོ་ཞེའོ། །དེ་ལ་འདིར་གླགས་ཡོད་པའི་ཚིག་ཡིན་པའི་ཕྱིར་ཕ་རོལ་པོས་སྨྲས་པའི་སྒྲུབ་པ་ལས་བཟློག་པས་རྗེས་སུ་དཔག་པ་མངོན་ཏེ། དཔེར་ན་གལ་ཏེ་སྒྲ་རྟག་ན་བུམ་པ་ཡང་རྟག་པར་ཐལ་བར་འགྱུར་བས་དེ་ནི་མི་འདོད་དེ། བྱས་པ་ཉིད་ལ་མི་རྟག་པ་ཉིད་མེད་ན་མི་འབྱུང་བ་ཡིན་པས། དེ་ལ་ཡང་ཡོད་པའི་ཕྱིར་རོ། །སྒྲ་དེ་ཡང་བྱས་པ་ཡིན་པས་དེའི་ཕྱིར་སྒྲ་ནི་མི་རྟག་སྟེ། བྱས་པའི་ཕྱིར་དཔེར་ན་བུམ་པ་བཞིན་ནོ་ཞེས་བྱ་བ་ལྟ་བུའོ། །འདིར་སྦྱོར་བའི་ཚིག་ནི་དོན་དམ་པར་མེ་དང་བུད་ཤིང་དག་གཅིག་པ་ཉིད་མ་ཡིན་ཏེ། བྱེད་པ་པོ་དང་ལས་ཡིན་པའི་ཕྱིར་དཔེར་ན་གཅོད་པ་པོ་དང། བཅད་པ་དག་བཞིན་ནོ། །མེ་ཡང་བུད་ཤིང་སྲེག་པའི་བྱེད་པ་པོ་ཡིན་ལ། བུད་ཤིང་ཡང་སྲེག་པ་ན་ལས་ཡིན་པས། མེ་དང་བུད་ཤིང་དག་ལ་ཡང་བྱེད་པ་པོ་དང་ལས་ཉིད་ཡོད་པས་དེའི་ཕྱིར་དེ་ཉིད་གཅིག་པ་ཉིད་མ་ཡིན་ནོ། །ཡང་ན། གལ་ཏེ་ཤིང་དེ་མེ་ཡིན་ན། །བྱེད་པ་པོ་དང་ལས་གཅིག་འགྱུར། །དེའི་ཕྱིར་བུད་ཤིང་ལས་མེ་གཞན་མ་ཡིན་པར་དམ་འཆའ་བའི་དམ་བཅས་པ་ལ་གཅིག་པ་ཉིད་དུ་རྗེས་སུ་དཔོག་པས་མི་ཚབ་དང༑ མེ་སྲེག་པ་ཉིད་ཀྱིས་མེའི་ལྕེ་དག་བསྩལ་བའི་ཕྱིར་ཆོས་ཅན་གྱི་ཁྱད་པར་བསྩལ་བའི་སྐྱོན་ཡོད་དེ། །གལ་ཏེ་མཐོང་བས་གནོད་པའི་ཕྱིར་སྐྱོན་མེད་དོ་ཞེ་ན། གཅིག་པ་ཉིད་ལ་ཡང་མཐོང་བས་གནོད་པར་འགྱུར་རོ། །དེ་ཡོངས་སུ་སྤངས་པའི་ཕྱིར་གྲུབ་པའི་མཐའ་དང་འགལ་ལོ། །དེ་ལྟར་(130B)དེ་ལྟར་རེ་ཞིག་མེ་དང་བུད་ཤིང་དག་གཅིག་པ་ཉིད་དུ་མི་འཐད་དོ། །ཅི་སྟེ་གཞན་ཉིད་དུ་འདོད་ན་དེའི་ཕྱིར་བཤད་པ། <b>གལ་ཏེ་ཤིང་ལས་མེ་གཞན་ན། །ཤིང་མེད་པར་ནི་འབྱུང་བར་འགྱུར། །</b>གཞན་ཡིན་པའི་ཕྱིར་དེ་ལས་གཞན་བཞིན་ནོ་ཞེས་བྱ་བར་དགོངས་སོ། །འདི་ལྟ་སྟེ། བུད་ཤིང་ལ་མི་ལྟོས་པར་མེ་ཡོད་དོ་ཞེས་བྱ་བ་དེ་ནི་མངོན་པར་ཞེན་པའི་བློ་ཅན་དག་ཀྱང་མི་འདོད་དེ། འདིས་ནི་མེ་དང་བུད་ཤིང་དག་གི་ཆོས་ལྟོས་པ་དང་བཅས་པ་ཉིད་བསྟན་ཏོ། །དེའི་ཕྱིར་འདིར་བསྟན་པར་བྱ་བའི་དོན་གྱི་དབང་གིས་རྗེས་སུ་དཔག་པར་འདོད་པ་ནི། དོན་དམ་པར་མེ་ནི་བུད་ཤིང་ལས་གཞན་མ་ཡིན་ཏེ། ལྟོས་པ་དང་བཅས་པའི་ཕྱིར་དཔེར་ན་བུད་ཤིང་གི་རང་གི་བདག་ཉིད་བཞིན་ནོ། །དེ་བཞིན་དུ་དོན་དམ་པར་བུད་ཤིང་ཡང་མེ་ལས་གཞན་མ་ཡིན་ཏེ། ལྟོས་པ་དང་བཅས་པའི་ཕྱིར་དཔེར་ན་མེའི་རང་གི་བདག་ཉིད་བཞིན་ནོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><div class='kilderef' id='9009403'></div><div class='clear'></div><span id='9009403bi' class='verse'>
+							10 agnīndhanaparīkṣā daśamaṃ prakaraṇam |
+&nbsp;</span><span id='9009404bi' class='verse'>
+						 atrāha- yadidamuktaṃ tasmātkarmakārakavadeva upādānopādātrorapi na svābhāvikī siddhiriti, tadayuktam, sāpekṣāṇāmapi padārthānāṃ sasvābhāvyadarśanāt | tathā hi agnirindhanamapekṣya bhavati | na ca niḥsvabhāvo 'gniḥ, tasya auṣṇyadāhakatvādisvabhāvakāryopalambhāt | evamagnimapekṣya indhanaṃ bhavati | na ca tanniḥsvabhāvam, bāhyamahābhūtacatuṣṭayasvabhāvatvāt | evamupādānasāpekṣo 'pyupādātā svabhāvato bhaviṣyati, upādātṛsāpekṣaṃ copādānamityagnīndhanavadetau bhaviṣyata upādānopādātārāviti | ucyate | syādetad evam, yadi agnīndhane eva syātām, na tu staḥ | katham? iha yadi agnīndhane syātām, niyataṃ te ekatvena vā syātāmanyatvena vā? ubhayathā tu na yujyata ity āha-<br />
+
+<b>yadindhanaṃ sa cedagnirekatvaṃ kartṛkarmaṇoḥ |<br />
+anyaścedindhanādagnirindhanādapyṛte bhavet || 1 ||<br /></b>
+
+tatra idhyate yat tadindhanam, dāhyaṃ kāṣṭhādikasaṃbhūtam | tasya dagdhā kartā agniḥ | tatra yadi tāvad yadindhanaṃ sa evāgnir iti parikalpyate, tadā kartṛkarmaṇorekatvaṃ syāt | na caivaṃ dṛṣṭam, ghaṭakumbhakārayośchettṛcchettavyayoścaikatvaprasaṅgāt, tasya cānabhyupagamāt | atha anyatvam, evam api yadi indhanādanyo 'gniḥ syāt, tadā indhananirapekṣasyāgnerupalabdhiḥ syāt | na hi ghaṭādanyaḥ paṭastannirapekṣo na dṛṣṭaḥ | na caivamindhananirapekṣo 'gnir iti na yuktam etat || 1 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904099bi' class='verse'>
+							nityapradīpta eva syād apradīpanahetukaḥ |<br />punarārambhavaiyarthyam evaṃ cākarmakaḥ sati || 2 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859626bi' class='verse'>
+							如是常應燃 不因可燃生<br />則無燃火功 亦名無作火&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903473bi' class='verse'>
+							rtag tu ’bar ba nyid du ’gyur | | ’bar byed rgyu las mi ’byung zhing | |<br />rtsom pa don med nyid (7)du ’gyur | | de lta yin na las kyang med | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8904993bi' class='verse'>
+							2. A [fire] which is perpetually burning would exist without a cause, which is kindling,<br />Since another beginning would be pointless; in this case [fire] is without its object [i.e., burning of kindling].&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860584bi' class='verse'>
+							[Fire] would burn permanently and would not arise from causes for burning. Starting [a fire] would be meaningless. If it were like that, there would also be no act.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901069bi' class='verse'>
+							ཡང་གཞན་ཡང་། <b>རྟག་ཏུ་འབར་བ་ཉིད་དུ་འགྱུར། །འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང་། །རྩོམ་པ་དོན་མེད་ཉིད་དུ་འགྱུར། །དེ་ལྟ་ཡིན་ན་་ལས་ཀྱང་མེད། །</b>གཞན་ཉིད་ཡིན་ན་རྟག་ཏུ་འབར་བ་ཉིད་དུ་འགྱུར་བ་དང་། །འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང་བ་དང་། །དེའི་ཕྱིར་རྩོམ་པ་དོན་མེད་པ་ཉིད་དུ་ཡང་འགྱུར་ཏེ། དབྱུང་བ་དང་སྤར་བ་ལ་སོགས་པ་རྩོམ་པ་དག་དོན་མེད་པ་ཉིད་དུ་འགྱུར་རོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906007bi' class='verse'>
+							復次(14)<b>如是常應燃 不因可燃生(15)則無燃火功 亦名無作火</b>(16)若燃可燃異。則燃不待可燃而常燃。若常(17)燃者則自住其體。不待因縁人功則空。人(18)功者。將護火令燃。是功現有。是故知火(19)不異可燃(20)復次若燃異可燃燃即無作。離可燃火何(21)所然。若爾者火則無作。無作火無有是事。(22)問曰。云何火不從因縁生。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901548bi' class='verse'>
+							ཡང་གཞན་ཡང་། །<b>རྟག་ཏུ་འབར་བ་ཉིད་དུ་འགྱུར། །འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང་། །རྩོམ་པ་དོན་མེད་ཉིད་དུ་འགྱུར། །དེ་ལྟར་ཡིན་ན་ལས་ཀྱང་མེད། །</b>གལ་ཏེ་བུད་ཤིང་ལས་མེ་གཞན་ཉིད་ཡིན་པར་་གྱུར་ན་རྟག་ཏུ་འབར་ན་ཉིད་དུ་འགྱུར་ཏེ། འདི་ལྟར་འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང་བའི་ཕྱིར་རོ། །དེའི་འབར་བར་བྱེད་པའི་རྒྱུ་གང་ཡིན་པ་དེ་ནི་འབར་བྱེད་ཀྱི་རྒྱུའོ། །འབར་བར་བྱེད་པའི་རྒྱུ་མེད་པ་ནི་འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང་བ་སྟེ། འབར་བར་བྱེད་པ་མེད་པ་ཁོ་ནར་མི་འབྱུང་བར་འགྱུར་་རོ་ཞེས་བྱ་བའི་ཐ་ཚིག་གོ ། །རྩོམ་པ་དོན་མེད་པ་ཉིད་དུ་ཡང་འགྱུར་རོ། །དེ་ལྟ་ཡིན་ན་ལས་མེད་པའི་མེར་ཡང་འགྱུར་ཏེ། མེ་ཞེས་བྱ་བ་འདི་ནི་སྲེག་པར་བྱེད་པའོ་ཞེས་བྱ་བ་དེ་ལྟ་བུའི་ལས་བསྟན་དུ་མེད་པར་ཡང་འགྱུར་རོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902027bi' class='verse'>
+							གལ་ཏེ་མེ་དང་བུད་ཤིང་དག་ཐ་དད་པ་ཉིད་ཀྱིས་ཐམས་ཅད་ལྟོས་པ་དང་བཅས་པ་དག་གིས་མ་ངེས་པ་ཉིད་དོ་ཞེ་ན། དེ་དག་ཀྱང་བསྒྲུབ་པར་བྱ་བ་དང་རིགས་མཐུན་པ་ཉིད་ཀྱིས་མཚུངས་པར་བཀག་པའི་ཕྱིར་སྐྱོན་མེད་དོ། །མེ་དང་བུད་ཤིང་དག་གཞན་ཉིད་དུ་ཁས་ལེན་པ་ལ་སྐྱོན་གཞན་འདི་ཡང་ཡོད་དེ༑ འདི་ལྟ་སྟེ། <b>རྟག་ཏུ་འབར་བ་ཉིད་དུ་འགྱུར། །འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང། །</b>གལ་ཏེ་བུད་ཤིང་ལས་མེ་གཞན་ཉིད་ཡིན་པར་གྱུར་ན་བུད་ཤིང་ལ་མི་ལྟོས་པར་རྟག་ཏུ་འབར་བར་འགྱུར་ཏེ། དེ་ལ་བུད་ཤིང་དེ་མེད་བྱང་འཆི་བར་མི་འཐད་ཅིང་རྟག་པར་འགྱུར་རོ། །ཅིའི་ཕྱིར་ཞེ་ན། འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང་བའི་ཕྱིར་ཏེ། འབར་བྱེད་ཅེས་བྱ་བ་ནི་བུད་ཤིང་ངོ། །གང་ལ་རྒྱུད་ཡོད་པ་དེ་ནི་འབར་བྱེད་ཀྱི་རྒྱུ་ལས་བྱུང་བའོ། །འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང་བ་ནི་འབར་བར་བྱེད་པའི་རྒྱུ་མེད་པ་ལས་བྱུང་བའོ། །གཞན་ཡང་འཆི་བ་ཡོངས་སུ་སྤང་པའི་ཕྱིར་བུད་ཤིང་སྐམ་པོ་གཞུག་པ་དང། སྦར་བའི་མཚན་ཉིད་ཀྱི་རྩོམ་པ་དག་ཀྱང་མི་འཐད་པས། <b>རྩོམ་པ་དོན་མེད་ཉིད་དུ་འགྱུར། །དོན་མེད་པ་ནི་དོན་དང་བྲལ་བའོ། །</b>དེའི་དངོས་པོ་ནི་དོན་མེད་པ་ཉིད་དེ་འབྲས་བུ་མེད་པ་ཉིད་ཅེས་བྱ་བའི་ཐ་ཚིག་གོ། །དེ་ལྟ་ཡིན་ན་ལས་ཀྱང་མེད། །ལས་མེད་པ་ནི་ལས་ཡོད་པ་མ་ཡིན་པ་(131A)སྟེ༑ བུད་ཤིང་ལ་མི་ལྟོས་པར་འབྱུང་ཞིང་གནས་པས་བསྲེག་པར་བྱ་བ་སྲེག་པའི་མཚན་ཉིད་ཀྱི་ལས་མེད་པའི་ཕྱིར་དེ་ནི་མི་འདོད་དོ། །གྲོང་མིའི་བུད་མེད་ཡན་ཆད་ལ་ཡང་མེ་ནི་རྒྱུ་དང་ལྡན་པ་ཉིད་དང། རྩོམ་པ་དང་བཅས་པ་ཉིད་དང། ལས་དང་བཅས་པ་ཉིད་དུ་གྲགས་པར་འདོད་པས་དེའི་ཕྱིར་རྗེས་སུ་དཔག་པ་སྨྲ་བར་ནུས་ཏེ། དོན་དམ་པར་མེ་ནི་བུད་ཤིང་ལས་གཞན་མ་ཡིན་ཏེ། རྒྱུ་དང་ལྡན་པའི་ཕྱིར་དང། རྩོམ་པ་དང་བཅས་པའི་ཕྱིར་དང། ལས་དང་བཅས་པའི་ཕྱིར་དཔེར་ན་བུད་ཤིང་གི་རང་གི་བདག་ཉིད་བཞིན་ཏེ། རྒྱས་པར་ནི་སྔ་མ་བཞིན་ནོ། །དེ་བཞིན་དུ་བུད་ཤིང་གི་ཕྱོགས་ལ་ཡང་བརྗོད་པར་བྱ་སྟེ། བུད་ཤིང་ལ་ཡང་གཟུགས་པར་བྱ་བ་ལ་སོགས་པའི་ལས་ཡོད་པའི་ཕྱིར་ལས་དང་བཅས་པ་ཉིད་དུ་གྲུབ་པས་བུད་ཤིང་གི་གཏན་ཚིགས་དང་དཔེ་ཉིད་མ་གྲུབ་པ་ཉིད་མ་ཡིན་ནོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009405bi' class='verse'>
+							api ca | yadi indhanādanyo 'gniḥ syāt, tadānīm-<br />
+
+<b>nityapradīpta eva syādapradīpanahetukaḥ |<br />
+punarārambhavaiyarthyamevaṃ cākarmakaḥ sati || 2 ||<br /></b>
+indhanātpṛthagbhūto 'gniriṣyamāṇo nityapradīpta eva syāt, apradīpanahetukaś ca syāt punarārambhavaiyarthyaṃ ca syāt, evaṃ ca sati akarmaka eva syāt || 2 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904100bi' class='verse'>
+							paratra nirapekṣatvād apradīpanahetukaḥ |<br />punarārambhavaiyarthyaṃ nityadīptaḥ prasajyate || 3 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859627bi' class='verse'>
+							燃不待可燃 則不從緣生<br />火若常燃者 人功則應空&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903474bi' class='verse'>
+							gzhan la ltos pa med pa’i phyir | | ’bar bar byed rgyu las mi ’byung | |<br />rtag tu ’bar ba yin na ni | | rtsom pa don med nyid du ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8904994bi' class='verse'>
+							3. [Fire] is without a cause, namely kindling, if it were independent of anything else;<br />In which case another beginning would be pointless, and there is perpetual burning.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860585bi' class='verse'>
+							Because [fire] does not depend on anything else, it would not arise from causes for burning. If it burned permanently, starting it would be meaningless.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901070bi' class='verse'>
+							ཡང་གཞན་ཡང་། དེ་ལྟ་་ཡིན་ན་ལས་ཀྱང་མེད་པར་ཐལ་བར་འགྱུར་ཏེ། །དེའི་ལས་སྲེག་པ་དང་འཆད་པ་ལ་སོགས་པ་གང་ཡིན་པ་དེ་དག་མེད་པར་འགྱུར་རོ། །དེ་ལ་འདི་སྙམ་དུ་ཅིའི་ཕྱིར་འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང་བ་དང་། རྩོམ་པ་དོན་མེད་པ་ཉིད་དུ་ཐལ་བར་འགྱུར་སྙམ་དུ་སེམས་ན། དེ་ལ་བཤད་པར་བྱ་(53B)སྟེ། <b>གཞན་ལ་ལྟོས་པ་མེད་པའི་ཕྱིར། །འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང་། །རྟག་ཏུ་འབར་བ་ཉིད་ཡིན་ན། །རྩོམ་པ་དོན་མེད་ཉིད་དུ་འགྱུར། །</b>གཞན་ལ་ལྟོས་པ་མེད་པའི་ཕྱིར་འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང་བར་འགྱུར་ལ། རྟག་ཏུ་འབར་བ་ཉིད་ཡིན་ན་རྩོམ་པ་དོན་མེད་པ་ཉིད་དུ་ཐལ་་བར་འགྱུར་རོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906008bi' class='verse'>
+							人功亦空答曰(23)<b>燃不待可燃 則不從縁生(24)火若常燃者 人功則應空</b>(25)燃可燃若異。則不待可燃有燃。若不待可(26)燃有然。則無相因法。是故不從因縁生。(27)復次若燃異可燃。則應常燃。若常燃者。應(28)離可燃別見有燃。更不須人功。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901549bi' class='verse'>
+							སྨྲས་པ། མེ་འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང་བར་་འགྱུར་རོ་ཞེས་གང་བཤད་པ་དེ་ཇི་ལྟ་བུ། བཤད་པ། <b>གཞན་ལ་ལྟོས་པ་མེད་པའི་ཕྱིར། །འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང་། །</b>གང་གི་ཕྱིར་བུད་ཤིང་ལས་མེ་གཞན་ཉིད་ཡིན་པར་གྱུར་ན་བུད་ཤིང་མེད་པར་ཡང་འབྱུང་བར་ཐལ་བར་འགྱུར་བ་དེའི་ཕྱིར་གཞན་ལ་ལྟོས་པ་མེད་པ་ཡིན་ཏེ། འདི་ལྟར་མེ་བུད་ཤིང་ལ་ལྟོས་ན་ནི་གཞན་ལ་ལྟོས་པ་དང་བཅས་པར་གྱུར་ན་དེ་ཡང་དེ་ལ་བུད་ཤིང་མེད་པས་གཞན་ལ་ལྟོས་པ་མེད་པ་ཡིན་ལ། གཞན་ལ་ལྟོས་པ་མེད་པའི་ཕྱིར་འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང་བར་འགྱུར་རོ། །འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང་བར་འགྱུར་ན་རྟག་ཏུ་འབར་བ་ཉིད་དུ་(206A)ཐལ་བར་འགྱུར་ཏེ། འདི་ལྟར་མེ་འབར་བྱེད་ལ་ལྟོས་ན་ནི་འབར་བྱེད་མེད་ན་དེ་འཆི་བར་འགྱུར་བ་ཞིག་ན། དེ་ལ་འབར་བྱེད་དེ་ཡང་མེད་པས་རྟག་ཏུ་འབར་བ་ཉིད་དུ་ཡང་ཐལ་བར་འགྱུར་རོ། །<b>རྟག་ཏུ་འབར་བ་ཉིད་ཡིན་ན། །རྩོམ་པ་དོན་མེད་ཉིད་དུ་འགྱུར། །</b>མེ་རྟག་ཏུ་འབར་བ་་ཉིད་ཡིན་ན་ནི་བྱུང་བ་དང་སྤར་བ་ལ་སོགས་པ་རྩོམ་པ་དག་དོན་མེད་པ་ཉིད་དུའང་འགྱུར་རོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902028bi' class='verse'>
+							དེ་ལ་འདི་སྙམ་དུ་ཅིའི་ཕྱིར་འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང་བ་དང༑ རྩོམ་པ་དོན་མེད་པ་ཉིད་དུ་ཐལ་བར་འགྱུར་སྙམ་དུ་སེམས་ན། དེ་ལ་བཤད་པར་བྱ་སྟེ། <b>གཞན་ལ་ལྟོས་པ་མེད་པའི་ཕྱིར། །འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང། །རྟག་ཏུ་འབར་བ་ཉིད་ཡིན་ན། །རྩོམ་པ་དོན་མེད་ཉིད་དུ་འགྱུར། །</b>གཞན་ལ་ལྟོས་པ་མེད་པའི་ཕྱིར། །འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང་བར་འགྱུར་ལ། རྟག་ཏུ་འབར་བ་ཉིད་ཡིན་ན་རྩོམ་པ་དོན་མེད་པ་ཉིད་དུ་ཐལ་བར་འགྱུར་རོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009406bi' class='verse'>
+							amumevārthaṃ pratipādayitukāma āha-<br />
+
+<b>paratra nirapekṣatvādapradīpanahetukaḥ |<br />
+punarārambhavaiyarthyaṃ nityadīptaḥ prasajyate || 3 ||<br /></b>
+
+iti | tatra pradīpyate taditi pradīpanamindhanam | pradīpanaṃ heturasyeti pradīpanahetuka, na pradīpanahetukaḥ apradīpanahetukaḥ | yadi pradīpanādanyo 'gniḥ syāt, tadā indhananirapekṣaḥ syāt | yo hi yasmādanyaḥ, sa tannirapekṣo dṛṣṭaḥ, ghaṭādiva paṭaḥ | tataś ca paratra nirapekṣatvādapradīpanahetukaḥ syāt, pradīpanasāpekṣasya hi agneḥ tadabhāve syānnirvāṇam | yadā tu pradīpananirapekṣa, tadā nirvāṇapratyayavaikalyānnityapradīpta eva bhavet | nityapradīpte cāgnau sati agneraparinirvāṇārthaṃ (pp_87) cāsya upādānasaṃdhukṣaṇādikaṃ vyarthameva syāt | evaṃ ca sati akarmako 'gniḥ kartā syāt | na ca avidyamānakarmakasya kartṛtvaṃ vandhyāsutasyeva | tasmādindhanādagneranyatvam iti na yujyate || 3 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904101bi' class='verse'>
+							tatraitat syād idhyamānam indhanaṃ bhavatīti cet |<br />kenedhyatām indhanaṃ tat tāvanmātram idaṃ yadā || 4 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859628bi' class='verse'>
+							若汝謂燃時 名為可燃者<br />爾時但有薪 何物燃可燃&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903475bi' class='verse'>
+							de la gal te ’di snyam du | | sreg bzhin bud shing yin sems na | |<br />gang tshe de tsam de yin na | | gang gis (7a1)bud shing de sreg byed | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8904995bi' class='verse'>
+							4. If it is maintained: Kindling is that which is being kindled,<br />By what is kindling kindled, since kindling is only that [kindling]?<br />It is inherent existence that would make extinguishing / liberation impossible&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860586bi' class='verse'>
+							Concerning this, if one thinks that while burning it is firewood, if it is such only at that time, by what could that firewood be ignited?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901071bi' class='verse'>
+							<b>དེ་ལ་གལ་ཏེ་འདི་སྙམ་དུ། བསྲེག་བཞིན་བུད་ཤིང་ཡིན་སེམས་ན། </b>དེ་ལ་གལ་ཏེ་འདི་སྙམ་དུ་བསྲེག་བཞིན་པ་ཉིད་བུད་ཤིང་ཡིན་པར་སེམས་ན། དེ་ལ་བཤད་པར་བྱ་སྟེ། <b>གང་ཚེ་དེ་ཙམ་དེ་ཡིན་ན། །གང་གིས་བུད་ཤིང་དེ་སྲེག་བྱེད། </b>གང་གི་ཚེ་བསྲེག་བཞིན་པ་་དེ་ཙམ་བུད་ཤིང་ཡིན་ཞིང་གཞན་གང་དང་ལྡན་པས་ཀྱང་བསྲེག་བཞིན་པ་མ་ཡིན་ན། མེ་གང་གིས་བུད་ཤིང་དེ་སྲེག་པར་བྱེད་དེ། མེ་མེད་པར་ཡང་བུད་ཤིང་ཡིན་པར་ཐལ་བར་འགྱུར་རོ་ཞེས་བྱ་བའི་ཐ་ཚིག་གོ ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906009bi' class='verse'>
+							何以故(29)<b>若汝謂燃時 名爲可燃者</b>(15a1)<b>爾時但有薪 何物燃可燃</b>(2)若謂先有薪燒時名可燃者。是事不爾。若(3)離燃別有可燃者。云何言燃時名可燃。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901550bi' class='verse'>
+							དེ་ལྟ་ན་ལས་མེད་པར་ཡང་ཐལ་བར་འགྱུར་ཞིང་། རྣམ་པ་དེ་ལྟ་བུ་ནི་མི་འཐད་པས་མེ་མེད་པ་ཉིད་དུ་ཡང་ཐལ་བར་འགྱུར་རོ། །<b>དེ་ལ་གལ་ཏེ་འདི་སྙམ་དུ། །སྲེག་ཤིང་བུད་ཤིང་ཡིན་སེམས་ན། །</b>དེ་ལ་་གལ་ཏེ་ལ་ལས་འདི་སྙམ་དུ་གང་གི་ཕྱིར་མེས་ཁྱབ་ཅིང་མེས་བསྲེག་བཞིན་པ་བུད་ཤིང་ཡིན་པ་དེའི་ཕྱིར་གཞན་ཉིད་ཡིན་ཡང་མེ་ལ་བུད་ཤིང་མེད་པ་མ་ཡིན་གྱི། བུད་ཤིང་དང་བཅས་པ་ཉིད་ཡིན་པས་དེ་ལ་བུད་ཤིང་མེད་པར་ཐལ་བར་གྱུར་ན་སྐྱོན་གང་དག་བསྟན་པ་དེ་དག་ཏུ་མི་འགྱུར་བར་་སེམས་ན། དེ་ལ་བཤད་པར་བྱ་སྟེ། <b>གང་ཚེ་དེ་ཙམ་དེ་ཡིན་ན། །གང་གིས་བུད་ཤིང་དེ་སྲེག་བྱེད། །</b>གང་གི་ཚེ་བསྲེག་བཞིན་པ་དེ་ཙམ་ན་དེ་ཉིད་ཡིན་ཞིང་གཞན་གང་དང་ལྡན་པས་ཀྱང་བསྲེག་བཞིན་པ་མ་ཡིན་ན་བུད་ཤིང་གི་གནས་སྐབས་ཀྱི་སྔ་རོལ་ན་མེ་ཞེས་བྱ་བ་གང་གིས་ཁྱབ་ཅིང་གང་་གིས་བསྲེག་བཞིན་པ་ན་བུད་ཤིང་ཡིན་པར་འགྱུར་བ་གཞན་དེ་གང་ཡིན། བསྲེག་བཞིན་པའི་གནས་སྐབས་ཉིད་ལ་ཡང་ཅི་བུད་ཤིང་གང་ཁོ་ན་ཡིན་པ་དེ་ཉིད་མེ་ཡིན་ནམ། འོན་ཏེ་མེ་ཡང་གཞན་ལ་བུད་ཤིང་ཀྱང་གཞན་ཞེས་བསམ་པ་འདི་འབྱུང་ལ། ཁྱོད་ཀྱིས་ཀྱང་བསྲེག་བཞིན་པའི་གནས་་སྐབས་ཉིད་ལ་མེས་ཁྱབ་ཅིང་མེས་བསྲེག་བཞིན་པ་བུད་ཤིང་ཡིན་ནོ་ཞེས་སྨྲས་པ་དེའི་ཚེ་གང་གི་ཕྱིར་མེས་ཁྱབ་ཅིང་མེས་བསྲེག་བཞིན་པ་བུད་ཤིང་ཡིན་པ་དེའི་ཕྱིར་མེ་ལ་བུད་ཤིང་མེད་པ་མ་ཡིན་ནོ་ཞེས་བྱ་བ་དེ་ཇི་ལྟར་སྨྲ་བ་རིགས་སོ། །དེ་ལྟ་བས་ན་གཞན་ཉིད་ཡིན་ན་ཡང་སྐྱོན་དུ་ཐལ་བར་འགྱུར་བ་་དེ་དག་སོན་གནས་བཞིན་ནོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902029bi' class='verse'>
+							ཇི་སྟེ་ཕ་རོལ་པོ་དག་སློབ་དཔོན་གྱིས་མེ་དང་བུད་ཤིང་དག་གཞན་ཉིད་ཡིན་པའི་སྐྱོན་བརྗོད་པས། རྟག་ཏུ་འབར་བ་ཉིད་དུ་འགྱུར། །ཞེས་བྱ་བ་ལ་སོགས་པ་གང་དག་གསུངས་པ་ཇི་སྐད་བསྟན་པར་ཐལ་བར་འགྱུར་བ་དག་ཡོངས་སུ་སྤང་བར་འདོད་པས། <b>དེ་ལ་གལ་ཏེ་འདི་སྙམ་དུ། །སྲེག་བཞིན་བུད་ཤིང་ཡིན་སེམས་ན། །</b>མེས་ཁྱབ་ཅིང་སྲེག་བཞིན་པ་ཉིད་ན་དེ་བུད་ཤིང་ཞེས་བྱ་ཞིང། མེ་ལ་ལྟོས་པ་དང་བཅས་པའི་བུད་ཤིང་ཉིད་དུ་འགྲུབ་པའི་ཕྱིར། ཐལ་བར་འགྱུར་བའི་སྐྱོན་མེད་དོ་སྙམ་དུ་སེམས་ན། དེ་ནི་བཟང་པོ་མ་ཡིན་ཏེ། གླགས་ཡོད་པའི་ཚིག་ཉེ་བར་བཞག་པ་བརྗོད་པས་རྗེས་སུ་དཔག་པ་རྣམ་པ་བཞི་བསྟན་པས་གླགས་ཡོད་པའི་སྐྱོན་གྱི་གཞིའོ། །གཞན་ཉིད་མི་འདོད་ན། དམ་བཅས་པ་ཉམས་པའི་ཕྱིར་རོ། །གཞན་ཡང་ཉོན་ཅིག་གང་ཚེ་དེ་ཙམ་དེ་ཡིན་ན། །(131B)གང་གི་ཚེ་མེའི་རྐྱེན་གྱིས་འབར་བ་དང་བཅས་པ་དེ་ཙམ་དུ་བུད་ཤིང་དེ་ཡིན་པར་བརྗོད་ན། གང་གིས་བུད་ཤིང་དེ་སྲེག་པར་བྱེད། ཐ་སྙད་དུ་ཡང་འབའ་ཞིག་བྱུང་བ་ལ་ནི་བུད་ཤིང་ཞེས་བརྗོད་ཅིང་འབར་བ་དང་བཅས་པ་ལ་ནི་མེ་ཞེས་བྱའོ། །དོན་དམ་པར་ནི་སྐྱེ་བ་བཀག་པའི་ཕྱིར་རོ། །སྐྱེས་སུ་ཟིན་ན་ཡང་དེ་ཙམ་ཡིན་པའི་ཕྱིར་གང་གིས་གང་ལ་ཁྱབ་པར་བྱེད་པར་འཐད་དེ། དེའི་ཕྱིར་ཚིག་དེ་ནི་རང་གི་བློ་གྲོས་ཡང་བར་སྟོན་པ་ཙམ་དུ་ཟད་དོ། །ཡང་ན་འདི་ནི་རྣམ་པར་བཤད་པའི་བརྣག་པ་གཞན་ཡིན་ཏེ། འདི་ལ་བྱེད་པ་པོ་མེའི་མཚན་ཉིད་འགའ་ཞིག་གིས་སྲེག་བཞིན་པ་ན་བུད་ཤིང་ཞེས་བྱ་གྲང་ན་དེ་ཡང་སྒྲུབ་པ་སྔར་བསྟན་བས་རྫས་སུ་ཡོད་པ་ཉིད་བརྩལ་བའི་ཕྱིར་མེད་པས། <b>གང་ཚེ་དེ་ཙམ་དེ་ཡིན་ན། །གང་གིས་བུད་ཤིང་དེ་སྲེག་བྱེད། །</b>གང་གི་ཚེ་གཟུགས་ལ་སོགས་པ་འདུས་པ་ཙམ་དྲོ་བའི་མཚན་ཉིད་ཀྱི་རེག་པའི་ཁྱད་པར་དང་ལྡན་པ་དེ་ཙམ་སྲེག་པ་དང། ཚོས་པ་དང། སྣང་བ་ལ་སོགས་པའི་འབྲས་བུའི་རྒྱུ་ཡིན་པའི་ཕྱིར་དེ་མ་ཡིན་པའི་ཚེ་ནའོ། །ཡང་ན་བུད་ཤིང་ནི་འབྱུང་བ་ཆེན་པོ་བཞི་པོ་དག་ལས་མེ་ཤས་ཆེ་བར་མ་གྱུར་པ་འམ། གསུམ་པོ་དག་ཡིན་པར་བརྗོད་ལ། འབྱུང་བ་ཆེན་པོ་བཞི་འམ་གསུམ་པོ་དེ་དག་ཀྱང་བསྲེག་པར་བྱ་བ་ཡིན་གྱི། སྲེག་པར་བྱེད་པ་དག་མ་ཡིན་ལ། མེ་ཡང་འབྱུང་བ་འམ། འབྱུང་བ་འདུས་པ་ཡིན་པར་ཕ་རོལ་པོ་དག་གིས་ཀྱང་ཤེས་པས་དེའི་ཕྱིར་ཡང་ངེས་པར་བྱ་ནུས་ཏེ། དོན་དམ་པར་མེ་ནི་བུད་ཤིང་སྲེག་པར་བྱེད་པ་མ་ཡིན་ཏེ། འབྱུང་བ་ཡིན་པའི་ཕྱིར་དཔེར་ན་ཆུ་ལ་སོགས་པ་བཞིན་ནོ། །དེ་བཞིན་དུ་གཟུགས་ལ་སོགས་པ་དང་ལྡན་པ་ཉིད་དང་རགས་པ་ཉིད་དང། གཟུགས་ཀྱི་ཕུང་པོས་བསྡུས་པ་ཉིད་དང། ཕྱི་རོལ་པ་ཉིད་དང། སྐྱེ་བ་ཅན་ཉིད་དང། རྒྱུ་ཅན་ཉིད་ཡིན་པའི་ཕྱིར་རོ་ཞེས་བྱ་བ་ལ་སོགས་པའི་གཏན་ཚིགས་དག་ཀྱང་བརྗོད་པར་བྱའོ། །དེའི་ཕྱིར་དེ་ལྟར་དོན་དམ་པར་མེ་ནི་སྲེག་པར་བྱེད་པ་ཉིད་ཡིན་པར་མི་འཐད་པས། གང་ཚེ་དེ་ཙམ་དེ་ཡིན་ན། །གང་གིས་བུད་ཤིང་དེ་སྲེག་བྱེད། །གང་གི་ཚེ་སྐྱེ་བའི་ཁྱད་པར་ལ་ལྟོས་ནས། ཐ་སྙད་དུ་མེ་འམ་བུད་ཤིང་ཞེས་བརྗོད་པའི་ཚེ་འབྱུང་བ་འདུས་པ་དེ་ཙམ་མེ་འམ་བུད་ཤིང་དེ་ཡིན་ན་གང་གིས་བུད་ཤིང་དེ་སྲེག་པར་བྱེད་(132A)དེ་ལྟ་བས་ན་སྲེག་བཞིན་པ་ན་བུད་ཤིང་ཡིན་པར་འགྱུར་རོ་ཞེས་བྱ་བ་ལ་སོགས་པ་དེ་རིགས་པ་མ་ཡིན་ནོ། །གལ་ཏེ་ས་ལ་སོགས་པ་དག་དབྱེར་མེད་པར་གནས་པ་ལ། སྲེག་པར་བྱེད་པ་མེའི་ཁམས་ཡོད་པའི་ཕྱིར། དཔེ་བསྒྲུབ་པར་བྱ་བ་དང་མི་ལྡན་ནོ་ཞེ་ན། དེ་ཡང་བསྒྲུབ་པར་བྱ་བ་དང་རིགས་མཐུན་པ་ཉིད་ཀྱིས་བསྒྲུབ་པར་བྱ་བའི་ཁོངས་སུ་གཏོགས་པའི་ཕྱིར་རམ། ས་ལ་སོགས་པ་དག་རང་གི་མཚན་ཉིད་ཀྱིས་དཔེ་ཉིད་དུ་གྲུབ་པའི་ཕྱིར་སྐྱོན་མེད་དོ། །གྲགས་པའི་གནོད་པ་ལ་སོགས་པ་དག་གི་སྐྱོན་ཡང་མེད་དེ། སྔར་ལན་བཏབ་ཟིན་པའི་ཕྱིར་རོ། །བྱེ་བྲག་པ་དག་ན་རེ། རྡུལ་ཕྲན་དེ་བདག་གི་ཕྱོགས་དང་ཕྲད་པ་ལ་བདག་དང་ལྡན་པ་མ་མཐོང་བས་བསྐྱེད་པའི་ལས་ཀྱི་རྡུལ་ཕྲན་དེ་བདག་གི་ཕྱོགས་དང་ཕྲལ་ནས་རྡུལ་ཕྲན་གཞན་དང་ཕྲད་པར་བྱ་སྟེ། ཕྲད་པ་རྡུལ་ཕྲན་གཉིས་ཀྱིས་གནས་སུ་བྱེད་དོ། །རྡུལ་ཕྲན་ཕྲད་པ་དང་བཅས་པ་དེ་གཉིས་ཀྱིས་རྡུལ་ཕྲན་གཉིས་པ་ཞེས་བྱ་བའི་རྫས་རྩོམ་པར་བྱེད་དོ། །རྡུལ་ཕྲན་གཉིས་པས་ཀྱང་ཇི་སྐད་བསྟན་པའི་རྣམ་པས་རྡུལ་ཕྲན་དང་ཕྲད་པས་རྡུལ་ཕྲན་གཉིས་པའི་རྡུལ་ཕྲན་ཞེས་བྱ་བའི་རྫས་རྩོམ་པར་བྱེད་པ་ལ་སོགས་པའི་རིམ་གྱིས་སྣང་བྱེད་ཀྱི་རྫས་བརྩམས་པ་མེ་ཉིད་དང་འབྲེལ་བའི་ཕྱིར་མེ་ཡིན་ལ། དེ་བཞིན་དུ་བསྲེག་བྱ་ཡང་བུད་ཤིང་ཉིད་དང་འབྲེལ་བའི་ཕྱིར་བུད་ཤིང་ཡིན་ཏེ། དེ་གཉིས་ནི་རྒྱུ་དང་རྒྱུ་ཅན་ཡིན་པའི་ཕྱིར་ཕན་ཚུན་ལྟོས་པ་ཡིན་ནོ་ཞེས་ཟེར་རོ། །དེ་དག་ཀྱང། གལ་ཏེ་ཤིང་ལས་མེ་གཞན་ན། །ཤིང་མེད་པར་ཡང་འབྱུང་བར་འགྱུར། །ཞེས་བ་ལ་སོགས་པ་རྒྱས་པར་ཇི་སྐད་བསྟན་པ་དག་གིས་དགག་པ་བརྗོད་པར་བྱའོ། །དོན་དམ་པར་སྣང་བྱེད་ནི་མེ་མ་ཡིན་པར་གཟུང་བར་བྱ་སྟེ། འབྱུང་བ་ཡིན་པའི་ཕྱིར་དཔེར་ན། དེ་ལས་གཞན་པའི་འབྱུང་བ་དག་བཞིན་ནོ། །རྩོམ་པ་དགག་པ་ཡང་དོན་དམ་པར་མེའི་རྡུལ་ཕྲ་རབ་དག་ནི་མེ་ཞེས་བྱ་བའི་རྫས་རྩོམ་པར་བྱེད་པ་མ་ཡིན་ཏེ། རྡུལ་ཕྲ་རབ་ཡིན་པའི་ཕྱིར་དཔེར་ན་དེ་ལས་གཞན་པའི་རྡུལ་ཕྲ་རབ་དག་བཞིན་ནོ། །ཅི་སྟེ་དམ་བཅས་པ་དེའི་དོན་གང་ཡིན། ཅི་གཞན་དག་རྩོམ་པར་བྱེད་པ་ཡིན་ནམ། རྩོམ་པར་མི་བྱེད་པ་ཡིན། དེས་ཅིར་འགྱུར། གལ་ཏེ་བརྟག་པ་སྔ་མ་ལྟར་ན་ནི་(132B)ཅི་སྟེ་བརྟག་པ་ཕྱི་མ་ལྟར་ན་ནི་དཔེ་མེད་དོ་ཞེ་ན། དེ་ནི་བཟང་པོ་མ་ཡིན་ཏེ། བརྟག་པ་སྔ་མ་ལྟར་ཁས་མ་བླངས་པའི་ཕྱིར་དང། བརྟག་པ་ཕྱི་མ་ལ་ཡང་ས་ལ་སོགས་པ་མེ་རྩོམ་པར་བྱེད་པ་མ་ཡིན་པར་གྲུབ་པ་དག་ལས་གང་ཡང་རུང་བ་དཔེ་ཉིད་ཡིན་པའི་ཕྱིར་རོ།།ཡང་ན་དོན་དམ་པར་མེ་ནི་མེའི་རྡུལ་ཕྲ་རབ་དག་གིས་བརྩམས་པ་མ་ཡིན་པར་གཟུང་བར་བྱ་སྟེ། འབྲས་བུ་ཡིན་པའི་ཕྱིར་དཔེར་ན་ཆུ་བཞིན་ནོ། །དེ་བཞིན་དུ་བྱས་པ་ཉིད་དང། ཆུད་ཟ་བ་ཉིད་དང་སྐྱེ་བ་ཅན་ཉིད་ཡིན་པའི་ཕྱིར་རོ་ཞེས་བྱ་བ་ལ་སོགས་པའི་གཏན་ཚིགས་དག་ཀྱང་བརྗོད་པར་བྱའོ༑ །གྲངས་ཅན་དག་ནི་སྙིང་སྟོབས་དང་རྡུལ་ཤས་ཆེ་བའི་སྒྲ་དང། རིག་པ་དང། གཟུགས་དག་ནི་མེ་ཡིན་ལ། མུན་པ་ཤས་ཆེ་བ་ནི་བུད་ཤིང་ཡིན་པར་སྨྲ་ཞིང་དེས་དེ་ལ་ཁྱབ་པར་འདོད་པས། བུད་ཤིང་གི་རྒྱུས་མེ་འབྱུང་བས་བུད་ཤིང་རྒྱུ་ཡིན་པའི་ཕྱིར་མེ་ནི་བུད་ཤིང་ལ་ལྟོས་པ་ཉིད་ཡིན་པས། ཐལ་བར་འགྱུར་བའི་སྐྱོན་ཡོངས་སུ་སྤངས་སོ་ཞེས་ཟེར་ན། དེ་དག་ཀྱང་དོན་དམ་པར་མེ་ནི་བུད་ཤིང་སྲེག་པར་བྱེད་པ་མ་ཡིན་ཏེ། འབྱུང་བ་ཡིན་པའི་ཕྱིར་དཔེར་ན་ཆུ་ལ་སོགས་པ་བཞིན་ནོ་ཞེས་སྔ་མ་བཞིན་དུ་དགག་པར་བྱའོ། །ཅི་སྟེ་དམ་བཅས་པའི་དོན་རྣམ་པར་བརྟགས་ནས་དེ་ལས་གཞན་པའི་ངོ་བོ་ཉིད་དམ་ངོ་བོ་ཉིད་མེད་པར་རྟོག་ན། ཕྱོགས་སྔ་མ་ལ་གནོད་པ་འམ་དཔེ་མེད་དོ་ཞེས་རྒོལ་བར་བྱེད་ན། དེ་ལ་འདིར་དགག་པ་དེ་ནི་སྲེག་པ་ཉིད་དགག་པ་ཁོ་ནས་མཐུ་ཟད་པ་ཡིན་པའི་ཕྱིར་དང། སྲེག་པ་མ་ཡིན་པའི་ངོ་བོ་ཉིད་ཡིན་པའི་ཕྱིར་སྒྲའི་དོན་ནི་སྒྲ་གཞན་གྱིས་བསྟན་པར་བྱ་བ་ཡིན་པའི་ཕྱིར་ཕྱོགས་སྔ་མ་ལ་གནོད་པ་ཡང་མེད་ལ། ས་ལ་སོགས་པ་སྲེག་པའི་ངོ་བོ་ཉིད་མ་ཡིན་པར་གྲུབ་པ་དག་ཉིད་དཔེ་ཡིན་པའི་ཕྱིར་དཔེ་མེད་པ་ཡང་མ་ཡིན་ནོ། །དཔྱད་པ་རྒྱས་པས་ཆོག་གོ་ །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009407bi' class='verse'>
+							atrāha- yad etad uktam-<br />
+
+anyaścedindhanādagnirindhanādapyṛte bhavet |<br />
+
+iti, tadayuktam | ihānyatve 'pi sati agnīndhanayorna vinaiva indhanena agnerastitvam | yasmājjvālāparigato 'rtho dāhyatvalakṣaṇaḥ indhanam | tadāśrayeṇa ca agnirupalabhyate na pṛthak | yadā caitad evam, agnisaṃbandhādevendhanavyapadeśo bhavati, indhanāśrayeṇa cāgnirupalabhyate na pṛthak, tadā anyaścedindhanādagnirityādidoṣaprasaṅgasya nāstyevāvasara iti | asya pakṣasyāṣyayuktatāmudbhāvayann āha-<br />
+
+<b>tatraitasmādidhyamānamindhanaṃ bhavatīti cet |<br />
+kenedhyatāmindhanaṃ tattāvanmātramidaṃ yadā || 4 ||<br /></b>
+
+yadi manyase jvālāparigato 'rtho dāhyalakṣaṇaḥ indhanam, tadāśrayaścāgniriti, evam api parikalpyamāne indhanamagnirdahatīti nopapadyate | yasmāt<br />
+
+kenedhyatāmindhanaṃ tattāvanmātramidaṃ yadā |<br />
+
+ihendhanamagnirdahatīti parikalpyamāne jvālāparigataṃ dāhyamindhanamiti, na caitadvayatirekeṇāparamagniṃ paśyāmo yenendhanaṃ dahyeta | yasmādetāvanmātramidamupalabhyate yaduta jvālāparigataṃ dāhyamātram | yadā caitadvayatirikto nāstyagniḥ, tadā kena tadindhanaṃ dāhyatām? tāvanmātramidaṃ yadā, idhyamānamātramidaṃ yadetyarthaḥ | tasmānnāgnirindhanaṃ dahati tadvayatiriktāgnyabhāvāt | yadā caivam, tadā kutaḥ kasyacijjvālāparigatir iti sa eva doṣo na vepate || 4 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904102bi' class='verse'>
+							anyo na prāpsyate ’prapto na dhakṣyaty adahan punaḥ |<br />na nirvāsyaty anirvāṇaḥ sthāsyate vā svaliṅgavān || 5 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859629bi' class='verse'>
+							若異則不至 不至則不燒<br />不燒則不滅 不滅則常住&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903476bi' class='verse'>
+							gzhan phyir mi phrad phrad med na | | sreg par mi ’gyur mi sreg na | |<br />’chi bar mi ’gyur mi ’chi na | | rang rtags dang yang ldan par gnas | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8904996bi' class='verse'>
+							5. [Fire], when different and not obtained [through kindling], will not obtain; not burning, it will not burn later;<br />Without extinction, it will not be extinguished; if there is no extinction, then it will remain with its own characteristics.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860587bi' class='verse'>
+							Because [fire] is other, it would not connect; if it did not connect, it would not ignite; if it did not ignite, it would not die; if it did not die, it would also remain in possession of its own characteristic.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901072bi' class='verse'>
+							ཡང་གཞན་ཡང་། <b>གཞན་ན་མི་ཕྲད་ཕྲད་མེད་ན། །སྲེག་པར་མི་འགྱུར་མི་་སྲེག་ན། །འཆི་བར་མི་འགྱུར་མི་འཆི་ན། །རང་གི་རྟགས་དང་ལྡན་པར་གནས། །</b>མེ་གཞན་ཡིན་ན་བུད་ཤིང་དང་མི་ཕྲད་པར་འགྱུར་ཏེ། ཅིའི་ཕྱིར་ཞེ་ན། མི་ལྟོས་པར་གྲུབ་པའི་ཕྱིར་རོ། །ཕྲད་པ་མེད་ན་བུད་ཤིང་སྲེག་པར་མི་འགྱུར་རོ། །མི་སྲེག་ན་འཆི་བར་མི་འགྱུར་རོ། །མི་འཆི་་ན་རང་གི་རྟགས་དང་ལྡན་པར་གནས་པར་འགྱུར་རོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906010bi' class='verse'>
+							復(4)次(5)<b>若異則不至 不至則不燒(6)不燒則不滅 不滅則常住</b>(7)若燃異可燃。則燃不應至可燃。何以故。不(8)相待成故。若燃不相待成。則自住其體。何(9)用可燃。是故不至。若不至則不燃可燃(10)何以故。無有不至而能燒故。若不燒則(11)無滅。應常住自相。是事不爾。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901551bi' class='verse'>
+							ཡང་གཞན་ཡང་། <b>གཞན་ན་མི་ཕྲད་ཕྲད་མེད་ན། །སྲེག་པར་མི་འགྱུར་མི་སྲེག་ན། །འཆི་བར་མི་འགྱུར་མི་འཆི་ན། །རང་གི་བརྟགས་དང་ལྡན་པར་གནས། །</b>མེ་གཞན་ཡིན་ན་བུད་ཤིང་དང་མི་ཕྲད་པར་འགྱུར་རོ། །ཕྲད་པ་མེད་ན་དེ་སྲེག་པར་མི་འགྱུར་རོ། །ཅི་སྟེ་ཕྲད་པ་(206B)མེད་ཀྱང་སྲེག་པར་འགྱུར་ན་ནི། ཕྱོགས་གཅིག་ན་འདུག་པས་འགྲོ་བ་མཐའ་དག་སྲེག་པར་འགྱུར་བས་དེའི་ཕྱིར་ཕྲད་པ་དེ་མི་འཐད་པས་གཞན་ཉིད་ཡིན་ཡང་བསྲེག་བཞིན་པ་ན་བུད་ཤིང་ཡིན་ནོ་ཞེས་གང་སྨྲས་པ་དེ་མི་འཐད་དོ། །མི་སྲེག་ན་འཆི་བར་མི་འགྱུར་རོ། །ཅིའི་ཕྱིར་ཞེ་ན། འདི་ལྟར་མེས་བུད་ཤིང་་བསྲེགས་ན་ནི་བུད་ཤིང་ཟད་པས་འཆི་བར་ཡང་འགྱུར་བ་ཞིག་ན། མི་སྲེག་པ་ལ་འཆི་བ་རྒྱུ་མེད་པ་ལས་བྱུང་བ་ཇི་ལྟར་འབྱུང་བར་འགྱུར། མི་འཆི་ན་ནི་གཞན་ལ་མི་ལྟོས་པ་འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང་བ་རྟག་ཏུ་འབར་བ་དང་། གང་གི་རྟགས་དང་ལྡན་པ་ཐེར་ཟུག་ཏུ་གནས་ཉིད་དུ་གནས་པར་་འགྱུར་རོ། །ཡང་ན་ནི་དེ་བུད་ཤིང་ལས་གཞན་མ་ཡིན་པར་འགྱུར་རོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902030bi' class='verse'>
+							ཡང་གཞན་ཡང། <b>གཞན་ན་མི་ཕྲད་ཕྲད་མེད་ན། །སྲེག་པར་མི་འགྱུར་མི་སྲེག་ན། །འཆི་བར་མི་འགྱུར་མི་འཆི་ན། །རང་གི་རྟགས་དང་ལྡན་པར་གནས། །</b>མེ་གཞན་ཡིན་ན་བུད་ཤིང་དང་མི་ཕྲད་དེ། གཞན་ཡིན་པའི་ཕྱིར་དཔེར་ན་དེ་ཉིད་བུད་ཤིང་དང་མ་ཕྲད་པ་བཞིན་ནོ། །ཕྲད་པ་མེད་ན་སྲེག་པར་མི་འགྱུར་ཏེ། འདིར་མེ་དང་བུད་ཤིན་(133A)དག་ཀྱང་བྱེད་པ་པོ་དང་ལས་ཀྱི་མཚན་ཉིད་ཀྱིས་འབྲེལ་ཞིང་ཕྲད་པར་འདོད་པའི་ཕྱིར་རོ། །མི་སྲེག་ན་འཆི་བར་མི་འགྱུར་ཏེ། བུད་ཤིང་མེད་པར་ཡང་གྲུབ་པའི་ཕྱིར་རོ། །མི་འཆི་ན་རང་གི་རྟགས་དང་ལྡན་པར་གནས་པར་འགྱུར་ཏེ། འདི་རང་གི་རྒྱུ་མེད་པར་ཐེར་ཟུག་ཏུ་གནས་པར་འགྱུར་རོ། །ཇི་ལྟར་མེ་དེ་བུད་ཤིང་ལས་གཞན་ནམ་འོན་ཏེ་གཞན་མ་ཡིན། དེ་དེ་ལས་གཞན་ཡིན་པར་དམ་འཆའ་བ་ལ་ནི་ཇི་སྐད་བསྟན་པའི་སྐྱོན་དུ་འགྱུར་བར་དགོངས་སོ། །དེ་ལ་འདིར་གླགས་ཡོད་པའི་ཚིག་ཡིན་པའི་ཕྱིར་མི་ཕྲད་པ་ལ་སོགས་པའི་ཆོས་རྣམས་ཀྱི་སྐབས་ཀྱི་དོན་བསྒྲུབ་པར་ནུས་པས་དེའི་དབང་གིས་རྗེས་སུ་དཔག་པ་བརྗོད་པར་མི་བྱ་སྟེ། གཞན་ཉིད་རང་ལ་མ་གྲུབ་པའི་ཕྱིར་དང་མི་ཕྲད་པར་བསྟན་པར་མི་བྱ་བའི་ཕྱིར་རོ། །སྒྲ་ཇི་བཞིན་ཡང་མ་ཡིན་ཏེ། །འདི་ལྟར་གཞན་ཉིད་དང་དགག་པ་བསྟན་པའི་ཚིག་གི་དོན་ཡིན་ནོ། །གཞན་ཉིད་དགག་པ་དེ་ཡང་བསྡིགས་པས་བསྟན་པར་བྱ་བ་མ་ཡིན་གྱི། འདི་ལྟར་བྱེད་པ་པོ་དང་ལས་དག་གི་གཞན་ཉིད་དགག་པ་བཞིན་དུ་གྲགས་པ་ཡིན་ནོ། །ཡང་ན། གང་དང་གང་དུ་ལྷན་ཅིག་ཏུ། །གཞན་པ་ཉིད་དུ་མི་འཐད་དོ། །ཞེས་འོག་ནས་སྟོན་པར་འགྱུར་བས་འདིར་བསྟན་པར་མི་བྱའོ།། །།དབུ་མའི་རྩ་བའི་འགྲེལ་པ་ཤེས་རབ་སྒྲོན་མ་བམ་པོ་དགུ་པ། 
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009408bi' class='verse'>
+							api ca | anyatvābhyupagame 'gnīndhanayoridhyamānavyapadeśābhāvātkuta idhyamānamindhanam, kuto vā indhanamagnirdhakṣyatīti pratipādayann āha-<br />
+
+<b>anyo na prāpsyate 'prāpto na dhakṣyatyadahan punaḥ |<br />
+na nirvāsyatyanirvāṇaḥ sthāsyate vā svaliṅgavān || 5 ||<br /></b>
+
+yadi indhanādanyo 'gniḥ syāt, so 'nyatvādandhakāramivendhanaṃ na prāpnuyāt | na ca dhakṣyati aprāptatvādviprakṛṣṭadeśāvasthitamivetyabhiprāyaḥ | evaṃ ca idhyamānamindhanaṃ bhavatīti nopapannameva | tataś ca agnernirvāṇaṃ na syāt | anirvāṇaś ca svaliṅgavāneva sthāsyati, pradīpta ityarthaḥ | vāśabdo 'vadhāraṇe draṣṭavyo vikalpārtho vā | svaliṅgavāneva agniḥ sthāsyati, yadi vā nāstyanyatvamagnerindhanāditi | samuccaye vā | anyo na prāpsyati na dhakṣyati na ca nirvāsyati svaliṅgavāṃś ca sthāsyati | tasmādayuktamindhanādanyatvamagneḥ || 5 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904103bi' class='verse'>
+							anya evendhanād agnir indhanaṃ prāpnuyād yadi |<br />strī saṃprāpnoti puruṣaṃ puruṣaś ca striyaṃ yathā || 6 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859630bi' class='verse'>
+							燃與可燃異 而能至可燃<br />如此至彼人 彼人至此人&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903477bi' class='verse'>
+							ji ltar bud med skyes pa dang | | skyes pa’ang bud med phrad pa bzhin | |<br />gal te shing las me (2)gzhan na | | shing dang phrad du rung bar ’gyur | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8904997bi' class='verse'>
+							6. [The opponent claims:]<br />If fire is different from kindling it could obtain the kindling<br />As a woman obtains a husband, and a man [obtains] a wife.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860588bi' class='verse'>
+							Just as a woman connects with a man and a man too with a woman, although fire is other than wood, it is fit to connect with wood.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901073bi' class='verse'>
+							འདིར་སྨྲས་པ། མེ་གཞན་ཡིན་ན་བུད་ཤིང་དང་མི་ཕྲད་པར་འགྱུར་རོ་ཞེས་གང་བཤད་པ་དེ་ལ་སྨྲ་བར་བྱ་སྟེ། གལ་ཏེ་ཤིང་ལས་མེ་གཞན་ཡང་། །ཤིང་དང་ཕྲད་དུ་རུང་བར་འགྱུར། །<b>ཇི་ལྟར་བུད་མེད་སྐྱེས་པ་དང་། །སྐྱེས་པའང་་བུད་མེད་ཕྲད་པ་བཞིན། །གལ་ཏེ་བུད་ཤིང་ལས་མེ་གཞན་ཡིན་ན་</b>ཡང་བུད་<b>ཤིང་དང་ཕྲད་དུ་རུང་བར་འགྱུར་</b>ཏེ། ཇི་ལྟར་བུད་མེད་དང་སྐྱེས་པ་གཞན་ཉིད་ཡིན་ཡང་ཕན་ཚུན་ནས་ཕྲད་དུ་རུང་བ་བཞིན་ནོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906011bi' class='verse'>
+							問曰(12)<b>燃與可燃異 而能至可燃(13)如此至彼人 彼人至此人</b>(14)燃與可燃異。而能至可燃。如男至於女。(15)如女至於男。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901552bi' class='verse'>
+							སྨྲས་པ། མེ་གཞན་ཡིན་ན་བུད་ཤིང་དང་མི་ཕྲད་པར་འགྱུར་རོ་ཞེས་གང་བཤད་པ་དེ་ལ་སྨྲ་བར་བྱ་སྟེ། <b>གལ་ཏེ་ཤིང་ལས་མེ་གཞན་ཡང་། །ཤིང་དང་ཕྲད་དུ་རུང་བར་འགྱུར། །</b>གལ་ཏེ་བུད་ཤིང་ལས་མེ་གཞན་ཡིན་་ན་ཡང་བུད་ཤིང་དང་ཕྲད་དུ་རུང་བར་འགྱུར་རོ། །ཇི་ལྟར་ཞེ་ན། <b>ཇི་ལྟར་བུད་མེད་སྐྱེས་པ་དང་། །སྐྱེས་པའང་བུད་མེད་ཕྲད་པ་བཞིན། །</b>
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902031bi' class='verse'>
+							འདིར་སྨྲས་པ། གལ་ཏེ་ཁྱེད་སྐྱེས་པ་དང། བུད་མེད་དག་གཞན་ཉིད་ཡིན་ཡང་ཕྲད་པ་ཁས་མི་ལེན་ན་ནི། དེས་ནི་མེ་དང་བུད་ཤིང་དག་ཀྱང་ཕྲད་པ་མེད་པས་འདི་ལྟ་སྟེ། གཞན་ན་མི་ཕྲད་ཕྲད་མེད་ན། །སྲེག་པར་མི་འགྱུར་མི་སྲེག་ན། །འཆི་བར་མི་འགྱུར་མི་འཆི་ན། །རང་གི་རྟགས་དང་ལྡན་པར་གནས། །ཞེས་བྱ་བ་ལ་སོགས་པའི་སྐྱོན་དེ་དག་ཏུ་ཡང་འགྱུར་གྲང་ན། འཇིག་རྟེན་ཐམས་ཅད་ལ་སྐྱེས་པ་དང། བུད་མེད་དག་གཞན་ཉིད་ཡིན་ཡང་ཕྲད་པར་གྲགས་པ་སྙོན་པར་མི་ནུས་པས་དེའི་ཕྱིར། <b>ཇི་ལྟར་བུད་མེད་སྐྱེས་པ་དང། །སྐྱེས་པ་འང་བུད་མེད་ཕྲད་པ་བཞིན། །གལ་ཏེ་ཤིང་ལས་མེ་གཞན་ཡང། །ཤིང་དང་ཕྲད་དུ་རུང་བར་འགྱུར། །</b>ཞེས་སྨྲ་བར་ནུས་སོ། །བཞིན་ཞེས་བྱ་བའི་སྒྲ་མ་གསུངས་ཀྱང། ཇི་ལྟར་ཞེས་བྱ་བའི་སྒྲའི་རྗེས་སུ་(133B)ཕྱེད་གོང་མ་ཤོས་བསྣོར་ནས་རྣམ་པར་བཤད་པར་བྱ་སྟེ། སྨྲ་བར་འདོད་པའི་དོན་བསྟན་སླ་བའི་ཕྱིར་རོ། །དེ་ལ་འདིར་ཚིག་གི་དོན་ནི་མི་མཐུན་པའི་ཕྱོགས་ལ་ཡང་སྒྲུབ་པའི་ཆོས་བསྟན་པའི་ཕྱིར་མ་ངེས་པ་ཉིད་དུ་བསྟན་པ་ཡིན་ཏེ་དཔེར་ན་འགའ་ཞིག་གི་སྒྲ་རྟག་སྟེ། གཟུགས་ཅན་ཡིན་པའི་ཕྱིར་རོ་ཞེས་སྨྲས་པ་ལ། ལ་ལ་ན་རེ། ཇི་ལྟར་ལས་གཟུགས་ཅན་མི་རྟག་པ་ལྟར་སྒྲ་ཡང་དེ་བཞིན་ནོ་ཞེས་ཟེར་བས། དེས་དེ་སྐད་སྨྲས་པ་མ་ངེས་པ་ཉིད་དུ་བསྟན་པར་ཤེས་པ་བཞིན་ནོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009409bi' class='verse'>
+							atrāha- ayuktamagnīndhanayoranyatvam, yasmān na prāpsyate 'prāpto na dhakṣyatyadahan punarityādi, tadayuktam | dṛṣṭā hi anyatve strīpuruṣayoḥ prāptiḥ, evamagnīndhanayorapi bhaviṣyatīti | ucyate-<br />
+
+<b>anya evendhanādagnirindhanaṃ prāpnuyādyadi |<br />
+strī saṃprāpnoti puruṣaṃ puruṣaś ca striyaṃ yathā || 6 ||<br /></b>
+syādetad evam, yadi strīpuruṣavatparasparānapekṣā agnīndhanayoḥ siddhiḥ syāt || 6 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904104bi' class='verse'>
+							anya evendhanād agnir indhanaṃ kāmam āpnuyāt<a class='fotnote cn' name='FN6176cn2' href='#N6176cn2'><sup>2</sup></a>
+ |<br />agnīndhane yadi syātām anyo’nyena tiraskṛte || 7 ||&nbsp;</span><div style='' id='2' class='note cn'>2.<a class="internt" name='N6176cn2' href='#FN6176cn2'> Ye (2007, 167): <i>prāpnuyāt kāmam indhanaṃ</i>.</a>&nbsp; </div><div class='clear'></div></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859631bi' class='verse'>
+							若謂燃可燃 二俱相離者<br />如是燃則能 至於彼可燃&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903478bi' class='verse'>
+							gal te me dang shing dag ni | | gcig gis gcig ni bsal gyur na | |<br />shing las me gzhan nyid yin yang | | shing dang phrad par ’dod la rag | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8904998bi' class='verse'>
+							7. [Nagarjuna answers:]<br />Though fire is different from kindling, it could indeed obtain the kindling,<br />On the condition that both fire and kindling can be reciprocally differentiated [—but, this is impossible].&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860589bi' class='verse'>
+							If fire and wood eliminated each other, even though fire is something other than wood, it would have to connect with wood.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901074bi' class='verse'>
+							འདིར་བཤད་པ། <b>གལ་ཏེ་མེ་དང་ཤིང་དག་ནི། །གཅིག་གིས་གཅིག་ནི་བསལ་་གྱུར་ན། །ཤིང་ལས་མེ་གཞན་ཉིད་ཡིན་ཡང་། །ཤིང་དང་ཕྲད་པར་འདོད་ལ་རག །</b>གལ་ཏེ་མེ་དང་བུད་ཤིང་དག་སྐྱེས་པ་དང་བུད་མེད་དག་བཞིན་དུ་གཞན་ཉིད་ཡིན་ཞིང་གཅིག་གིས་གཅིག་བསལ་བར་གྱུར་ན་ནི། བུད་ཤིང་ལས་མེ་གཞན་ཉིད་ཡིན་ཡང་བུད་ཤིང་དང་ཕྲད་པར་འདོད་ལ་(54A)རག་ན། གང་གི་ཕྱིར་དེ་ལྟ་མ་ཡིན་པ་དེའི་ཕྱིར་ཁྱོད་ཀྱིས་གལ་ཏེ་བུད་ཤིང་ལས་མེ་གཞན་ཡིན་ཡང་བུད་ཤིང་དང་ཕྲད་དུ་རུང་བར་འགྱུར་རོ་ཞེས་གང་སྨྲས་པ་དེ་རིགས་པ་མ་ཡིན་ནོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906012bi' class='verse'>
+							答曰(16)<b>若謂燃可燃 二倶相離者(17)如是燃則能 至於彼可燃</b>(18)若離燃有可燃。若離可燃有燃。各自成(19)者。如是則應燃至可燃。而實不爾。何以(20)故。離燃無可燃。離可燃無燃故。今離男(21)有女。離女有男。是故汝喩非也。喩不成故。(22)燃不至可燃。問曰。燃可燃相待而有。因可(23)燃有燃。因燃有可燃。二法相待成。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901553bi' class='verse'>
+							བཤད་པ། <b>གལ་ཏེ་མེད་དང་ཤིང་དག་ནི། །གཅིག་གིས་གཅིག་ནི་བསལ་གྱུར་ན། །ཤིང་ལས་མེ་གཞན་ཉིད་ཡིན་ཡང་། །ཤིང་དང་ཕྲད་པར་འདོད་ལ་རག །</b>གལ་་ཏེ་མེ་དང་བུད་ཤིང་དག་སྐྱེས་པ་དང་བུད་མེད་དག་བཞིན་དུ་གཅིག་གིས་གཅིག་བསལ་བར་གྱུར་ན་ནི་བུད་ཤིང་ལས་མེ་གཞན་ཉིད་ཡིན་ཡང་ཁྱོད་ཀྱི་ཡིད་ལ་བསམས་བ་བཞིན་དུ། ཇི་ལྟར་བུད་མེད་སྐྱེས་པ་དང་ཕྲད་པ་དང་། སྐྱེས་པ་བུད་མེད་དང་ཕྲད་པ་བཞིན་དུ་བུད་ཤིང་དང་ཕྲད་པར་ཡང་འདོད་ལ་རག་ན་་གང་གི་ཚེ་བསྲེག་བཞིན་པའི་གནས་སྐབས་ཉིད་ལ་བསམ་པ་འདི་འབྱུང་བ་དེའི་ཚེ་མེ་དང་བུད་ཤིང་ཕྲད་པར་འགྱུར་རོ་ཞེས་བྱ་བ་དེ་འཐད་པར་ག་ལ་འགྱུར། སྨྲས་པ། འདིར་དེ་གཉིས་གཅིག་པ་ཉིད་ཀྱང་མ་ཡིན་ལ། གཞན་ཉིད་ཀྱང་མ་ཡིན་པ་དེ་ཉིད་རིགས་པས་དེ་གཉིས་གཅིག་པ་ཉིད་དམ། གཞན་ཉིད་དུ་མ་གྱུར་ཀྱང་གོ་སླ་སྟེ། རེ་ཞིག་མེ་དང་བུད་ཤིང་དག་ནི་རབ་ཏུ་གྲུབ་པ་ཡིན་ནོ། །བཤད་པ། དེ་ནི་བཞད་གང་ཁོ་ནར་འགྱུར་ཏེ། །གང་དག་དངོས་པོ་གཅིག་པ་དང་། །དངོས་པོ་གཞན་པ་ཉིད་དུ་ནི། །གྲུབ་པར་གྱུར་པ་ཡོད་མིད་པ། །དེ་གཉིས་གྲུབ་པ་ཧི་ལྟར་ཡོད། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902032bi' class='verse'>
+							འདིར་བཤད་པ། <b>གལ་ཏེ་མེ་དང་ཤིང་དག་ནི། །གཅིག་གིས་གཅིག་ནི་བསལ་གྱུར་ན། །ཤིང་ལས་མེ་གཞན་ཉིད་ཡིན་ཡང། ཤིང་དང་ཕྲད་པར་འདོད་ལ་རག་</b>གལ་ཏེ་མེ་དང་ཤིང་དག་གཅིག་གིས་གཅིག་བསལ་བར་གྱུར་ན་ཞེས་བྱ་བ་ནི་བྱེད་པ་པོ་དང་ལས་སུ་འབྲེལ་བའི་མཚན་ཉིད་མེད་པར་གྱུར་ན་ཞེས་བྱ་བའི་ཐ་ཚིག་གོ། །ཤིང་ལས་མེ་གཞན་ཉིད་ཡིན་ཡང། །ཤིང་དང་ཕྲད་པར་འདོད་ལ་རག་ཅེས་བྱ་བ་ནི། ཁྱོད་འདོད་པ་ལྟར། བུད་མེད་དང་སྐྱེས་པ་དག་བཞིན་དུ་ཕྲད་པར་འདོད་ལ་རག་ན་ཞེས་གླགས་ཡོད་པའི་སྒོ་ནས་ཁས་བླངས་ནས་ལན་འདེབས་པར་འདོད་པ་ཡིན་ནོ། །འདི་ལྟར་ཁོ་བོས་གལ་ཏེ་ཕན་ཚུན་ལྟོས་པ་མེད་པ་དག་གཞན་ཡིན་པའི་ཕྱིར་ཡུལ་ཐ་མི་དད་པར་འབྱུང་བའི་མཚན་ཉིད་ཀྱི་ཕྲད་པ་བསལ་བར་གྱུར་ན་ནི། གཏན་ཚིགས་མ་ངེས་པ་ཉིད་དུ་འགྱུར་ཞིང། དམ་བཅས་པའི་དོན་དེ་ཡང་འཐད་པར་འགྱུར་བ་ཞིག་ན་མེ་དང་བུད་ཤིང་དག་ནི་རྣམ་པ་དེ་ལྟར་མི་འདོད་དེ༑ དེ་དག་ལ་བྱེད་པ་པོ་དང་ལས་སུ་འབྲེལ་པའི་མཚན་ཉིད་ཀྱི་ཕྲད་པ་གཞན་མེད་ན་མི་འབྱུང་བ་མེད་པས་གཞན་ཉིད་དུ་སྨྲ་བ་རྣམས་ཀྱི་དམ་བཅས་པ་ལ་གླགས་ཡོད་པའི་སྒོ་ནས་ཡང་དག་པར་ཆོས་ཀྱི་ཁྱད་པར་བསལ་བའི་སྐྱོན་ཡོད་པར་བསྟན་པ་ཡིན་གྱི། རང་དབང་དུ་རྗེས་སུ་དཔག་པ་བསྟན་པ་ནི་མ་ཡིན་ནོ། །དེས་ན་བུད་མེད་དང། སྐྱེས་པ་དག་ཕྲད་ནས་ཇི་སྐད་སྨྲས་པ་དག་མི་སྲིད་པས། མི་མཐུན་པའི་ཕྱོགས་མེད་པའི་ཕྱིར་མ་ངེས་པ་ཉིད་མ་ཡིན་པས། ཕ་རོལ་པོའི་ཚིག་དེ་ནི་འཁྲུལ་པ་ཙམ་སྟེ། རང་གི་བློ་གྲོས་ཡང་པར་སྟོན་པ་ཡིན་ནོ། །དེའི་ཕྱིར་དེ་ལྟར་མེ་(134A)དང་བུད་ཤིང་དག་གཅིག་པ་ཉིད་དང་གཞན་པ་ཉིད་དུ་མ་གྲུབ་པའི་ཕྱིར། རབ་ཏུ་བྱེད་པའི་དང་པོར་སྨྲས་པའི་སྒྲུབ་པའི་དཔེ་མ་ཚང་བ་ཉིད་དོ། །འདིར་སྨྲས་པ། དོན་དམ་པར་མེ་དང་བུད་ཤིང་དག་ནི་ཡོད་པ་ཁོ་ན་ཡིན་ཏེ། ཕན་ཚུན་ལྟོས་པའི་ཕྱིར་རོ། །འདི་ན་གང་དག་མེད་པ་དེ་དག་ལ་ནི་ཕན་ཚུན་ལྟོས་པ་ཉིད་མེད་དེ། དཔེར་ན་རི་བོང་གི་རྭ་དག་བཞིན་ནོ། །མེ་དང་བུད་ཤིང་དག་ལ་ནི་མེ་འདིའི་བུད་ཤིང་ནི་འདིའོ། །བུད་ཤིང་འདིའི་སྲེག་པ་ནི་འདིའོ་ཞེས་ཕན་ཚུན་ལྟོས་པ་ཉིད་ཡོད་པས་དེའི་ཕྱིར་མེ་དང་བུད་ཤིང་དག་ནི་ཡོད་པ་ཁོ་ན་ཡིན་ཏེ། དེ་དག་ཡོད་པའི་ཕྱིར་དངོས་ཀྱི་དོན་གྲུབ་བོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009410bi' class='verse'>
+							na tvastīty āha-<br />
+
+<b>anya evendhanādagnirindhanaṃ kāmamāpnuyāt |<br />
+agnīndhane yadi syātāmanyonyena tiraskṛte || 7 ||<br /></b>
+
+na tv evaṃ saṃbhavati yadindhananirapekṣo 'gniḥ syāt, agninirapekṣaṃ cendhanam iti | tasmād dṛṣṭāntavaiyarthyam | anyonyāpekṣādhīnajanmanāṃ satyanyatve yeṣāṃ prāptiḥ siddhā, teṣāmeva dṛṣṭāntatvenopādānaṃ nyāyyaṃ syāt | te ca na saṃbhavantīti na yuktametadanyatve sati prāptirastīti || 7 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904105bi' class='verse'>
+							yadīndhanam apekṣyāgnir apekṣyāgniṃ yadīndhanam |<br />katarat pūrvaniṣpannaṃ yad apekṣyāgnir indhanam || 8 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859632bi' class='verse'>
+							若因可燃燃 因燃有可燃<br />先定有何法 而有燃可燃&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903479bi' class='verse'>
+							gal te shing ltos me yin la | | gal te me ltos shing yin na | |<br />gang ltos me (3)dang shing ’gyur ba | | dang por grub pa gang zhig yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8904999bi' class='verse'>
+							8. If the fire is dependent on the kindling, and if the kindling is dependent on the fire<br />Which is attained first, dependent on which they are fire and kindling?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860590bi' class='verse'>
+							If fire were dependent on wood and wood were dependent on fire, of what becomes fire and wood dependently, which would be established first?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901075bi' class='verse'>
+							འདིར་སྨྲས་པ། བུད་ཤིང་ལ་ལྟོས་ན་མེ་ཡིན་ལ་མེ་ལ་ལྟོས་ནས་ཀྱང་བུད་ཤིང་ཡིན་པས་་བུད་ཤིང་དང་མེ་དག་ནི་ལྟོས་པ་ཅན་དུ་འགྲུབ་བོ། །འདིར་བཤད་པ། <b>གལ་ཏེ་ཤིང་ལྟོས་མེ་ཡིན་ལ། །གལ་ཏེ་མེ་ལྟོས་ཤིང་ཡིན་ན། །གང་ལ་ལྟོས་པའི་མེ་དང་ཤིང་། །དང་པོར་གྲུབ་པ་གང་ཞིག་ཡིན། །</b>གལ་ཏེ་བུད་ཤིང་ལ་ལྟོས་ནས་མེ་ཡིན་ལ། མེ་ལ་ལྟོས་ནས་བུད་ཤིང་ཡིན་་ན་གང་ལ་ལྟོས་ནས་མེ་ཡིན་པར་འགྱུར་བའམ། བུད་ཤིང་ཡིན་པར་འགྱུར་བ་དེ་གཉིས་ལས་དང་པོར་གྲུབ་པ་གང་ཡིན། དེ་ལ་འདི་སྙམ་དུ་བུད་ཤིང་དང་པོར་གྲུབ་ལ་དེ་ལ་ལྟོས་ནས་མེ་ཡིན་པར་སེམས་ན། 
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906013bi' class='verse'>
+							答曰(24)<b>若因可燃燃 因燃有可燃(25)先定有何法 而有燃可燃</b>(26)若因可燃而燃成。亦應因燃可燃成。是中(27)若先定有可燃。則因可燃。而燃成。若先定(28)有燃。則因燃可燃成。今若因可燃而燃成(29)者。則先有可燃而後有燃。不應待燃而(15b1)有可燃。何以故可燃在先燃在後故。若燃(2)不燃可燃。是則可燃不成。又可燃不在餘(3)處離於燃故。若可燃不成。燃亦不成。若先(4)燃後有可燃。燃亦有如是過。是故燃可燃。(5)二倶不成。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901554bi' class='verse'>
+							སྨྲས་པ། །ཕན་(207A)ཚུན་ལྟོས་པ་ལས་བུད་ཤིང་ལ་ལྟོས་ནས་མེ་ཡིན་ལ། མེ་ལ་ལྟོས་ནས་བུད་ཤིང་ཡིན་ནོ། །བཤད་པ། <b>གལ་ཏེ་ཤིང་ལྟོས་མེ་ཡིན་ལ། །གལ་ཏེ་མེ་ལྟོས་ཤིང་ཡིན་ན། །གང་ལ་ལྟོས་པའི་མེ་དང་ཤིང་། །དང་པོར་གྲུབ་པ་གང་ཞིག་ཡིན། །</b>གལ་ཏེ་བུད་ཤིང་ལ་ལྟོས་ནས་་མེ་ཡིན་ལ། མེ་ལ་ལྟོས་ནས་ཀྱང་ཤིང་ཡིན་ན། །གང་ལ་ལྟོས་ནས་མེ་ཡིན་པར་འགྱུར་བའམ། བུད་ཤིང་ཡིན་པར་འགྱུར་བ་དེ་གཉིས་ལས་དང་པོར་གྲུབ་པ་གང་ཡིན། 
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902033bi' class='verse'>
+							འདིར་བཤད་པ། <b>གལ་ཏེ་ཤིང་ལྟོས་མེ་ཡིན་ལ། །གལ་ཏེ་མེ་ལྟོས་ཤིང་ཡིན་ན། །གང་ལ་ལྟོས་པའི་མེ་དང་ཤིང། །དང་པོར་གྲུབ་པ་གང་ཞིག་ཡིན། །</b>ཅི་བུད་ཤིང་གང་ལ་ལྟོས་ནས་མེ་འགྲུབ་པ་འམ། འོན་ཏེ་མེ་གང་ལ་ལྟོས་ནས་བུད་ཤིང་འགྲུབ་པའི་མེ་དང་བུད་ཤིང་དག་ལས་དང་པོར་གྲུབ་པ་གང་ཞིག་ཡིན་ཏེ། དེ་དག་ལ་གང་ལ་ལྟོས་ནས་གང་ཡང་རུང་བ་འགྲུབ་པར་འགྱུར་བའི་དང་པོར་གྲུབ་པ་གཅིག་ཀྱང་མེད་དོ་ཞེས་བྱ་བར་དགོངས་སོ། །དེ་ལྟར་དོན་དམ་པར་ལྟོས་པ་མི་འཐད་པའི་ཕྱིར་གཏན་ཚིགས་ཀྱི་དོན་མ་གྲུབ་པ་ཉིད་དང། དཔེའི་སྐྱོན་དེ་ཉིད་ཡོད་དོ། །ཀུན་རྫོབ་པའི་གཏན་ཚིགས་ཡིན་པར་རྟོག་ན་ནི་དོན་འགལ་བ་ཉིད་དང། སྒྲུབ་པའི་དཔེ་མ་ཚང་བ་ཉིད་ཀྱི་སྐྱོན་དེ་ཉིད་ཡོད་དོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009411bi' class='verse'>
+							atrāha- yady api agnīndhanayoḥ strīpuruṣavatparasparanirapekṣā siddhirnāsti, tathāpi parasparāpekṣā tāvadasti | tataś ca astyevāgnīndhanayoḥ svarūpasiddhiḥ parasparasāpekṣatvāt | na hi avidyamānayorvandhyāputraduhitroḥ parasparāpekṣatā dṛṣṭeti | ucyate | evamapi-<br />
+
+<b>yadīndhanamapekṣyāgnirapekṣyāgniṃ yadīndhanam |<br />
+kataratpūrvaniṣpannaṃ yadapekṣyāgnirindhanam || 8 ||<br /></b>
+
+asyendhanasya ayamagnirdāhakaḥ kartā, ityevaṃ yadi indhanamapekṣyāgnirvyavasthāpyate, asyāgneridamindhanaṃ karmetyevamagnimapekṣya yadīndhanam, tat kataradanayoḥ pūrvaniṣpannam? kimindhanaṃ yadapekṣyāgni syāt, uta agniryamapekṣyendhanaṃ syāt? tatra yadi indhanaṃ pūrvaniṣpannam iti kalpyate, tadayuktam, agninirapekṣasya anidhyamānasyendhanatvābhāvāt, tṛṇādeḥ sarvasya caiva indhanatvaprasaṅgāt | atha pūrvamagniḥ paścādindhanamiti, tadapyayuktam, indhanātpūrvasiddhasyāgnerasaṃbhavāt, nirhetukatvaprasaṅgāt | paścāccāpekṣayā niṣprayojanatvāt | tasmānnāsti atra kiṃcitpūrvasiddhaṃ yadapekṣya itarasya siddhi syāt || 8 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904106bi' class='verse'>
+							yadīndhanam apekṣyāgnir agneḥ siddhasya sādhanam |<br />evaṃ satīndhanaṃ<a class='fotnote cn' name='FN6176cn3' href='#N6176cn3'><sup>3</sup></a>
+ cāpi bhaviṣyati niragnikam || 9 ||&nbsp;</span><div style='' id='3' class='note cn'>3.<a class="internt" name='N6176cn3' href='#FN6176cn3'> Ye (2007, 151): <i>bhaviṣyatīndhanam</i>; cf. Tib: <i>...'gyur || bud par bya ba'i shing...</i></a>&nbsp; </div><div class='clear'></div></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859633bi' class='verse'>
+							若因可燃燃 則燃成復成<br />是為可燃中 則為無有燃&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903480bi' class='verse'>
+							gal te shing ltos me yin na | | me grub pa la sgrub par ’gyur | |<br />bud par bya ba’i shing la yang | | me med par ni ’gyur pa yin | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905000bi' class='verse'>
+							9. If fire is dependent on kindling, so is the proof of the proved fire.<br />Thus, being kindling it will exist without fire.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860591bi' class='verse'>
+							If fire were dependent on wood, [already] established fire would be established [again]. Firewood also would be [such] even without fire.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901076bi' class='verse'>
+							དེ་ལ་བཤད་པར་བྱ་སྟེ། <b>གལ་ཏེ་ཤིང་ལྟོས་མེ་ཡིན་ན། །མེ་གྲུབ་པ་ལ་་སྒྲུབ་པར་འགྱུར། །</b>གལ་ཏེ་བུད་ཤིང་དང་པོར་གྲུབ་ལ་དེ་ལ་ལྟོས་ནས་མེ་ཡིན་པར་འགྱུར་ན། དེ་ལྟ་ན་མེ་གྲུབ་ཟིན་པ་ཡང་སྒྲུབ་པར་འགྱུར་བ་ཡིན་ནོ། །ཡང་གཞན་ཡང་། བུད་པར་བྱ་བའི་ཤིང་ལ་ཡང་། །མེ་མེད་པར་ནི་འགྱུར་བ་ཡིན། །དེ་ལྟ་ན་བུད་ཤིང་ལ་ཡང་མེ་མེད་པར་་འགྱུར་བ་ཡིན་ནོ། །དེ་ནི་མི་འདོད་པས་དེའི་ཕྱིར་མེ་དང་བུད་ཤིང་དག་ལྟོས་པ་ཅན་དུ་འགྱུར་རོ་ཞེས་གང་སྨྲས་པ་དེ་རིགས་པ་མ་ཡིན་ནོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906014bi' class='verse'>
+							復次(6)<b>若因可燃燃 則燃成復成(7)是爲可燃中 則爲無有燃</b>(8)若欲因可燃而成燃。則燃成已復成。何以(9)故。燃自住於燃中。若燃不自住其體。從可(10)燃成者。無有是事。是故有是燃從可燃(11)成。今則燃成復成。有如是過。復有可燃(12)無燃過。何以故。可燃離燃自住其體故。是(13)故燃可燃相因待。無有是事。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901555bi' class='verse'>
+							དེ་ལ་འདི་སྙམ་དུ་བུད་ཤིང་དང་པོར་གྲུབ་པ་དེ་ལ་ལྟོས་ནས་མེ་ཡིན་པར་སེམས་ན། དེ་ལ་བཤད་པར་བྱ་སྟེ། <b>གལ་ཏེ་ཤིང་་ལྟོས་མེ་ཡིན་ན། །མེ་གྲུབ་པ་ལ་སྒྲུབ་པར་འགྱུར། །</b>གལ་ཏེ་བུད་ཤིང་དང་པོར་གྲུབ་པ་ལ་དེ་ལྟོས་ནས་མེ་ཡིན་པར་འགྱུར་ན་དེ་ལྟར་ན་མེ་གྲུབ་ཟིན་པ་ལ་ཡང་སྒྲུབ་པར་འགྱུར་བ་ཡིན་ནོ། །ཅིའི་ཕྱིར་ཞེ་ན། འདི་ལྟར་མེ་གྲུབ་ན་བུད་ཤིང་ལ་ལྟོས་པར་འཐད་ཀྱི། མེ་མ་གྲུབ་ཅིང་མེད་ན་ཇི་ལྟར་བུད་ཤིང་ལ་་ལྟོས་པར་བྱེད་དོ། །དེའི་ཕྱིར་བུད་ཤིང་མེད་པར་ཡང་མེ་རང་གིས་གྲུབ་པ་ལྟོས་པར་ནུས་པ་ལ་ཁྱོད་ཡང་བུད་ཤིང་ལ་ལྟོས་ནས་རབ་ཏུ་འགྲུབ་པར་འགྱུར་བ་དོན་མེད་པ་ཡོད་དམ། ཡང་གཞན་ཡང་། <b>བུད་པར་བྱ་བའི་ཤིང་ལ་ཡང་། །མེ་མེད་པར་ནི་འགྱུར་བ་ཡིན། །</b>དེ་ལྟ་ན་བུད་ཤིང་ལ་ཡང་མེ་་མེད་པར་འགྱུར་བ་ཡིན་ནོ། །འདི་ལྟར་བུད་ཤིང་ཡང་གྲུབ་པ་ན་མེ་ལ་ལྟོས་པར་འཐད་ཀྱི། བུད་ཤིང་མ་གྲུབ་ཅིང་མེད་ན་ཇི་ལྟར་མེ་ལ་ལྟོས་པར་བྱེད་དོ། །དེའི་ཕྱིར་བུད་ཤིང་དེ་ཉིད་ཀྱང་མེ་མེད་པར་རང་གིས་རབ་ཏུ་གྲུབ་པར་ཐལ་བར་འགྱུར་བ་ལ་ཁྱོད་ཡང་མེ་ལ་ལྟོས་ནས་རབ་ཏུ་འགྲུབ་པ་དོན་་མེད་པ་ལ་རྟོག་པར་བྱེད་དམ། དེ་ལྟ་བས་ན། དེ་གཉིས་ནི་ཕན་ཚུན་ལྟོས་ཏེ་འགྲུབ་པར་མི་འཐད་དོ། །དེ་བཞིན་དུ་མེ་སྔར་གྲུབ་པ་ལ་ལྟོས་ནས་བུད་ཤིང་འགྲུབ་པར་རྟོག་ན་ཡང་སྐྱོན་དང་ལྡན་པར་འགྱུར་རོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902034bi' class='verse'>
+							ཅི་སྟེ་ཡང་བུད་ཤིང་དང་པོར་གྲུབ་པའི་ཕྱིར་སྐྱོན་མེད་དོ་སྙམ་ན་དེའི་ཕྱིར་བཤད་པ། <b>གལ་ཏེ་ཤིང་ལྟོས་མ་ཡིན་ན། །མེ་གྲུབ་པ་ལ་སྒྲུབ་པར་འགྱུར། །</b>མི་གྲུབ་པ་ལ་བརྗོད་པ་ཁྱད་པར་ཅན་བསྙད་པ་ཉིད་ཀྱི་ཕྱིར་བུད་ཤིང་ལ་ལྟོས་པའི་ཕྱིར་རོ་ཞེས་བྱ་བར་དགོངས་སོ། །དེ་ལྟར་རྟོག་པ་ལ། <b>བུད་པར་བྱ་བའི་ཤིང་ལ་ཡང། །མེ་མེད་པར་ནི་འགྱུར་བ་ཡིན། །</b>བུད་ཤིང་དེ་སྔར་མེ་ལ་མ་ལྟོས་པར་ཡང་བུད་ཤིང་ཉིད་དུ་གྲུབ་པའི་ཕྱིར་རོ་ཞེས་བྱ་བར་དགོངས་སོ། །དེ་ནི་མི་འདོད་པས་འདིར་གླགས་ཡོད་པའི་ཚིག་ཡིན་པའི་ཕྱིར་རྗེས་སུ་དཔག་པ་མངོན་ཏེ། དོན་དམ་པར་བུད་ཤིང་ནི་མེའི་སྔ་རོལ་ན་གྲུབ་པ་མེད་དེ། ལྟོས་པ་དང་བཅས་པའི་ཕྱིར་དཔེར་ན་མེའི་རང་གི་བདག་ཉིད་བཞིན་ཏེ། རྒྱས་པར་ནི་སྔ་མ་བཞིན་ནོ། །(134B) དེ་དག་ལས་གང་ཡང་རུང་བ་དང་པོར་གྲུབ་པ་མ་ཡིན་མོད་ཀྱི། འོན་ཀྱང་མེ་དང་བུད་ཤིང་དག་ནི་དུས་མཉམ་དུ་འགྲུབ་པར་འགྱུར་ཏེ། ལྟོས་པ་ཅན་ཡིན་པའི་ཕྱིར་དཔེར་ན་བ་ལང་གི་རྭ་དུས་གཅིག་ཏུ་སྐྱེས་པ་དག་ལ་གཡས་པ་དང། གཡོན་པ་ཉིད་འགྲུབ་པ་བཞིན་ནོ༑ །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009412bi' class='verse'>
+							athāpi manyase- pūrvamindhanaṃ paścādagniriti, evamapi<br />
+
+<b>yadīndhanamapekṣyāgniragneḥ siddhasya sādhanam |<br /></b>
+
+bhaviṣyati | yadi indhanamapekṣyāgnirbhaviṣyatīti parikalpyate, evaṃ tarhi siddhasya sato 'gneḥ punarapi sādhanaṃ syāt | vidyamānasyaiva padārthasya siddharūpasyāpekṣā yujyate | na hi avidyamāno devadatto gṛhe kaṃcidapekṣate | evaṃ yadi agnirvidyamāno na syāt, nāsāvindhanamapekṣate | tasmādastitvamagne rambhupeyam | tadā ca kimasya indhanasyāpekṣayā punaḥ kartavyam? na hi siddho 'gniḥ punarindhanena (pp_89) kartavyo yadarthamindhanāpekṣāsāphalyaṃ syāt | tasmādindhanamapekṣyāgnirbhavatīti na yuktam |<br />
+
+api ca | yadi indhanamapekṣyāgnirbhavatīti parikalpyate-<br />
+<b>evaṃ satīndhanaṃ cāpi bhaviṣyati niragnikam || 9 ||<br /></b>
+yadi indhanamasiddhaṃ syāt, naiva tadagninā apekṣyeta, asiddhasyāpekṣāyogāt | tasmānniragnikasyendhanasya siddhirabhyupeyā, na caivametaditi na yuktametaditi || 9 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904107bi' class='verse'>
+							yo ’pekṣya sidhyate bhāvas tam evāpekṣya sidhyati |<br />yadi yo ’pekṣitavyaḥ sa sidhyatāṃ kam apekṣya kaḥ || 10 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859634bi' class='verse'>
+							若法因待成 是法還成待<br />今則無因待 亦無所成法&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903481bi' class='verse'>
+							gal te dngos po gang ltos ’grub | | de nyid la yang ltos nas ni | |<br />ltos bya gang (4)yin de ’grub na | | gang la ltos nas gang zhig ’grub | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905001bi' class='verse'>
+							10. When a thing (bhava) is proved by being dependent on something else, then it proves the other by being dependent [on it].<br />If that which is required for dependence must be proved, then what is dependent on what?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860592bi' class='verse'>
+							If a thing (A) is established dependently (on B), [but] if what it depends upon (B) is established also in dependence on that very thing (A), what would be established in dependence on what?&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901077bi' class='verse'>
+							འདིར་སྨྲས་པ། དེ་དག་གང་ཡང་རུང་བ་དང་པོར་མ་གྲུབ་ཀྱང་ཕན་ཚུན་ལྟོས་པ་ཉིད་འགྲུབ་བོ། །འདིར་སྨྲས་པ། <b>གལ་ཏེ་དངོས་པོ་གང་་ལྟོས་འགྲུབ། །དེ་ཉིད་ལ་ཡང་ལྟོས་ནས་ནི། །ལྟོས་བྱ་གང་ཡིན་དེ་འགྲུབ་ན། །གང་ལ་ལྟོས་ནས་གང་ཞིག་འགྲུབ། །</b>གལ་ཏེ་བསྒྲུབ་པར་བྱ་བའི་དངོས་པོ་གང་ཡིན་པ་དེ་ནི། དངོས་པོ་གཞན་ལ་ལྟོས་ཏེ་འགྲུབ་ཅིང་། བསྒྲུབ་པར་བྱ་བའི་དངོས་པོ་དེ་ཉིད་ལ་ཡང་ལྟོས་ནས་་ལྟོས་པར་བྱ་བའི་དངོས་པོ་གཞན་གང་ཡིན་པ་དེ་འགྲུབ་ན། བོད་པའི་ཚིག་འོ་ན་གྲུབ་པར་འདོད་པ་གང་ལ་ལྟོས་ནས་གང་ཞིག་འགྲུབ་པར་འགྱུར། 
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906015bi' class='verse'>
+							復次(14)<b>若法因待成 是法還成待(15)今則無因待 亦無所成法</b>(16)若法因待成。是法還成本因待。如是決定則(17)無二事。如因可燃而成燃。還因於燃而(18)成可燃。是則二倶無定。無定故不可得。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901556bi' class='verse'>
+							སྨྲས་པ། ཅི་མ་སྨྲས་པ་ལ་སྐྱོན་དེ་ལྟ་བུ་འདོགས་པར་བྱེད་དམ། གང་གི་ཚེ་ཁོ་བོས་དེ་དག་་ཕན་ཚུན་ལྟོས་ཏེ་འགྲུབ་བོ་ཞེས་སྨྲས་པ་དེའི་ཚེ་དེ་དག་ལ་དང་པོར་གྲུབ་པ་གང་ཡིན་ཞེས་བྱ་བ་དང་། གལ་ཏེ་དེ་དག་ལས་གང་ཡང་རུང་བ་དང་པོར་གྲུབ་པར་གྱུར་ན་ཕན་ཚུན་ལྟོས་པ་ཉིད་མི་འགྲུབ་བོ་ཞེས་བྱ་བ་དེ་དག་གང་གི་ལན་ཡིན། བཤད་པ། ཕན་ཚུན་ལྟོས་ཏེ་འགྲུབ་པར་རྟོག་ན་གང་ཡང་རུང་བ་དང་པོར་འགྲུབ་(207B)པར་མི་འདོད་དུ་ཟིན་ཀྱང་དེ་ལྟ་ན་ཕན་ཚུན་ལྟོས་པ་འགྲུབ་པར་མི་འཐད་དོ། །ཇི་ལྟར་ཞེ་ན། <b>གལ་ཏེ་དངོས་པོ་གང་ལྟོས་འགྲུབ། །དེ་ཉིད་ལ་ཡང་ལྟོས་ནས་ནི། །ལྟོས་བྱ་གང་ཡིན་དེ་འགྲུབ་ན། །གང་ལ་ལྟོས་ནས་གང་ཞིག་འགྲུབ། །</b>གལ་ཏེ་བསྒྲུབ་པར་བྱ་བའི་དངོས་པོ་གང་ཡིན་པ་ནི་དངོས་པོ་གཞན་་ལ་ལྟོས་ནས་འགྲུབ་ཅིང་བསྒྲུབ་པར་བྱ་བའི་དངོས་པོ་དེ་ཉིད་ལ་ཡང་ལྟོས་ནས་བསྒྲུབ་པར་བྱ་གྲུབ་པར་བྱ་བའི་ཕྱིར་ལྟོས་པར་བྱ་བའི་དངོས་པོ་གཞན་གང་ཡིན་པ་དེ་འགྲུབ་ན། འོ་ན་གྲུབ་པར་འདོད་པ་གང་ལ་ལྟོས་ནས་གང་ཞིག་འགྲུབ་པ་དེ་སྨྲོས་ཤིག །ཅི་ཁྱོད་ཀྱི་རྣ་ལམ་དུ་སྐྱེ་བོ་མཁས་པའི་ཁ་ནས་་བརྗོད་པའི་ཚིག་དེ་དག་ནི་ཕན་ཚུན་ལྟོས་པ་དག་ཡིན་ལ། ཕན་ཚུན་ལྟོས་པ་དག་ནི་མི་འགྲུབ་བོ་ཞེས་བྱ་བ་དེ་སྔོན་ཆད་མ་གྲགས་སམ། དཔེར་ན་གྲུ་ལ་བསྟོད་པ་གཅིག་གི་སྐྱབས་སུ་གཅིག་མི་འགྱུར་བ་བཞིན་ནོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902035bi' class='verse'>
+							འདིར་བཤད་པ། <b>གལ་ཏེ་དངོས་པོ་གང་ལྟོས་འགྲུབ། །དེ་ཉིད་ལ་ཡང་ལྟོས་ནས་ནི། །ལྟོས་བྱ་གང་ཡིན་དེ་གྲུབ་ན། །གང་ལ་ལྟོས་ནས་གང་ཞིག་འགྲུབ། །</b>དང་པོ་ཞེས་བྱ་བའི་ཚིག་གི་ལྷག་མའོ། །གལ་ཏེ་ཁྱོད་འདོད་པ་ལྟར་མེའི་མཚན་ཉིད་ཀྱི་དངོས་པོ་གང་ཡིན་པ་ནི་བུད་ཤིང་ལ་ལྟོས་ནས་འགྲུབ་ཅིང་མེ་དེ་ཉིད་ལ་ཡང་ལྟོས་ནས་མེ་འགྲུབ་པར་བྱ་བའི་ཕྱིར་ལྟོས་པར་བྱ་བ་བུད་ཤིང་གི་མཚན་ཉིད་ཀྱི་དངོས་པོ་གང་ཡིན་པ་དེ་འགྲུབ་ན་གང་ལ་ལྟོས་ནས་གང་ཞིག་འགྲུབ་པར་འགྱུར་ཏེ། གང་ཡང་རུང་བ་མེ་ཉིད་དམ་བུད་ཤིང་ཉིད་དུ་མི་འགྲུབ་སྟེ། རང་གི་རྒྱུ་ལས་སྐྱེ་བ་ནི་ཕན་ཚུན་ལྟོས་པ་མི་འགྲུབ་པའི་ཕྱིར་རོ་ཞེས་བྱ་བའི་ཚིག་གི་དོན་ཏོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009413bi' class='verse'>
+							atha matam- yaugapadyenaiva indhanasiddhayā agnisiddhiḥ, agnisiddhayā ca indhanasiddiḥ | tataś ca ekasyāpi pūrvasiddhayanabhyupagamāt, tatra yad uktam-<br />
+
+kataratpūrvaniṣpannaṃ yadapekṣyāgnirindhanam |<br />
+
+iti, tadayuktam iti | ucyate | evamapīṣyamāṇe ubhayasyāpi nāsti siddhiḥ | yasmāt-<br />
+
+<b>yo 'pekṣya sidhyate bhāvastamevāpekṣya sidhyati |<br />
+yadi yo 'pekṣitavyaḥ sa sidhyatāṃ kamapekṣya kaḥ || 10 ||<br /></b>
+
+tatra yadi yaḥ agnyākhyo bhāvaḥ yamindhanākhyaṃ bhāvamapekṣya sidhyati, indhanākhyaś ca bhāvaḥ yo 'gninā ātmasiddhayarthamapekṣitavyaḥ, sa yadi tameva agnyākhyaṃ padārthamapekṣya sidhyati, kathyatāmidānīṃ sidhyatāṃ kamapekṣya kaḥ iti | yadā ca agnyabhāve sati indhanasya siddhireva nāsti, tadā akāraṇasyendhanasyābhāvāt kutastaddhetuko 'gniḥ prasetsyati? evaṃ ya indhanākhyo bhāvaḥ yamagnyākhyaṃ bhāvamapekṣya sidhyati, agnyākhyaś ca bhāvo yaḥ indhanākhyena ātmasiddhayarthamapekṣitavyaḥ, sa yadi tamevendhanākhyaṃ bhāvamapekṣya sidhyati, kathyatāṃ kimidānīṃ sidhyatāṃ kamapekṣya kaḥ iti | yadā hi indhanābhāve sati agneḥ siddhirnāsti, tadā niṣkāraṇasyāgnerabhāvāt kutastaddhetukamindhanam? || 10 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904108bi' class='verse'>
+							yo ’pekṣya sidhyate bhāvaḥ so ’siddho ’pekṣate katham |<br />athāpy apekṣate siddhas tv apekṣāsya na yujyate || 11 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859635bi' class='verse'>
+							若法有待成 未成云何待<br />若成已有待 成已何用待&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903482bi' class='verse'>
+							dngos po ltos grub gang yin pa | | de ma grub na ji ltar ltos | |<br />ci ste grub pa ltos she na | | de ni ltos par mi rigs so | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905002bi' class='verse'>
+							11. If that thing is proved by being dependent, how can that which has not been proved be dependent?<br />So, that which is proved is dependent; but the dependence is not possible.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860593bi' class='verse'>
+							How can a thing (A) which is established dependently (on B) be dependent (on B) when it (A) is not established? If one asks, “how can establishment be dependent?” It is not reasonable for it (A) to be dependent.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901078bi' class='verse'>
+							ཡང་གཞན་ཡང་། <b>དངོས་པོ་ལྟོས་འགྲུབ་པ་གང་ཡིན་པ། །དེ་མ་གྲུབ་ན་ཇི་ལྟར་ལྟོས། །ཇི་སྟེ་གྲུབ་པ་ལྟོས་ཤེ་ན། །དེ་ནི་ལྟོས་པར་(54B)མི་རིགས་སོ། །</b>དངོས་པོ་གང་དངོས་པོ་གཞན་ལ་ལྟོས་ཏེ་འགྲུབ་བོ་ཞེས་བརྗོད་པའི་དངོས་པོ་དེ་མ་གྲུབ་ཅིང་མེད་ན་ཇི་ལྟར་ལྟོས་པར་བྱེད། དེ་མ་གྲུབ་ཅིང་མེད་པ་ལ་ཡང་ཇི་ལྟར་ལྟོས་པར་བྱ། ཇི་སྟེ་ཡང་གྲུབ་པ་ཉིད་གཞན་ལ་ལྟོས་པར་སེམས་ན་དེ་ཡང་མི་རིགས་ཏེ། དངོས་པོ་གྲུབ་་ཅིང་ཡོད་པ་ཡང་གྲུབ་པར་བྱ་བའི་ཕྱིར་གཞན་ལ་ལྟོས་པ་ནི་དོན་མེད་པའི་ཕྱིར་མི་རིགས་སོ། །དེ་གྲུབ་ཅིང་ཡོད་པ་ལ་གཞན་ལ་ལྟོས་པར་ཡང་མི་རིགས་སོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906016bi' class='verse'>
+							何(19)以故(20)<b>若法有待成 未成云何待(21)若成已有待 成已何用待</b>(22)若法因待成。是法先未成。未成則無。無則(23)云何有因待。若是法先已成已成。何用因(24)待。是二倶不相因待。是故汝先説燃可燃(25)相因待成。無有是事。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901557bi' class='verse'>
+							གང་གི་ཕྱིར་དེ་ལྟ་ཡིན་ན་ཁྱོད་ངོ་ཚ་བོར་ཏེ་དེ་དག་ཕན་ཚུན་ལྟོས་ཏེ་འགྲུབ་བོ་ཞེས་གསང་་བསྟོད་དེ་སྨྲ་འམ། རེ་ཞིག་མཉམ་པར་གཞག་པའི་ཡིད་ཀྱིས་ལེགས་པར་སོམས་ལ་དེ་སྨྲོས་ཤིག །<b>དངོས་པོ་ལྟོས་འགྲུབ་གང་ཡིན་པ། །དེ་མ་གྲུབ་ན་ཇི་ལྟར་ལྟོས། །</b>དངོས་པོ་གང་དངོས་པོ་གཞན་ལ་ལྟོས་ཏེ་འགྲུབ་བོ་ཞེས་བརྗོད་པའི་དངོས་པོ་དེ་མ་གྲུབ་ཅིང་། མེད་ན་ཇི་ལྟར་ལྟོས་པར་བྱེད། །དེ་མ་གྲུབ་ཅིང་མེད་པ་ལ་ཡང་ཇི་ལྟར་ལྟོས་པར་བྱ། <b>ཅི་སྟེ་གྲུབ་པ་ལྟོས་ཤེ་ན། །</b>ཅི་སྟེ་ཡང་ཁྱོད་གྲུབ་པ་ཉིད་གཞན་ལ་ལྟོས་ཀྱི། མ་གྲུབ་པ་ལ་ནི་མི་ལྟོས་ལ་གྲུབ་པ་ལ་ཡང་ཅི་ཞིག་ལྟོས་པར་སེམས་ན། དེ་ལ་བཤད་པར་བྱ་སྟེ། <b>དེ་ནི་ལྟོས་པར་མི་རིགས་སོ། །</b>དངོས་པོ་གྲུབ་ཅིང་ཡོད་པ་ཡང་གྲུབ་་པར་བྱ་བའི་ཕྱིར་གཞན་ལ་ལྟོས་པ་ནི་དོན་མེད་པའི་ཕྱིར་མི་རིགས་སོ། །དངོས་པོ་གྲུབ་ཅིང་ཡོད་པ་ལ་གཞན་ལ་ལྟོས་པས་ཅི་བྱ། གྲུབ་ཅིང་ཡོད་པ་ལ་གཞན་ལྟོས་པས་ཀྱང་ཇི་ལྟར་འགྱུར། དེ་ལྟ་བས་ན་གྲུབ་པ་དང་མ་གྲུབ་པ་དག་ལྟོས་པར་མི་འཐད་པའི་ཕྱིར་མེད་བུད་ཤིང་དག་ལ་ལྟོས་ཏེ་འགྲུབ་པར་་མི་འཐད་དོ། །མེ་དང་བུད་ཤིང་གི་སྐབས་སུ་དངོས་པོའི་ཚིག་སྨྲོས་པ་ནི་མེ་དང་བུད་ཤིང་དག་ཀྱང་དངོས་པོ་ཡིན་པའི་ཕྱིར་ཏེ། འོག་ནས་ཀྱང་། བུམ་སྣམ་ལ་སོགས་ལྷན་ཅིག་ཏུ། །ཞེས་འབྱུང་ངོ་། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902036bi' class='verse'>
+							དེས་ན་བ་ལང་གི་རྭའི་དཔེ་ཉིད་ལ་ཡང་གཏམ་དེ་ཉིད་དུ་འགྱུར་ཏེ། དེ་གཉིས་ལ་ཡང་གང་ལ་ལྟོས་ནས་གཞན་གང་ཡང་རུང་བ་འགྲུབ་པར་འགྱུར་བའི་གཡས་པའམ། གཡོན་པར་གྲགས་པ་གང་ཡིན་ཡང་གཞན་ཡང། <b>དངོས་པོ་ལྟོས་གྲུབ་གང་ཡིན་པ། །དེ་མ་གྲུབ་ན་ཇི་ལྟར་ལྟོས། །</b>མ་གྲུབ་པ་ནི་ལྟོས་པར་མི་བྱེད་པ་ཉིད་དོ་ཞེས་བྱ་བའི་ཚིག་གི་དོན་ཏེ། དེ་ནི་དམ་བཅའ་བ་ཉེ་བར་གཞག་པའོ། །འདིར་རྗེས་སུ་དཔག་པ་ནི་དོན་དམ་པར་མེ་མ་གྲུབ་པ་ནི་བུད་ཤིང་ལ་ལྟོས་པར་མི་བྱེད་དེ༑ མེ་ཉིད་དུ་མ་གྲུབ་པའི་ཕྱིར་དཔེར་ན་དེ་ལས་གཞན་བཞིན་ནོ། །ཕ་རོལ་པོ་དག་རང་གི་ཚུལ་ལ་གནོད་པ་བཅབ་པའི་ཕྱིར། <b>ཇི་སྟེ་གྲུབ་པ་ལྟོས་ཤེ་ན། </b>དེ་སྐད་ཟེར་ན་དེ་ལྟ་ན་ཡང་དེ་ནི་ལྟོས་པར་མི་རིགས་སོ། །ལྟོས་པ་དང་བཅས་པ་ཉིད་དུ་རྗེས་སུ་དཔོག་པས་ཡོད་པ་ཉིད་ཀྱིས་མེད་པ་ཉིད་བསྩལ་བའི་ཕྱིར་དེས་ན་མེད་པར་སྨྲ་བ་རྣམས་ཀྱི་དམ་བཅས་པ་ལ་ཆོས་ཅན་གྱི་རང་གི་ངོ་བོ་བསྩལ་བའི་སྐྱོན་ཡོད་དོ་ཞེས་བྱ་བར་དགོངས་སོ། །ཡང་ན། <b>དེ་ནི་ལྟོས་པར་མི་རིགས་སོ། །</b>མེད་པའི་ཕྱིར་ནམ་མཁའི་མེ་ཏོག་བཞིན་ནོ། །ཡང་ན་དེ་ནི་ལྟོས་པར་མི་རིགས་སོ། །བུད་ཤིང་(135A)དེ་ནི་མེ་ལ་ལྟོས་པར་མི་རིགས་ཏེ་དེ་བཞིན་དུ་མེད་པའི་ཕྱིར་དཔེར་ན་དེ་ལས་གཞན་བཞིན་ནོ། །དེ་བཞིན་དུ་མེའི་ཕྱོགས་ལ་ཡང་བརྗོད་པར་བྱའོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009414bi' class='verse'>
+							itaś ca agnīndhanayoḥ parasparāpekṣayāpi siddhirasatī, siddhāsiddhayorapekṣābhāvāditi pratipādayann āha-<br />
+
+<b>yo 'pekṣya sidhyate bhāvaḥ so 'siddho 'pekṣate katham |<br />
+athāpyapekṣate siddhastvapekṣāsya na yujyate || 11 ||<br /></b>
+
+yo hi agnyākhyo bhāvaḥ indhanākhyaṃ bhāvamapekṣya sidhyati, saḥ asiddho vā indhanamapekṣate siddho vā? yadi asiddhaḥ, tadā asiddhatvāt kharaviṣāṇavannendhanamapekṣeta | atha siddhaḥ, siddhatvāt kimasyendhanāpekṣayā? na hi siddhaṃ punarapi sādhyate vaiyarthyāt | evamindhane 'pi vācyam | tasmānnāgnīndhanayoḥ parasparāpekṣayā yaugapadyena vā siddhir iti || 11 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904109bi' class='verse'>
+							apekṣyendhanam agnir na nānapekṣyāgnir indhanam |<br />apekṣyendhanam agniṃ na nānapekṣyāgnim indhanam || 12 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859636bi' class='verse'>
+							因可燃無燃 不因亦無燃<br />因燃無可燃 不因無可燃&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903483bi' class='verse'>
+							shing la ltos pa’i me med de | | shing la ma ltos me yang med | |<br />me la ltos pa’i shing med de | | (5)me la ma ltos shing yang med | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905003bi' class='verse'>
+							12. Fire does not exist in relation to kindling; and fire does not exist unrelated to kindling.<br />Kindling does not exist in relation to fire; and kindling does not exist unrelated to fire.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860594bi' class='verse'>
+							There is no fire that is dependent on wood; there is also no fire that is not dependent on wood. There is no wood that is dependent on fire; there is also no wood that is not dependent on fire.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901079bi' class='verse'>
+							ཡང་གཞན་ཡང་། <b>ཤིང་ལ་ལྟོས་པའི་མེ་མེད་དེ། །ཤིང་ལ་མ་ལྟོས་མེ་ཡང་མེད། །མེ་ལ་ལྟོས་པའི་ཤིང་མེད་དེ།། མེ་ལ་མ་ལྟོས་ཤིང་ཡང་མེད། །</b>དེའི་ཕྱིར་དེ་ལྟར་རིགས་པ་སྔོན་དུ་བཏང་སྟེ། ཡང་དག་པ་ཇི་ལྟ་བ་བཞིན་དུ་བརྟགས་ན། བུད་ཤིང་ལ་ལྟོས་པའི་མེ་མེད་དེ། མེད་དང་བུད་ཤིང་གྲུབ་པ་དང་མ་གྲུབ་པ་དག་ལྟོས་པར་མི་འཐད་པའི་ཕྱིར་རོ། །བུད་ཤིང་ལ་མ་ལྟོས་པའི་མེ་ཡང་མེད་དེ་་གཞན་ལ་ལྟོས་པ་མེད་པ་དང་འབར་བར་བྱེད་པའི་རྒྱུ་ལས་བྱུང་བ་དང་རྟག་ཏུ་འབར་བ་ཐལ་བར་འགྱུར་བའི་ཕྱིར་རོ། །ད་ནི་མེ་ལ་ལྟོས་པའི་བུད་ཤིང་ཡང་མེད་དེ་མེ་དང་བུད་ཤིང་གྲུབ་པ་དང་མ་གྲུབ་པ་དག་ལྟོས་པར་མི་འཐད་པའི་ཕྱིར་རོ། །མེ་ལ་མ་ལྟོས་པའི་བུད་ཤིང་ཡང་མེད་དེ་མེ་མེད་་ཅིང་བསྲེག་བཞིན་མ་ཡིན་པ་བུད་ཤིང་དུ་མི་འགྱུར་བའི་ཕྱིར་རོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906017bi' class='verse'>
+							是故(26)<b>因可燃無燃 不因亦無燃(27)因燃無可燃 不因無可燃</b>(28)今因待可燃燃不成。不因待可燃燃亦不(29)成。可燃亦如是。因燃不因燃。二倶不成。(15c1)是過先已説。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901558bi' class='verse'>
+							དེའི་ཕྱིར་འདི་ནི་དངོས་པོ་ཐམས་ཅད་བརྟག་པ་ཉིད་ཡིན་པའི་ཕྱིར་དངོས་པོ་ཞེས་སྨྲོས་སོ། །<b>ཤིང་མ་ལྟོས་པའི་(208A)མེ་མེད་དེ། །ཤིང་ལ་མ་ལྟོས་མེ་ཡང་མེད། །མེ་ལ་ལྟོས་པའི་ཤིང་མེད་དེ། །མེ་ལ་མ་ལྟོས་ཤིང་ཡང་མེད། །</b>དེའི་ཕྱིར་དེ་ལྟར་རིགས་པ་སྔོན་དུ་བཏང་སྟེ་ཡང་དག་པ་ཇི་ལྟ་བ་བཞིན་དུ་བརྟགས་ན་བུད་ཤིང་ལ་ལྟོས་པའི་མེ་མེད་དེ། མེ་དང་བུད་ཤིང་གྲུབ་པ་དང་། །མ་གྲུབ་པ་དག་་ལྟོས་པར་མི་འཐད་པའི་ཕྱིར་རོ། །བུད་ཤིང་ལ་མ་ལྟོས་པའི་མེ་ཡང་མེད་དེ། གཞན་ལ་ལྟོས་པ་མེད་པ་དང་། འབར་བྱེད་མེད་པའི་རྒྱུ་ལས་བྱུང་བ་དང་། རྟག་ཏུ་འབར་བར་ཐལ་བར་འགྱུར་བའི་ཕྱིར་རོ། །དེ་ནི་མེ་ལ་ལྟོས་པའི་བུད་ཤིང་ཡང་མེད་དེ། མེ་དང་བུད་ཤིང་གྲུབ་པ་དང་མ་གྲུབ་པ་དག་ལྟོས་་པར་མི་འཐད་པའི་ཕྱིར་རོ། །མེ་ལ་མ་ལྟོས་པའི་བུད་ཤིང་ཡང་མེད་དེ། འདི་ལྟར་མེ་མེད་ཅིང་བསྲེག་བཞིན་པ་མ་ཡིན་པ་བུད་ཤིང་དུ་ཇི་ལྟར་འགྱུར། 
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902037bi' class='verse'>
+							དེའི་ཕྱིར་དེ་ལྟར་བརྟགས་ན། <b>ཤིང་ལ་ལྟོས་པའི་མེ་མེད་དེ། །</b>སྔར་བསྟན་པའི་ཚུལ་གྱིས་བུད་ཤིང་མེ་ལ་མི་ལྟོས་པར་བུད་ཤིང་ཉིད་དུ་མ་གྲུབ་པའི་ཕྱིར་རོ། །<b>ཤིང་ལ་མ་ལྟོས་མེ་ཡང་མེད། །</b>རྒྱུ་ཐ་དད་པ་དག་གཞན་ཉིད་དུ་མ་གྲུབ་པའི་ཕྱིར་དང། གཞན་ཉིད་བཀག་པའི་ཕྱིར་རོ། །དེ་བཞིན་དུ། <b>མེ་ལ་ལྟོས་པའི་ཤིང་མེད་དེ། །མེ་ལ་མ་ལྟོས་ཤིང་ཡང་མེད། །</b>ལྟོས་པ་བཀག་པའི་ཕྱིར་དང་གཞན་ཉིད་བཀག་པའི་ཕྱིར་རོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009415bi' class='verse'>
+							yataś caivam, tasmāt-<br />
+
+<b>apekṣyendhanamagnirna<br /></b>
+
+atha syāt- anapekṣyāgnistarhi bhaviṣyatīti | etadapi na yuktamity āha-<br />
+
+<b>nānapekṣyāgnirindhanam |<br /></b>
+
+anyatvapratiṣedhādahetukatvaprasaṅgācca | yathā ca agnirapekṣya vā anapekṣya vā indhanaṃ saṃbhavati, evamindhanamapīty āha-<br />
+<b>apekṣyendhanamagniṃ na nānapekṣyāgnimindhanam || 12 ||</b> etacca anantarameva gatārthatvānna punarucyate || 12 ||<br />&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904110bi' class='verse'>
+							āgacchaty anyato nāgnir indhane ’gnir na vidyate |<br />atrendhane<a class='fotnote cn' name='FN6176cn4' href='#N6176cn4'><sup>4</sup></a>
+ śeṣam uktaṃ gamyamānagatāgataiḥ || 13 ||&nbsp;</span><div style='' id='4' class='note cn'>4.<a class="internt" name='N6176cn4' href='#FN6176cn4'> Ye (2007, 163): <i>athendhanam(<--tathedhanaṃ)</i>.</a>&nbsp; </div><div class='clear'></div></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859637bi' class='verse'>
+							燃不餘處來 燃處亦無燃<br />可燃亦如是 餘如去來說&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903484bi' class='verse'>
+							me ni gzhan las mi ’ong ste | | shing la’ang me ni yod ma yin | |<br />de bzhin shing gi lhag ma ni | | song dang ma song bgom pas bstan | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905004bi' class='verse'>
+							13. Fire does not come from something else; and fire does not exist in kindling.<br />The remaining [analysis] in regard to kindling is described by [the analysis of] “that which is being gone to,” “that which is gone to” and ”that which is not yet gone to.”&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860595bi' class='verse'>
+							Fire does not come from something else; fire also does not exist in wood. Likewise, the remainder of wood has been shown by gone, not-gone and going.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901080bi' class='verse'>
+							ཡང་གཞན་ཡང་། <b>མེ་ནི་གཞན་ལས་མི་འོང་སྟེ། །ཤིང་ལའང་མེ་ནི་ཡོད་མ་ཡིན། །</b>མེ་ནི་གཞན་ལས་མི་འོང་སྟེ་གཞན་ལས་འོང་བར་བརྟག་པ་དེ་ཡང་བུད་ཤིང་དང་བཅས་པར་རམ་བུད་ཤིང་མེད་པར་འོང་བར་མི་་འཐད་པའི་ཕྱིར་རོ། །བུད་ཤིང་ལ་ཡང་མེ་ཡོད་པ་མ་ཡིན་ཏེ། མི་དམིགས་པའི་ཕྱིར་དང་། རྩོམ་པ་དོན་མེད་པ་ཉིད་དུ་འགྱུར་བའི་ཕྱིར་དང་། སོང་དང་མ་སོང་བགོམ་པ་ཡིས། །དེ་བཞིན་ཞིང་ལ་ལྷག་མ་བསྟན། །རྣམ་པ་དེ་དག་གིས་དེ་བཞིན་དུ་བུད་ཤིང་ལ་ཡང་བརྗོད་པ་ལྷག་་མ་དག་བསྟན་པར་ཁོང་དུ་ཆུད་པར་བྱའོ། །རྣམ་པ་གང་དག་གིས་ཤེ་ན། །སོང་དང་མ་སོང་བ་དང་བགོམ་པའི་རྣམ་པ་དག་གིས་ཏེ། ཇི་ལྟར་སོང་བ་དང་མ་སོང་བ་དང་བགོམ་པ་དང་འགྲོ་བ་མེད་པ་དེ་བཞིན་དུ། བུད་ཤིང་བསྲེགས་པ་དང་མ་བསྲེགས་པ་དང་བསྲེག་བཞིན་པ་ལ་ཡང་(55A)སྲེག་པ་མེད་དོ། །ཇི་ལྟར་སོང་བ་དང་མ་སོང་བ་དང་བགོམ་པ་ལ་འགྲོ་བའི་རྩོམ་པ་མེད་པ་དེ་བཞིན་དུ་བུད་ཤིང་བསྲེགས་པ་དང་མ་བསྲེགས་པ་དང་བསྲེག་བཞིན་པ་ལ་ཡང་སྲེག་པའི་རྩོམ་པ་མེད་དོ། །ཇི་ལྟར་འགྲོ་བ་པོ་དང་འགྲོ་བ་པོ་མ་ཡིན་པ་དང་འགྲོ་བ་པོ་ཡིན་་པ་དང་། མ་ཡིན་པ་འགྲོ་བར་མི་བྱེད་པ་དེ་བཞིན་དུ། སྲེག་པ་པོ་དང་སྲེག་པ་པོ་མ་ཡིན་པ་དང་། སྲེག་པ་པོ་ཡིན་པ་དང་མ་ཡིན་པར་ཡང་སྲེག་པར་མི་བྱེད་དོ། །དེ་བཞིན་དུ་ལྷག་མ་རྣམས་ཀྱང་བསྟན་པར་བྱའོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906018bi' class='verse'>
+							復次(2)<b>燃不餘處來 燃處亦無燃(3)可燃亦如是 餘如去來説</b>(4)燃不於餘方來入可燃可燃中亦無燃。析(5)薪求燃不可得故。可燃亦如是。不從餘處(6)來入燃中。燃中亦無可燃。如燃已不燃未(7)燃不燃燃時不燃。是義如去來中説。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901559bi' class='verse'>
+							ཅི་སྟེ་འགྱུར་ན་ནི་བུད་ཤིང་མ་ཡིན་པར་འགྱུར་བ་ཅི་ཡང་མེད་དེ། དེ་ནི་མི་འདོད་པས་དེའི་ཕྱིར་མེ་ལ་མ་ལྟོས་པའི་བུད་ཤིང་ཡང་མེད་དོ། །<b>མེ་ནི་གཞན་ལས་་མི་འོང་སྟེ། །ཤིང་ལའང་མེ་ནི་ཡོད་མ་ཡིན། །</b>མེ་ནི་གཞན་གང་ལས་ཀྱང་མི་འོང་སྟེ། ཅིའི་ཕྱིར་ཞེ་ན། འདི་ལྟར་དེ་གཞན་ལས་འོང་བར་རྣམ་པར་བརྟག་པ་གང་ཡིན་པ་དེ་ཡང་བུད་ཤིང་དང་བཅས་པར་རམ། བུད་ཤིང་མེད་པར་རོ་གྲང་ན། །དེ་ལྟ་ན་དེ་ལ་ཡང་བསམ་པ་དང་སྐྱོན་དུ་ཐལ་བ་དེ་དག་་ཉིད་དུ་འགྱུར་བས་གཞན་ལས་འོང་བར་བརྟག་པ་དོན་མེད་པར་འགྱུར་རོ། །བུད་ཤིང་ལ་ཡང་མེ་ཡོད་པ་མ་ཡིན་ཏེ། ཅིའི་ཕྱིར་ཞེ་ན། མི་དམིགས་པའི་ཕྱིར་དང་། རྩོམ་པ་དོན་མེད་པ་ཉིད་དུ་འགྱུར་བའི་ཕྱིར་རོ། །གསལ་བ་དང་ཆེན་པོ་ཉིད་ཀྱང་སྔ་ན་མེད་པའི་ཕྱིར་འབྲས་བུ་སྔ་ན་མེད་པར་ཐལ་བར་་འགྱུར་རོ། །གལ་ཏེ་ཏིལ་དག་ལ་ཏིལ་བར་བཞིན་ན་ཞེ་ན། དེ་ཡང་མི་རུང་སྟེ། ཏིལ་ནི་བརྡུང་བ་དང་སྣུམ་པ་དག་ཡིན་པའི་ཕྱིར་དང་། ཏིལ་བར་ནི་གཞན་དུ་དམིགས་པའི་ཕྱིར་རོ། །<b>སོང་དང་མ་སོང་བགོས་པ་ཡིས། །དེ་བཞིན་ཤིང་ལ་ལྷག་མ་བསྟན། །</b>རྣམ་པ་དེ་དག་གིས་དེ་བཞིན་དུ་བུད་ཤིང་ལ་་ཡང་བརྗོད་པ་ལྟག་མ་དག་བསྟན་པར་ཁོང་དུ་ཆུད་པར་བྱའོ། །རྣམ་པ་གང་གིས་ཤེ་ན། སོང་བ་དང་མ་སོང་བ་དང་བགོམ་པའི་རྣམ་པ་དག་གིས་ཏེ། ཇི་ལྟར་སོང་བ་ལ་འགྲོ་བ་མེད་པ་དང་། མ་སོང་བ་ལ་མེད་པ་དང་། བགོས་པ་ལ་འགྲོ་བ་མེད་པ་དེ་བཞིན་དུ་བུད་ཤིང་བསྲེགས་པ་ལ་ཡང་སྲེག་པ་མེད། (208B)མ་བསྲེགས་པ་ལ་ཡང་མེད་བསྲེག་བཞིན་པ་ལ་ཡང་སྲེག་པ་མེད་དོ། །ཇི་ལྟར་སོང་བ་ལ་འགྲོ་བའི་རྩོམ་པ་དོན་མེད་པ་དང་། མ་སོང་བ་ལ་མེད་པ་དང་། བགོམ་པ་ལ་འགྲོ་བའི་རྩོམ་པ་མེད་པ་དེ་བཞིན་དུ་བསྲེགས་པ་ལ་ཡང་སྲེག་པའི་རྩོམ་པ་མེད། མ་བསྲེགས་པ་ལ་ཡང་མེད། བསྲེག་བཞིན་པ་ལ་ཡང་སྲེག་་པའི་རྩོམ་པ་མེད་དོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902038bi' class='verse'>
+							ཡང་གཞན་ཡང། <b>མེ་ནི་གཞན་ལས་མི་འོང་སྟེ། །</b>་ཉིད་བཀག་པའི་ཕྱིར་དང། འགྲོ་བ་བཀག་པའི་ཕྱིར་དང། རྫས་སུ་ཡོད་པ་ཉིད་བཀག་པའི་ཕྱིར་རོ། །བུད་ཤིང་དང་བཅས་པར་རམ་བུད་ཤིང་མེད་པར་འོང་བར་བརྟག་ན། གཉི་ག་ལ་ཡང་འོང་བ་མི་འགྲུབ་སྟེ། ལྟོས་པ་དང་བཅས་པ་མ་གྲུབ་པའི་ཕྱིར་དང། ལྟོས་པ་མེད་ན་བུད་ཤིང་མེད་པས་གཞི་མེད་པའི་ཕྱིར་རོ། །<b>ཤིང་ལའང་མེ་ནི་ཡོད་མ་ཡིན། །</b>གཞན་ཉིད་བཀག་པའི་ཕྱིར་རོ། །ཡང་ན་བུད་ཤིང་མེ་མེད་པ་ཉིད་ཕྱོགས་སུ་བྱས་ཏེ་བཤད་པ། ཤིང་ལ་འང་མེ་ནི་ཡོད་མ་ཡིན། །སྐྱེ་བ་ཅན་ཡིན་པའི་ཕྱིར་དཔེར་ན་རྣམ་པར་ཤེས་པ་བཞིན་ནོ་ཞེས་བྱ་བར་དགོངས་སོ། །གང་དག་མེ་ནི་སྙིང་སྟོབས་དང་རྡུལ་དང་མུན་པའི་མཚན་ཉིད་ཡིན་པའི་ཕྱིར་དཔེ་ལ་ཡང་དེ་ཡོད་པར་སྨྲ་བ་དེ་དག་ལ་ཡང། དེ་ལ་གསལ་བའི་ཁྱད་པར་ཅན་གྱི་དངོས་པོ་མེད་པའི་ཕྱིར་དཔེ་མེད་པ་མ་ཡིན་ནོ། །གལ་ཏེ་དེའི་ནུས་པ་ཡོད་པའི་ཕྱིར་སྐྱོན་མེད་དོ་ཞེ་ན། ལན་དེ་ནི་རྟོག་གེ་པ་སྒྲའི་མཚན་ཉིད་མངོན་པར་མི་ཤེས་པ་ལ་དེ་མངོན་པར་མི་ཤེས་པ་ཉིད་དུ་བསྟན་པ་ན། རྟོག་གེའི་བསྟན་བཅོས་ཤེས་པ་ཉིད་ཀྱིས་སྒྲའི་མཚན་ཉིད་ལ་མཁས་སོ་ཞེས་ཕྱིར་ཟློག་པར་བྱེད་པ་བཞིན་ནོ། །གཞན་དག་ནི། ཤིང་ལའང་མེ་ནི་ཡོད་མ་ཡིན། །ཞེས་བྱ་བ་འདི་ལ་མི་དམིགས་པའི་ཕྱིར་དང། རྩོམ་པ་དོན་མེད་པ་ཉིད་དུ་འགྱུར་བའི་ཕྱིར་རོ་ཞེས་རྣམ་པར་བཤད་པར་བྱེད་དོ། །གཞན་མ་ཡིན་པ་ན་རེ། དེ་ནི་རིགས་པ་མ་ཡིན་ཏེ། མི་དམིགས་པ་གཏན་ཚིགས་ཉིད་དུ་མི་(135B) རྩོམ་པ་དོན་ཡོད་པའི་གཏན་ཚིགས་ཀྱིས་ཡོད་པ་ཉིད་དུ་སྟོན་པ་མཛད་པའི་མཐའ་དང་འགལ་བར་འགྱུར་བའི་ཕྱིར་རོ། །མེ་དང་བུད་ཤིང་དག་ཇི་སྐད་བསྟན་པའི་དགག་པ་དག་འབའ་ཞིག་གིས་དགག་པར་བྱ་བ་ཡིན་པར་མ་བསམས་ཀྱི། འདི་ལྟར་དགག་པ་གཞན་དག་གིས་ཀྱང་དགག་པར་བྱ་བ་ཡིན་པས་དེའི་ཕྱིར་དགག་པ་ལྷག་མ་དག་ཀྱང་འདྲ་བར་བསྟན་པར་བྱ་སྟེ། <b>སོང་དང་མ་སོང་བགོམ་པ་ཡིས། །དེ་བཞིན་ཤིང་ལ་ལྷག་མ་བསྟན། །</b>ཇི་ལྟར་རྗེས་སུ་དཔག་པ་ལས་སོང་བ་དང་མ་སོང་བ་དང། བགོམ་པ་ལ་འགྲོ་བ་མེད་པ་དེ་བཞིན་དུ་བསྲེགས་པ་དང༑ མ་བསྲེགས་པ་དང། སྲེག་བཞིན་པ་ལ་ཡང་སྲེག་པ་མེད་དེ། བསྲེག་པར་བྱ་བ་ཡིན་པའི་ཕྱིར་བསྲེགས་པ་བཞིན་ནོ་ཞེས་བྱ་བ་ལ་སོགས་པར་བརྗོད་པར་བྱའོ། །ཇི་ལྟར་རྗེས་སུ་དཔག་པ་ལས། འགྲོ་བ་པོ་དང། འགྲོ་བ་པོ་མ་ཡིན་པ་དེ་དག་ལས་གཞན་པ་འགྲོ་བར་མི་བྱེད་པར་བསྟན་པ་དེ་བཞིན་དུ་དོན་དམ་པར་སྲེག་པ་པོ་དང། སྲེག་པ་པོ་མ་ཡིན་པ་དང། དེ་དག་ལས་གཞན་པ་ཡང་སྲེག་པར་མི་བྱེད་པ་བསྟན་པར་བྱ་སྟེ། བྱ་བ་གཉིས་དང་མི་ལྡན་པའི་ཕྱིར་དང། །སྲེག་པ་པོ་མ་ཡིན་པའི་ཕྱིར་དང་གཉི་གའི་སྐྱོན་དུ་འགྱུར་བའི་ཕྱིར་བོང་བ་བཞིན་ནོ་ཞེས་བརྗོད་པར་བྱའོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009416bi' class='verse'>
+							atrāha- kimanayā asmākamatisūkṣmekṣikayā prayojanam, ye vayaṃ brūmaḥ- yasmādagninā idhyamānamindhanaṃ pratyakṣata upalabhyate, tasmātte eva agnīndhane iti | ucyate | syādetad evam, yadi agnirindhanaṃ dahet | yadi indhane 'gniḥ saṃbhavet, sa indhanaṃ dahet | na tu saṃbhavatīty āha-<br />
+
+<b>āgacchatyanyato nāgnirindhane 'gnirna vidyate |<br /></b>
+
+indhanavyatiriktāttāvatkutaścidanyato 'gnerāgamanaṃ nāsti, tasya adṛṣṭatvāt | nirindhanasya cāhetukasyāgnerāgamanābhāvāt, sendhanasya cāgamane prayojanābhāvāt, tatrāpi cendhane tulyaparyanuyogāt, anavasthāprasaṅgācca āgacchatyanyato nāgniḥ | tathā indhane 'pyagnirna saṃbhavati tatrānupalabhyamānatvāt |<br />
+
+atha syāt- vidyamānasyāpi mūlodakādivadabhivyañjakapratyayavaikalyātpūrvamanupalabhyamānatvam, araṇinigharṣaṇādabhivyañjakapratyayasaṃbhavāttu paścādupalabdhir iti | idameva tāvatsaṃpradhāryate- kiṃ punarmūlodakādīnāmabhivyañjakaiḥ pratyayaiḥ kriyata iti | tatra svarūpaṃ tāvanna kriyate vidyamānatvāt abhivyaktiḥ kriyata iti cet, keyamabhivyaktirnāma? prakāśateti cet, evaṃ tarhi saiva kriyate pūrvamavidyamānatvādasyāḥ | satkāryavādatyāgaścaivaṃ jāyate abhivyakteḥ pūrvamavidyamānatvātpaścācca bhāvāt | svarūpasya cotpattipratyayanirapekṣatvātkhapuṣpavadabhivyaktipratyayasāpekṣatāpi na syāt | api ca iyamabhivyaktirabhivyaktasya vā bhāvasya parikalpyeta anabhivyaktasya vā? tatra tāvad yadabhivyaktaṃ tannābhivyajyate, tasyābhivyaktivaiyarthyāt aniṣṭadoṣaprasaṅgācca | anabhivyaktamapi nābhivyajyate khapuṣpavadanabhivyaktatvāt | ityevamabhivyaktirna saṃbhavati ||<br />
+
+athāpi syāt- vidyamānasyaiva pratyayaiḥ sthaulyaṃ kriyate iti, evam api yad eva sthaulyaṃ pūrvaṃ nāstīti tadeva kriyata iti kutaḥ sthaulyāpādanamabhivyaktiḥ? saukṣmyasya ca nirhetukasyāsaṃbhavāt kasya sthūlatāpādanādabhivyaktiḥ syāditi | tadevaṃ sarvathā indhane agnerna saṃbhava iti indhane 'gnirna vidyate | na cāvidyamānāgninā indhanasya dahanamupajāyate ityasatyamevaitadupalabhate bhavān |<br />
+
+api ca | yathā pūrvaṃ gatāgatagamyamānānāṃ dūṣaṇamuktam-<br />
+<b>atrendhane śeṣamuktaṃ gamyamānagatāgataiḥ || 13 ||<br /></b>
+agninā indhanaṃ dahyamānamupalabhyate ityatra indhanaprastāve śeṣaṃ dūṣaṇaṃ gamyamānagatāgatadūṣaṇena veditavyam, uktapāṭhaviparyayeṇa-<br />
+
+dagdhaṃ na dahyate tāvadadagdhaṃ naiva dahyate |<br />
+dagdhādagdhavinirmuktaṃ dahyamānaṃ na dahyate ||<br />
+
+ityādinā | yata evam, ato nāstyagninā indhanasya dahanam iti veditavyam || 13 ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904111bi' class='verse'>
+							indhanaṃ punar agnir na nāgnir anyatra cendhanāt |<br />nāgnir indhanavān nāgnāv indhanāni na teṣu saḥ || 14 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859638bi' class='verse'>
+							可燃即非然 離可燃無燃<br />燃無有可燃 燃中無可燃&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903485bi' class='verse'>
+							shing nyid me ni ma yin te | | shing las gzhan la me yang med | |<br />me ni shing dang ldan ma yin | | me (6)la shing med der de med | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905005bi' class='verse'>
+							14. Fire is not identical to kindling, but fire is not in anything other than kindling.<br />Fire does not have kindling as its property; also, the kindling is not in fire and vice versa.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860596bi' class='verse'>
+							Wood itself is not fire; fire is also not something other than wood. Fire does not possess wood; wood does not exist in fire; that (fire) does not exist in it.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901081bi' class='verse'>
+							ཡང་གཞན་ཡང་། <b>ཤིང་ཉིད་མེ་ནི་མ་ཡིན་ཏེ། །ཤིང་ལས་གཞན་་ལ་མེ་ཡང་མེད། །མེ་ནི་ཤིང་དང་ལྡན་མ་ཡིན། །མེ་ལ་ཤིང་མེད་དེར་དེ་མེད། །</b>རེ་ཞིག་བུད་ཤིང་གང་ཁོ་ན་ཡིན་པ་དེ་ཉིད་མེ་མ་ཡིན་ཏེ། བྱེད་པ་པོ་དང་ལས་དག་གཅིག་པ་ཉིད་ཀྱི་སྐྱོན་དུ་ཐལ་བར་འགྱུར་བའི་ཕྱིར་རོ། །བུད་ཤིང་ལས་གཞན་ལ་ཡང་མེ་མེད་དེ་གཞན་ལ་ལྟོས་པ་ཉིད་ལ་་སོགས་པའི་སྐྱོན་དུ་ཐལ་བར་འགྱུར་བའི་ཕྱིར་རོ། །མེ་བུད་ཤིང་དང་ལྡན་པ་ཡང་མ་ཡིན་མེ་ལ་ཡང་བུད་ཤིང་མེད་བུད་ཤིང་ལ་ཡང་མེ་མེད་དེ། གཞན་ཉིད་ཀྱི་སྐྱོན་དུ་འགྱུར་བའི་ཕྱིར་རོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906019bi' class='verse'>
+							是故(8)<b>可燃即非然 離可燃無燃(9)燃無有可燃 燃中無可燃(10)可燃中無燃</b>(11)可燃即非燃。何以故。先已説作作者一過(12)故。離可燃無燃。有常燃等過故。燃無有(13)可燃。燃中無可燃。可燃中無燃。以有異過(14)故。三皆不成。問曰。何故説燃可燃答曰。如(15)因可燃有燃。如是因受有受者。受名五陰。(16)受者名人。燃可燃不成故受受者亦不成。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901560bi' class='verse'>
+							ཇི་ལྟར་འགྲོ་བ་པོ་འགྲོ་བར་མི་བྱེད་པ་དང་། འགྲོ་བ་པོ་མ་ཡིན་པ་མི་བྱེད་པ་དང་། འགྲོ་བ་པོ་ཡིན་པ་དང་། འགྲོ་བ་པོ་མ་ཡིན་པར་འགྲོ་བར་མི་བྱེད་དེ། མེད་པ་ཉིད་ཀྱི་ཕྱིར་རོ་ཞེས་བྱ་བ་དེ་བཞིན་དུ་མེ་ཡང་སྲེག་པ་པོ་ཡང་སྲེག་པར་མི་བྱེད། སྲེག་པ་པོ་མ་ཡིན་པ་ཡང་མི་བྱེད། སྲེག་་པ་པོ་ཡིན་པ་ཡང་སྲེག་པར་མི་བྱེད་དེ། མེད་པ་ཉིད་ཀྱི་ཕྱིར། དེ་བཞིན་དུ་ལྷག་མ་རྣམས་ཀྱང་དྲང་བར་བྱའོ། །<b>ཤིང་ཉིད་མེ་ནི་མ་ཡིན་ཏེ། །ཤིང་ལས་གཞན་ལ་མེ་ཡང་མེད། །མེ་ནི་ཤིང་དང་ལྡན་མ་ཡིན། །མེ་ལ་ཤིང་མེད་དེར་དེ་མེད། །</b>རེ་ཞིག་བུད་ཤིང་གང་ཁོ་ན་ཡིན་པ་དེ་ཉིད་མེ་མ་ཡིན་ཏེ། བྱེད་པ་་པོ་དང་ལས་དག་གཅིག་པ་ཉིད་ཀྱི་སྐྱོན་དུ་ཐལ་བར་འགྱུར་བའི་ཕྱིར་རོ། །བུད་ཤིང་ལས་གཞན་ལ་ཡང་མེད་དེ། གཞན་ལ་མི་ལྟོས་པ་ཉིད་ལ་སོགས་པའི་སྐྱོན་དུ་ཐལ་བར་འགྱུར་བའི་ཕྱིར་རོ། །མེ་བུད་ཤིང་དང་ལྡན་པ་ཡང་མ་ཡིན་ཏེ། ཅིའི་ཕྱིར་ཞེ་ན། ལྡན་པའི་རྐྱེན་འདི་མེ་དང་བུད་ཤིང་དག་གཅིག་པ་ཉིད་་དམ། །གཞན་ཉིད་ལ་ཡོད་གྲང་ན། དེ་དག་གིས་དེ་གཉི་ག་བསལ་ཟིན་པའི་ཕྱིར་རོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902039bi' class='verse'>
+							<b>ཤིང་ཉིད་མེ་ནི་མ་ཡིན་ཏེ། །</b>གཅིག་པ་ཉིད་དགག་པ་སྔར་བསྟན་པའི་ཕྱིར་རོ། །<b>ཤིང་ལས་གཞན་ལ་མེ་ཡང་མེད། །</b>གཞན་ཉིད་དགག་པ་སྔར་བསྟན་པའི་ཕྱིར་རོ། །</b>མེ་ནི་ཤིང་དང་ལྡན་མ་ཡིན། །</b>ཇི་ལྟར་རྩྭའི་དྲ་བ་བ་ལང་དང་ལྡན་པ་ལྟར་རོ། །<b>མེ་ལ་ཤིང་མེད། </b>ཇི་ལྟར་རྫ་བོ་ན་རྒྱ་ཤུག་དག་ལྟར་རོ། །<b>དེར་དེ་མེད། </b>ཇི་ལྟར་ཆུ་ནང་པདྨ་དག་ལྟར་ཏེ། གཞན་ཉིད་དགག་པ་སྔར་བསྟན་པ་ཁོ་ནའི་ཕྱིར་རོ། །དེའི་ཕྱིར་དེ་ལྟར་མེ་དང་བུད་ཤིང་དག་མ་གྲུབ་པས་དཔེ་མེད་པའི་ཕྱིར། རབ་ཏུ་བྱེད་པའི་དང་པོར་དོན་དམ་པར་ཉེ་བར་ལེན་པ་པོ་དང་ཉེ་བར་བླང་བ་དག་ཡོད་པ་ཁོ་ན་ཡིན་ཏེ། ཕན་ཚུན་ལྟོས་པའི་ཕྱིར་དཔེར་ན་མེ་དང་བུད་ཤིང་བཞིན་ནོ་ཞེས་གང་སྨྲས་པ་དེའི་དཔེ་མ་ཚང་བ་ཉིད་ཀྱི་ལན་གདབ་པར་དཀའོ། །དེས་ན་དོན་དམ་པར་ཕུང་པོ་ལ་སོགས་པ་དག་ཡོད་པ་ཁོ་ན་ཡིན་ཏེ། བཅོམ་ལྡན་འདས་ཀྱིས་དེ་དག་ལ་བརྟེན་ནས་ཉེ་བར་ལེན་(136A)པ་པོ་དང། ཉེ་བར་བླང་བ་བསྟན་པའི་ཕྱིར་རོ་ཞེས་བྱ་བ་བསྒྲུབ་པའི་རྩ་བ་མ་གྲུབ་བོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009417bi' class='verse'>
+							idānīṃ yathopapāditamarthaṃ nigamayann āha-<br />
+
+<b>indhanaṃ punaragnirna nāgniranyatra cendhanāt |<br />
+nāgnirindhanavānnāgnāvindhanāni na teṣu saḥ || 14 ||<br /></b>
+
+tatra<br />
+
+yadindhanaṃ sa cedagnirekatvaṃ kartṛkarmaṇoḥ |<br />
+
+bhavet, ityanena agnīndhanayorakatvapratiṣedhāt<br />
+
+indhanaṃ punaragnirna, anyaścedindhanādagnirindhanādapyṛte bhavet |<br />
+
+ityādinā anyatvasya pratiṣedhāt<br />
+
+nāgniranyatra cendhanāt |<br />
+
+tattvānyatvobhayapakṣapratiṣedhādeva tadvatpakṣādhārādheyapakṣāṇāmapyarthataḥ pratiṣiddhatvāttānapi nigamayann āha-<br />
+
+nāgnirindhanavānnāgnāvindhanāni na teṣu saḥ |<br />
+
+iti | tatrāgnirindhanavānna bhavati | indhanamasyāsmin vā vidyata iti vyatirekeṇa vā vyutpādena avyatirekeṇa vā | tatra vyatirekeṇa- tadyathā gomān devadattaḥ | avyatirekeṇa- buddhimān devadatto rūpavānityādi | agnīndhanayoś ca pakṣadvayasyāpi pratiṣiddhatvādindhanavānagnir iti pratiṣedho vihitaḥ | anyacca | kuṇḍaṃ dadhna ādhāratāṃ pratipadyate | na cendhanādanyatvamagnerastīti nāgnāvindhanānīti yujyate | nāpi indhane 'styagniḥ, anyatvapratiṣedhāditi | evamādhārādheyatāpratiṣedho 'pyarthata upapādita eva || 14 ||<br />&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904112bi' class='verse'>
+							agnīndhanābhyāṃ vyākhyāta ātma-upādānayoḥ kramaḥ |<br />sarvo niravaśeṣeṇa sārdhaṃ ghaṭapaṭādibhiḥ || 15 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859639bi' class='verse'>
+							以燃可燃法 說受受者法<br />及以說瓶衣 一切等諸法&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903486bi' class='verse'>
+							ma dang shing gis bdag dang ni | | nye bar len pa’i rim pa kun | |<br />bum rnam sogs dang lhan cig tu | | ma lus par ni rnam par bshad | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905006bi' class='verse'>
+							15. By [the analysis of] fire and kindling the syllogism of the individual self (ātma) and “the acquiring” (upadana)<br />Is fully and completely explained, as well as “the jar” and “the cloth” and other [analogies].&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860597bi' class='verse'>
+							Through fire and wood is explained without exception all the stages of self and the grasped and at the same time jugs, cloth and so on.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901082bi' class='verse'>
+							<b>མེ་དང་ཤིང་གིས་བདག་དང་ནི། །ཉེ་བར་བླང་བའི་རིམ་པ་ཀུན། །བུམ་སྣམ་ལ་སོགས་ལྷན་་ཅིག་ཏུ། །མ་ལུས་པར་ནི་རྣམ་པར་བཤད། །</b>མེ་དང་བུད་ཤིང་དག་གིས་བདག་དང་ཉེ་བར་བླང་བ་དག་གི་གཅིག་པ་ཉིད་དང་གཞན་ཉིད་དང་། ཕན་ཚུན་ལྟོས་པ་མི་འཐད་པའི་རིམ་པ་ཐམས་ཅད་བུམ་པ་དང་སྣམ་བུ་ལ་སོགས་པ་དག་དང་ལྷན་ཅིག་ཏུ་མ་ལུས་པར་རྣམ་པར་བཤད་པར་་ཁོང་དུ་ཆུད་པར་བྱའོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906020bi' class='verse'>
+							(17)何以故(18)<b>以燃可燃法 説受受者法(19)及以説瓶衣 一切等諸法</b>(20)如可燃非燃。如是受非受者。作作者一過(21)故。又離受無受者。異不可得故。以異過故。(22)三皆不成。如受受者。外瓶衣等一切法皆(23)同上説。無生畢竟空。&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901561bi' class='verse'>
+							སྨྲས་པ། མི་རུང་སྟེ། འཇིག་རྟེན་ན་མཐོང་བའི་ཕྱིར་རོ། །འདི་ལྟར་དེ་ནི་འཇིག་རྟེན་ན་མེ་འདི་ནི་བུད་ཤིང་དང་ལྡན་ནོ། །མེ་འདི་ནི་བུད་ཤིང་མེད་པའོ་ཞེས་བྱ་བར་མཐོང་། བཤད་པ། འདི་ནི་དེ་ཁོ་ན་བསམ་པ་་ཡིན་པས་འདི་ལ་འཇིག་རྟེན་པའི་བརྗོད་པ་གང་ལ་འདི་ནི་བདག་དང་ལྡན་ནོ་ཞེས་ཀྱང་ཟེར་བ་དག་གིས་ཅི་བྱ། མེ་ལ་བུད་ཤིང་དག་རྫ་བོ་ན་རྒྱ་ཤུག་ལྟར་ཡོད་པ་ཡང་མ་ཡིན་ལ། བུད་ཤིང་དག་ལ་མེ་ཆུ་ན་པད་མ་དག་ལྟར་ཡོད་པ་ཡང་མ་ཡིན་ཏེ། ཅིའི་ཕྱིར་མེད་ཅེ་ན། གཞན་ཉིད་ཀྱི་སྐྱོན་དུ་འགྱུར་བའི་ཕྱིར་རོ། །<b>མེ་དང་ཤིང་གིས་བདག་དང་ནི། །ཉེ་བར་བླང་བའི་རིམ་པ་ཀུན། །བུམ་སྣམ་སོགས་དང་ལྷན་ཅིག་ཏུ། །མ་ལུས་པར་ནི་རྣམ་པར་བཤད། །</b>མེ་དང་བུད་ཤིང་དག་གིས་བདག་དང་ཉེ་བར་བླང་བ་དག་གི་གཅིག་པ་ཉིད་དང་། གཞན་ཉིད་དང་ཕན་ཚུན་ལྟོས་པར་མི་འཐད་པའི་རིམ་པ་ཐམས་ཅད་བུམ་པ་དང་སྣམ་(209A)བུ་ལ་སོགས་པ་དག་དང་ལྷན་ཅིག་ཏུ་མ་ལུས་པར་རྣམ་པར་བཤད་པ་ཁོང་དུ་ཆུད་པར་བྱ་སྟེ། འདི་ལྟ་སྟེ། ཇི་ལྟར་མེ་བུད་ཤིང་དང་གཅིག་པ་ཉིད་ཀྱང་མ་ཡིན་གཞན་ཉིད་དུ་ཡང་མི་འཐད་ཕན་ཚུན་ལྟོས་ཏེ་གྲུབ་པ་ཡང་མི་འཐད་པ་དེ་བཞིན་དུ་བདག་ཀྱང་ཉེ་བར་བླང་བ་དང་གཅིག་པ་ཉིད་་ཀྱང་མ་ཡིན། གཞན་ཉིད་དུ་ཡང་མི་འཐད། ཕན་ཚུན་ལྟོས་ཏེ་འགྲུབ་པར་ཡང་མི་འཐད་དོ། །ཇི་ལྟར་མེ་གཞན་ལས་ཀྱང་མི་འོང་བུད་ཤིང་ལ་ཡང་ཡོད་པ་མ་ཡིན་པ་དེ་བཞིན་དུ་བདག་ཀྱང་གཞན་ལས་ཀྱང་མི་འོང་། ཉེ་བར་བླང་བ་ལ་ཡང་ཡོད་པ་མ་ཡིན་ནོ། །ཇི་ལྟར་བུད་ཤིང་ཉིད་ཀྱང་མེ་མ་ཡིན། །བུད་་ཤིང་ལས་གཞན་ལ་ཡང་མེ་མེད། མེ་བུད་ཤིང་དང་ལྡན་པ་ཡང་མ་ཡིན། མེ་ལ་བུད་ཤིང་དག་ཡོད་པ་ཡང་མ་ཡིན། བུད་ཤིང་དག་ལ་མེ་ཡོད་པ་ཡང་མ་ཡིན་པ་དེ་བཞིན་དུ་ཉེ་བར་བླང་བདག་ཀྱང་བདག་མ་ཡིན། ཉེ་བར་བླང་བ་ལས་གཞན་པ་ཡང་བདག་མེད། བདག་ཉེ་བར་བླང་བ་དང་ལྡན་པ་ཡང་མ་ཡིན། བདག་ལ་ཉེ་བར་བླང་བ་དག་ཡོད་པ་ཡང་མ་ཡིན། ཉེ་བར་བླང་བདག་ལ་བདག་ཡོད་པའང་མ་ཡིན་ནོ། །ཇི་ལྟར་མེས་བུད་ཤིང་བསྲེགས་པ་ལ་ཡང་སྲེག་པ་མེད་མ་བསྲེགས་པ་ལ་ཡང་མེད། བསྲེག་བཞིན་པ་ལ་ཡང་སྲེག་པ་མེད་པ་དང་། ཇི་ལྟར་མེས་བསྲེག་པ་ལ་ཡང་སྲེག་པའི་རྩོམ་པ་མེད་མ་བསྲེགས་་པ་ལ་ཡང་མེད། བསྲེག་བཞིན་པ་ལ་ཡང་སྲེག་པའི་རྩོམ་པ་མེད་པ་དང་། ཇི་ལྟར་མེས་སྲེག་པ་པོ་ཡང་སྲེག་པར་མི་བྱེད། སྲེག་པ་པོ་མ་ཡིན་པ་ཡང་མི་བྱེད། སྲེག་པ་པོ་ཡིན་པ་དང་། སྲེག་པ་པོ་མ་ཡིན་པ་ཡང་སྲེག་པར་མི་བྱེད་དེ། མེད་པ་ཉིད་ཀྱི་ཕྱིར་རོ་ཞེས་བྱ་བ་དེ་བཞིན་དུ་བདག་གིས་ཉེ་བར་་བླང་བ་ལ་ཡང་ཉེ་བར་ལེན་པ་མེད། ཉེ་བར་མ་བླངས་པ་ལ་ཡང་མེད། ཉེ་བར་ལེན་བཞིན་པ་ལ་ཡང་ཉེ་བར་ལེན་པ་མེད་ཅིང་། དེ་བཞིན་དུ་བདག་གིས་ཉེ་བར་བླངས་པ་ལ་ཡང་ཉེ་བར་ལེན་པའི་རྩོམ་པ་མེད། ཉེ་བར་མ་བླངས་པ་ལ་ཡང་མེད། ཉེ་བར་ལེན་བཞིན་པ་ལ་ཡང་ཉེ་བར་ལེན་པའི་་རྩོམ་པ་མེད་ལ། དེ་བཞིན་དུ་བདག་གིས་ཉེ་བར་ལེན་པ་པོ་ཡང་ཉེ་བར་ལེན་པར་མི་བྱེད། ཉེ་བར་ལེན་པ་པོ་མ་ཡིན་པ་ཡང་མི་བྱེད། ཉེ་བར་ལེན་པ་པོ་ཡིན་པ་དང་། ཉེ་བར་ལེན་པ་པོ་མ་ཡིན་པ་ཡང་ཉེ་བར་ལེན་པར་མི་བྱེད་དེ། མེད་པ་ཉིད་ཀྱི་ཕྱིར་རོ། །བུམ་སྣམ་ལ་སོགས་པ་ལྷན་ཅིག་(209B)ཏུ་ཞེས་བྱ་བ་ནི། མེ་དང་བུད་ཤིང་དག་གིས་བདག་དང་ཉེ་བར་བླང་བ་དག་གི་རིམ་པ་གང་དག་རྣམ་པར་བཤད་པ་དེ་དག་བུམ་པ་དང་སྣམ་བུ་ལ་སོགས་པ་དག་དང་ཡང་ལྷན་ཅིག་ཏུ་རྣམ་པར་བཤད་དེ། བདག་དང་ཉེ་བར་བླང་བ་དག་དང་བུམ་པ་དང་། སྣམ་བུ་ལ་སོགས་པ་དག་གི་རིམ་པ་ཐམས་ཅད་མ་ལུས་་པར་རྣམ་པར་བཤད་དོ་ཞེས་བྱ་བའི་ཐ་ཚིག་གོ། །དེ་ལ་བུམ་པ་དང་སྣམ་བུ་ལ་སོགས་པ་དག་ནི། རྒྱུ་དང་འབྲས་བུར་གྱུར་པ་དང་། ཡན་ལག་དང་། ཡན་ལག་ཅན་དུ་གྱུར་པ་དང་། ཡོན་ཏན་དང་། ཡོན་ཏན་ཅན་དུ་གྱུར་པ་དང་། མཚན་ཉིད་དང་། མཚན་ཉིད་ཀྱི་གཞིར་གྱུར་པ་རྣམ་པ་དེ་ལྟ་བུ་དག་ཏུ་ཤེས་་པར་བྱའོ། །འདི་ལྟ་སྟེ། འཇིམ་པ་ཉིད་བུམ་པ་མ་ཡིན་ཏེ། འཇིམ་པས་འབྲས་བུ་བུམ་པ་བྱེད་པ་མེད་པར་འགྱུར་བའི་ཕྱིར་རོ། །འཇིམ་པ་ལས་བུམ་པ་གཞན་ཉིད་ཀྱང་མ་ཡིན་ཏེ། གཞན་ལ་ལྟོས་པ་མེད་པ་རྟག་པ་ཉིད་དུ་ཐལ་བར་འགྱུར་བའི་ཕྱིར་རོ། །དེ་དག་ཕན་ཚུན་ལྟོས་པར་ཡང་མི་འགྲུབ་སྟེ། གྲུབ་པ་དང་མ་་གྲུབ་པ་དག་ལྟོས་པར་མི་འཐད་པའི་ཕྱིར་རོ། །ལོ་མ་ཉིད་ཤིང་ལྗོན་པ་མ་ཡིན་ཏེ། ལོ་མ་ལྷགས་ན་ཤིང་ལྗོན་པ་འཇིག་པར་ཐལ་བར་འགྱུར་བའི་ཕྱིར་རོ། །ལོ་མ་ལས་ཤིང་ལྗོན་པ་གཞན་ཉིད་ཀྱང་མ་ཡིན་ཏེ། གཞན་ལ་ལྟོས་པ་མེད་པ་རྟག་པ་ཉིད་དུ་ཐལ་བར་འགྱུར་བའི་ཕྱིར་རོ། །དེ་དག་ལ་ཕན་ཚུན་་ལྟོས་པར་ཡང་མི་འགྲུབ་སྟེ། །གྲུབ་པ་དང་མ་གྲུབ་པ་དག་ལྟོས་པར་མི་འཐད་པའི་ཕྱིར་རོ། །སྔོན་པོ་ཉིད་ལོ་མ་མ་ཡིན་ཏེ། སྔོན་པོ་ཡ་ལན་ལོ་མ་ཡིན་པར་ཐལ་བར་འགྱུར་པའི་ཕྱིར་རོ། །སྔོན་པོ་ལས་ལོ་མ་གཞན་ཉིད་ཀྱང་མ་ཡིན་ཏེ། ལོ་མ་ལྷགས་ཀྱང་སྔོན་པོ་གནས་པར་ཐལ་བར་འགྱུར་བའི་ཕྱིར་་རོ། །དེ་དག་ཕན་ཚུན་ལྟོས་པར་ཡང་མི་འགྲུབ་སྟེ། གྲུབ་པ་དང་མ་གྲུབ་པ་དག་ལྟོས་པར་ཡང་མི་འཐད་པའི་ཕྱིར་རོ། །མཚན་ཉིད་མཚན་ཉིད་ཀྱི་གཞི་མ་ཡིན་ཏེ། སྒྲུབ་པ་དང་བསྒྲུབ་པར་བྱ་བ་ཐ་དད་པའི་ཕྱིར་དང་། གྲངས་ཐ་དད་པའི་ཕྱིར་རོ། །མཚན་ཉིད་ལས་མཚན་ཉིད་ཀྱི་གཞི་གཞན་ཉིད་ཀྱང་་མ་ཡིན་ཏེ། དངོས་པོ་མཚོན་པར་བྱ་བ་མ་ཡིན་པ་རབ་ཏུ་མི་འགྲུབ་པའི་ཕྱིར་རོ། །དེ་དག་ཕན་ཚུན་ལྟོས་པར་ཡང་མི་འགྲུབ་སྟེ། གྲུབ་པ་དང་མ་གྲུབ་པ་དག་ལྟོས་པར་མི་འཐད་པའི་ཕྱིར་རོ། །ཇི་ལྟར་མེ་གཞན་ལས་མི་འོང་བ་དང་། བུད་ཤིང་ཡང་མ་ཡོད་པ་མ་ཡིན་པ་དང་། བུད་ཤིང་ཉིད་མེ་མ་ཡིན་པ་(210A)དང་། བུད་ཤིང་ལས་གཞན་ལ་ཡང་མེ་མེད་པ་དང་། མེ་བུད་ཤིང་དང་ལྡན་པ་ཡང་མ་ཡིན་པ་དང་། མེ་ལ་བུད་ཤིང་དག་མེད་པ་དང་། བུད་ཤིང་དག་ལ་མེ་མེད་པར་བསྟན་པ་དེ་བཞིན་དུ་འབྲས་བུ་
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902040bi' class='verse'>
+							ཇི་ལྟར་མེ་དང་བུད་ཤིང་དག་གི་དེ་ཉིད་དང་གཞན་ཉིད་བཀག་པ་དེ་བཞིན་དུ། <b>མེ་དང་ཤིང་གིས་བདག་དང་ནི། །ཉེ་བར་བླང་བའི་རིམ་པ་ཀུན། །བུམ་སྣམ་ལ་སོགས་ལྷན་ཅིག་ཏུ། མ་ལུས་པར་ནི་རྣམ་པར་བཤད། །</b>རིམ་པ་ཞེས་བྱ་བ་ནི་དགག་པའི་རྣམ་པ་ཞེས་བྱ་བའི་ཐ་ཚིག་སྟེ། ཐམས་ཅད་མ་ལུས་པར་རྣམ་པར་བཤད་དོ། །དོན་དམ་པར་བདག་ནི་ཉེ་བར་བླང་བ་དང་གཅིག་པ་ཉིད་མ་ཡིན་ཏེ། བྱེད་པ་པོ་དང་ལས་ཡིན་པའི་ཕྱིར། དཔེར་ན་གཅོད་པ་པོ་དང། བཅད་པ་དག་བཞིན་ནོ། །དོན་དམ་པར་བདག་ནི་ཉེ་བར་བླང་བ་ལས་གཞན་ཉིད་མ་ཡིན་ཏེ། ལྟོས་པ་དང་བཅས་པའི་ཕྱིར་དང། དངོས་པོ་ཡིན་པའི་ཕྱིར་དཔེར་ན་ཉེ་བར་བླང་བའི་རང་གི་བདག་ཉིད་བཞིན་ནོ། །དེ་བཞིན་དུ་དོན་དམ་པར་ཉེ་བར་བླང་བ་ནི་བདག་དང་གཅིག་པ་ཉིད་མ་ཡིན་ཏེ། ལས་དང་བྱེད་པ་པོ་ཡིན་པའི་ཕྱིར། །དཔེར་ན་བཅད་པ་དང་གཅོད་པ་པོ་དག་བཞིན་ནོ། །དོན་དམ་པར་ཉེ་བར་བླང་བ་ནི་བདག་ལས་གཞན་ཉིད་མ་ཡིན་ཏེ། ལྟོས་པ་དང་བཅས་པའི་ཕྱིར་དང། དངོས་པོ་ཡིན་པའི་ཕྱིར་དཔེར་ན་བདག་གི་རང་གི་བདག་ཉིད་བཞིན་ནོ། །དེ་བཞིན་དུ་དོན་དམ་པར་ལྷས་བྱིན་གྱི་བདག་ནི་ལྷས་བྱིན་གྱི་ཉེ་བར་བླང་བ་ཉེ་བར་ལེན་པར་མི་བྱེད་དེ། ལྟོས་པ་དང་བཅས་པའི་ཕྱིར། དཔེར་ན་དེ་ལས་གཞན་བཞིན་ནོ། །དོན་དམ་པར་ལྷས་བྱིན་གྱི་ཉེ་བར་བླང་བ་ནི་ལྷས་བྱིན་གྱི་བདག་གི་ཉེ་བར་བླང་བ་མ་ཡིན་ཏེ། ཉེ་བར་བླང་བ་ཡིན་པའི་ཕྱིར་དཔེར་ན་མཆོད་སྦྱིན་གྱི་ཉེ་བར་བླང་བ་བཞིན་ནོ། །དེ་བཞིན་དུ་དོན་དམ་པར་ལྷས་བྱིན་གྱི་བདག་གྲུབ་པ་དང་མ་གྲུབ་པ་ནི་ལྷས་བྱིན་གྱི་ཉེ་བར་བླང་བ་ལ་ལྟོས་པར་མི་བྱེད་དེ། བདག་ཡིན་པའི་ཕྱིར་དཔེར་ན་མཆོད་སྦྱིན་གྱི་བདག་བཞིན་ནོ། །དོན་དམ་པར་ལྷས་བྱིན་གྱི་ཉེ་བར་བླང་བ་ནི་ལྷས་བྱིན་གྱི་བདག་གྲུབ་པ་དང་མ་གྲུབ་པའི་ལྟོས་པར་བྱ་བ་མ་ཡིན་ཏེ། ཉེ་བར་བླང་བ་ཡིན་པའི་ཕྱིར། དཔེར་ན་མཆོད་སྦྱིན་གྱི་ཉེ་བར་བླང་བ་བཞིན་ནོ། །འདིར་ཁ་ཅིག་གིས་སྨྲས་པ། ལྷས་བྱིན་གྱི་བདག་ལྷས་བྱིན་གྱི་ཉེ་བར་བླང་བ་ཉེ་བར་ལེན་པར་མི་བྱེད་དེ་ཞེས་བྱ་བ་དེའི་(136B) ཅི་གཞན་ཉེ་བར་ལེན་པར་བྱེད་པ་ཡིན་ནམ། འོན་ཏེ་ཅི་ཡང་ཉེ་བར་ལེན་པར་མི་བྱེད་པ་ཡིན། དེས་ཅིར་འགྱུར། གལ་ཏེ་གཞན་ཉེ་བར་ལེན་པར་བྱེད་པ་ཡིན་ན་ནི་ཕྱོགས་སྔ་མ་ལ་གནོད་དོ། །ཅི་སྟེ་ཅི་ཡང་ཉེ་བར་ལེན་པར་མི་བྱེད་པ་ཡིན་ན་ནི་དཔེ་མེད་དེ། མཆོད་སྦྱིན་གྱི་བདག་ནི་རང་གི་ཉེ་བར་བླང་བ་ཉེ་བར་ལེན་པར་བྱེད་པའི་ཕྱིར་རོ། །དེ་ནི་རིགས་པ་མ་ཡིན་ཏེ། ལན་བཏབ་ཟིན་པའི་ཕྱིར་རོ། །མེ་དང་བུད་ཤིང་དེ་དག་གིས་བདག་དང་ཉེ་བར་བླང་བ་དག་གི་རིམ་པ་གང་དག་རྣམ་པར་བཤད་པ་དེ་དག་བུམ་པ་དང། སྣམ་བུ་ལ་སོགས་པ་དག་དང་ཡང་ལྷན་ཅིག་ཏུ་རྣམ་པར་བཤད་དེ། དེ་ལ་བུམ་པ་དང། སྣམ་བུ་ལ་སོགས་པ་དག་ནི་རྒྱུ་དང་འབྲས་བུར་གྱུར་པ་དང། ཡན་ལག་དང་ཡན་ལག་ཅན་དུ་གྱུར་པ་དང། ཡོན་ཏན་དང། ཡོན་ཏན་ཅན་དུ་གྱུར་པ་དང། མཚན་ཉིད་དང། མཚན་ཉིད་ཀྱི་གཞིར་གྱུར་པ་རྣམ་པ་དེ་ལྟ་བུ་དག་ཏུ་ཤེས་པར་བྱའོ། །དེ་ལ་རེ་ཞིག་དོན་དམ་པར་བུམ་པ་ནི་འཇིམ་པ་དང་གཅིག་པ་ཉིད་མ་ཡིན་ཏེ། ལས་དང་བྱེད་པ་པོ་ཡིན་པའི་ཕྱིར་དཔེར་ན་བཅད་པ་དང། གཅོད་པ་པོ་དག་བཞིན་ནོ། །དོན་དམ་པར་བུམ་པ་ནི་འཇིམ་པ་ལས་གཞན་ཉིད་མ་ཡིན་ཏེ། ལྟོས་པ་དང་བཅས་པའི་ཕྱིར་དང། འབྲས་བུ་ལ་སོགས་པ་ཡིན་པའི་གཏན་ཚིགས་དག་གི་ཕྱིར། དཔེར་ན་འཇིམ་པའི་རང་གི་བདག་ཉིད་བཞིན་ནོ། །དེ་བཞིན་དུ་འཇིམ་པའི་ཕྱོགས་ལ་སོགས་པ་ལ་ཡང་བརྗོད་པར་བྱའོ། །གྲངས་ཅན་དག་ནི་བསྒྲུབ་པའི་ཚུལ་གྱིས་བུམ་པ་ནི་འཇིམ་པ་ལས་གཞན་ཉིད་མ་ཡིན་ཏེ། འཇིམ་པའི་བདག་ཉིད་དང། ཡོད་པ་ཉིད་དང་རྒྱུ་དང་འབྲས་བུ་ཉིད་དང། སྤྱི་དང་ཁྱད་པར་དང་ལྡན་པ་ཉིད་དང། ཡུལ་ལ་སོགས་པ་གཅིག་པ་ཉིད་ཀྱི་ཕྱིར། དཔེར་ན་འཇིམ་པའི་རང་གི་བདག་ཉིད་བཞིན་ནོ་ཞེས་ཟེར་རོ། །དེ་དག་གི་འཇིམ་པའི་བདག་ཉིད་དང། བུམ་པའི་བདག་ཉིད་དག་རང་གི་བདག་ཉིད་དང་གཅིག་པ་ཉིད་དུ་དབུ་མ་སྨྲ་བ་རྣམས་ལ་མ་གྲུབ་པའི་ཕྱིར་དཔེ་མེད་དོ། །དམ་བཅས་པའི་དོན་ཡང་རྣམ་པར་བརྟག་པར་བྱ་སྟེ། གལ་ཏེ་རྒྱུ་དང་འབྲས་བུ་དག་གཅིག་པ་ཉིད་ཅེས་བྱ་བ་དུས་གཅིག་ནའོ་ཞེ་ན་ནི་ཕྱོགས་སྔ་མ་ལ་(137A)གནོད་དོ། །ཅི་སྟེ་རྒྱུའི་གསལ་བ་འབྲས་བུ་ལ་ཡོད་དོ་ཞེ་ན་ནི་གྲགས་པའི་གནོད་པར་འགྱུར་ཏེ། ཞོ་ལ་འོ་མ་མེད་པའི་ཕྱིར་རོ། །གལ་ཏེ་དེའི་གནས་སྐབས་ན་ཡང་དྲུག་ལྡན་ལ་སོགས་པའི་ཁྱད་པར་དང་བྲལ་བའི་སྒྲ་ལ་སོགས་པ་ཡོད་པའི་ཕྱིར་གྲགས་པའི་གནོད་པར་ཡང་མི་འགྱུར་ལ། ཁས་བླངས་པ་ལ་གནོད་པ་ཡང་མེད་དོ་ཞེ་ན། དེ་དག་ལ་འོ་མ་ཉིད་མི་འཐད་པའི་ཕྱིར་དེ་ནི་ལམ་མ་ཡིན་ནོ། །གཞན་མ་ཡིན་པ་ཉིད་དུ་རྗེས་སུ་དཔག་པས་རྒྱུ་མ་ཡིན་པ་ཉིད་ལ་སོགས་པས་དེ་དག་རྒྱུ་ཡིན་པ་ཉིད་ལ་སོགས་པ་བསལ་བའི་ཕྱིར་དམ་བཅས་པ་ལ་ཆོས་ཅན་གྱི་ངོ་བོ་ཉིད་དང། ཁྱད་པར་བསལ་བའི་སྐྱོན་ཡོད་དོ། །ད་ལྟར་དང་འདས་པའི་རྒྱུ་ཕྱོགས་སུ་བྱེད་ན་ཡང་སྐྱོན་སྔ་མ་བཞིན་ནོ། །རིགས་མཐུན་པ་དང། རིགས་མི་མཐུན་པ་མ་སྐྱེས་པ་དང། ཞིག་པ་དག་གིས་མ་ངེས་པ་ཉིད་དང། གྲགས་པའི་གནོད་པར་འགྱུར་ཏེ། སྐྱེས་བུ་ནི་སྒྲ་ལ་སོགས་པ་དམིགས་པར་བྱེད་པ་ན་ཕན་གདགས་པར་བྱ་བ་ཡིན་པའི་ཕྱིར་དང། རང་བཞིན་ནི་ཤེས་པ་ཡོད་པ་ཉིད་ནང་གི་བྱེད་པར་སྣང་བའི་རྒྱུ་ཡིན་པས་ཕན་འདོགས་པར་བྱེད་པ་ཡིན་པའི་ཕྱིར་རོ། །སྐྱེས་བུ་དག་སྤྱི་དང་ཁྱད་པར་དང་ལྡན་པ་ཉིད་ཡིན་པའི་ཕྱིར་དེ་དག་གི་མ་ངེས་པ་ཉིད་དེ། སྐྱེས་བུ་སྐྱེས་བུ་ཞེས་བྱ་བ་ནི་སྤྱི་ཡིན་ལ། ལྷས་བྱིན་གྱི་བདག་དང་མཆོད་སྦྱིན་གྱི་བདག་ཅེས་བྱ་བ་དག་ནི་ཁྱད་པར་ཡིན་པའི་ཕྱིར་རོ། །འཇིམ་པའི་བདག་ཉིད་ཅེས་བྱ་བའི་གཏན་ཚིགས་ཀྱི་དོན་ཀྱང་འཇིམ་པ་ལས་གྱུར་པ་ཡིན་པར་རྟོག་ན་ནི་དཔེ་སྒྲུབ་པའི་ཆོས་དང་མི་ལྡན་ནོ། །འཇིམ་པའི་ངོ་བོ་ཉིད་ཡིན་པར་རྟོག་ན་ནི་གཏན་ཚིགས་ཀྱི་དོན་མ་གྲུབ་པ་ཉིད་དོ། །འབྲས་བུ་རྒྱུ་ལས་གཞན་ཉིད་མ་ཡིན་ཏེ་ཞེས་བྱ་བ་དེའི་དོན་གང་ཡིན། ཅི་རང་གི་རྒྱུ་ལས་སམ། འོན་ཏེ་གཞན་གྱི་རྒྱུ་ལས། དེས་ཅིར་འགྱུར། གལ་ཏེ་རང་གི་རྒྱུ་ལས་ན་ནི་དཔེ་མེད་དོ། །ཅི་སྟེ་གཞན་གྱི་རྒྱུ་ལས་ན་ནི་ཕྱོགས་སྔ་མ་ལ་གནོད་པ་དང། གྲགས་པའི་གནོད་པར་འགྱུར་རོ། །གལ་ཏེ་གཞན་ཉིད་མ་ཡིན་ན་ནི་དེའི་ནུས་པས་མི་སྟོང་པའོ་ཞེ་ན་ཡང་དཔེ་མེད་དོ། །རྒྱུ་ཕྱོགས་སུ་བྱ་བའི་དུས་ལ་ཡང་དེ་བཞིན་ནོ། །དེ་དག་ནི་ཕྱོགས་ཙམ་ཞིག་བསྟན་པ་(137B) ཕྱོགས་འདིས་གཟུགས་ཅན་དང་གཟུགས་ཅན་མ་ཡིན་པའི་ཆོས་རྣམས་ཀྱི་སྐད་ཅིག་མ་ཉིད་ལ་གནོད་པར་བྱ་བའི་ཕྱིར་གྲངས་ཅན་དག་གིས་རྗེས་སུ་དཔག་པ་ལ་སྨྲས་པ་རྣམས་སུན་དབྱུང་བ་བརྗོད་པར་བྱའོ། །དེ་བཞིན་དུ་དོན་དམ་པར་ཡན་ལག་ཅན་སེང་ལྡེང་ནི་ཡན་ལག་སེང་ལྡེང་གི་རྩ་བ་དང། སྡོང་པོ་དང། ཡལ་ག་དང། ལོ་མ་དང། དེ་ལ་སོགས་པ་དག་དང། གཅིག་པ་ཉིད་མ་ཡིན་ཏེ། དེ་དག་གི་ཕྱོགས་གཅིག་ཆད་ཀྱང་དེ་མི་འཆད་པའི་ཕྱིར་དཔེར་ན་རྒྱ་ཤུག་བཞིན་ནོ། །དོན་དམ་པར་ཡན་ལག་ཅན་སེང་ལྡེང་ནི་ཡན་ལག་སེང་ལྡེང་གི་རྩ་བ་དང། སྡོང་པོ་དང། ཡལ་ག་དང། ལོ་མ་ལ་སོགས་པ་དག་ལས་གཞན་ཉིད་མ་ཡིན་ཏེ། ལྟོས་པ་དང་བཅས་པའི་ཕྱིར་དཔེར་ན་སེང་ལྡེང་གི་ཡན་ལག་དག་གི་རང་གི་བདག་ཉིད་བཞིན་ནོ། །དེ་བཞིན་དུ་དོན་དམ་པར་སེང་ལྡེང་གི་ཡན་ལག་དག་ནི་ཡན་ལག་ཅན་དང། གཅིག་པ་ཉིད་མ་ཡིན་ཏེ། དེའི་ཕྱོགས་གཅིག་ཆད་ཀྱང་དེ་དག་མི་འཆད་པའི་ཕྱིར་དཔེར་ན་རྒྱ་ཤུག་གི་ཡན་ལག་དག་བཞིན་ནོ། །དོན་དམ་པར་སེང་ལྡེང་གི་ཡན་ལག་དག་ནི་ཡན་ལག་ཅན་ལས་གཞན་ཉིད་མ་ཡིན་ཏེ། ལྟོས་པ་དང་བཅས་པའི་ཕྱིར་དཔེར་ན་ཡན་ལག་ཅན་སེང་ལྡེང་གི་རང་གི་བདག་ཉིད་བཞིན་ནོ། །ལྷག་མ་ནི་སྔ་མ་བཞིན་ནོ། །དེ་བཞིན་དུ་དོན་དམ་པར་སྣམ་བུ་ནི་རྒྱུ་སྤུན་གྱི་བདག་ཉིད་ཀྱི་གཟུགས་དག་དང་གཅིག་པ་ཉིད་མ་ཡིན་ཏེ། ལྟོས་པ་དང་བཅས་པའི་ཕྱིར་དང། རྫས་ཡིན་པའི་ཕྱིར་དཔེར་ན་སབ་མ་བཞིན་ནོ༑ །དོན་དམ་པར་སྣམ་བུ་ནི་རྒྱུ་སྤུན་གྱི་བདག་ཉིད་ཀྱི་གཟུགས་དག་ལས་གཞན་ཉིད་མ་ཡིན་ཏེ། ལྟོས་པ་དང་བཅས་པའི་ཕྱིར་དང། དེ་ཞིག་ན་དེ་དག་ཀྱང་འཇིག་པའི་ཕྱིར་དཔེར་ན་རྒྱུ་སྤུན་དག་གི་རང་གི་བདག་ཉིད་བཞིན་ནོ། །དེ་བཞིན་དུ་དོན་དམ་པར་རྒྱུ་སྤུན་གྱི་བདག་ཉིད་ཀྱི་གཟུགས་དག་ནི་སྣམ་བུ་དང་གཅིག་པ་ཉིད་མ་ཡིན་ཏེ། ལྟོས་པ་དང་བཅས་པའི་ཕྱིར་དང། རྫས་ཡིན་པའི་ཕྱིར་དཔེར་ན་རྩི་རྐྱང་བཞིན་ནོ། །དོན་དམ་པར་རྒྱུ་སྤུན་གྱི་བདག་ཉིད་ཀྱི་གཟུགས་དག་ནི་སྣམ་བུ་ལས་གཞན་ཉིད་མ་ཡིན་ཏེ། ལྟོས་པ་དང་བཅས་པའི་ཕྱིར་དང། དེ་ཞིག་(138A)ན་དེ་དག་ཀྱང་འཇིག་པའི་ཕྱིར་དཔེར་ན་སྣམ་བུའི་རང་གི་བདག་ཉིད་བཞིན་ནོ། །ལྷག་མ་ནི་སྔ་མ་བཞིན་ནོ། །མཚན་ཉིད་དང་མཚན་ཉིད་ཀྱི་གཞི་དག་ལ་ཡང་དེ་བཞིན་དུ་བརྗོད་པར་བྱའོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009418bi' class='verse'>
+							yathā cāgniḥ pañcadhā vicāryamāṇo na saṃbhavati, evamātmāpi, ityatidiśann āha-<br />
+
+<b>agnīndhanābhyāṃ vyākhyāta ātmopādānayoḥ kramaḥ | sarvo niravaśeṣeṇa<br /></b>
+
+tatra upādīyate ityupādānaṃ pañcopādānaskandhāḥ | yastānupādāya prajñapyate, sa upādātā grahītā niṣpādaka ātmetyucyate | ahaṃkāraviṣayatvādāhita utpādito 'haṃmāno 'sminniti | tadasyātmana upādānasya ca yaḥ kramaḥ siddhiḥ, sa sarvo 'gnīndhanābhyāṃ vyākhyāto 'vagantavyo niravaśeṣeṇa ||<br />
+
+kaḥ punaḥ sarvasya niravaśeṣasya ca bhedaḥ? sarvagrahaṇenaiva pañca pakṣāḥ samanantaraprakrānta abhisaṃbadhyante | sarve ete pañcāpi pakṣāḥ agnīndhanavadātmopādānayorapyavikalā ḍhaukanīyāḥ | yaścaiyā pratipādane upapattikramaḥ prāgupavarṇitaḥ, tena niravaśeṣeṇa ātmopādānayoḥ pratiṣedho veditavyaḥ ityanena sarvātmanā pratiṣedhasāmyamagnīndhanābhyāmātmopādānayorveditavyamityupadarśanārthaṃ sarvo nirava śeṣeṇetyāha | tatra yadevopādānaṃ sa eva ātmā, ityevaṃ kartṛkarmaṇorekatvaprasaṅgānna yujyate nāpyanyadupādānamanya upādātā, skandhavyatirekeṇāpyātmopalabdhiprasaṅgāt, paratra nirapekṣatvādityādiprasaṅgācca | ekatvānyatvapratiṣedhācca skandhavānaṣyātmā na bhavati | anyatvābhāvācca nātmani skandhā na skandheṣvātmā | yata evaṃ pañcasu prakāreṣu ātmano na sattvam, tasmātkarmakārakavadeva ātmopādānayoḥ parasparāpekṣikī siddhir iti sthitam ||<br />
+
+yaścāyamātmopādānayoḥ kramaḥ, sa nānayoreva, kiṃ tarhi-<br />
+<b>sārdhaṃ ghaṭapaṭādibhiḥ || 15 ||<br /></b>
+niravaśeṣaiḥ padārthaiḥ sarvathā vyākhyāto veditavyaḥ | ghaṭādayo hi kāryakāraṇabhūta avayavāvayavibhūtā lakṣaṇalakṣyabhūtā guṇnaguṇibhūtā vā syuḥ | tatra mṛddaṇḍacakrasūtrasalilakulālakaravyāyāmādayo ghaṭasya kāraṇabhūtāḥ, ghaṭaḥ kāryabhūtaḥ | kapālādayo nīlādayo vā avayavabhūtāḥ ghaṭo 'vayavī | pṛthubudhnalambauṣṭhadīrghagrīvatvādīni lakṣaṇāni ghaṭo lakṣyaḥ| śyāmatvādayo guṇāḥ, ghaṭo guṇī | ityevaṃ vyavasthāpya agnīndhanavat kramo yojyaḥ | eṣāṃ ca ghaṭādīnāmātmopādānayoś ca madhyamakāvatāraprakaraṇād vyākhyānamavaseyam || 15 ||<br />&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904113bi' class='verse'>
+							ātmanaś ca satattvaṃ ye bhāvānāṃ ca pṛthak pṛthak |<br />nirdiśanti na tān manye śāsanasyārthakovidān || 16 ||&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859640bi' class='verse'>
+							若人說有我 諸法各異相<br />當知如是人 不得佛法味&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903487bi' class='verse'>
+							gang dag bdag dang dngos po rnams | | de bcas nyid dang tha dad par | |<br />ston pa de dag bstan don la | | mkhas (7)so snyam du mi sems so | |&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905007bi' class='verse'>
+							16. Those who specify the nature of the individual self and of existing things (bhava) as radically different—<br />Those people I do not regard as ones who know the sense of the teaching.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860598bi' class='verse'>
+							I do not think those who teach the identity or difference of self and things are wise in the meaning of the teaching.&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901083bi' class='verse'>
+							<b>གང་དག་བདག་དང་དངོས་པོ་རྣམས། །དེ་བཅས་ཉིད་དང་ཐ་དད་པར། །སྟོན་པ་དེ་དག་བསྟན་དོན་ལ། །མཁས་སོ་སྙམ་དུ་མི་སེམས་སོ། །</b>གང་དག་བདག་དེ་དང་བཅས་པ་ཉིད་དང་ཐ་དད་པ་དང་། དངོས་པོ་རྣམས་དེ་དང་བཅས་པ་ཉིད་དང་ཐ་དད་པར་སྟོན་པ་དེ་དག་་བསྟན་པའི་དོན་ལ་མཁས་པ་ཡིན་པར་ཁོ་བོས་མི་སེམས་སོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906021bi' class='verse'>
+							是故(24)<b>若人説有我 諸法各異相(25)當知如是人 不得佛法味</b>(26)諸法從本已來無生。畢竟寂滅相。是故品末(27)説是偈。若人説我相。如犢子部衆説。不得(28)言色即是我。不得言離色是我。我在第(29)五不可説藏中。如薩婆多部衆説。諸法各各(16a1)相。是善是不善是無記。是有漏無漏有爲無(2)爲等別。異如是等人。不得諸法寂滅相。以(3)佛語作種種戲論&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901562bi' class='verse'>
+							ཡང་གཞན་ལས་མི་འོང་བ་དང་། རྒྱུ་ལ་ཡང་འབྲས་བུ་ཡོད་པ་མ་ཡིན་པ་དང་། རྒྱུ་ཉིད་འབྲས་་བུ་མ་ཡིན་པ་དང་། རྒྱུ་ལས་གཞན་ལ་ཡང་འབྲས་བུ་མེད་པ་དང་། འབྲས་བུ་རྒྱུ་དང་ལྡན་པ་མ་ཡིན་པ་དང་། འབྲས་བུ་ལ་རྒྱུ་དག་མེད་པ་དང་། རྒྱུ་དག་ལ་འབྲས་བུ་མེད་པའོ། །དེ་བཞིན་དུ་ཐམས་ཅད་ལ་ཡང་ཇི་ལྟར་ཇི་སྲིད་པ་བཞིན་དུ་སྦྱར་བར་བྱའོ། །དེའི་ཕྱིར་དེ་ལྟར་ངོ་བོ་ཉིད་ཀྱིས་བདག་དང་དངོས་པོ་་རྣམས་རྣམ་པ་དུ་མར་མི་འཐད་པ་ན་རྟོག་པའི་རང་བཞིན་ཅན་མ་ཡིན་པ་མཁས་པའི་ང་རྒྱལ་ཅན། <b>གང་དག་བདག་དང་དངོས་པོ་རྣམས། །དེ་བཅས་ཉིད་དང་ཐ་དད་པར། །སྟོན་པ་དེ་དག་བསྟན་དོན་ལ། །མཁས་སོ་སྙམ་དུ་མི་སེམས་སོ། །</b>གང་དག་པ་དེ་དང་བཅས་པ་ཉིད་དང་ཐ་དད་པ་དང་། དངོས་པོ་རྣམས་་དེ་དང་བཅས་པ་ཉིད་དང་། ཐ་དད་པར་སྟོན་པ་དེ་དག་བསྟན་པའི་དོན་ལ་མཁས་པ་ཡིན་པར་ཁོ་བོ་མི་སེམས་སོ། །དེ་བཅས་ཞེས་བྱ་བ་ནི་དེ་དང་བཅས་པའོ། །དེ་དང་བཅས་པའི་དངོས་པོ་ནི་དེ་དང་བཅས་པ་ཉིད་དོ། །བདག་དེ་དང་བཅས་པའི་དངོས་པོ་ནི་བདག་དེ་དང་བཅས་པ་ཉིད་དོ། །དངོས་པོ་་རྣམས་དེ་དང་བཅས་པའི་དངོས་པོ་ཡང་དངོས་པོ་རྣམས་དེ་དང་བཅས་པ་ཉིད་དོ། །གང་གིས་བདག་གམ་དངོས་པོ་རྣམས་སུ་གདགས་པ་དེ་དང་བཅས་པ་ཉིད་དེ་ནི་བདག་ཉིད་དམ་དངོས་པོ་རྣམས་ཡིན་ཏེ། ཐ་དད་པར་གྱུར་པ་མ་ཡིན་ཞེས་བྱ་བའི་ཐ་ཚིག་གོ། །འདི་ལྟ་སྟེ་ཉེ་བར་བླང་བ་གང་གིས་བདག་ཏུ་་གདགས་པའི་ཉེ་བར་བླང་བ་དེ་ཉིད་དང་བཅས་པ་དེ་ནི་བདག་ཉིད་ཡིན་གྱི། འབའ་ཞིག་ནི་མ་ཡིན་ཏེ། གང་དག་བདག་ཉི་བར་བླང་བ་དང་བཅས་པའི་དངོས་པོ་དེ་དེ་དང་བཅས་པ་ཉིད་དུ་སྟོན་པར་བྱེད་པ་དང་། གང་དག་བདག་ཐ་དད་པར་གྱུར་པ་ལྟ་བ་ལ་སོགས་པ་དག་གི་སྔ་རོལ་ན་དངོས་པོ་འགའ་ཞིག་གནས་་པ་ཡོད་དོ་ཞེས་སྟོན་པར་བྱེད་པ་དང་། དེ་བཞིན་དུ་དངོས་པོ་རྣམས་ལ་ཡང་བུད་ཤིང་གང་གིས་མེར་གདགས་པའི་བུད་ཤིང་དེ་ཉིད་དང་བཅས་པ་དེ་ནི་མེ་ཉིད་ཡིན་གྱི། འབའ་ཞིག་ནི་མ་ཡིན་ཏེ། གང་དག་མེ་བུད་ཤིང་དང་བཅས་པའི་དངོས་པོ་དེ་དེ་དང་བཅས་པ་ཉིད་དུ་སྟོན་པར་བྱེད་པ་དང་། དེ་བཞིན་(210B)དུ་གང་དག་ཡོན་ཏན་ཅན་ལོ་མ་ཡང་ཡོན་ཏན་སྔོན་པོ་ལ་སོགས་པ་དེ་དག་དང་བཅས་པ་ཉིད་ན་ལོ་མ་ཡིན་གྱི། འབའ་ཞིག་ནི་མ་ཡིན་ནོ་ཞེས་སྟོན་པར་བྱེད་པ་དང་། དེ་བཞིན་དུ་གང་དག་འབྲས་བུ་སྣམ་བུ་ཡང་རྒྱུ་སྤུན་དེ་དག་དང་བཅས་པ་ཉིད་ན་འབྲས་བུ་ཡིན་གྱི། འབའ་ཞིག་ནི་མ་ཡིན་ནོ་ཞེས་སྟོན་པར་་བྱེད་པ་དང་། དེ་བཞིན་དུ་གང་དག་ཡན་ལག་ཅན་ལུས་ཀྱང་ཡན་ལག་ལག་པ་ལ་སོགས་པ་དེ་དག་དང་བཅས་པ་ཉིད་ན་ཡན་ལག་ཅན་ཡིན་གྱི་འབའ་ཞིག་ནི་མ་ཡིན་ནོ་ཞེས་སྟོན་པར་བྱེད་པ་དང་། དེ་བཞིན་དུ་གང་དག་མཚན་ཉིད་ཀྱིས་གཞི་བ་ལང་ཡང་མཚན་ཉིད་རཝ་ལ་སོགས་པ་དེ་དག་དང་བཅས་པ་ཉིད་ན་མཚན་་ཉིད་ཀྱི་གཞི་ཡིན་གྱི། འབའ་ཞིག་ནི་མ་ཡིན་ནོ་ཞེས་སྟོན་པར་བྱེད་པ་དང་། གང་དག་དངོས་པོ་རྣམས་ཐ་དད་པ་ཉིད་དུ་སྟོན་ཏེ། མེ་ཡང་གཞན་ཉིད་ལ་བུད་ཤིང་ཡང་གཞན་ཉིད་ཡིན། ཡོན་ཏན་ཅན་ལོ་མ་ཡང་གཞན་ཉིད་ལ་ཡོན་ཏན་སྔོན་པོ་ལ་སོགས་པ་དག་ཀྱང་གཞན་ཉིད་ཡིན། འབྲས་བུ་སྣམ་བུ་་ཡང་གཞན་ཉིད་ལ་རྒྱུ་སྤུན་དག་ཀྱང་གཞན་ཉིད་ཡིན། ཡན་ལག་ཅན་ལུས་ཀྱང་གཞན་ཉིད་ལ་ཡན་ལག་ལག་པ་ལ་སོགས་པ་དག་ཀྱང་གཞན་ཉིད་ཡིན། མཚན་ཉིད་ཀྱི་གཞི་བ་ལང་ཡང་གཞན་ཉིད་ལ་མཚན་ཉིད་རཝ་ལ་སོགས་པ་དག་ཀྱང་གཞན་ཉིད་ཡིན་ནོ་ཞེས་སྟོན་པར་བྱེད་པ་དེ་དག་ནི་བསྟན་པའི་་དོན་ལ་མཁས་པ་ཡིན་ནོ་སྙམ་དུ་ཁོ་བོ་མི་སེམས་སོ། །ཅིའི་ཕྱིར་ཞེ་ན། དེ་དང་བཅས་པའི་དངོས་པོ་ནི་དེ་དང་བཅས་པ་ཉིད་དོ་ཞེས་བྱ་བ་གང་ཡིན་པ་དེ་ཡང་གཅིག་པ་ཉིད་དམ་གཞན་ཉིད་དང་བཅས་པའི་དངོས་པོ་ཞིག་ཡིན་གྲང་ན། གཉི་ག་ལྟར་ཡང་མི་འཐད་དེ་ཚིགས་སུ་བཅད་པ་གོང་མར་བསྟན་་ཟིན་པའི་ཕྱིར་དང་། འདོད་ཆགས་དང་ཆགས་པ་བརྟག་པའི་རབ་ཏུ་བྱེད་པར་ཡང་གཅིག་ནཱ་ལྷན་ཅིག་ཡོད་མིན་ཏེ་ཞེས་རྒྱས་པར་བསྟན་པས་ལྷན་ཅིག་ཉིད་དགག་པ་གྲུབ་པའི་ཕྱིར་རོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902041bi' class='verse'>
+							གལ་ཏེ་གཅིག་པ་ཉིད་དགག་པའི་རྗེས་སུ་དཔག་པས་ནི་གཞན་ཉིད་དགག་པའི་རྗེས་སུ་དཔག་པ་ལ་གནོད་ལ། གཞན་ཉིད་དགག་པའི་རྗེས་སུ་དཔག་པས་ཀྱང་གཅིག་པ་ཉིད་དགག་པའི་རྗེས་སུ་དཔག་པ་བསལ་བའི་ཕྱིར་གང་ཡང་རུང་བ་མི་འགྲུབ་བོ་ཞེ་ན། གཉི་ག་བཀག་པས་འདོད་པ་འགྲུབ་པའི་ཕྱིར་སྐྱོན་མེད་དོ། །དེའི་ཕྱིར་དེ་ལྟར་དཔྱད་ན་དོན་དམ་པར་གཅིག་པ་ཉིད་དང་གཞན་ཉིད་མི་འཐད་དེ། མི་འཐད་དུ་ཟིན་ཀྱང་བཅོམ་ལྡན་འདས་ཀྱི་ཐ་སྙད་ཀྱི་དབང་གིས་གདུལ་བའི་སེམས་ཅན་རྣམས་ཀྱི་ཚུལ་ཁྲིམས་དང། ཏིང་ངེ་འཛིན་དང། ཤེས་རབ་ལ་སོགས་པ་ཡོན་ཏན་གྱི་ཚོགས་ཡང་དག་པར་བསྒྲུབ་པའི་ཕྱིར་དེ་དག་འཇིག་རྟེན་ལས་གྲགས་པ་དག་གིས་བཀའ་སྩལ་པ་ལ། ཁ་ཅིག་གིས་དེ་དག་ནི་དོན་དམ་པའོ་སྙམ་དུ་རིག་ནས་ཆོས་རྣམས་དེ་ལྟར་སྤྲོས་པ་མེད་ཀྱང། སྤྲོས་པར་བྱེད་པ་དེ་རིགས་པ་མ་ཡིན་པར་སློབ་དཔོན་གྱིས་དགོངས་པ་ན། <b>གང་དག་བདག་དང་དངོས་པོ་རྣམས། །དེ་བཅས་ཉིད་དང་ཐ་དད་པར། །སྟོན་པ་དེ་དག་བསྟན་དོན་ལ། །མཁས་སོ་སྙམ་དུ་མི་སེམས་སོ། །</b>ཞེས་བྱ་བ་གསུངས་ཏེ། ཚད་མ་དང་འགལ་བའི་ཆོས་གཞན་དག་ཁས་ལེན་པའི་ཕྱིར་རོ་ཞེས་བྱ་བར་དགོངས་སོ། །དེ་ལ་འདིར་རབ་ཏུ་བྱེད་པའི་དོན་ནི་ཕ་རོལ་པོས་རབ་ཏུ་བྱེད་པའི་དང་པོར་སྨྲས་པའི་སྒྲུབ་པ་དང། དཔེ་མེད་པར་བསྟན་པས། རྟེན་ཅིང་འབྲེལ་པར་འབྱུང་བ་དོན་གཅིག་པ་མ་ཡིན་པ་དང། དོན་ཐ་དད་པ་མ་ཡིན་པའི་ཁྱད་པར་དང་ལྡན་པ་བསྟན་པ་ཡིན་ནོ། །དེའི་ཕྱིར་ལུས་ལས་གཞན་པའི་ཆོས་མི་མཐོང་ལ། ཆོས་ལས་གཞན་པའི་ལུས་མི་མཐོང་སྟེ། ཇི་ལྟར་གཉིས་མ་ཡིན་པ་དང། གཉིས་མ་ཡིན་པ་མ་ཡིན་པ་དེ་ལྟར་མཐོང་ངོ། །དེ་ལྟར་མཐོང་བས་མངོན་སུམ་ཉིད་དུ་མཐོང་བ་ཡང་མི་མཐོང་ངོ་ཞེས་བྱ་བ་ལ་སོགས་པ་གསུངས་པ་དེ་དག་གྲུབ་པ་ཡིན་ནོ། །
+&nbsp;</span></div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009419bi' class='verse'>
+							tadevaṃ karmakārakavadātmopādānayorghaṭādīnāṃ ca parasparāpekṣikyāṃ siddhau vyavasthitāyāṃ tathāgatavacanāviparītārthāvabodhābhimānitayā tīrthyamatopakalpitapadārthavyavasthāṃ saugatapravacanārthatvenopanīya atimūḍhatayā-<br />
+
+<b>ātmanaś ca satattvaṃ ye bhāvānāṃ ca pṛthakpṛthak |<br />
+nirdiśanti na tānmanye śāsanasyārthakovidān || 16 ||<br /></b>
+
+tatra saha tena vartata iti satat, satato bhāvaḥ satattvam, apṛthaktvam, ananyatvam ekatvamityarthaḥ | tadetat satattvaṃ ye varṇayanti, na tānācāryaḥ śāsanārthapaṇḍitān manyate | tadyathā- ātmā upādānena prajñapyate yena, sahaiva tenopādānena saṃbhavati | sa na pṛthak | avyatirekeṇaiva bhavatītyarthaḥ | evaṃ yena kāraṇena mṛdādinā ghaṭaḥ prajñapyate, tadavyatirekeṇaiva sa bhavati, na pṛthak | evamātmano bhāvānāṃ ca satattvaṃ ye varṇayanti, na te paramagambhīrasya pratītyasamutpādastha śāśvatocchedarahitasya upādāyaprajñaptyabhidhānasya tattvaṃ paśyanti | pṛthak pṛthak ca ye nirdiśanti, pṛthagityātmānam, pṛthagupādānam, pṛthak kāryam, pṛthak kāraṇam, ityādinā anyatvaṃ paśyanti, amūnapi na śāsanasyārthakovidānācāryo manyate | yathoktam-<br />
+
+ekatvānyatvarahitaṃ pratiśrutkopamaṃ jagat |<br />
+saṃkrāntimāsādya gataṃ buddhavāṃstvamaninditaḥ ||<br />
+
+evaṃ ca agnīndhanaparīkṣayā adhigatadharmatattvaparamasya yoginaḥ kalpenākālālipsitairapi naiva vapurdahyate rāgadveṣamohahutāśanairapi vā iti | yathoktaṃ bhagavatā-<br />
+
+yatha gagaṇu na jātu dagdhapūrvaṃ subahubhi kalpaśatairhi dahyamānam |<br />
+gaganasama vijānamāna dharmān so 'pi na dahyati jātu sāgnimadhye ||<br />
+
+sarvi hi jvalamāṇi buddhakṣetre praṇidhi karoti samādhiye sthihitvā |<br />
+jvalata ayu praśāmyatāmaśeṣa pṛthivi vinaśyipi naivasyānyathātvam ||<br />
+
+tathā<br />
+araṇiṃ yatha cottarāraṇiṃ hastavyāyāmu trayebhi saṃgatiḥ |<br />
+iti pratyayato 'gni jāyate jātu kṛtu kārya laghū nirudhyate ||<br />
+
+atha paṇḍitu kaści mārgate kuta ayamāgatu kutra yāti vā |<br />
+vidiśo diśa sarvi mārgato nāgatirnāsya gatiś ca labhyati ||<br />
+
+skandhāyatanāni dhātavaḥ śūnya ādhyātmika śūnya bāhirāḥ |<br />
+sarvātmaviviktanālayā dharma ākāśasabhāvalakṣaṇāḥ ||<br />
+
+imu īdṛśa dharmalakṣaṇā buddha dīpaṃkaradarśane tvayā ||<br />
+
+anubuddha yatha tvayātmanā tatha bodhehi sadevamānuṣān ||<br />
+
+viparītaabhūtakalpitai rāgadoṣaiḥ paridahyate jagat |<br />
+kṛpameghaśamāmbuśītalāṃ muñca dhārāmamṛtasya nāyaka ||<br />
+
+iti vistaraḥ ||&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='8904114bi' class='chaptertitle'>
+							agnīndhanaparīkṣā nāma daśamaṃ prakaraṇaṃ ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904699";
+							kilderef = "Mmk San: La Vallée Poussin (1913)  - San: La Vallée Poussin (1913) 217,15-16";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='7859641bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904692";
+							kilderef = "Mmk Chi: Kumārajīva, T. 1564 14b14 - Chi: Kumārajīva, T. 1564 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8903488bi' class='chaptertitle'>
+							me dang bud shing brtag pa zhes bya ba ste rab tu byed pa bcu pa’o || ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904698";
+							kilderef = "Mmk Tib: Tg, tsa  - Tib: Tg, tsa 7a7";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='English'><span id='8905008bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904991";
+							kilderef = "Mmk Eng: Streng (1967)  - Eng: Streng (1967) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='English'><span id='7860599bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904693";
+							kilderef = "Mmk Eng: Batchellor (2000)  - Eng: Batchellor (2000) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901084bi' class='chaptertitle'>
+							མེ་དང་བུད་ཤིང་བརྟག་པ་ཞེས་བྱ་བ་སྟེ། རབ་ཏུ་བྱེད་པ་བཅུ་པའོ།། །།
+&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904694";
+							kilderef = "Mmk Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829  - Nāgārjuna (Āryadeva?) "Akutobhaya" Tg 3829 55a";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Chinese'><span id='8906022bi' class='chaptertitle'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8906005";
+							kilderef = "Mmk Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564  14b14 - Piṅgalanetra 賓伽羅 "中論 (Madhyamakaśāstra)" T.1564 16a3";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8901563bi' class='chaptertitle'>
+							མེ་དང་བུད་ཤིང་བརྟག་པ་ཞེས་བྱ་བ་སྟེ་རབ་ཏུ་བྱེད་པ་བཅུ་པའོ།། །།
+&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904695";
+							kilderef = "Mmk Buddhapālita "Vṛtti" Tg 3842  - Buddhapālita "Vṛtti" Tg 3842 210b";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Tibetan'><span id='8902042bi' class='chaptertitle'>
+							སློབ་དཔོན་ལེགས་ལྡན་བྱེད་ཀྱིས་ཉེ་བར་སྦྱར་བ། དབུ་མའི་རྩ་བའི་འགྲེལ་པ་ཤེས་རབ་སྒྲོན་མ་ལས། མེ་དང་བུད་ཤིང་བརྟག་པ་ཞེས་བྱ་བ་སྟེ། །།
+&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8904696";
+							kilderef = "Mmk Bhāvaviveka "Prajñāpradīpa" Tg 3853  - Bhāvaviveka "Prajñāpradīpa" Tg 3853 138a";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:9%;'><div class='Sanskrit'><span id='9009420bi' class='chaptertitle'>
+							ity ācāryacandrakīrtipādoparacitāyāṃ prasannapadāyāṃ madhyamakavṛttau agnīndhanaparīkṣā nāma daśamaṃ prakaraṇam ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "9009403";
+							kilderef = "Mmk Candrakīrti "Prasannapadā" Vaidya 1960  - Candrakīrti "Prasannapadā" Vaidya 1960 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div><div class='textvar' style='width:9%;'></div></div><div class='clear'></div><div class="fontboks"><a onClick=onOffdiv('permlink') name="permlink" href="#permlink">Permanent link</a></div><div class='clear'></div><div class='perm_felt' id='permlink'>http://www2.hf.uio.no/common/apps/permlink/permlink.php?app=polyglotta&amp;context=ctext&amp;uid=0861bbbc-6be5-11df-870c-00215aecadea</div></div></div><!-- infofelt --></div><!-- divControl --><div class="clear"></div>
+<div style="clear:both"></div><div class="signatur"><div class="signatur_left">
+		<a href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation">Go to Wiki Documentation</a></br>Enhet: <a HREF=http://www.hf.uio.no>Det humanistiske fakultet</a> &nbsp; Utviklet av: <a href="http://www.hf.uio.no/tjenester/it">IT-seksjonen ved HF</a></div><!--signatur_left -->
+		<div class="signatur_right"><a href="/polyglotta/admin/index.php">Login</a></div>
+		<div style="clear:both"></div></div>
+</body></html><SCRIPT LANGUAGE="JAVASCRIPT">
+	
+	$("#tr_IA").click(function(){
+	    if ($("#toggle_container_IA").is(':hidden'))
+	    	$("#toggle_container_IA").show();
+	    else{
+	        $("#toggle_container_IA").hide();
+	    }
+	    return false;
+		});
+
+	$("#tr_lang").click(function(){
+	    if ($("#toggle_container_lan").is(':hidden'))
+	    	$("#toggle_container_lan").show();
+	    else{
+	        $("#toggle_container_lan").hide();
+	    }
+	    return false;
+	});
+
+	$("#tr_img").click(function(){
+	    if ($("#toggle_container_img").is(':hidden'))
+	    	$("#toggle_container_img").show();
+	    else{
+	        $("#toggle_container_img").hide();
+	    }
+	    return false;
+	});
+
+	$("#diac2button").click(function(){
+	   if ($("#ex3a").is(':hidden')){
+		   $("#ex3a").show();
+	       $("#diac2button").html("Hide&#32Diacritica-help");
+	   }else{
+	       $("#ex3a").hide();
+	       $("#diac2button").html("Diacritica-help");
+	   }
+	   return false;
+	});
+
+	$("#diacbutton").click(function(){
+	   if ($("#diacritical_sign").is(':hidden')){
+		   	$("#diacritical_sign").show();
+	      	$("#diacbutton").html("Hide&#32diacritica");
+	   }else{
+	        $("#diacritical_sign").hide();
+	        $("#diacbutton").html("Diacritica");
+	   }
+	   return false;
+    });
+
+	$('#toggle_container_IA').click(function(e) {
+	   e.stopPropagation();
+	});
+
+	$('#toggle_container_lan').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#toggle_container_img').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#ex3a').click(function(e) {
+	    e.stopPropagation();
+	});
+
+	$('#diacritical_sign').click(function(e) {
+        e.stopPropagation();
+    });
+
+	//Kode for å sette inn diakritiske tegn
+	$('#diacritical > tbody > tr > td').click(function() {
+	  	//alert('red');
+		$("#sokeboks").val($("#sokeboks").val() + $(this).text());
+	});
+
+	$('.diac2button').text(($('.diacbutton').text() == 'Diacritica-help') ? 'Hide Diacritica-help' : 'Diacritica-help');
+	
+	//Lukker alle åpnede pop'uper ved klikk på siden
+	$(document).click(function() {
+		$('#toggle_container_IA').hide();
+	    
+        $('#toggle_container_lan').hide();
+    
+        $('#toggle_container_img').hide();
+   
+   		$('#diacritical_sign').hide();
+   		$("#diacbutton").html("Diacritica");
+   
+       	$('#ex3a').hide();
+       	$("#diac2button").html("Diacritica-help");
+   });
+	</SCRIPT>
